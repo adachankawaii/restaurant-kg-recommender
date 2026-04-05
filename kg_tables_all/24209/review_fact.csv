@@ -1,0 +1,3 @@
+﻿review_id,store_id,source_name,rated_at,rating_5,review_text,is_promo,reviewer,raw_rating_scale,sentiment
+be_24209_84,24209,befood,2023-01-13 11:11:00,5.0,Ngon xỉu,0,,5,positive
+be_24209_85,24209,befood,2023-02-04 06:48:00,5.0,,0,,5,positive

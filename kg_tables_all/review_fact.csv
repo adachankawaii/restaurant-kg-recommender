@@ -1,0 +1,297 @@
+﻿review_id,store_id,source_name,rated_at,rating_5,review_text,is_promo,reviewer,raw_rating_scale,sentiment
+be_5117_62,5117,befood,2026-03-20 17:05:00,5.0,"ngon mới uống ts lài thấy k ngấy thơm trà, Ngon xỉu",0,,5,positive
+be_5117_63,5117,befood,2026-03-19 15:48:00,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",0,,5,positive
+be_5117_64,5117,befood,2026-03-19 15:41:00,4.0,Khá ngon,0,,5,positive
+be_5117_65,5117,befood,2026-03-17 10:24:00,5.0,"ngon, đậm vị trà, dễ uống",0,,5,positive
+be_5117_66,5117,befood,2026-03-25 00:18:00,5.0,,0,,5,positive
+be_5117_67,5117,befood,2026-03-24 18:04:00,5.0,,0,,5,positive
+be_5117_68,5117,befood,2026-03-24 10:17:00,5.0,,0,,5,positive
+be_5117_69,5117,befood,2026-03-21 12:52:00,5.0,,0,,5,positive
+be_5117_70,5117,befood,2026-03-21 11:37:00,5.0,,0,,5,positive
+be_5117_71,5117,befood,2026-03-20 17:08:00,5.0,,0,,5,positive
+be_5117_72,5117,befood,2026-03-20 17:07:00,5.0,,0,,5,positive
+be_5117_73,5117,befood,2026-03-20 15:16:00,5.0,,0,,5,positive
+be_5117_74,5117,befood,2026-03-20 13:43:00,5.0,,0,,5,positive
+be_5117_75,5117,befood,2026-03-20 12:29:00,5.0,,0,,5,positive
+be_5117_76,5117,befood,2026-03-19 20:05:00,5.0,,0,,5,positive
+be_5117_77,5117,befood,2026-03-19 14:16:00,5.0,,0,,5,positive
+be_5117_78,5117,befood,2026-03-19 13:07:00,5.0,,0,,5,positive
+be_5117_79,5117,befood,2026-03-18 14:23:00,5.0,,0,,5,positive
+be_5117_80,5117,befood,2026-03-18 11:22:00,5.0,,0,,5,positive
+be_5117_81,5117,befood,2026-03-17 20:04:00,5.0,,0,,5,positive
+foody_17358299,5117,foody,2023-03-20 00:00:00,1.1,"Phúc Long Trần Đại Nghĩa Quá tệ Mình vào oder nhân viên lơ lơ vẫn ngồi nói chuyện với nhau mãi mới hỏi mình dùng gì để cho oder. Đến khi lên trên quán bàn cực bẩn cốc nước khách để tùm lum trên bàn phải 15-20p sau mới có người lên dọn, dãy ban công tâng 3 thì thôi không ai dọn luôn. Ngồi được 15p mình đi về xin túi để mang nước về, mình có hỏi :"" Bên bạn còn túi không, có thể cho mình xin túi để mang nước về"" nhân viên đáp xanh rờn : "" có!"". Ngồi một lần từ thái độ phục vụ, đến vệ sinh quán cực tệ. Mình không phải khó tính, nhưng thái độ thờ ơ khi khách oder, rồi nói chuyện không chủ ngữ vị ngữ thì thôi xin tạm biệt. Tính ra ngồi để thư giãn ai ngờ mang bực vào mình",1,Công Tuyền,10,negative
+foody_14956894,5117,foody,2022-01-19 00:00:00,2.9,Phúc Long Trần Đại Nghĩa Hi. Mình có order Caramel chảy bên PL kết quả là bạn mình bị nôn do bị say cà phê ạ. Mình nghĩ PL nên để rõ thành phần có trong món trên app để ko gặp phải những trường hợp tương tự. Tội nghiệp bạn mình nôn nguyên buổi tối 😥,0,Dũng Trần,10,neutral
+foody_14395393,5117,foody,2021-12-08 00:00:00,2.2,Nhân viên cần training 11h sáng Khách đang ngồi tự dưng ra tắt bụp phát hết đèn đi chả hiểu kiểu gì muốn đuổi khách ah.,0,Tien Vu,10,neutral
+foody_12514617,5117,foody,2021-05-05 00:00:00,0.5,"Đồ uống có vị xăng Sáng nay mình vừa mua 1 cốc phúc long ở phúc long trần đại nghĩa. Hí hửng sẽ ngon như mọi khi nhưng không, uống cốc trà vải mà có vị xăng, uống xong đầu lưỡi còn có vị nhựa :D. Mình không hiểu phúc long này làm ăn kiểu gì nhưng như thế này thì không thể chấp nhận được. Tạm biệt và sẽ không hẹn gặp lại",0,Pham Dinh Thien,10,negative
+foody_12312097,5117,foody,2021-04-20 00:00:00,0.5,Giao nhầm hàng M đặt trà đào sữa đá. Cửa hàng giao ko có sữa. :). dừa xay đá chán kinh khủng. Ăn nó cứ lợn cợn ấy.,0,Giang Hương,10,negative
+foody_12164334,5117,foody,2021-04-12 00:00:00,1.4,"Đồ uống dở tệ. chọn Ô long sữa, mà vẫn đắng và nhạt. Do trà sữa vừa pha nóng, nó cho đá vào luôn, hỏi s k nhạt. Đồ uống dở tệ. chọn Ô long sữa, mà vẫn đắng và nhạt. Do trà sữa vừa pha nóng, nó cho đá vào luôn, hỏi s k nhạt.",0,Minh Trang,10,negative
+foody_8896337,5117,foody,2020-10-25 00:00:00,0.5,"Đồ uống ngon nhưng vì sao mình lại cho 1 điểm !!! Đồ uống thì mình thấy không có gì để chê cả nên thỉnh thoảng vẫn qua uống. Và hôm nay chủ nhật đẹp trời mình lại tới, trước cửa hàng còn thừa rất nhiều chỗ để xe NHƯNG chú bảo vệ lại không cho mình phi xe lên đó mà bắt mình gửi bên đường và mất thêm tiền. Ơ, hết chỗ thì không nói làm gì, nhưng mà đây lại còn thừa rất nhiều chỗ mà không cho để xe là sao. Mình có nói thì chú bảo thông cảm vậy chịu khó sang đường gửi. Oki, mình thông cảm cho chú và quyết định quay xe sang quán bên cạnh ngồi cho chú vừa lòng :)). Vậy cho nên quán mất khách đôi lúc không phải do đồ uống tệ hay giá quá đắt đâu các bạn ạ.",0,just_a_random_dude,10,negative
+foody_8273857,5117,foody,2020-09-28 00:00:00,3.9,"Đồ uống ổn Quán rộng nhưng rất rất đông, mình đến buổi tối phải xếp hàng chờ 1 lúc mới gọi được đồ uống. Là nơi tụ tập bạn bè lý tưởng, đồ uống ổn, giá k rẻ nhưng k quá đắt",0,Hoàng Kiều Linh,10,neutral
+foody_5989623,5117,foody,2020-06-26 00:00:00,1.6,"Phúc Long Coffee & Tea - Trần Đại Nghĩa Cửa hàng bé, không có chỗ gửi xe, bắt buộc phải sang đường gửi xe mất 5k, bảo vệ và nv dọn dẹp thái độ khó chịu như muốn đuổi khách",0,hoangduong28,10,negative
+foody_5987630,5117,foody,2020-06-25 00:00:00,2.4,"Phúc Long Coffee & Tea - Trần Đại Nghĩa Ngồi thử cơ sở này vì gần nhà hơn nhưng chắc lsau không quay lại hoặc chỉ order Now thôi chứ thái độ***bảo vệ không tốt cực kì. Mình đi vào tầm 7r 8h tối cũng ko đông lắm đâu ạ vẫn còn chỗ để xe trước cửa quán nhé nhưng lúc mình định phi xe lên thì bve nhất quyết ko cho mà chỉ tay sang đường gửi xong bảo là rẽ vào sau con ô tô, mà bên đường thì đỗ 1 hàng ô tô cơ ạ nên mình kbiet cái nào. Mình hỏi lại thì thái độ với mình như kiểu mình đi ăn xin chứ ko phải bỏ tiền ra để được hưởng dịch vụ, xong tí bạn mình đến sau mình lại phải ra chỉ chỗ để xe cho. Chỗ gửi xe bên đường thì lúc mình đi xe vào ở bốt trông xe ko có ai, về sau có 1 chú đi tới nhưng ko ra đưa thẻ xe cho mình mặc dù có nhìn thấy? Mình còn đứng đợi một lúc xem chú có ra không xong mới định đi thì chú gọi giật lại bắt mình chạy vào bốt cách đấy 10m để lấy thẻ xe xong kêu ở đâu thì cũng phải thế này thế kia, không lấy thẻ thì tí không cho lấy xe các kiểu. Xong tí ra lấy xe thì mất 5k hay 10k/1xe gì đó mình không nhớ. Mình đi 2 xe vị chi mất 10-20k gửi xe rồi mà vào uống 2 cốc nước có gần 100k trong khi cửa hàng có chỗ gửi xe? Vô lí cực kì luôn ạ lsau thèm nhưng chắc cũng né cơ sở này ra hoy hoặc gọi ship cho khoẻ ạ. Ah đồ uống thì vẫn ổn, các bạn nvien trong cửa hàng cũng nhiệt tình nhưng thái độ bảo vệ thì không iu được ạ 😃",0,Tú Anh Đào,10,neutral
+google_5117_0,5117,google,,5.0,"Phúc Long – 69 Trần Đại Nghĩa, Hải Phòng
+
+☕ Quán nằm trên trục đường Trần Đại Nghĩa, vị trí dễ tìm, thuận tiện ghé nhanh
+🍵 Trà và cà phê giữ đúng hương vị Phúc Long quen thuộc, đậm trà, dễ uống
+🪑 Không gian gọn gàng, sạch sẽ, phù hợp ngồi ngắn hoặc mua mang đi
+👩‍🍳 Nhân viên phục vụ nhanh, khá chuyên nghiệp kể cả giờ cao điểm
+💰 Giá ở mức chuỗi thương hiệu, phù hợp học sinh, sinh viên và dân văn phòng
+⛔ Một số khung giờ quán khá đông, không gian ngồi chưa thật sự thoải mái nếu ở lâu
+
+⸻
+
+🇬🇧 Phuc Long – 69 Tran Dai Nghia, Hai Phong
+
+☕ Convenient location on Tran Dai Nghia Street, easy to stop by
+🍵 Signature tea and coffee with strong, familiar Phuc Long flavors
+🪑 Clean and tidy space, suitable for short stays or takeaway
+👩‍🍳 Fast and professional service even during busy hours
+💰 Reasonable prices for a popular beverage chain
+⛔ Can get crowded at peak times, not ideal for long stays",0,Quốc Hưng,5,positive
+google_5117_1,5117,google,,3.0,"Các món liên quan tới trà sữa ngon nhưng trà thì chưa thật sự vừa ý, nhân viên order cho khách nói chuyện thiếu niềm nở, nhà vệ sinh thì bẩn, cần training lại thái độ nhân viên.",0,Minh Xeo Nguyễn,5,neutral
+google_5117_2,5117,google,,1.0,"Đồ uống giá cao, chất lượng không tương xứng. Trà nhãn sen, nếu topping chỉ có nhãn thì nên đặt tên đúng bản chất là ""trà sen thêm nhãn""",0,Huyen Nguyen,5,negative
+google_5117_3,5117,google,,2.0,"Đang tìm chỗ ngồi nch ai ngờ bước vào thấy nguyên cái quán học bài :))). Ord nước tầng 1 xong lên tầng trên tìm chỗ ngồi thì thấy tất cả mng chạy dl, ko dám ho he gì. Cf thấy cũng bthg
+Ko đủ ấn tượng để qlai 🥲",0,Hường Nguyễn Thị Thúy,5,negative
+google_5117_4,5117,google,,3.0,"Mình thường xuyên ghé Phúc Long cơ sở Trần Đại Nghĩa, nhưng lần nào tới cũng bị bảo vệ bảo gửi xe ở đoạn ngã ba hoặc bãi xe B6 dù quán thời điểm đó rất ít khách. Bên bãi xe gửi miễn phí thì rất vắng xe nhưng bảo vệ xếp xe cách quá xa nhau và bảo phải ra bãi gửi xe mất phí để gửi",0,Hải Yến Lê,5,neutral
+google_5117_5,5117,google,,1.0,"Tệ. Trên hoá đơn ghi mở cửa đến 23h nhưng 22h đã đuổi khách. Trước khi vào đã cẩn thận hỏi nhân viên là mở cửa đến mấy giờ thì bảo là đến 22h là đóng quầy dọn dẹp, ok hiểu là không nhận đơn nữa còn ngồi thì cứ ngồi ai ngờ đến đúng giờ dọn quầy là cũng được “mời” về luôn.
+
+Đồ uống thì như đấm vào mồm. Trà sữa ô long nhạt thếch không rõ vị trà, cảm giác như nước chè chát. Matcha thì không hay uống nên không rành lắm nhưng mà nó chua trời ơi lần đầu uống cốc matcha nó chua lạ lùng.
+
+Tóm lại là Phúc Long cứ như này thì quá xứng đáng với 2 chữ HẾT THỜI. Giờ rất nhiều brand khác đồ uống ngon vừa miệng mà chiều khách.",0,Vương Trung Hiếu,5,negative
+google_5117_6,5117,google,,2.0,"Đồ uống siêu tệ nha. Hạt đác thơm ko đều, hạt nhũn hạt cứng. Dứa thì cứng và xơ, kiểu để rất lâu r í, ko xứng với giá 70k/ cốc. Matcha là vị loại bình thường, tạm được. Với giá này mình sẽ có nhiều lựa chọn ngon hơn và xứng với giá tiền, ko gian hơn nhé",0,Hoang Lan Nguyen,5,negative
+google_5117_7,5117,google,,4.0,"Quán ko gian rộng, 2 tầng còn tầng t3 thì đang setup, khách hàng chủ yếu là sinh viên, đồ uống chủ yếu là các loại trà. Mình gọi trà sen nhãn 45k thì thấy hơi ngọt gắt, uống có vị trà khá đậm tuy nhiên mình gọi sen nhãn nhưng chỉ có nhãn thui và nó bị ngọt quá.  Không gian đơn giản, mát mẻ, dễ chịu",0,Khánh Linh Đỗ,5,positive
+be_24209_84,24209,befood,2023-01-13 11:11:00,5.0,Ngon xỉu,0,,5,positive
+be_24209_85,24209,befood,2023-02-04 06:48:00,5.0,,0,,5,positive
+be_27878_99,27878,befood,2025-06-22 18:10:00,5.0,"Delicious, Worth the price, Clean, Good packaging",0,,5,positive
+be_27878_100,27878,befood,2026-01-06 23:35:00,5.0,Đóng gói tốt,0,,5,positive
+be_27878_101,27878,befood,2025-11-23 20:27:00,5.0,"Clean, Worth the price, Delicious, Good packaging",0,,5,positive
+be_27878_102,27878,befood,2025-11-23 19:46:00,5.0,"Delicious, Worth the price, Clean, Good packaging",0,,5,positive
+be_27878_103,27878,befood,2025-02-28 22:53:00,5.0,Ngon xỉu,0,,5,positive
+be_27878_104,27878,befood,2025-11-13 09:13:00,4.0,Khá ngon,0,,5,positive
+be_27878_105,27878,befood,2025-04-05 22:55:00,2.0,"giao thiếu món, Sai/Thiếu món, Không làm đúng ghi chú",0,,5,negative
+be_27878_106,27878,befood,2025-03-23 15:50:00,2.0,hơi khét nha,0,,5,negative
+be_27878_107,27878,befood,2025-12-26 21:10:00,1.0,k biết shop quên hay là cố ý là em đặt bánh tráng + 4 trứng mà k thấy bánh tráng đâu,0,,5,negative
+be_27878_108,27878,befood,2025-01-19 17:07:00,1.0,trắng ợt k giòn dai như bánh sống kiểu lạ lắm nướng lại cũng k giòn nói chung k ngon,0,,5,negative
+be_27878_109,27878,befood,2025-11-29 23:19:00,4.0,"ăn cũng tạm, điểm trừ vỏ bánh mềm ỉu, k giòn",0,,5,positive
+be_27878_110,27878,befood,2026-03-17 17:26:00,5.0,,0,,5,positive
+be_27878_111,27878,befood,2026-03-02 18:38:00,5.0,,0,,5,positive
+be_27878_112,27878,befood,2025-10-13 23:55:00,5.0,,0,,5,positive
+be_27878_113,27878,befood,2025-08-23 19:21:00,5.0,,0,,5,positive
+be_27878_114,27878,befood,2025-04-27 16:06:00,5.0,,0,,5,positive
+be_27878_115,27878,befood,2025-04-15 00:06:00,5.0,,0,,5,positive
+be_27878_116,27878,befood,2025-03-24 16:45:00,5.0,,0,,5,positive
+be_27878_117,27878,befood,2025-03-09 17:59:00,5.0,,0,,5,positive
+be_27878_118,27878,befood,2025-01-14 11:01:00,5.0,,0,,5,positive
+google_27878_0,27878,google,,4.0,"Quán khá rộng, cả trông nhà và sân ngoài trời. Menu rất rất rất nhiều món. Nhưng bánh mì nướng thì dai má ơi dai luôn nhé. Quán kiểu buffet bân xiển ý, hầu hết là đồ chiên. Có cả cháo bún các thứ",0,Trần Trần,5,positive
+google_27878_1,27878,google,,5.0,"Đồ ăn lên nhanh. Quán ở cạnh sát trạm y tế, có chỗ để xe máy thoải mái luôn. Đúng kiểu quán sv ý, vui vẻ, k khí nói chuyện thoải mái. Nma bánh gà k ngon, nem chua rán và bánh tráng nướng ngon hơn. Rá rẻ, chiều đông người lắm",0,Quỳnh Anh Phạm,5,positive
+google_27878_2,27878,google,,5.0,"Không thể đếm được số lần bọn mình đi ăn bánh tráng ở tiệm này. Có đợt là tuần nào cũng ăn luôn, quá là nghiền.
+Thông thường bọn mình sẽ gọi bánh tráng nướng, trứng cút nướng, bánh tráng cuộn. Thỉnh thoảng sẽ gọi thêm nem chua rán và phomai que. Nhìn chung mình rất là ưng bánh tráng cuộn và trứng cút nướng ở đây. Món nào cũng đầy đặn và hợp khẩu vị lắm á!
+Quán ở khu sinh viên Bách Khoa nên giá thì siêu rẻ. Các món trung bình tầm 15k-25k thôi ý, gọi đầy một bàn cũng tầm 120k hai đứa ăn no dã man.
+
+📌 Địa chỉ: Quán Tít - cổng y tế số 5 Tạ Quang Bửu, Hai Bà Trưng, Hà Nội.",0,Rin Nguyễn,5,positive
+google_27878_3,27878,google,,4.0,"Quán rộng rãi, menu đồ ăn vặt đa dạng. Trứng cút nướng ngon. Phù hợp với sinh viên",0,Phùng Ngọc Hà,5,positive
+google_27878_4,27878,google,,1.0,Nhân viên phục vụ tốt mỗi tội bà chủ nói chuyện rất thái độ có í đuổi khách,0,Hồng Minh Nguyễn,5,negative
+google_27878_5,27878,google,,1.0,Phục vụ lâu quá,0,Hải Dương Nguyễn,5,negative
+be_28819_21,28819,befood,2026-03-20 14:00:00,5.0,"Ngon xỉu, Sạch sẽ, Đóng gói tốt, Đáng đồng tiền",0,,5,positive
+be_28819_22,28819,befood,2026-03-03 15:09:00,2.0,"củ năng như đồ cũ dùng từ hôm qua , trà hnay k được ngon",0,,5,negative
+be_28819_23,28819,befood,2026-02-28 13:13:00,1.0,sao cốc freeze mà để cốc như vậy? rồi ăn uông kiểu gì ạ????,0,,5,negative
+be_28819_24,28819,befood,2026-03-13 08:08:00,5.0,cx ok,0,,5,positive
+be_28819_25,28819,befood,2026-03-03 18:14:00,5.0,"quán giao nhầm đơn, đã gửi hỗ trợ nhưng mấy tiếng sau vẫn ko phản hồi",0,,5,positive
+be_28819_26,28819,befood,2026-02-26 21:45:00,3.0,giao nhầm đồ uống,0,,5,neutral
+be_28819_27,28819,befood,2026-03-24 10:50:00,5.0,,0,,5,positive
+be_28819_28,28819,befood,2026-03-20 14:05:00,5.0,,0,,5,positive
+be_28819_29,28819,befood,2026-03-20 11:45:00,5.0,,0,,5,positive
+be_28819_30,28819,befood,2026-03-20 07:37:00,5.0,,0,,5,positive
+be_28819_31,28819,befood,2026-03-18 17:23:00,5.0,,0,,5,positive
+be_28819_32,28819,befood,2026-03-17 03:14:00,5.0,,0,,5,positive
+be_28819_33,28819,befood,2026-03-15 19:05:00,5.0,,0,,5,positive
+be_28819_34,28819,befood,2026-03-14 14:50:00,5.0,,0,,5,positive
+be_28819_35,28819,befood,2026-03-08 14:02:00,5.0,,0,,5,positive
+be_28819_36,28819,befood,2026-03-08 13:34:00,5.0,,0,,5,positive
+be_28819_37,28819,befood,2026-03-08 01:03:00,5.0,,0,,5,positive
+be_28819_38,28819,befood,2026-03-05 19:38:00,5.0,,0,,5,positive
+be_28819_39,28819,befood,2026-02-24 19:47:00,5.0,,0,,5,positive
+be_28819_40,28819,befood,2026-02-24 11:20:00,5.0,,0,,5,positive
+foody_17512612,28819,foody,2023-04-29 00:00:00,5.0,"Highlands Coffee ưu đãi mua 2 tặng 1, giảm 20k trên sản phẩm Highlands Coffee ưu đãi mua 2 tặng 1, giảm 20k trên sản phẩm, nhấn vào link để nhận ngay ưu đãi: https://shorten.asia/2KUEeFgX",1,Chi Nguyễn,10,positive
+foody_17401546,28819,foody,2023-03-31 00:00:00,4.0,Highlands Coffee - ĐH Bách Khoa HIGHLANDS COFFEE TẶNG BẠN VOUCHER ƯU ĐÃI ĐẶC BIỆT - MUA 2 TẶNG 1: ÁP DỤNG CHO DÒNG PHINDI VÀ FREEZE - GIẢM 20K CHO ĐƠN 100K - TẶNG PHINDI SIZE M CHO ĐƠN 89K NHẬN VOUCHER ƯU ĐÃI SỐ LƯỢNG CÓ HẠN TRUY CẬP: https://shorten.asia/FvWKCANn,1,Phong Trần,10,positive
+foody_6331312,28819,foody,2020-07-12 00:00:00,5.0,"Freeze trà xanh thơm ngon lắm nạ Đây là quán coffee ngon, đây là quán cà phê rất đẹp🤣. Thương hiệu coffee của***này nổi lắm rồi chắc không cần giới thiệu nhiều ạ. Mình uống ở đây từ lần hôm đầu khai trương luôn ấy, cũng là địa điểm quen thuộc để mình và mọi người làm việc vì không gian quán rất thoáng mát, rộng rãi, lại còn gần chỗ mình làm việc ấy. Mình thì hay uống nhất là Freeze trà xanh này, trà sen vàng này. Nắng nóng thế này thì uống Freeze là hợp lắm luôn ấy. Điểm trừ duy nhất là hơi nhiều đá xíu xíu ấy. Các bạn nhân viên rất ngoan và nhiệt tình nữa ạ. Người Việt ủng hộ hàng Việt nữa🤣",0,Thao bae,10,positive
+foody_3452021,28819,foody,2019-11-14 00:00:00,4.4,"Highlands Coffee - Đại Học Bách Khoa Highlands thì khỏi phải bàn rồi, mình là khách quen ở đây luôn. Uống rất ngon, vừa miệng, giá cả cũng không quá đắt. Thêm nữa là nhân viên thái độ phục vụ tốt, ord rất nhanh. View quán đẹp, rộng rãi,sang trọng. Cực kì thích vào đây. Nên thử nhé mọi người",0,Lee Ngọc,10,positive
+foody_3325566,28819,foody,2019-10-23 00:00:00,4.4,"Highlands Coffee - Đại Học Bách Khoa Highlands Coffee nằm ngay cổng sau Đại Học Bách Khoa - 91 Trần Đại Nghĩa Quán nằm ngay vị trí đắc địa của dân Bách - Kinh - Xây nên đông lắm, lúc nào cũng thấy đa số khách uống là các bạn sinh viên thôi. View quán rộng rãi, xịn sò lắm, trông rất là mát mẻ luôn. Mình thì vẫn mê các món Freeze ở Highlands, nên lần nào đến đây mình cũng gọi món đó, tất nhiên là kèm cả bánh mousse đào hoặc cacao rồi! Bánh cũng ở mức ăn được thôi, nhưng ngon hơn 1 số chỗ ^^ Nhân viên ở đây toàn các bạn trẻ, nhanh nhẹn và chu đáo với khách lắm.",0,Giang Vũ,10,positive
+foody_3104347,28819,foody,2019-09-15 00:00:00,2.2,Highlands Coffee - Đại Học Bách Khoa Quên bỏ đường vào trà Mình không muốn nhưng vẫn phải nói ai mua về nên thử trước. Hôm nay là lần thứ 3 mình mua về pha không cho đường khá là bực mình,0,Duy phạm,10,neutral
+foody_2977406,28819,foody,2019-08-20 00:00:00,4.6,"Tôi là người nước ngoài thường xuyên đi đến quán cà phê này Môt lần, các nhân viên đã trả lại ví giúp tôi khi tôi để quên ví tại đây. Tôi nghĩ là nhân viên của quán ăn rất chuyên nghiệp.",0,和也 柴田,10,positive
+foody_2850992,28819,foody,2019-07-24 00:00:00,3.9,"Trà thạch đào và trà thạch vải ngon Quán đối điện cổng ĐH Bách Khoa, có không gian trong nhà lẫn ngoài trời, mình qua tầm trưa đông khách kinh khủng ý. Nhân viên lịch sự, order cũng nhanh. Đến highlands mình toàn gọi trà thạch đào và trà thạch vải, có 3 size nhỏ 39k, vừa 49k và lớn 55k. Mình uống size vừa, trà rất thanh mát, đậm vị, có nhiều miếng đào và vải, rất thơm, ngọt, thạch nhai mềm, chỉ có điều là nhiều đá quá, uống hết rồi mà còn đến nửa cốc đá chưa tan ))) Mà nói chung cũng khá ưng trà ở đây, quán cũng ngay gần nhà mình, thi thoảng qua cũng được. #ReviewbyHoangKieuLinh",0,Hoàng Kiều Linh,10,neutral
+foody_2538997,28819,foody,2019-03-10 00:00:00,5.0,Fezze trà xanh best ngon Freeze matcha size bự nhất uống đã cái mồm Thạch dai dai sần sần siêu ngon Kem thơm ngậy uống rât hợp vs matcha đá xay Vị trà xanh rât rõ ko quá ngọt ko quá nhạt đều vị,0,Thành Nguyễn,10,positive
+foody_2404646,28819,foody,2018-12-01 00:00:00,4.0,"Highlands Coffee - Đại Học Bách Khoa Có lần mình sang bên báck khoa chơi thì được rủ sang Highlands Coffee đối diện Đại học Bách Khoa uống thử. Mình đến vào tầm tối, đúng cái khung giờ là sau 17h thì có combo 1 freeze trà xanh kèm 1 bánh bất kì size M là 59k và size L là 69k nếu mình nhớ không nhầm. Và đây là lần đầu tiên sau quãng thời gian khá dài của mình mới uống lại Highlands Coffee, thì nhìn chung mình thấy đồ uống khá đặc và mình thích bánh matcha nhất vì nó ngon và dày đặc tuyệt vời. Mặc dù mình là người khá e ngại ăn đồ ngọt nhiều nhưng chiếc bánh này thì không thể chê vào đâu được. Còn về view thì mình thấy cũng khá rộng nếu tính cả khuôn viên trong nhà và ngoài trời. Khá thích hợp để học tập và làm việc vì nó không quá ồn ào náo nhiệt. Còn về nhân viên thì thái độ phục vụ tận tình, chu đáo. Nói chung là mình sẽ còn quay lại dài dài nếu mình có thời gian.",1,Hương Giang,10,positive
+google_28819_0,28819,google,,4.0,"Quanh phía Hai Bà Trưng thì highlands ở Trần Đại Nghĩa khá là ổn. Không gian rộng rãi, cả bên trong lẫn bên ngoài. Chỗ này đỗ xe máy thoải mái, oto thì phải gửi nha mấy ní. Wifi nét căng. Khu vực phía ngoài cũng có ổ điện để tiện lợi cho các bác sạc laptop, điện thoại nha.
+Ngay trong đoạn đường của trường Bách Khoa và xây dựng, nên quán hầu như lúc nào cũng full khách. Tuy nhiên, cũng không quá ồn ào, mọi người vẫn có thể nói chuyện với nhau được.
+Decoration ở quán đẹp hơn các quán khác, dọn dẹp cũng nhanh, có 1 cô lau dọn thấy khách ra về, là ra lau bàn ngay lập tức, không như 1 vài quán mình đánh giá đồ dơ bày la liệt ở bàn, khách đến sau không dám ngồi luôn.
+
+à chê trân châu dừa ở đây nha, ngọt 1 cách kinh khủng",0,Tuyet Nhung Dao,5,positive
+google_28819_1,28819,google,,4.0,Quán cafe ngay trc trường cũng tiện. Không gian ổn. Ly mattcha latte lưng lưng nhìn khó chịu,0,Dương Duy Khương,5,positive
+google_28819_2,28819,google,,5.0,"Quán nằm ngay mặt đường Trần Đại Nghĩa, góc giao vào KTX và Toà B1 ĐH Bách Khoa. Mình thi thoảng hay ngồi đây vì gần trường cũ. Cũng hay gặp các thầy cô giáo cũ. Đồ uống của quán thì cũng như các quán cafe Highland khác. Các bạn nhân viên cũng khá ngoan ngoãn, nhiệt tình. Không gian quán khá rộng nhưng lúc nào cũng đông vì xung quanh là trường ĐH và nhiều VP cty thành ra ngồi trong thì bí mà ngồi ngoài thì ồn vì tiếng xe qua lại. Nhưng dù sao thì ngồi ở đây với mình cũng khá thú vị vì đồ uống quen miệng và hay được gặp thầy cô giáo, bạn bè cũ",0,Tran Hung Son,5,positive
+google_28819_3,28819,google,,5.0,"Highland Coffee nằm đối diện Đại học Bách Khoa (cổng Trần Đại Nghĩa) nên lúc nào cũng đông. Từ khi mở cửa đến nay, quán đã đón biết bao thế hệ học sinh, sinh viên và cả những cựu học trò quay về thăm trường.
+Nơi đây không chỉ là điểm hẹn cà phê, mà còn là chốn lưu giữ kỷ niệm — nơi bao câu chuyện tuổi trẻ được kể, bao ước mơ được ươm mầm. Giữa không gian trẻ trung và năng động ấy, ly cà phê dường như cũng đậm hơn, thơm hơn — như mang trong mình năng lượng của tri thức và nhiệt huyết tuổi đôi mươi.
+
+Highly recommended cho những ai từ phương xa ghé qua, muốn cảm nhận nhịp sống sinh viên Hà Nội một cách chân thật và đầy sức sống. ☕️
+
+PS: Các bạn nhân viên lúc nào cũng tươi như hoa nhé 😊🌸",0,Thịnh Võ,5,positive
+google_28819_4,28819,google,,1.0,"Lúc trước đã từng đánh giá quán 5 sao nhưng giờ phải thay đổi suy nghĩ. Mình ngồi quán này thường xuyên đã tầm 5-6 năm rồi nhưng lứa nhân viên mới này tệ thật sự. Các bạn nhân viên cũ rất nhiệt tình, chào hỏi khách, niềm nở hỗ trợ khách nhưng lứa nhân viên này rất tệ. Các bạn bạn nhân viên không chào khách, lúc mình order thì bạn Linh vừa ấn order vừa nói chuyện cười nói với bạn nhân viên khác, không thèm nhìn khách đến 1 lần (đó là lần trước mình tới), còn lần này thì bạn nhân viên nam đưa đồ không nói với mình một lời, nhờ bạn ấy bỏ đá bạn ấy cũng không đáp, xong bạn đặt bụp cái lên mặt bệ không nói một lời. Các bạn nv cũ luôn hỗ trợ yêu cầu của khách, còn đây các bạn này thì không. Mình đi mọi cơ sở HL đề yêu cầu để sữa riêng trong món bạc xỉu nhưng ở đây các bạn bảo không hỗ trợ, đặc biệt bạn Linh cực kì gắt gỏng nói là để như thế sai quy định. Sau mình sẽ không quay lại đây nữa. Không thiếu cơ sở HL nên khách hàng như mình không cần chịu thái độ phục vụ như vậy",0,Thu Trà Đặng,5,negative
+google_28819_5,28819,google,,4.0,"View đẹp . Đi hôm nắng to nên trong nhà hơi đông và gần như full chỗ , nhưng các bé phục vụ rất nhiệt tình",0,Công Phạm Thành,5,positive
+google_28819_6,28819,google,,3.0,"Nhân viên thu ngân cợt nhả với khách!
+
+Mình đến quán gọi đồ lúc khoảng 12h10 - 12h15 với đơn order 1 ame đá size L, 1 matcha latte dâu và 1 phin đen đá M, lúc trả tiền có đưa thừa cho bạn nhân viên 20k mà không biết, đến khi bạn nhân viên nhắc mình và mình nhận ra thì bạn nhân viên nhìn liếc lên cười cười và nói với mình: ""Chị định cho em 20k chứ gì/phải không?""
+Điều này khiến mình VÔ CÙNG KHÔNG THOẢI MÁI vì mình đến để mua nước chứ không đến để đùa giỡn với nhân viên. Mong Highlands kiểm tra và chấn chỉnh lại thái độ của bạn với khách.",0,Trang Eli,5,neutral
+google_28819_7,28819,google,,5.0,"Đêm giao thừa, quán đông nhưng đợi 10p đã có đồ, thậm chí mình còn gọi freeze í =))) cảm ơn các b nhân viên nha",0,Khoi Nguyen Dieu Thao,5,positive
+be_32441_1,32441,befood,2026-03-06 13:11:00,5.0,Ngon xỉu,0,,5,positive
+be_32441_2,32441,befood,2026-03-21 14:41:00,5.0,"Ngon xỉu, Đáng đồng tiền",0,,5,positive
+be_32441_3,32441,befood,2026-03-20 21:57:00,5.0,"Sạch sẽ, Đáng đồng tiền, Ngon xỉu, Đóng gói tốt",0,,5,positive
+be_32441_4,32441,befood,2026-03-18 22:02:00,5.0,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",0,,5,positive
+be_32441_5,32441,befood,2026-03-13 22:16:00,5.0,"Sạch sẽ, Đáng đồng tiền, Ngon xỉu, Đóng gói tốt",0,,5,positive
+be_32441_6,32441,befood,2026-03-22 21:43:00,3.0,Không hợp khẩu vị,0,,5,neutral
+be_32441_7,32441,befood,2026-03-23 15:22:00,3.0,nước cam ép mà như nước lọc,0,,5,neutral
+be_32441_8,32441,befood,2026-03-11 20:22:00,2.0,"mình có ghi đổi tôm sang xích cho mình nhưng k quá cắt luôn cả tôm cả xúc xích vậy hay cho thêm mới có 2 miếng xúc xích vậy trời 
+mà với em đặt mì thập cẩm giá nó cũng đã cao hơn r chịu làm càng ngày càng chán",0,,5,negative
+be_32441_9,32441,befood,2026-03-13 22:17:00,1.0,thiếu đồ,0,,5,negative
+be_32441_10,32441,befood,,5.0,,0,,5,positive
+be_32441_11,32441,befood,2026-03-24 14:45:00,5.0,,0,,5,positive
+be_32441_12,32441,befood,2026-03-24 11:29:00,5.0,,0,,5,positive
+be_32441_13,32441,befood,2026-03-24 08:46:00,5.0,,0,,5,positive
+be_32441_14,32441,befood,2026-03-20 18:31:00,5.0,,0,,5,positive
+be_32441_15,32441,befood,2026-03-17 17:54:00,5.0,,0,,5,positive
+be_32441_16,32441,befood,2026-03-17 10:48:00,5.0,,0,,5,positive
+be_32441_17,32441,befood,2026-03-17 08:43:00,5.0,,0,,5,positive
+be_32441_18,32441,befood,2026-03-09 21:02:00,5.0,,0,,5,positive
+be_32441_19,32441,befood,2026-03-08 21:18:00,5.0,,0,,5,positive
+be_32441_20,32441,befood,2026-03-05 19:52:00,5.0,,0,,5,positive
+foody_17778262,32441,foody,2023-08-03 00:00:00,5.0,"Mì Cay Seoul - Trần Đại Nghĩa Đúng chuẩn vị mỳ cay Hàn Quốc, không gian quán rộng rãi, tiện nghi gần các trường đại học, giá cả phải chăng phù hợp học sinh, sinh viên",0,Ngọc Bích,10,positive
+foody_13562011,32441,foody,2021-07-04 00:00:00,2.7,"Mì Cay Seoul - Trần Đại Nghĩa Mì cay dở như mì gói, ít hơn so với giá, nước đào nhạt nhẽo. Nch là ko hài lòng",0,Chiến Quang,10,neutral
+foody_5975774,32441,foody,2020-06-25 00:00:00,1.9,"Chán Chán cực, chả khác j mua gói mì về tự úp, nước canh quá bình thường còn lợ lợ ngọt giả tạo, thà úp mì đổ gói sốt vào còn ngon hơn, quá thật vọng khi order món này",0,hlinh8300,10,negative
+foody_3750807,32441,foody,2019-12-24 00:00:00,4.0,"ngon như ở Yên Lãng m đọc review cả fb lẫn foody đều chê tới tấp :)) nhưng vì gần nhà nên vẫn qua ăn m ăn đúng trưa CN nên quán đông lắm nhưng đợi 10 15' là đủ đồ nhân viên nhanh nhẹn, nhớ order, ko niềm nở nhưng m cũng ko cần niềm nở hớn hở lắm :)) m ăn mì cay hải sản cấp độ 0, nước ngon, mì ngon, nhân thì chủ yếu là mấy viên thả lẩu, 2 tôm, 1 ít mực miếc j đó khoai lắc phomai ăn khá ngon 2 ng ăn 2 mì, 1 khoai, 1 pepsi hết 135k hay sao ấy m thấy ấm no ngon lành chả hiểu mng chê gì :))",0,Phương Bùi,10,positive
+foody_3543229,32441,foody,2019-11-28 00:00:00,2.1,"Thái độ nhân viên quá tệ Có 1 bạn order đồ cho bọn mình với giọng rất khó chịu. Sau khi bọn kình order xong, bạn ý cầm tờ menu lẳng ra bàn ngay phía sau bọn mình và kéo cửa rất mạnh. Chắc khó ở à??? Dù mỳ ở quán ngon thực sự. Nhưng quán nên nhắc nhở các bạn nhân viên về thái độ phục vụ ạ.",0,Nguyễn Ly,10,neutral
+foody_3470206,32441,foody,2019-11-18 00:00:00,3.9,"Mì Cay Seoul - Trần Đại Nghĩa Mỳ cay seoul – 91 Trần Đại Nghĩa Ngay gần trường Kinh tế quốc dân nên cũng hay lượn ra đây ăn lắm. Nhớ hồi trước mới ra đi đâu cũng nhan nhản quán mỳ cay, giờ thì đỡ hơn rồi ))) Về chất lượng, mình thì cũng không ăn được cay lắm nên gọi mức cay thấp nhất thôi. Tô mì cũng đầy đặn, xúc xích, tôm, nấm, rau… Mình toàn gọi thêm topping nên trông tô mì mới được như này đó ))) Quán cũng bán các loại đồ uống, trà sữa ăn vặt các thứ. Không gian quán cũng rộng và sạch, phục vụ đồ nhanh.",0,Lười Ỉn,10,neutral
+foody_3358903,32441,foody,2019-10-29 00:00:00,3.9,"Mì Cay Seoul - Trần Đại Nghĩa Mì Cay Seoul - 91 Trần Đại Nghĩa. Trời lạnh rồi, đi làm 1 bát mì cay cho ấm bụng nào. Mặc dù đòi đi ăn mì cay nhưng mình chỉ ăn được mức độ cay thấp nhất, thế mà nước mắt nước mùi chảy tèm lem rồi ))) Cay thực sự luôn huhu 1 tô mì có tôm, xúc xích, chả viên, rau bắp cải tím. Mì thấy tôm không được tươi cho lắm, còn lại thì tạm ổn, nước mì ăn vừa miệng, chỉ do mình không ăn được cay nên phải bỏ dở lại thôi :(( Ngoài ra quán còn bán cả các món ăn vặt nữa đó. Không gian quán sạch sẽ, phục vụ nhanh.",0,Giang Vũ,10,neutral
+foody_3168684,32441,foody,2019-09-27 00:00:00,1.6,"Khuyến mãi là để lấy khách hàng, khách hàng thấy ngon sẽ quay lại. Mà nhà hàng làm ăn vậy thì quá chán. Hôm nay thèm kim chi, nhắc lại là thèm kim chi nha. T đặt thêm 15k kim chi bình thường ở chỗ khác 10k đã nhiều hơn thế này rồi. Tớ đặt một suất thập cẩm 57k, ko có nấm kim, ko mọc, ko nấm nâu, bình thường tớ ăn có 1 cái nấm nâu nâu người ta khứa ra làm 4 ấy, trong mì có 1 con tôm, 1 râu mực, 1 miếng xúc xích, 3 ""sợi thịt bò"" với 2 viên chả rau, cải tím. Chốt lại là chẳng qua gần t đặt thử chứ nghe review đã thấy chê rồi, chê toàn tập, giá ở trên là đã km.",1,Linhtrn4169,10,negative
+foody_3043465,32441,foody,2019-09-02 00:00:00,1.7,"Mì Cay Seoul - Trần Đại Nghĩa -Mình gọi mì bạch tuộc sau đó gọi mì hải sản. Ngồi ăn chờ Mì nửa tiếng không thấy, Bát mì hải sản mình oder ra có 2 con tôm, không hề có rau,nấm kim châm còn nguyên k hề xé ra. Không có thêm rau. Mình ăn được thêm 2 miếng mực. 5-6 viên hải sản. Bát mì 45K đây các bạn ạ.",0,Hà Linh,10,negative
+foody_2742964,32441,foody,2019-06-23 00:00:00,0.9,"Đợi mì 20p không có! Món làm lâu mình đợi được, nhưng mà quên ko làm món của khách là điều ko chấp nhận đc, trong khi quán ko hề đông. Mình đến trc rất nhiều ng. Bạn nữ nhân viên đã xác nhận món của mình nhưng 20p ko có mì, bao ng đến sau thì có mì. Hỏi thì ngơ ngơ, xong thì xin lỗi còn cừoi cười, bạn nữ nhân viên phục vụ rất thiếu thái độ chân thành với khách. Mong chủ quán xem xét. Mì thì tạm được chứ ko ngon ( hay do làm cho mình gấp quá nên ko đc ngon?). K bao giờ đến lần sau!",0,Thanh Trang,10,negative
+google_32441_0,32441,google,,1.0,Thái độ nhân viên không tốt chút nào cả. Khi bước vào thay vì hỏi các bạn/ các chị đi bao nhiêu người ạ thì nhận được câu “ mấy người”. Thay vì nhà mình ngồi bàn này nhé ạ thì nhận câu “ ngồi đây”. Ý là bỏ tiền ra đi ăn chứ có đi xin đâu mà nói như vậy. Chưa vậy mặt nhân viên không tươi mà còn hằm hằm khó chịu với khách. Đứng quầy ăn nhồm nhoàm. Chưa kể hộp giấy và đũa mỡ bàn thì bẩn. Cốc trà chanh là cốc dùng lại đồ nhựa mà dùng lại xin mời các bạn tưởng tượng hộ mình với. Bàn đến sau có đồ trước bàn đến trước chưa có đồ nchung là tệ,0,Bảo Ngọc Dương,5,negative
+google_32441_1,32441,google,,5.0,"_ Không gian quán : sạch sẽ thoáng mát
+_ Phục vụ : trộm vía những lần mình đi ăn chưa gặp nhân viên thái độ bao giờ lần gần đây nhất thì mình thấy có vẻ quán đã thay mới nhân viên hầu như là nam lên phục vụ cũng ok
+_ thời gian chờ đồ : mì cay thì khá nhanh khoảng 10-15p còn nếu order lẩu thì lâu cực lâu =)))
+_ Đồ ăn : mình thấy khá ngon nước dùng hợp khẩu vị ko bị ngọt chua cay vừa phải
+Mình có thử ở 1 cơ sở seoul khác mình ko nhớ nhưng mình thấy quán này ngon hơn hẳn mà feedback trên gg thấp quá mình cũng không ngờ
+_ Nước ở đây không đặc sặc trà chanh thì hay bị chát trà đào ko rõ vị ko ngon lắm nhưng siêu recomment trà thái ngon mà đi cùng mì cay siu hợp
+_ Lưu ý : mình thấy page ko xử lí hay rep complain của khách mà chỉ trả lời tự động =))) khách sau ngta thấy cũng k muốn đến vì chủ cũng chẳng giải quyết vấn đề cho khách
+《 BONUS : Mình thấy hầu như mn đểu phản ánh về nhân viên nma lần gần đây mình đi thì thấy hầu như đã thay mới hoàn toàn 》",0,Hạnh Minh,5,positive
+google_32441_2,32441,google,,1.0,K phán xét về đồ ăn vì khẩu vị khác nhau nhưng mà khi order thái độ nhân viên k nhiệt tình và cốc nhựa logo của quán bị mờ ( mình nghĩ do rửa lại nhiều lần ) phần xung quanh bát ăn thì khá là mỡ và đặc biệt về phần đồ uống ban đầu mk order 2 cốc thì vị khá ổn nhưng khi về sau mk có order thêm 1 cốc nữa thì vị quá là đậm. Pha đồ uống kco trách nhiệm,0,Trần Gia Bảo,5,negative
+google_32441_3,32441,google,,1.0,"Đồ ăn có sạn và bìa giấy, nhai phải vướng tầm 2-3 miếng trong đồ ăn, mình hỏi nhân viên thì nhân viên bảo chắc bị lẫn rồi lùi lùi lẩn lẩn, không có 1 câu xin lỗi (ở tầng 3 tầm 21h tối 18/01) nói chung chán",0,11A09 Nguyễn Ngọc Minh Châu,5,negative
+google_32441_4,32441,google,,1.0,"gọi lẩu mà được lèo tèo vài miếng thịt, lên đồ sai hỏi nhân viên mà còn tỏ ra khó chịu, không hiểu khó chịu cái gì ???",0,Anh Viet,5,negative
+google_32441_5,32441,google,,1.0,Đồ ăn ít lèo tèo. Gọi bò mỹ cuộn kim châm thì mang nguyên bò ra bảo đổi thì kêu không có trong menu nhưng trong menu là có,0,Le Tran,5,negative
+google_32441_6,32441,google,,1.0,"Chỉ vì trẻ con, tuổi thành niên nhìn trẻ mà bỏ qua, lơ đễnh bàn rất bẩn không dọn dẹp để mình tự dọn, lúc gọi đồ thì mất tập trung, cười đùa phải nhắc 3 lần đồ, phục vụ quên lên quên xuống, ăn xong chưa thấy mang lên, không phải mình là người lớn đến thì các bạn nhỏ đã phải chịu uất ức. Đồ ăn lên rất chậm, hơn 30 phút nhắc mới chịu lên món, chất lượng chưa bàn nhưng thấy thời gian đợi lâu hơn thời gian ăn laf vấn đề rồi. Mình không bao giờ sử dụng dịch vụ tại đây nữa!",0,Trường An Trần Doãn,5,negative
+google_32441_7,32441,google,,4.0,"Đồ ăn khá ngonnn và vừa miệng, quán đông nhưng cũng kh quá ồn và khó chịu. Mì cay vừa miệng nhưng hơi nồng và hắc mùi bột ớt.",0,Lê Quân,5,positive
+google_37364_0,37364,google,,4.0,"Đồ ăn lên nhanh, nóng, bánh mềm mướt, nhân đầy đặn. Quán ở ngay vỉa hè ngõ dễ tìm. Nhìn hơi lụp xụp với cả chắc do mình đi vào ngày mưa nên cảm giác nó k đc sạch sẽ lắm. Bảng giá menu đã có bạn khác up sẵn rồi, mình thấy chả thịt ngon hơn chả quế nhé. So với chỗ khác thì giá cũng hơi mặn nma chấp nhận được",0,Quỳnh Anh Phạm,5,positive
+google_37364_1,37364,google,,4.0,"Quán nhỏ với 4-5 bàn nằm ở dưới tầng 1 khu tập thể.
+Bánh cuốn ngon, mềm ăn cùng với thịt nướng xiên vị cũng khá thơm và ngon.
+Tuy chỉ có rau thơm là rất héo, quán nên cải thiện nhé.",0,Lê Vũ Minh Tú,5,positive
+google_37364_2,37364,google,,5.0,"Quán nhỏ ven theo vỉa hè khá đông khách chiều tối ăn bánh cuốn và gà tần
+Bánh mềm nóng, nhiều nhân. Rất thích những quán cho nhiều hành 😊 thịt nướng thơm ngon và mềm
+Giá cả hợp lý
+Suất trong hình 40🐟 mùa đông ăn món nóng ngồi chill chill hết sảy",0,MD. L NGUYEN,5,positive
+google_37364_3,37364,google,,2.0,"1 xuất chả quế 30, mình gọi thêm 1 xuất chay(ko nhân, ko chả) mà đến lúc tính tiền 25k thấy quán bị ngáo giá. Mình là nữ mà ăn 2 xuất k thấy no luôn á, quán cần xem xét lại định lượng phần ăn thực sự quá ít so với giá tiền. Điểm cộng quán này hành tự phi thơm. Sẽ không quay lại! Với giá này mình chọn ăn cơm tấm sườn vừa no vừa chất lượng hơn",0,Ngân Phạm Thị,5,negative
+google_37364_4,37364,google,,2.0,"Từ quán ruột thành say bye luôn nha, mk order suất đầy đủ về. Mk khá thích thịt nướng ở đây nên mk hay có thói quen để dành thịt lúc cuối nhưng rồi lúc ăn phát hiện ra có mảnh đá màu đen ở trong thịt nướng, mk có gọi lại quán để nói chuyện và dù gì cũng quán ruột và lần đầu tiên mk gặp trường hợp này nên mk chỉ bảo lấy lại tiền thịt nướng thôi và nó có 30k thôi, nhưng quán lại bảo lỗi sơ suất và thông cảm:)? Mk cũng bảo là cũng ko có gặp phải vấn đề gì lúc ăn thì quán lại bảo ừ thế thôi e thông cảm:)?? Vậy quán tưởng tượng lúc đó e ko phát hiện và nuốt luôn mấy mảnh đá đấy đi, đến lúc đó ko chỉ là 30k đâu quán ạ",0,Lan Nhi Nguyễn,5,negative
+google_37364_5,37364,google,,1.0,"!!! ĐÁNH GIÁ TRẢI NGHIỆM THỰC TẾ
+
+- Về bánh cuốn: Ai mà khen ngon chắc chắn không phải tín đồ bánh cuốn, từ nước chấm có hôm mặn/ngọt/nhạt không đều, bột bánh, tỷ lệ nhân và kỹ thuật đều cực kỳ mid, tạm bợ không đặt tâm vào đấy
+- Về vệ sinh: Đũa, thìa có hôm nhựa dầu có hôm sạch. Bàn ăn nhỏ, khu vực bếp khá lộn xộn
+- Về thái độ phục vụ: Mô hình quán gia đình nên chắc chắn không có sự nhiệt tình với khách vãng lai.
++ Đặc biệt là 1 lần tôi có note thêm nhân, tráng bánh mỏng với anh nhận order. Lúc tôi nhận thì trông nó vẫn không khác gì bth, không nhiều hơn tí nào. Xong ra thanh toán thì thu thêm 5k tiền nhân. tbh Mày già rồi làm ăn sao cho bọn trẻ nó nể, -1 thực khách",0,Hoàng Việt,5,negative
+google_37364_6,37364,google,,4.0,"Quán nằm ở vỉa hè ngã 3, cũng khá bé nên đi ăn nhóm đông sẽ hơi khó. Mình gọi suất bên dưới là có thêm 1 đĩa bánh nữa và 2 cốc sữa đậu tổng là 110k. Bánh khá mềm, nhân nhiều, nước chấm theo  kiểu mặn ngọt khá ok. Nói chung chất lượng thấy cũng ổn, có thể thử",0,Khánh Linh Đỗ,5,positive
+google_37364_7,37364,google,,4.0,"Bánh cuốn chả quế 25k & thịt nướng 35k. Chả quế & thịt nướng đều rất thơm, nước chấm hơi chua so với khẩu vị của mình, bánh tráng ra vẫn hơi bột bột chứ không mềm mịn, tổng quan vẫn được",0,NP Ngan (グエン・フオン・ガン),5,positive
+be_86930_86,86930,befood,2025-05-24 11:56:00,3.0,"nhầm món, đặt bún cá chấm mà thành bún nước 😂, Sai/Thiếu món",0,,5,neutral
+be_86930_87,86930,befood,2026-01-08 21:13:00,5.0,Ngon xỉu,0,,5,positive
+be_86930_88,86930,befood,2024-10-17 19:38:00,5.0,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",0,,5,positive
+be_86930_89,86930,befood,2024-08-04 14:09:00,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",0,,5,positive
+be_86930_90,86930,befood,2025-11-09 00:05:00,4.0,"giao hàng nhanh, đúng đủ số lượng, sản phẩm. nhưng bún hơi mặn vs ít 🥲",0,,5,positive
+be_86930_91,86930,befood,2024-11-22 22:22:00,3.0,"thập cẩm hnay k có thịt bò
+quán cx k liên hệ lại để hỏi 
+nước dùng nhạt chắc mình đặt lúc quán gần đóng nên quán chế nước cho mình mà quên thêm gia vị",0,,5,neutral
+be_86930_92,86930,befood,2025-05-08 10:57:00,1.0,không đúng miêu tả,0,,5,negative
+be_86930_93,86930,befood,2025-07-05 17:13:00,5.0,,0,,5,positive
+be_86930_94,86930,befood,2025-04-28 02:56:00,5.0,,0,,5,positive
+be_86930_95,86930,befood,2024-12-27 19:47:00,5.0,,0,,5,positive
+be_86930_96,86930,befood,2024-10-29 11:41:00,5.0,,0,,5,positive
+be_86930_97,86930,befood,2024-10-14 16:21:00,5.0,,0,,5,positive
+be_86930_98,86930,befood,2024-08-01 16:57:00,5.0,,0,,5,positive
+google_86930_0,86930,google,,5.0,"Ngon, nên thử nha",0,Vũ Tiến Đạt,5,positive
+google_86930_1,86930,google,,5.0,Ăn từ năm nhất đến h chưa chán,0,Huy Việt,5,positive
+google_86930_2,86930,google,,1.0,Trải nghiệm k tốt về nhân viên,0,Tuấn anh Trần,5,negative
+google_96198_0,96198,google,,3.0,"Nhân viên tư vấn không nhiệt tình, khách hỏi thì trả lời ngắn gọn, kiệm lời. Nói chuyện riêng ở quầy và nói bậy, nói to.",0,Nguyễn Thị Quỳnh Chi,5,neutral
+google_96198_1,96198,google,,5.0,"Các bạn nhân viên khá nhiệt tình, đặc biệt là trà rất ngon, không gian quán trang trí rất đẹp",0,Hoàng Nguyễn,5,positive
+google_96198_2,96198,google,,5.0,"Đồ uống rất ngon, nhân viên toàn các bạn xinh xắn nhiệt tình",0,Lê Quốc Huy,5,positive
+google_96198_3,96198,google,,4.0,"Điểm cộng là không gian rộng, có phòng học riêng (yên tĩnh hay không thì mình cũng không rõ).
+Điểm trừ: Tầng 2 có mùi thuốc lá siêu khó chịu, nên yêu cầu hoặc dán giấy là nếu hút thuốc thì ra vào đóng cửa.
+Đồ uống cần cải thiện thêm vì chưa ngon.",0,Kate Nguyen,5,positive
+google_96198_4,96198,google,,5.0,"quán quen🫰🏻, nay e quên dth mà nhân viên gọi kịp k xỉu luôn🫩
+đồ uống ngon, rẻ
+quán mở muộn chút thì mê hơn",0,Thục Anh Nguyễn,5,positive
+google_96198_5,96198,google,,5.0,"Quán decor xinh voãi, đồ uống ngon. Ưng nhất món Hồng môn Machiato. Thấy bảo năm nay khoai môn đang trend. Rất đáng thử nha các bạn.",0,linh hoàng,5,positive
+google_96198_6,96198,google,,5.0,"Nơi tụ tập hợp lý của hội bạn, hoặc nơi để chạy deadline hợp lý",0,Chương,5,positive
+google_96198_7,96198,google,,2.0,"Đồ uống pha chế k ngon. List nhạc quán mở nhức đầu lắm. Dịch vụ thanh toán kén chọn, lý do là quán mới mở.",0,Hng草莓,5,negative
+be_118180_42,118180,befood,2026-03-06 17:43:00,5.0,"trà sữa đậm trà xịn siêu ngon có deal hời ơi là hờiii, Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",0,,5,positive
+be_118180_43,118180,befood,2026-03-10 14:10:00,5.0,"đồ uống ngon nhưng shop bỏ đá to với hơi nhiều
+shop cải thiện phần đá nha, Ngon xỉu",0,,5,positive
+be_118180_44,118180,befood,2026-03-08 19:45:00,5.0,"Đáng đồng tiền, Ngon xỉu, Đóng gói tốt, Sạch sẽ",0,,5,positive
+be_118180_45,118180,befood,2026-03-07 11:58:00,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",0,,5,positive
+be_118180_46,118180,befood,2026-03-07 11:29:00,5.0,Ngon xỉu,0,,5,positive
+be_118180_47,118180,befood,2026-03-07 09:59:00,5.0,"ngonnnnnnnn, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ, Ngon xỉu",0,,5,positive
+be_118180_48,118180,befood,2026-03-06 16:58:00,5.0,"Ngon xỉu, Sạch sẽ",0,,5,positive
+be_118180_49,118180,befood,2026-03-19 17:35:00,5.0,,0,,5,positive
+be_118180_50,118180,befood,2026-03-15 10:46:00,5.0,,0,,5,positive
+be_118180_51,118180,befood,2026-03-09 17:04:00,5.0,,0,,5,positive
+be_118180_52,118180,befood,2026-03-07 12:42:00,5.0,,0,,5,positive
+be_118180_53,118180,befood,2026-03-07 08:32:00,5.0,,0,,5,positive
+be_118180_54,118180,befood,2026-03-06 21:19:00,5.0,,0,,5,positive
+be_118180_55,118180,befood,2026-03-06 21:11:00,5.0,,0,,5,positive
+be_118180_56,118180,befood,2026-03-06 15:15:00,5.0,,0,,5,positive
+be_118180_57,118180,befood,2026-02-06 14:25:00,5.0,,0,,5,positive
+be_118180_58,118180,befood,2026-01-23 10:42:00,5.0,,0,,5,positive
+be_118180_59,118180,befood,2026-01-09 11:17:00,5.0,,0,,5,positive
+be_118180_60,118180,befood,2025-12-23 14:13:00,5.0,,0,,5,positive
+be_118180_61,118180,befood,2025-12-17 17:27:00,5.0,,0,,5,positive
+google_118180_0,118180,google,,5.0,"Trà shan tuyết đậm vị, cafe cũng ngon. Không gian ngồi thoải mái, ấm cúng.
+
+Rất nhiều trà trưng bày đặc biệt. Giá bán cạnh tranh khi order qua app của quán",0,Khanh Nguyen,5,positive
+google_118180_1,118180,google,,3.0,"Quán mới, lấn chiếm được vỉa hè trước mặt nên diện tích khá rộng, nhiều chỗ ngồi vỉa hè, khá thoáng. Mỗi tội cụ chủ cắn hơi dày, cả cái vỉa hè gần 100m2 kê kín đặc ghế luôn
+Nay vào gọi espresso giá 45k/shot. Định gọi capuchino mà giá hơi mắc 59/69k gì đó. Latte cũng vậy. Nhiều hàng cũng tương đương mà capuchino 45k trung bình thời điểm hiện tại.
+Chỗ để xe nhiều, ô tô + xe máy mà nay đi xe máy tự tìm chỗ để cũng ko có nhân viên hướng dẫn, hỗ trợ. Nói chung là kệ mm.
+Thanh toán tiền mặt/chuyển khoản, ko có quẹt thẻ. Lạc hậu vãi ra.
+Cà phê thì có tí mà cho cái cốc to vãi ra. Nói chung chẳng lẽ cho 2 sao.
+Quên, cà phê tự phục vụ bưng bê nhé. Chống chỉ định người nào thích bưng tận bàn",0,Nguyen Tien,5,neutral
+google_118180_2,118180,google,,3.0,"Đồ uống ở đây được đúng trà sữa shan tuyết và shan đen còn lại đều dở tệ. Trà double cheese shan nhài đúng kiểu trà cho thêm nước đường xong phủ lớp cheese lên, thật kinh khủng vậy mà bán 65k lận. Quán ở trong siêu bí và chật, không gian không có. Quán hơi ảo giá khi bán 60k cốc nước trong khi không có không gian ngồi và đồ uống thì chán, mình phải dùng từ chán để diễn tả. Mình uống rất nhiều lần để thử vị mới xem có phải do khẩu vị không thì thấy mỗi lần thử đều thất vọng",0,Thu Trà Đặng,5,neutral
+google_118180_3,118180,google,,5.0,"Quán cafe có view khá đẹp khi nằm ngay góc ngã 3 đường và ngõ. Quán có vỉa hè rộng rãi, có thể đậu xe máy và ngồi uống cafe cũng như ngắm cảnh đường phố. Bên trong rộng rãi, ấm áp có thể ngồi riêng từng người để làm việc.
+
+Cafe có mức giá khá bình dân, menu đa dạng. Có thể đây là quán có không gian,view cũng nhữ chất lượng và giá phù hợp nhất đường Trần Đại Nghĩa.
+
+Quán xứng đáng đến để trải nghiệm.",0,Juno Tùng,5,positive
+google_118180_4,118180,google,,5.0,"Trà siêu ngon , món nào cũng có toping trân châu  dẻo . Các bạn nhân viên thì siêu siêu ngoan và lễ phép . Mình đã chở thành khách ruột ngày nào cũng phải ngồi đây ko có là nhớ rùi 🤭",0,Ha bao vy,5,positive
+google_118180_5,118180,google,,1.0,"Uống 2 lần, lần nào cũng tệ. Vì nó tệ nên ngay cả khi mua với giá có voucher thì vẫn ko thấy đáng tiền.
+- Uống trà ko thấy có j đặc sắc mà 65K/cốc. - Bơ già dừa non thì ko ngon. Cùng giá đấy ae sang Katinat uống sẽ ngon hơn",0,Hường Nguyễn Thị Thúy,5,negative
+google_118180_6,118180,google,,5.0,"Trên cả tuyệt vời. Trà ngon, đậm vị trà. Nhân viên phục vụ thân thiện, nhiệt tình và hỗ trợ khách kịp thời. View khá đẹp và âm nhạc nhẹ nhàng. Mọi người nên đến thử và cảm nhận. Đặc biệt các bạn nhân viên dễ thương lắm ạ.",0,Giang Hương,5,positive
+google_118180_7,118180,google,,1.0,"Ngay từ khâu đầu vào bảo vệ nói chuyện đã hãm như bố đời rồi, phản hồi với nhân viên thì ko nói năng gì. Chả hiểu quán này chủ trainning nhân viên ra sao. Làm dịch vụ mà chán chết. Nước uống thì cũng oke",0,Joyce Nguyen,5,negative
+be_118304_82,118304,befood,2025-12-14 16:35:00,5.0,,0,,5,positive
+be_118304_83,118304,befood,2025-10-27 18:01:00,5.0,,0,,5,positive
+google_118304_0,118304,google,,5.0,"Chiều nay mình có ghé quán, lâu lắm rồi không uống lại nên qua. Bạn nhân viên nam siu nhiệt tình, siu lễ phép, nước pha cũng ngon hơn mọi khi nữa. Mong quán giữ bạn ấy lại để +1 khách quen là mình 🍊",0,Mai Nguyễn,5,positive
+google_118304_1,118304,google,,5.0,"Quán tuyệt vời, đồ uống ngon, quán thân thiện, rcm sunchill cho người thích trà và cacao nóng siu ngon ạ🤤 đã ra uống và đặt rất nhìu lần ạ",0,Vân Anh Phạm,5,positive
+google_118304_2,118304,google,,4.0,"Đã thường xuyên đến quán này từ vài năm trước. Quán cũng đã qua nhiều đời chủ và về thiết kế thì cơ bản không có gì thay đổi. Quán hơi nhỏ nhưng có góc ban công thoáng mát, chill chill.
+
+Nhân viên và chủ quán dễ tính, vui vẻ. Mình có nhờ bạn bật nhỏ nhạc thì bạn cũng rất nhanh nhẹn giúp.
+
+Ngoài ra thì đồ uống rẻ và hương vị cũng ổn.
+
+Tuy nhiên, có lẽ vì đây là quán ở gần trường Bách Khoa, nên tầm giờ chiều thường có các bạn sinh viên tới đây học hoặc làm việc (mình cũng nằm trong số đó). Thì mình thấy loa bật khá to và chủ yếu là nhạc ballad yêu và chia tay hơi não nề. Vì vậy quán sẽ ko phù hợp lắm để ai muốn ngồi học, đọc sách, hoặc tập trung.
+
+Ngoài ra thì dù ban công xinh nhưng hơi bẩn. Có rác với vỏ hướng dương của khách trước vẫn chưa dọn.",0,Minh Hang Nguyen,5,positive
+google_118304_3,118304,google,,5.0,"Trà sữa Suncha thật sự tuyệt vời! Menu đa dạng, topping phong phú và chất lượng. Mình rất ấn tượng với vị trà thơm, sữa béo vừa phải, không quá ngọt, uống rất dễ chịu. Không gian quán sạch sẽ, trang trí hiện đại và thoải mái để ngồi học hoặc trò chuyện cùng bạn bè. Nhân viên thì siêu thân thiện và phục vụ nhanh chóng. Giá cả hợp lý so với chất lượng. Chắc chắn sẽ quay lại thường xuyên và giới thiệu cho bạn bè",0,Trần Lộc,5,positive
+google_118304_4,118304,google,,5.0,"chị chủ và bạn nhân viên đều niềm nở và dễ thương, không gian quán tuy bé nhưng rất thơm và sạch sẽ. Nước ngon và chất lượng tương xứng với giá tiền nháaa",0,Khánh Linh Hoàng,5,positive
+google_118304_5,118304,google,,5.0,"Đồ uống ngon, trái cây tươi, cửa hàng sạch sẽ mát mẻ. Nhân viên nhiệt tình",0,Thao Tran,5,positive
+google_118304_6,118304,google,,5.0,"Trà hoa quả siêu ngon, siêu chất lượng. Bà chủ thì đáng yêu vui tính",0,Amy Nguyễn,5,positive
+google_118304_7,118304,google,,5.0,"món này ngon, ko nhớ tên =))) ngon ngọt thơm, nhãn giòn ngon nha",0,Minh Nguyễn,5,positive

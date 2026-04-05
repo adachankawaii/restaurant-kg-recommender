@@ -1,0 +1,4 @@
+﻿store_id,source_name,source_store_key,source_url,source_name_raw,address_raw,match_confidence,note
+32441,befood,32441,,Mì Cay Seoul - Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
+32441,foody,https://www.foody.vn/ha-noi/mi-cay-seoul-tran-dai-nghia,https://www.foody.vn/ha-noi/mi-cay-seoul-tran-dai-nghia,Mì Cay Seoul - Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,match_method=manual_map; crawl_status=ok
+32441,google,ChIJQx4DbPStNTERHGh4b_1WM0s,https://micayseoul.com/,Mì Cay SEOUL Trần Đại Nghĩa,"223 Trần Đại Nghĩa, Đồng Tâm, Bạch Mai, Hà Nội 10000, Việt Nam",high,method=direct_id; place_id=ChIJQx4DbPStNTERHGh4b_1WM0s; score=None

@@ -1,0 +1,4 @@
+﻿store_id,source_name,source_store_key,source_url,source_name_raw,address_raw,match_confidence,note
+28819,befood,28819,,Highlands Coffee -  Trần Đại Nghĩa,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
+28819,foody,https://www.foody.vn/ha-noi/highlands-coffee-tra-ca-phe-banh-dh-bach-khoa,https://www.foody.vn/ha-noi/highlands-coffee-tra-ca-phe-banh-dh-bach-khoa,Highlands Coffee - Trần Đại Nghĩa,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,match_method=manual_map; crawl_status=ok
+28819,google,ChIJ2eOmu8utNTERJF2ptkp1M1U,https://www.highlandscoffee.com.vn/,Highlands Coffee,"91 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJ2eOmu8utNTERJF2ptkp1M1U; score=None

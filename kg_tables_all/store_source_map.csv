@@ -1,0 +1,24 @@
+﻿store_id,source_name,source_store_key,source_url,source_name_raw,address_raw,match_confidence,note
+5117,befood,5117,,Phúc Long - Tạ Quang Bửu,"69 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
+5117,foody,https://www.foody.vn/ha-noi/phuc-long-tran-dai-nghia,https://www.foody.vn/ha-noi/phuc-long-tran-dai-nghia,Phúc Long - Tạ Quang Bửu,"69 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,match_method=manual_map; crawl_status=ok
+5117,google,ChIJG4MNTRKtNTERMdX9_nZCRnY,,Phuc Long Coffee & Tea,"69 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJG4MNTRKtNTERMdX9_nZCRnY; score=None
+24209,befood,24209,,Nước Dừa Trân Châu Phú Yên - Trần Đại Nghĩa,"63 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
+24209,google,ChIJNan-FHasNTERqQITN2_jD-c,,63 Trần Đại Nghĩa,"63 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội 100000, Việt Nam",high,method=direct_id; place_id=ChIJNan-FHasNTERqQITN2_jD-c; score=None
+27878,befood,27878,,Bánh Tráng Nướng Thảo Tồ - Tạ Quang Bửu,"10 Phố Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
+27878,google,ChIJeS1ro2etNTERbI5vCHcUsdE,,Quán bánh tráng nướng,"3a P. Tạ Quang Bửu, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJeS1ro2etNTERbI5vCHcUsdE; score=None
+28819,befood,28819,,Highlands Coffee -  Trần Đại Nghĩa,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
+28819,foody,https://www.foody.vn/ha-noi/highlands-coffee-tra-ca-phe-banh-dh-bach-khoa,https://www.foody.vn/ha-noi/highlands-coffee-tra-ca-phe-banh-dh-bach-khoa,Highlands Coffee - Trần Đại Nghĩa,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,match_method=manual_map; crawl_status=ok
+28819,google,ChIJ2eOmu8utNTERJF2ptkp1M1U,https://www.highlandscoffee.com.vn/,Highlands Coffee,"91 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJ2eOmu8utNTERJF2ptkp1M1U; score=None
+32441,befood,32441,,Mì Cay Seoul - Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
+32441,foody,https://www.foody.vn/ha-noi/mi-cay-seoul-tran-dai-nghia,https://www.foody.vn/ha-noi/mi-cay-seoul-tran-dai-nghia,Mì Cay Seoul - Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,match_method=manual_map; crawl_status=ok
+32441,google,ChIJQx4DbPStNTERHGh4b_1WM0s,https://micayseoul.com/,Mì Cay SEOUL Trần Đại Nghĩa,"223 Trần Đại Nghĩa, Đồng Tâm, Bạch Mai, Hà Nội 10000, Việt Nam",high,method=direct_id; place_id=ChIJQx4DbPStNTERHGh4b_1WM0s; score=None
+37364,befood,37364,,Quán Ngon - Gà Tần & Bánh Cuốn Nóng - Tạ Quang Bửu,"Số 3A1 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
+37364,google,ChIJgSa2OdmrNTERdN2XjloqtMs,,"Hà Anh: Bánh Cuốn Nóng, Gà Tần, Mỳ Gà Tần","101 K10B Đ. Nguyễn Hiền, Bách Khoa, Bạch Mai, Hà Nội 11615, Việt Nam",high,method=direct_id; place_id=ChIJgSa2OdmrNTERdN2XjloqtMs; score=None
+86930,befood,86930,,Bún Cá Cô Minh - Tạ Quang Bửu,"Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
+86930,google,ChIJfyn8ZwCtNTERx5svG5uV0as,,Bún Cá Cô Minh,"3 Ngh. 40/2 P. Tạ Quang Bửu, Bách Khoa, Bạch Mai, Hà Nội 100000, Việt Nam",high,method=direct_id; place_id=ChIJfyn8ZwCtNTERx5svG5uV0as; score=None
+96198,befood,96198,,92 Degree - Trần Đại Nghĩa,"75 Trần Đại Nghĩa, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
+96198,google,ChIJx4O7LQCtNTERW8cByt7xLGQ,,92 Degree coffee and milk tea,"75 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJx4O7LQCtNTERW8cByt7xLGQ; score=None
+118180,befood,118180,,1000M - Trà & Trà Sữa Shan Tuyết Thượng Hạng - Trần Đại Nghĩa,"71B Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",high,id gốc từ beFood
+118180,google,ChIJQyieCQCtNTERqqmnOm-Z-Kg,https://1000m.vn/,1000M Tea&Coffee,"71B Trần Đại Nghĩa Hà Nội, Bạch Mai, Hà Nội 100000, Việt Nam",high,method=direct_id; place_id=ChIJQyieCQCtNTERqqmnOm-Z-Kg; score=None
+118304,befood,118304,,Tiệm Trà Trái Cây Suncha - Trần Đại Nghĩa,"65 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",high,id gốc từ beFood
+118304,google,ChIJeUKoTQCtNTERUyftswtNbLI,,SUNCHA Tea & Fruit,"65 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJeUKoTQCtNTERUyftswtNbLI; score=None

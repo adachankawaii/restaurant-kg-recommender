@@ -1,0 +1,8 @@
+﻿store_id,aspect_name,mention_count,positive_mentions,negative_mentions,neutral_mentions,aspect_sentiment,evidence_sources
+28819,taste,15,10,2,3,positive,befood|foody|google
+28819,value_for_money,14,10,2,2,positive,befood|foody|google
+28819,staff_service,12,9,1,2,positive,befood|foody|google
+28819,space,10,8,1,1,positive,foody|google
+28819,cleanliness,9,7,1,1,positive,befood|foody|google
+28819,delivery_accuracy,2,1,0,1,mixed_positive,befood
+28819,work_friendly,2,2,0,0,positive,foody|google

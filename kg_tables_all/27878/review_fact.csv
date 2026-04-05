@@ -1,0 +1,31 @@
+﻿review_id,store_id,source_name,rated_at,rating_5,review_text,is_promo,reviewer,raw_rating_scale,sentiment
+be_27878_99,27878,befood,2025-06-22 18:10:00,5.0,"Delicious, Worth the price, Clean, Good packaging",0,,5,positive
+be_27878_100,27878,befood,2026-01-06 23:35:00,5.0,Đóng gói tốt,0,,5,positive
+be_27878_101,27878,befood,2025-11-23 20:27:00,5.0,"Clean, Worth the price, Delicious, Good packaging",0,,5,positive
+be_27878_102,27878,befood,2025-11-23 19:46:00,5.0,"Delicious, Worth the price, Clean, Good packaging",0,,5,positive
+be_27878_103,27878,befood,2025-02-28 22:53:00,5.0,Ngon xỉu,0,,5,positive
+be_27878_104,27878,befood,2025-11-13 09:13:00,4.0,Khá ngon,0,,5,positive
+be_27878_105,27878,befood,2025-04-05 22:55:00,2.0,"giao thiếu món, Sai/Thiếu món, Không làm đúng ghi chú",0,,5,negative
+be_27878_106,27878,befood,2025-03-23 15:50:00,2.0,hơi khét nha,0,,5,negative
+be_27878_107,27878,befood,2025-12-26 21:10:00,1.0,k biết shop quên hay là cố ý là em đặt bánh tráng + 4 trứng mà k thấy bánh tráng đâu,0,,5,negative
+be_27878_108,27878,befood,2025-01-19 17:07:00,1.0,trắng ợt k giòn dai như bánh sống kiểu lạ lắm nướng lại cũng k giòn nói chung k ngon,0,,5,negative
+be_27878_109,27878,befood,2025-11-29 23:19:00,4.0,"ăn cũng tạm, điểm trừ vỏ bánh mềm ỉu, k giòn",0,,5,positive
+be_27878_110,27878,befood,2026-03-17 17:26:00,5.0,,0,,5,positive
+be_27878_111,27878,befood,2026-03-02 18:38:00,5.0,,0,,5,positive
+be_27878_112,27878,befood,2025-10-13 23:55:00,5.0,,0,,5,positive
+be_27878_113,27878,befood,2025-08-23 19:21:00,5.0,,0,,5,positive
+be_27878_114,27878,befood,2025-04-27 16:06:00,5.0,,0,,5,positive
+be_27878_115,27878,befood,2025-04-15 00:06:00,5.0,,0,,5,positive
+be_27878_116,27878,befood,2025-03-24 16:45:00,5.0,,0,,5,positive
+be_27878_117,27878,befood,2025-03-09 17:59:00,5.0,,0,,5,positive
+be_27878_118,27878,befood,2025-01-14 11:01:00,5.0,,0,,5,positive
+google_27878_0,27878,google,,4.0,"Quán khá rộng, cả trông nhà và sân ngoài trời. Menu rất rất rất nhiều món. Nhưng bánh mì nướng thì dai má ơi dai luôn nhé. Quán kiểu buffet bân xiển ý, hầu hết là đồ chiên. Có cả cháo bún các thứ",0,Trần Trần,5,positive
+google_27878_1,27878,google,,5.0,"Đồ ăn lên nhanh. Quán ở cạnh sát trạm y tế, có chỗ để xe máy thoải mái luôn. Đúng kiểu quán sv ý, vui vẻ, k khí nói chuyện thoải mái. Nma bánh gà k ngon, nem chua rán và bánh tráng nướng ngon hơn. Rá rẻ, chiều đông người lắm",0,Quỳnh Anh Phạm,5,positive
+google_27878_2,27878,google,,5.0,"Không thể đếm được số lần bọn mình đi ăn bánh tráng ở tiệm này. Có đợt là tuần nào cũng ăn luôn, quá là nghiền.
+Thông thường bọn mình sẽ gọi bánh tráng nướng, trứng cút nướng, bánh tráng cuộn. Thỉnh thoảng sẽ gọi thêm nem chua rán và phomai que. Nhìn chung mình rất là ưng bánh tráng cuộn và trứng cút nướng ở đây. Món nào cũng đầy đặn và hợp khẩu vị lắm á!
+Quán ở khu sinh viên Bách Khoa nên giá thì siêu rẻ. Các món trung bình tầm 15k-25k thôi ý, gọi đầy một bàn cũng tầm 120k hai đứa ăn no dã man.
+
+📌 Địa chỉ: Quán Tít - cổng y tế số 5 Tạ Quang Bửu, Hai Bà Trưng, Hà Nội.",0,Rin Nguyễn,5,positive
+google_27878_3,27878,google,,4.0,"Quán rộng rãi, menu đồ ăn vặt đa dạng. Trứng cút nướng ngon. Phù hợp với sinh viên",0,Phùng Ngọc Hà,5,positive
+google_27878_4,27878,google,,1.0,Nhân viên phục vụ tốt mỗi tội bà chủ nói chuyện rất thái độ có í đuổi khách,0,Hồng Minh Nguyễn,5,negative
+google_27878_5,27878,google,,1.0,Phục vụ lâu quá,0,Hải Dương Nguyễn,5,negative

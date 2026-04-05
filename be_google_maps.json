@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "96198",
+    "name": "92 Degree coffee and milk tea",
+    "query_name": "92 Degree - Trần Đại Nghĩa",
+    "query_address": "75 Trần Đại Nghĩa, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",
+    "address": "75 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "location": {
+      "latitude": 21.005946899999998,
+      "longitude": 105.8458666
+    },
+    "rating": 3.5,
+    "review_count": 14,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 2
+      },
+      {
+        "stars": 2,
+        "amount": 3
+      },
+      {
+        "stars": 3,
+        "amount": 1
+      },
+      {
+        "stars": 4,
+        "amount": 2
+      },
+      {
+        "stars": 5,
+        "amount": 6
+      }
+    ],
+    "price": "1-100.000 ₫",
+    "price_details": {
+      "distribution": [
+        {
+          "price": "1-100.000 ₫",
+          "percentage": 60.0,
+          "reported_count": 3
+        },
+        {
+          "price": "100.000-200.000 ₫",
+          "percentage": 40.0,
+          "reported_count": 2
+        },
+        {
+          "price": "200.000-300.000 ₫",
+          "percentage": 0,
+          "reported_count": 0
+        }
+      ],
+      "total_reported": 5
+    },
+    "type": [
+      "Quán cà phê"
+    ],
+    "phone": "+84 961 325 575",
+    "offerings": [
+      "Cà phê"
+    ],
+    "opening_hours": {
+      "open_state": "Temporarily closed"
+    },
+    "reviews": [
+      {
+        "username": "Nguyễn Thị Quỳnh Chi",
+        "rating": 3,
+        "description": "Nhân viên tư vấn không nhiệt tình, khách hỏi thì trả lời ngắn gọn, kiệm lời. Nói chuyện riêng ở quầy và nói bậy, nói to."
+      },
+      {
+        "username": "Hoàng Nguyễn",
+        "rating": 5,
+        "description": "Các bạn nhân viên khá nhiệt tình, đặc biệt là trà rất ngon, không gian quán trang trí rất đẹp"
+      },
+      {
+        "username": "Lê Quốc Huy",
+        "rating": 5,
+        "description": "Đồ uống rất ngon, nhân viên toàn các bạn xinh xắn nhiệt tình"
+      },
+      {
+        "username": "Kate Nguyen",
+        "rating": 4,
+        "description": "Điểm cộng là không gian rộng, có phòng học riêng (yên tĩnh hay không thì mình cũng không rõ).\nĐiểm trừ: Tầng 2 có mùi thuốc lá siêu khó chịu, nên yêu cầu hoặc dán giấy là nếu hút thuốc thì ra vào đóng cửa.\nĐồ uống cần cải thiện thêm vì chưa ngon."
+      },
+      {
+        "username": "Thục Anh Nguyễn",
+        "rating": 5,
+        "description": "quán quen🫰🏻, nay e quên dth mà nhân viên gọi kịp k xỉu luôn🫩\nđồ uống ngon, rẻ\nquán mở muộn chút thì mê hơn"
+      },
+      {
+        "username": "linh hoàng",
+        "rating": 5,
+        "description": "Quán decor xinh voãi, đồ uống ngon. Ưng nhất món Hồng môn Machiato. Thấy bảo năm nay khoai môn đang trend. Rất đáng thử nha các bạn."
+      },
+      {
+        "username": "Chương",
+        "rating": 5,
+        "description": "Nơi tụ tập hợp lý của hội bạn, hoặc nơi để chạy deadline hợp lý"
+      },
+      {
+        "username": "Hng草莓",
+        "rating": 2,
+        "description": "Đồ uống pha chế k ngon. List nhạc quán mở nhức đầu lắm. Dịch vụ thanh toán kén chọn, lý do là quán mới mở."
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135ad002dbb83c7:0x642cf1deca01c75b",
+      "place_id": "ChIJx4O7LQCtNTERW8cByt7xLGQ"
+    }
+  },
+  {
+    "id": "32441",
+    "name": "Mì Cay SEOUL Trần Đại Nghĩa",
+    "query_name": "Mì Cay Seoul - Trần Đại Nghĩa",
+    "query_address": "91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",
+    "address": "223 Trần Đại Nghĩa, Đồng Tâm, Bạch Mai, Hà Nội 10000, Việt Nam",
+    "location": {
+      "latitude": 20.9980989,
+      "longitude": 105.84599639999999
+    },
+    "rating": 2.4,
+    "review_count": 268,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 152
+      },
+      {
+        "stars": 2,
+        "amount": 17
+      },
+      {
+        "stars": 3,
+        "amount": 10
+      },
+      {
+        "stars": 4,
+        "amount": 21
+      },
+      {
+        "stars": 5,
+        "amount": 68
+      }
+    ],
+    "price": "1-100.000 ₫",
+    "price_details": {
+      "distribution": [
+        {
+          "price": "1-100.000 ₫",
+          "percentage": 67.6923076923077,
+          "reported_count": 44
+        },
+        {
+          "price": "100.000-200.000 ₫",
+          "percentage": 18.461538461538463,
+          "reported_count": 12
+        },
+        {
+          "price": "200.000-300.000 ₫",
+          "percentage": 4.615384615384616,
+          "reported_count": 3
+        },
+        {
+          "price": "300.000-400.000 ₫",
+          "percentage": 9.230769230769232,
+          "reported_count": 6
+        }
+      ],
+      "total_reported": 65
+    },
+    "type": [
+      "Nhà hàng Hàn Quốc"
+    ],
+    "phone": "+84 981 997 983",
+    "website": "https://micayseoul.com/",
+    "service_options": {
+      "Ăn_tại_chỗ": true,
+      "Đồ_ăn_mang_đi": true,
+      "giao_hàng_gián_tiếp": true
+    },
+    "popular_for": [
+      "Bữa tối",
+      "Ăn tối một mình"
+    ],
+    "offerings": [
+      "Nhà hàng thức ăn nhanh"
+    ],
+    "atmosphere": [
+      "Ấm cúng",
+      "Thông thường"
+    ],
+    "crowd": [
+      "Nhóm",
+      "Sinh viên"
+    ],
+    "dining_options": [
+      "Bữa trưa",
+      "Bữa tối",
+      "Dịch vụ ăn uống",
+      "Phục vụ tại bàn"
+    ],
+    "opening_hours": {
+      "open_state": "Đang mở cửa · Đóng cửa vào 22:00",
+      "hours": [
+        {
+          "thứ tư": "08:00–22:00"
+        },
+        {
+          "thứ năm": "08:00–22:00"
+        },
+        {
+          "thứ sáu": "08:00–22:00"
+        },
+        {
+          "thứ bảy": "08:00–22:00"
+        },
+        {
+          "chủ nhật": "08:00–22:00"
+        },
+        {
+          "thứ hai": "08:00–22:00"
+        },
+        {
+          "thứ ba": "08:00–22:00"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "username": "Bảo Ngọc Dương",
+        "rating": 1,
+        "description": "Thái độ nhân viên không tốt chút nào cả. Khi bước vào thay vì hỏi các bạn/ các chị đi bao nhiêu người ạ thì nhận được câu “ mấy người”. Thay vì nhà mình ngồi bàn này nhé ạ thì nhận câu “ ngồi đây”. Ý là bỏ tiền ra đi ăn chứ có đi xin đâu mà nói như vậy. Chưa vậy mặt nhân viên không tươi mà còn hằm hằm khó chịu với khách. Đứng quầy ăn nhồm nhoàm. Chưa kể hộp giấy và đũa mỡ bàn thì bẩn. Cốc trà chanh là cốc dùng lại đồ nhựa mà dùng lại xin mời các bạn tưởng tượng hộ mình với. Bàn đến sau có đồ trước bàn đến trước chưa có đồ nchung là tệ"
+      },
+      {
+        "username": "Hạnh Minh",
+        "rating": 5,
+        "description": "_ Không gian quán : sạch sẽ thoáng mát\n_ Phục vụ : trộm vía những lần mình đi ăn chưa gặp nhân viên thái độ bao giờ lần gần đây nhất thì mình thấy có vẻ quán đã thay mới nhân viên hầu như là nam lên phục vụ cũng ok\n_ thời gian chờ đồ : mì cay thì khá nhanh khoảng 10-15p còn nếu order lẩu thì lâu cực lâu =)))\n_ Đồ ăn : mình thấy khá ngon nước dùng hợp khẩu vị ko bị ngọt chua cay vừa phải\nMình có thử ở 1 cơ sở seoul khác mình ko nhớ nhưng mình thấy quán này ngon hơn hẳn mà feedback trên gg thấp quá mình cũng không ngờ\n_ Nước ở đây không đặc sặc trà chanh thì hay bị chát trà đào ko rõ vị ko ngon lắm nhưng siêu recomment trà thái ngon mà đi cùng mì cay siu hợp\n_ Lưu ý : mình thấy page ko xử lí hay rep complain của khách mà chỉ trả lời tự động =))) khách sau ngta thấy cũng k muốn đến vì chủ cũng chẳng giải quyết vấn đề cho khách\n《 BONUS : Mình thấy hầu như mn đểu phản ánh về nhân viên nma lần gần đây mình đi thì thấy hầu như đã thay mới hoàn toàn 》"
+      },
+      {
+        "username": "Trần Gia Bảo",
+        "rating": 1,
+        "description": "K phán xét về đồ ăn vì khẩu vị khác nhau nhưng mà khi order thái độ nhân viên k nhiệt tình và cốc nhựa logo của quán bị mờ ( mình nghĩ do rửa lại nhiều lần ) phần xung quanh bát ăn thì khá là mỡ và đặc biệt về phần đồ uống ban đầu mk order 2 cốc thì vị khá ổn nhưng khi về sau mk có order thêm 1 cốc nữa thì vị quá là đậm. Pha đồ uống kco trách nhiệm"
+      },
+      {
+        "username": "11A09 Nguyễn Ngọc Minh Châu",
+        "rating": 1,
+        "description": "Đồ ăn có sạn và bìa giấy, nhai phải vướng tầm 2-3 miếng trong đồ ăn, mình hỏi nhân viên thì nhân viên bảo chắc bị lẫn rồi lùi lùi lẩn lẩn, không có 1 câu xin lỗi (ở tầng 3 tầm 21h tối 18/01) nói chung chán"
+      },
+      {
+        "username": "Anh Viet",
+        "rating": 1,
+        "description": "gọi lẩu mà được lèo tèo vài miếng thịt, lên đồ sai hỏi nhân viên mà còn tỏ ra khó chịu, không hiểu khó chịu cái gì ???"
+      },
+      {
+        "username": "Le Tran",
+        "rating": 1,
+        "description": "Đồ ăn ít lèo tèo. Gọi bò mỹ cuộn kim châm thì mang nguyên bò ra bảo đổi thì kêu không có trong menu nhưng trong menu là có"
+      },
+      {
+        "username": "Trường An Trần Doãn",
+        "rating": 1,
+        "description": "Chỉ vì trẻ con, tuổi thành niên nhìn trẻ mà bỏ qua, lơ đễnh bàn rất bẩn không dọn dẹp để mình tự dọn, lúc gọi đồ thì mất tập trung, cười đùa phải nhắc 3 lần đồ, phục vụ quên lên quên xuống, ăn xong chưa thấy mang lên, không phải mình là người lớn đến thì các bạn nhỏ đã phải chịu uất ức. Đồ ăn lên rất chậm, hơn 30 phút nhắc mới chịu lên món, chất lượng chưa bàn nhưng thấy thời gian đợi lâu hơn thời gian ăn laf vấn đề rồi. Mình không bao giờ sử dụng dịch vụ tại đây nữa!"
+      },
+      {
+        "username": "Lê Quân",
+        "rating": 4,
+        "description": "Đồ ăn khá ngonnn và vừa miệng, quán đông nhưng cũng kh quá ồn và khó chịu. Mì cay vừa miệng nhưng hơi nồng và hắc mùi bột ớt."
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135adf46c031e43:0x4b3356fd6f78681c",
+      "place_id": "ChIJQx4DbPStNTERHGh4b_1WM0s"
+    }
+  },
+  {
+    "id": "28819",
+    "name": "Highlands Coffee",
+    "query_name": "Highlands Coffee -  Trần Đại Nghĩa",
+    "query_address": "91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",
+    "address": "91 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "location": {
+      "latitude": 21.0048458,
+      "longitude": 105.8459008
+    },
+    "rating": 4.1,
+    "review_count": 1287,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 95
+      },
+      {
+        "stars": 2,
+        "amount": 31
+      },
+      {
+        "stars": 3,
+        "amount": 136
+      },
+      {
+        "stars": 4,
+        "amount": 351
+      },
+      {
+        "stars": 5,
+        "amount": 674
+      }
+    ],
+    "price": "1-100.000 ₫",
+    "price_details": {
+      "distribution": [
+        {
+          "price": "1-100.000 ₫",
+          "percentage": 82.44274809160305,
+          "reported_count": 108
+        },
+        {
+          "price": "100.000-200.000 ₫",
+          "percentage": 13.740458015267176,
+          "reported_count": 18
+        },
+        {
+          "price": "200.000-300.000 ₫",
+          "percentage": 2.2900763358778624,
+          "reported_count": 3
+        }
+      ],
+      "total_reported": 131
+    },
+    "type": [
+      "Quán cà phê"
+    ],
+    "phone": "+84 24 7300 1558",
+    "website": "https://www.highlandscoffee.com.vn/",
+    "service_options": {
+      "Ăn_tại_chỗ": true,
+      "Đồ_ăn_mang_đi": true,
+      "giao_hàng_gián_tiếp": true
+    },
+    "highlights": [
+      "Cà phê ngon",
+      "Món tráng miệng ngon",
+      "Nhiều trà ngon"
+    ],
+    "popular_for": [
+      "Phù hợp để làm việc trên máy tính xách tay"
+    ],
+    "offerings": [
+      "Cà phê",
+      "Nhà hàng thức ăn nhanh"
+    ],
+    "atmosphere": [
+      "Ấm cúng",
+      "Thông thường"
+    ],
+    "crowd": [
+      "Du khách",
+      "Nhóm",
+      "Sinh viên"
+    ],
+    "dining_options": [
+      "Bữa sáng",
+      "Bữa nửa buổi",
+      "Dịch vụ ăn uống",
+      "Món tráng miệng",
+      "Chỗ ngồi",
+      "Phục vụ tại bàn"
+    ],
+    "opening_hours": {
+      "open_state": "Đang mở cửa · Đóng cửa vào 23:00",
+      "hours": [
+        {
+          "thứ tư": "07:00–23:00"
+        },
+        {
+          "thứ năm": "07:00–23:00"
+        },
+        {
+          "thứ sáu": "07:00–23:00"
+        },
+        {
+          "thứ bảy": "07:00–23:00"
+        },
+        {
+          "chủ nhật": "07:00–23:00"
+        },
+        {
+          "thứ hai": "07:00–23:00"
+        },
+        {
+          "thứ ba": "07:00–23:00"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "username": "Tuyet Nhung Dao",
+        "rating": 4,
+        "description": "Quanh phía Hai Bà Trưng thì highlands ở Trần Đại Nghĩa khá là ổn. Không gian rộng rãi, cả bên trong lẫn bên ngoài. Chỗ này đỗ xe máy thoải mái, oto thì phải gửi nha mấy ní. Wifi nét căng. Khu vực phía ngoài cũng có ổ điện để tiện lợi cho các bác sạc laptop, điện thoại nha.\nNgay trong đoạn đường của trường Bách Khoa và xây dựng, nên quán hầu như lúc nào cũng full khách. Tuy nhiên, cũng không quá ồn ào, mọi người vẫn có thể nói chuyện với nhau được.\nDecoration ở quán đẹp hơn các quán khác, dọn dẹp cũng nhanh, có 1 cô lau dọn thấy khách ra về, là ra lau bàn ngay lập tức, không như 1 vài quán mình đánh giá đồ dơ bày la liệt ở bàn, khách đến sau không dám ngồi luôn.\n\nà chê trân châu dừa ở đây nha, ngọt 1 cách kinh khủng"
+      },
+      {
+        "username": "Dương Duy Khương",
+        "rating": 4,
+        "description": "Quán cafe ngay trc trường cũng tiện. Không gian ổn. Ly mattcha latte lưng lưng nhìn khó chịu"
+      },
+      {
+        "username": "Tran Hung Son",
+        "rating": 5,
+        "description": "Quán nằm ngay mặt đường Trần Đại Nghĩa, góc giao vào KTX và Toà B1 ĐH Bách Khoa. Mình thi thoảng hay ngồi đây vì gần trường cũ. Cũng hay gặp các thầy cô giáo cũ. Đồ uống của quán thì cũng như các quán cafe Highland khác. Các bạn nhân viên cũng khá ngoan ngoãn, nhiệt tình. Không gian quán khá rộng nhưng lúc nào cũng đông vì xung quanh là trường ĐH và nhiều VP cty thành ra ngồi trong thì bí mà ngồi ngoài thì ồn vì tiếng xe qua lại. Nhưng dù sao thì ngồi ở đây với mình cũng khá thú vị vì đồ uống quen miệng và hay được gặp thầy cô giáo, bạn bè cũ"
+      },
+      {
+        "username": "Thịnh Võ",
+        "rating": 5,
+        "description": "Highland Coffee nằm đối diện Đại học Bách Khoa (cổng Trần Đại Nghĩa) nên lúc nào cũng đông. Từ khi mở cửa đến nay, quán đã đón biết bao thế hệ học sinh, sinh viên và cả những cựu học trò quay về thăm trường.\nNơi đây không chỉ là điểm hẹn cà phê, mà còn là chốn lưu giữ kỷ niệm — nơi bao câu chuyện tuổi trẻ được kể, bao ước mơ được ươm mầm. Giữa không gian trẻ trung và năng động ấy, ly cà phê dường như cũng đậm hơn, thơm hơn — như mang trong mình năng lượng của tri thức và nhiệt huyết tuổi đôi mươi.\n\nHighly recommended cho những ai từ phương xa ghé qua, muốn cảm nhận nhịp sống sinh viên Hà Nội một cách chân thật và đầy sức sống. ☕️\n\nPS: Các bạn nhân viên lúc nào cũng tươi như hoa nhé 😊🌸"
+      },
+      {
+        "username": "Thu Trà Đặng",
+        "rating": 1,
+        "description": "Lúc trước đã từng đánh giá quán 5 sao nhưng giờ phải thay đổi suy nghĩ. Mình ngồi quán này thường xuyên đã tầm 5-6 năm rồi nhưng lứa nhân viên mới này tệ thật sự. Các bạn nhân viên cũ rất nhiệt tình, chào hỏi khách, niềm nở hỗ trợ khách nhưng lứa nhân viên này rất tệ. Các bạn bạn nhân viên không chào khách, lúc mình order thì bạn Linh vừa ấn order vừa nói chuyện cười nói với bạn nhân viên khác, không thèm nhìn khách đến 1 lần (đó là lần trước mình tới), còn lần này thì bạn nhân viên nam đưa đồ không nói với mình một lời, nhờ bạn ấy bỏ đá bạn ấy cũng không đáp, xong bạn đặt bụp cái lên mặt bệ không nói một lời. Các bạn nv cũ luôn hỗ trợ yêu cầu của khách, còn đây các bạn này thì không. Mình đi mọi cơ sở HL đề yêu cầu để sữa riêng trong món bạc xỉu nhưng ở đây các bạn bảo không hỗ trợ, đặc biệt bạn Linh cực kì gắt gỏng nói là để như thế sai quy định. Sau mình sẽ không quay lại đây nữa. Không thiếu cơ sở HL nên khách hàng như mình không cần chịu thái độ phục vụ như vậy"
+      },
+      {
+        "username": "Công Phạm Thành",
+        "rating": 4,
+        "description": "View đẹp . Đi hôm nắng to nên trong nhà hơi đông và gần như full chỗ , nhưng các bé phục vụ rất nhiệt tình"
+      },
+      {
+        "username": "Trang Eli",
+        "rating": 3,
+        "description": "Nhân viên thu ngân cợt nhả với khách!\n\nMình đến quán gọi đồ lúc khoảng 12h10 - 12h15 với đơn order 1 ame đá size L, 1 matcha latte dâu và 1 phin đen đá M, lúc trả tiền có đưa thừa cho bạn nhân viên 20k mà không biết, đến khi bạn nhân viên nhắc mình và mình nhận ra thì bạn nhân viên nhìn liếc lên cười cười và nói với mình: \"Chị định cho em 20k chứ gì/phải không?\"\nĐiều này khiến mình VÔ CÙNG KHÔNG THOẢI MÁI vì mình đến để mua nước chứ không đến để đùa giỡn với nhân viên. Mong Highlands kiểm tra và chấn chỉnh lại thái độ của bạn với khách."
+      },
+      {
+        "username": "Khoi Nguyen Dieu Thao",
+        "rating": 5,
+        "description": "Đêm giao thừa, quán đông nhưng đợi 10p đã có đồ, thậm chí mình còn gọi freeze í =))) cảm ơn các b nhân viên nha"
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135adcbbba6e3d9:0x5533754ab6a95d24",
+      "place_id": "ChIJ2eOmu8utNTERJF2ptkp1M1U"
+    }
+  },
+  {
+    "id": "37364",
+    "name": "Hà Anh: Bánh Cuốn Nóng, Gà Tần, Mỳ Gà Tần",
+    "query_name": "Quán Ngon - Gà Tần & Bánh Cuốn Nóng - Tạ Quang Bửu",
+    "query_address": "Số 3A1 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Hai Bà Trưng, Hà Nội",
+    "address": "101 K10B Đ. Nguyễn Hiền, Bách Khoa, Bạch Mai, Hà Nội 11615, Việt Nam",
+    "location": {
+      "latitude": 21.0009509,
+      "longitude": 105.8472055
+    },
+    "rating": 4.3,
+    "review_count": 53,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 2
+      },
+      {
+        "stars": 2,
+        "amount": 4
+      },
+      {
+        "stars": 3,
+        "amount": 1
+      },
+      {
+        "stars": 4,
+        "amount": 16
+      },
+      {
+        "stars": 5,
+        "amount": 30
+      }
+    ],
+    "price": "1-100.000 ₫",
+    "price_details": {
+      "distribution": [
+        {
+          "price": "1-100.000 ₫",
+          "percentage": 96.66666666666667,
+          "reported_count": 29
+        },
+        {
+          "price": "100.000-200.000 ₫",
+          "percentage": 3.3333333333333335,
+          "reported_count": 1
+        },
+        {
+          "price": "200.000-300.000 ₫",
+          "percentage": 0,
+          "reported_count": 0
+        }
+      ],
+      "total_reported": 30
+    },
+    "type": [
+      "Quán ăn nhỏ",
+      "Nhà hàng ăn nhanh",
+      "Nhà hàng phở",
+      "Nhà hàng",
+      "Quán ăn nhẹ"
+    ],
+    "phone": "+84 979 241 640",
+    "service_options": {
+      "Ăn_tại_chỗ": true,
+      "mua_hàng_ngay_trên_xe": true,
+      "giao_hàng_gián_tiếp": true
+    },
+    "highlights": [
+      "Chỗ ngồi trên sân thượng",
+      "Lò sưởi",
+      "Thể thao"
+    ],
+    "popular_for": [
+      "Bữa sáng"
+    ],
+    "offerings": [
+      "Ăn thoả thích",
+      "Bia",
+      "Cà phê",
+      "Các món chay",
+      "Các món thuần chay",
+      "Có giờ giảm giá đặc biệt",
+      "Đồ ăn khuya",
+      "Đồ uống vào giờ vàng",
+      "Món ăn từ nguyên liệu hữu cơ",
+      "Nhà hàng thức ăn nhanh",
+      "Phần ăn nhỏ",
+      "Phòng ăn riêng tư",
+      "Quầy rau trộn",
+      "Rượu"
+    ],
+    "atmosphere": [
+      "Thông thường"
+    ],
+    "crowd": [
+      "Chào đón những người thuộc giới LGBTQ+",
+      "Dành cho gia đình",
+      "Nơi an toàn cho người chuyển giới"
+    ],
+    "dining_options": [
+      "Bữa sáng",
+      "Bữa nửa buổi",
+      "Bữa trưa",
+      "Bữa tối",
+      "Dịch vụ ăn uống",
+      "Dịch vụ tại quầy",
+      "Món tráng miệng",
+      "Chỗ ngồi",
+      "Phục vụ tại bàn"
+    ],
+    "opening_hours": {
+      "open_state": "Mở cả ngày",
+      "hours": [
+        {
+          "thứ tư": "Mở cửa cả ngày"
+        },
+        {
+          "thứ năm": "Mở cửa cả ngày"
+        },
+        {
+          "thứ sáu": "Mở cửa cả ngày"
+        },
+        {
+          "thứ bảy": "Mở cửa cả ngày"
+        },
+        {
+          "chủ nhật": "Mở cửa cả ngày"
+        },
+        {
+          "thứ hai": "Mở cửa cả ngày"
+        },
+        {
+          "thứ ba": "Mở cửa cả ngày"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "username": "Quỳnh Anh Phạm",
+        "rating": 4,
+        "description": "Đồ ăn lên nhanh, nóng, bánh mềm mướt, nhân đầy đặn. Quán ở ngay vỉa hè ngõ dễ tìm. Nhìn hơi lụp xụp với cả chắc do mình đi vào ngày mưa nên cảm giác nó k đc sạch sẽ lắm. Bảng giá menu đã có bạn khác up sẵn rồi, mình thấy chả thịt ngon hơn chả quế nhé. So với chỗ khác thì giá cũng hơi mặn nma chấp nhận được"
+      },
+      {
+        "username": "Lê Vũ Minh Tú",
+        "rating": 4,
+        "description": "Quán nhỏ với 4-5 bàn nằm ở dưới tầng 1 khu tập thể.\nBánh cuốn ngon, mềm ăn cùng với thịt nướng xiên vị cũng khá thơm và ngon.\nTuy chỉ có rau thơm là rất héo, quán nên cải thiện nhé."
+      },
+      {
+        "username": "MD. L NGUYEN",
+        "rating": 5,
+        "description": "Quán nhỏ ven theo vỉa hè khá đông khách chiều tối ăn bánh cuốn và gà tần\nBánh mềm nóng, nhiều nhân. Rất thích những quán cho nhiều hành 😊 thịt nướng thơm ngon và mềm\nGiá cả hợp lý\nSuất trong hình 40🐟 mùa đông ăn món nóng ngồi chill chill hết sảy"
+      },
+      {
+        "username": "Ngân Phạm Thị",
+        "rating": 2,
+        "description": "1 xuất chả quế 30, mình gọi thêm 1 xuất chay(ko nhân, ko chả) mà đến lúc tính tiền 25k thấy quán bị ngáo giá. Mình là nữ mà ăn 2 xuất k thấy no luôn á, quán cần xem xét lại định lượng phần ăn thực sự quá ít so với giá tiền. Điểm cộng quán này hành tự phi thơm. Sẽ không quay lại! Với giá này mình chọn ăn cơm tấm sườn vừa no vừa chất lượng hơn"
+      },
+      {
+        "username": "Lan Nhi Nguyễn",
+        "rating": 2,
+        "description": "Từ quán ruột thành say bye luôn nha, mk order suất đầy đủ về. Mk khá thích thịt nướng ở đây nên mk hay có thói quen để dành thịt lúc cuối nhưng rồi lúc ăn phát hiện ra có mảnh đá màu đen ở trong thịt nướng, mk có gọi lại quán để nói chuyện và dù gì cũng quán ruột và lần đầu tiên mk gặp trường hợp này nên mk chỉ bảo lấy lại tiền thịt nướng thôi và nó có 30k thôi, nhưng quán lại bảo lỗi sơ suất và thông cảm:)? Mk cũng bảo là cũng ko có gặp phải vấn đề gì lúc ăn thì quán lại bảo ừ thế thôi e thông cảm:)?? Vậy quán tưởng tượng lúc đó e ko phát hiện và nuốt luôn mấy mảnh đá đấy đi, đến lúc đó ko chỉ là 30k đâu quán ạ"
+      },
+      {
+        "username": "Hoàng Việt",
+        "rating": 1,
+        "description": "!!! ĐÁNH GIÁ TRẢI NGHIỆM THỰC TẾ\n\n- Về bánh cuốn: Ai mà khen ngon chắc chắn không phải tín đồ bánh cuốn, từ nước chấm có hôm mặn/ngọt/nhạt không đều, bột bánh, tỷ lệ nhân và kỹ thuật đều cực kỳ mid, tạm bợ không đặt tâm vào đấy\n- Về vệ sinh: Đũa, thìa có hôm nhựa dầu có hôm sạch. Bàn ăn nhỏ, khu vực bếp khá lộn xộn\n- Về thái độ phục vụ: Mô hình quán gia đình nên chắc chắn không có sự nhiệt tình với khách vãng lai.\n+ Đặc biệt là 1 lần tôi có note thêm nhân, tráng bánh mỏng với anh nhận order. Lúc tôi nhận thì trông nó vẫn không khác gì bth, không nhiều hơn tí nào. Xong ra thanh toán thì thu thêm 5k tiền nhân. tbh Mày già rồi làm ăn sao cho bọn trẻ nó nể, -1 thực khách"
+      },
+      {
+        "username": "Khánh Linh Đỗ",
+        "rating": 4,
+        "description": "Quán nằm ở vỉa hè ngã 3, cũng khá bé nên đi ăn nhóm đông sẽ hơi khó. Mình gọi suất bên dưới là có thêm 1 đĩa bánh nữa và 2 cốc sữa đậu tổng là 110k. Bánh khá mềm, nhân nhiều, nước chấm theo  kiểu mặn ngọt khá ok. Nói chung chất lượng thấy cũng ổn, có thể thử"
+      },
+      {
+        "username": "NP Ngan (グエン・フオン・ガン)",
+        "rating": 4,
+        "description": "Bánh cuốn chả quế 25k & thịt nướng 35k. Chả quế & thịt nướng đều rất thơm, nước chấm hơi chua so với khẩu vị của mình, bánh tráng ra vẫn hơi bột bột chứ không mềm mịn, tổng quan vẫn được"
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135abd939b62681:0xcbb42a5a8e97dd74",
+      "place_id": "ChIJgSa2OdmrNTERdN2XjloqtMs"
+    }
+  },
+  {
+    "id": "118180",
+    "name": "1000M Tea&Coffee",
+    "query_name": "1000M - Trà & Trà Sữa Shan Tuyết Thượng Hạng - Trần Đại Nghĩa",
+    "query_address": "71B Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",
+    "address": "71B Trần Đại Nghĩa Hà Nội, Bạch Mai, Hà Nội 100000, Việt Nam",
+    "location": {
+      "latitude": 21.006283399999997,
+      "longitude": 105.8456508
+    },
+    "rating": 4.6,
+    "review_count": 122,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 9
+      },
+      {
+        "stars": 2,
+        "amount": 0
+      },
+      {
+        "stars": 3,
+        "amount": 2
+      },
+      {
+        "stars": 4,
+        "amount": 8
+      },
+      {
+        "stars": 5,
+        "amount": 103
+      }
+    ],
+    "price": "1-100.000 ₫",
+    "price_details": {
+      "distribution": [
+        {
+          "price": "1-100.000 ₫",
+          "percentage": 83.33333333333334,
+          "reported_count": 5
+        },
+        {
+          "price": "100.000-200.000 ₫",
+          "percentage": 16.666666666666664,
+          "reported_count": 1
+        },
+        {
+          "price": "200.000-300.000 ₫",
+          "percentage": 0,
+          "reported_count": 0
+        }
+      ],
+      "total_reported": 6
+    },
+    "type": [
+      "Quán cà phê"
+    ],
+    "phone": "+84 946 201 990",
+    "website": "https://1000m.vn/",
+    "service_options": {
+      "Ăn_tại_chỗ": true
+    },
+    "highlights": [
+      "Cà phê ngon"
+    ],
+    "offerings": [
+      "Cà phê"
+    ],
+    "atmosphere": [
+      "Ấm cúng",
+      "Thông thường"
+    ],
+    "crowd": [
+      "Nhóm"
+    ],
+    "dining_options": [
+      "Chỗ ngồi"
+    ],
+    "opening_hours": {
+      "open_state": "Đang mở cửa · Đóng cửa vào 23:00",
+      "hours": [
+        {
+          "thứ tư": "07:00–23:00"
+        },
+        {
+          "thứ năm": "07:00–23:00"
+        },
+        {
+          "thứ sáu": "07:00–23:00"
+        },
+        {
+          "thứ bảy": "07:00–23:00"
+        },
+        {
+          "chủ nhật": "07:00–23:00"
+        },
+        {
+          "thứ hai": "07:00–23:00"
+        },
+        {
+          "thứ ba": "07:00–23:00"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "username": "Khanh Nguyen",
+        "rating": 5,
+        "description": "Trà shan tuyết đậm vị, cafe cũng ngon. Không gian ngồi thoải mái, ấm cúng.\n\nRất nhiều trà trưng bày đặc biệt. Giá bán cạnh tranh khi order qua app của quán"
+      },
+      {
+        "username": "Nguyen Tien",
+        "rating": 3,
+        "description": "Quán mới, lấn chiếm được vỉa hè trước mặt nên diện tích khá rộng, nhiều chỗ ngồi vỉa hè, khá thoáng. Mỗi tội cụ chủ cắn hơi dày, cả cái vỉa hè gần 100m2 kê kín đặc ghế luôn\nNay vào gọi espresso giá 45k/shot. Định gọi capuchino mà giá hơi mắc 59/69k gì đó. Latte cũng vậy. Nhiều hàng cũng tương đương mà capuchino 45k trung bình thời điểm hiện tại.\nChỗ để xe nhiều, ô tô + xe máy mà nay đi xe máy tự tìm chỗ để cũng ko có nhân viên hướng dẫn, hỗ trợ. Nói chung là kệ mm.\nThanh toán tiền mặt/chuyển khoản, ko có quẹt thẻ. Lạc hậu vãi ra.\nCà phê thì có tí mà cho cái cốc to vãi ra. Nói chung chẳng lẽ cho 2 sao.\nQuên, cà phê tự phục vụ bưng bê nhé. Chống chỉ định người nào thích bưng tận bàn"
+      },
+      {
+        "username": "Thu Trà Đặng",
+        "rating": 3,
+        "description": "Đồ uống ở đây được đúng trà sữa shan tuyết và shan đen còn lại đều dở tệ. Trà double cheese shan nhài đúng kiểu trà cho thêm nước đường xong phủ lớp cheese lên, thật kinh khủng vậy mà bán 65k lận. Quán ở trong siêu bí và chật, không gian không có. Quán hơi ảo giá khi bán 60k cốc nước trong khi không có không gian ngồi và đồ uống thì chán, mình phải dùng từ chán để diễn tả. Mình uống rất nhiều lần để thử vị mới xem có phải do khẩu vị không thì thấy mỗi lần thử đều thất vọng"
+      },
+      {
+        "username": "Juno Tùng",
+        "rating": 5,
+        "description": "Quán cafe có view khá đẹp khi nằm ngay góc ngã 3 đường và ngõ. Quán có vỉa hè rộng rãi, có thể đậu xe máy và ngồi uống cafe cũng như ngắm cảnh đường phố. Bên trong rộng rãi, ấm áp có thể ngồi riêng từng người để làm việc.\n\nCafe có mức giá khá bình dân, menu đa dạng. Có thể đây là quán có không gian,view cũng nhữ chất lượng và giá phù hợp nhất đường Trần Đại Nghĩa.\n\nQuán xứng đáng đến để trải nghiệm."
+      },
+      {
+        "username": "Ha bao vy",
+        "rating": 5,
+        "description": "Trà siêu ngon , món nào cũng có toping trân châu  dẻo . Các bạn nhân viên thì siêu siêu ngoan và lễ phép . Mình đã chở thành khách ruột ngày nào cũng phải ngồi đây ko có là nhớ rùi 🤭"
+      },
+      {
+        "username": "Hường Nguyễn Thị Thúy",
+        "rating": 1,
+        "description": "Uống 2 lần, lần nào cũng tệ. Vì nó tệ nên ngay cả khi mua với giá có voucher thì vẫn ko thấy đáng tiền.\n- Uống trà ko thấy có j đặc sắc mà 65K/cốc. - Bơ già dừa non thì ko ngon. Cùng giá đấy ae sang Katinat uống sẽ ngon hơn"
+      },
+      {
+        "username": "Giang Hương",
+        "rating": 5,
+        "description": "Trên cả tuyệt vời. Trà ngon, đậm vị trà. Nhân viên phục vụ thân thiện, nhiệt tình và hỗ trợ khách kịp thời. View khá đẹp và âm nhạc nhẹ nhàng. Mọi người nên đến thử và cảm nhận. Đặc biệt các bạn nhân viên dễ thương lắm ạ."
+      },
+      {
+        "username": "Joyce Nguyen",
+        "rating": 1,
+        "description": "Ngay từ khâu đầu vào bảo vệ nói chuyện đã hãm như bố đời rồi, phản hồi với nhân viên thì ko nói năng gì. Chả hiểu quán này chủ trainning nhân viên ra sao. Làm dịch vụ mà chán chết. Nước uống thì cũng oke"
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135ad00099e2843:0xa8f8996f3aa7a9aa",
+      "place_id": "ChIJQyieCQCtNTERqqmnOm-Z-Kg"
+    }
+  },
+  {
+    "id": "5117",
+    "name": "Phuc Long Coffee & Tea",
+    "query_name": "Phúc Long - Tạ Quang Bửu",
+    "query_address": "69 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",
+    "address": "69 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "location": {
+      "latitude": 21.006513299999998,
+      "longitude": 105.8454852
+    },
+    "rating": 3.6,
+    "review_count": 613,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 163
+      },
+      {
+        "stars": 2,
+        "amount": 23
+      },
+      {
+        "stars": 3,
+        "amount": 40
+      },
+      {
+        "stars": 4,
+        "amount": 87
+      },
+      {
+        "stars": 5,
+        "amount": 300
+      }
+    ],
+    "price": "1-100.000 ₫",
+    "price_details": {
+      "distribution": [
+        {
+          "price": "1-100.000 ₫",
+          "percentage": 80.28169014084507,
+          "reported_count": 57
+        },
+        {
+          "price": "100.000-200.000 ₫",
+          "percentage": 14.084507042253522,
+          "reported_count": 10
+        },
+        {
+          "price": "200.000-300.000 ₫",
+          "percentage": 1.4084507042253522,
+          "reported_count": 1
+        }
+      ],
+      "total_reported": 71
+    },
+    "type": [
+      "Quán cà phê"
+    ],
+    "phone": "+84 24 3943 2222",
+    "service_options": {
+      "Ăn_tại_chỗ": true,
+      "Đồ_ăn_mang_đi": true,
+      "giao_hàng_gián_tiếp": true
+    },
+    "highlights": [
+      "Cà phê ngon",
+      "Món tráng miệng ngon",
+      "Nhiều trà ngon"
+    ],
+    "popular_for": [
+      "Phù hợp để làm việc trên máy tính xách tay"
+    ],
+    "offerings": [
+      "Cà phê",
+      "Nhà hàng thức ăn nhanh"
+    ],
+    "atmosphere": [
+      "Ấm cúng",
+      "Thông thường"
+    ],
+    "crowd": [
+      "Du khách",
+      "Nhóm",
+      "Sinh viên"
+    ],
+    "dining_options": [
+      "Bữa sáng",
+      "Bữa nửa buổi",
+      "Dịch vụ ăn uống",
+      "Món tráng miệng",
+      "Phục vụ tại bàn"
+    ],
+    "opening_hours": {
+      "open_state": "Đang mở cửa · Đóng cửa vào 22:30",
+      "hours": [
+        {
+          "thứ tư": "07:30–22:30"
+        },
+        {
+          "thứ năm": "07:30–22:30"
+        },
+        {
+          "thứ sáu": "07:30–22:30"
+        },
+        {
+          "thứ bảy": "07:30–22:30"
+        },
+        {
+          "chủ nhật": "07:30–22:30"
+        },
+        {
+          "thứ hai": "07:30–22:30"
+        },
+        {
+          "thứ ba": "07:30–22:30"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "username": "Quốc Hưng",
+        "rating": 5,
+        "description": "🇻🇳 Phúc Long – 69 Trần Đại Nghĩa, Hải Phòng\n\n☕ Quán nằm trên trục đường Trần Đại Nghĩa, vị trí dễ tìm, thuận tiện ghé nhanh\n🍵 Trà và cà phê giữ đúng hương vị Phúc Long quen thuộc, đậm trà, dễ uống\n🪑 Không gian gọn gàng, sạch sẽ, phù hợp ngồi ngắn hoặc mua mang đi\n👩‍🍳 Nhân viên phục vụ nhanh, khá chuyên nghiệp kể cả giờ cao điểm\n💰 Giá ở mức chuỗi thương hiệu, phù hợp học sinh, sinh viên và dân văn phòng\n⛔ Một số khung giờ quán khá đông, không gian ngồi chưa thật sự thoải mái nếu ở lâu\n\n⸻\n\n🇬🇧 Phuc Long – 69 Tran Dai Nghia, Hai Phong\n\n☕ Convenient location on Tran Dai Nghia Street, easy to stop by\n🍵 Signature tea and coffee with strong, familiar Phuc Long flavors\n🪑 Clean and tidy space, suitable for short stays or takeaway\n👩‍🍳 Fast and professional service even during busy hours\n💰 Reasonable prices for a popular beverage chain\n⛔ Can get crowded at peak times, not ideal for long stays"
+      },
+      {
+        "username": "Minh Xeo Nguyễn",
+        "rating": 3,
+        "description": "Các món liên quan tới trà sữa ngon nhưng trà thì chưa thật sự vừa ý, nhân viên order cho khách nói chuyện thiếu niềm nở, nhà vệ sinh thì bẩn, cần training lại thái độ nhân viên."
+      },
+      {
+        "username": "Huyen Nguyen",
+        "rating": 1,
+        "description": "Đồ uống giá cao, chất lượng không tương xứng. Trà nhãn sen, nếu topping chỉ có nhãn thì nên đặt tên đúng bản chất là \"trà sen thêm nhãn\""
+      },
+      {
+        "username": "Hường Nguyễn Thị Thúy",
+        "rating": 2,
+        "description": "Đang tìm chỗ ngồi nch ai ngờ bước vào thấy nguyên cái quán học bài :))). Ord nước tầng 1 xong lên tầng trên tìm chỗ ngồi thì thấy tất cả mng chạy dl, ko dám ho he gì. Cf thấy cũng bthg\nKo đủ ấn tượng để qlai 🥲"
+      },
+      {
+        "username": "Hải Yến Lê",
+        "rating": 3,
+        "description": "Mình thường xuyên ghé Phúc Long cơ sở Trần Đại Nghĩa, nhưng lần nào tới cũng bị bảo vệ bảo gửi xe ở đoạn ngã ba hoặc bãi xe B6 dù quán thời điểm đó rất ít khách. Bên bãi xe gửi miễn phí thì rất vắng xe nhưng bảo vệ xếp xe cách quá xa nhau và bảo phải ra bãi gửi xe mất phí để gửi"
+      },
+      {
+        "username": "Vương Trung Hiếu",
+        "rating": 1,
+        "description": "Tệ. Trên hoá đơn ghi mở cửa đến 23h nhưng 22h đã đuổi khách. Trước khi vào đã cẩn thận hỏi nhân viên là mở cửa đến mấy giờ thì bảo là đến 22h là đóng quầy dọn dẹp, ok hiểu là không nhận đơn nữa còn ngồi thì cứ ngồi ai ngờ đến đúng giờ dọn quầy là cũng được “mời” về luôn.\n\nĐồ uống thì như đấm vào mồm. Trà sữa ô long nhạt thếch không rõ vị trà, cảm giác như nước chè chát. Matcha thì không hay uống nên không rành lắm nhưng mà nó chua trời ơi lần đầu uống cốc matcha nó chua lạ lùng.\n\nTóm lại là Phúc Long cứ như này thì quá xứng đáng với 2 chữ HẾT THỜI. Giờ rất nhiều brand khác đồ uống ngon vừa miệng mà chiều khách."
+      },
+      {
+        "username": "Hoang Lan Nguyen",
+        "rating": 2,
+        "description": "Đồ uống siêu tệ nha. Hạt đác thơm ko đều, hạt nhũn hạt cứng. Dứa thì cứng và xơ, kiểu để rất lâu r í, ko xứng với giá 70k/ cốc. Matcha là vị loại bình thường, tạm được. Với giá này mình sẽ có nhiều lựa chọn ngon hơn và xứng với giá tiền, ko gian hơn nhé"
+      },
+      {
+        "username": "Khánh Linh Đỗ",
+        "rating": 4,
+        "description": "Quán ko gian rộng, 2 tầng còn tầng t3 thì đang setup, khách hàng chủ yếu là sinh viên, đồ uống chủ yếu là các loại trà. Mình gọi trà sen nhãn 45k thì thấy hơi ngọt gắt, uống có vị trà khá đậm tuy nhiên mình gọi sen nhãn nhưng chỉ có nhãn thui và nó bị ngọt quá.  Không gian đơn giản, mát mẻ, dễ chịu"
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135ad124d0d831b:0x76464276fefdd531",
+      "place_id": "ChIJG4MNTRKtNTERMdX9_nZCRnY"
+    }
+  },
+  {
+    "id": "118304",
+    "name": "SUNCHA Tea & Fruit",
+    "query_name": "Tiệm Trà Trái Cây Suncha - Trần Đại Nghĩa",
+    "query_address": "65 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",
+    "address": "65 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "location": {
+      "latitude": 21.0066387,
+      "longitude": 105.84547069999999
+    },
+    "rating": 4.9,
+    "review_count": 43,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 1
+      },
+      {
+        "stars": 2,
+        "amount": 0
+      },
+      {
+        "stars": 3,
+        "amount": 0
+      },
+      {
+        "stars": 4,
+        "amount": 2
+      },
+      {
+        "stars": 5,
+        "amount": 40
+      }
+    ],
+    "price": "1-100.000 ₫",
+    "price_details": {
+      "distribution": [
+        {
+          "price": "1-100.000 ₫",
+          "percentage": 92.85714285714286,
+          "reported_count": 13
+        },
+        {
+          "price": "100.000-200.000 ₫",
+          "percentage": 0,
+          "reported_count": 0
+        },
+        {
+          "price": "200.000-300.000 ₫",
+          "percentage": 7.142857142857142,
+          "reported_count": 1
+        }
+      ],
+      "total_reported": 14
+    },
+    "type": [
+      "Quán cà phê"
+    ],
+    "phone": "+84 944 644 251",
+    "service_options": {
+      "Ăn_tại_chỗ": true,
+      "Đồ_ăn_mang_đi": true,
+      "giao_hàng_gián_tiếp": true
+    },
+    "highlights": [
+      "Cà phê ngon",
+      "Nhiều trà ngon"
+    ],
+    "offerings": [
+      "Cà phê"
+    ],
+    "atmosphere": [
+      "Ấm cúng",
+      "Thông thường"
+    ],
+    "crowd": [
+      "Nhóm"
+    ],
+    "opening_hours": {
+      "open_state": "Đang mở cửa · Đóng cửa vào 23:00",
+      "hours": [
+        {
+          "thứ tư": "09:00–23:00"
+        },
+        {
+          "thứ năm": "09:00–23:00"
+        },
+        {
+          "thứ sáu": "09:00–23:00"
+        },
+        {
+          "thứ bảy": "09:00–23:00"
+        },
+        {
+          "chủ nhật": "09:00–23:00"
+        },
+        {
+          "thứ hai": "09:00–23:00"
+        },
+        {
+          "thứ ba": "09:00–23:00"
+        }
+      ]
+    },
+    "reviews": [
+      {
+        "username": "Mai Nguyễn",
+        "rating": 5,
+        "description": "Chiều nay mình có ghé quán, lâu lắm rồi không uống lại nên qua. Bạn nhân viên nam siu nhiệt tình, siu lễ phép, nước pha cũng ngon hơn mọi khi nữa. Mong quán giữ bạn ấy lại để +1 khách quen là mình 🍊"
+      },
+      {
+        "username": "Vân Anh Phạm",
+        "rating": 5,
+        "description": "Quán tuyệt vời, đồ uống ngon, quán thân thiện, rcm sunchill cho người thích trà và cacao nóng siu ngon ạ🤤 đã ra uống và đặt rất nhìu lần ạ"
+      },
+      {
+        "username": "Minh Hang Nguyen",
+        "rating": 4,
+        "description": "Đã thường xuyên đến quán này từ vài năm trước. Quán cũng đã qua nhiều đời chủ và về thiết kế thì cơ bản không có gì thay đổi. Quán hơi nhỏ nhưng có góc ban công thoáng mát, chill chill.\n\nNhân viên và chủ quán dễ tính, vui vẻ. Mình có nhờ bạn bật nhỏ nhạc thì bạn cũng rất nhanh nhẹn giúp.\n\nNgoài ra thì đồ uống rẻ và hương vị cũng ổn.\n\nTuy nhiên, có lẽ vì đây là quán ở gần trường Bách Khoa, nên tầm giờ chiều thường có các bạn sinh viên tới đây học hoặc làm việc (mình cũng nằm trong số đó). Thì mình thấy loa bật khá to và chủ yếu là nhạc ballad yêu và chia tay hơi não nề. Vì vậy quán sẽ ko phù hợp lắm để ai muốn ngồi học, đọc sách, hoặc tập trung.\n\nNgoài ra thì dù ban công xinh nhưng hơi bẩn. Có rác với vỏ hướng dương của khách trước vẫn chưa dọn."
+      },
+      {
+        "username": "Trần Lộc",
+        "rating": 5,
+        "description": "Trà sữa Suncha thật sự tuyệt vời! Menu đa dạng, topping phong phú và chất lượng. Mình rất ấn tượng với vị trà thơm, sữa béo vừa phải, không quá ngọt, uống rất dễ chịu. Không gian quán sạch sẽ, trang trí hiện đại và thoải mái để ngồi học hoặc trò chuyện cùng bạn bè. Nhân viên thì siêu thân thiện và phục vụ nhanh chóng. Giá cả hợp lý so với chất lượng. Chắc chắn sẽ quay lại thường xuyên và giới thiệu cho bạn bè"
+      },
+      {
+        "username": "Khánh Linh Hoàng",
+        "rating": 5,
+        "description": "chị chủ và bạn nhân viên đều niềm nở và dễ thương, không gian quán tuy bé nhưng rất thơm và sạch sẽ. Nước ngon và chất lượng tương xứng với giá tiền nháaa"
+      },
+      {
+        "username": "Thao Tran",
+        "rating": 5,
+        "description": "Đồ uống ngon, trái cây tươi, cửa hàng sạch sẽ mát mẻ. Nhân viên nhiệt tình"
+      },
+      {
+        "username": "Amy Nguyễn",
+        "rating": 5,
+        "description": "Trà hoa quả siêu ngon, siêu chất lượng. Bà chủ thì đáng yêu vui tính"
+      },
+      {
+        "username": "Minh Nguyễn",
+        "rating": 5,
+        "description": "món này ngon, ko nhớ tên =))) ngon ngọt thơm, nhãn giòn ngon nha"
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135ad004da84279:0xb26c4d0bb3ed2753",
+      "place_id": "ChIJeUKoTQCtNTERUyftswtNbLI"
+    }
+  },
+  {
+    "id": "24209",
+    "name": "63 Trần Đại Nghĩa",
+    "query_name": "Nước Dừa Trân Châu Phú Yên - Trần Đại Nghĩa",
+    "query_address": "63 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",
+    "address": "63 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội 100000, Việt Nam",
+    "location": {
+      "latitude": 21.0066526,
+      "longitude": 105.8453804
+    },
+    "google_maps_ids": {
+      "data_id": "0x3135ac7614fea935:0xe70fe36f371302a9",
+      "place_id": "ChIJNan-FHasNTERqQITN2_jD-c"
+    }
+  },
+  {
+    "id": "86930",
+    "name": "Bún Cá Cô Minh",
+    "query_name": "Bún Cá Cô Minh - Tạ Quang Bửu",
+    "query_address": "Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",
+    "address": "3 Ngh. 40/2 P. Tạ Quang Bửu, Bách Khoa, Bạch Mai, Hà Nội 100000, Việt Nam",
+    "location": {
+      "latitude": 21.0040943,
+      "longitude": 105.8465573
+    },
+    "rating": 4.2,
+    "review_count": 5,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 1
+      },
+      {
+        "stars": 2,
+        "amount": 0
+      },
+      {
+        "stars": 3,
+        "amount": 0
+      },
+      {
+        "stars": 4,
+        "amount": 0
+      },
+      {
+        "stars": 5,
+        "amount": 4
+      }
+    ],
+    "type": [
+      "Nhà hàng ăn nhanh"
+    ],
+    "service_options": {
+      "Ăn_tại_chỗ": true,
+      "Đồ_ăn_mang_đi": true
+    },
+    "offerings": [
+      "Nhà hàng thức ăn nhanh"
+    ],
+    "atmosphere": [
+      "Thông thường"
+    ],
+    "dining_options": [
+      "Dịch vụ ăn uống"
+    ],
+    "reviews": [
+      {
+        "username": "Vũ Tiến Đạt",
+        "rating": 5,
+        "description": "Ngon, nên thử nha"
+      },
+      {
+        "username": "Huy Việt",
+        "rating": 5,
+        "description": "Ăn từ năm nhất đến h chưa chán"
+      },
+      {
+        "username": "Tuấn anh Trần",
+        "rating": 1,
+        "description": "Trải nghiệm k tốt về nhân viên"
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135ad0067fc297f:0xabd1959b1b2f9bc7",
+      "place_id": "ChIJfyn8ZwCtNTERx5svG5uV0as"
+    }
+  },
+  {
+    "id": "27878",
+    "name": "Quán bánh tráng nướng",
+    "query_name": "Bánh Tráng Nướng Thảo Tồ - Tạ Quang Bửu",
+    "query_address": "10 Phố Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",
+    "address": "3a P. Tạ Quang Bửu, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",
+    "location": {
+      "latitude": 21.0061411,
+      "longitude": 105.84738779999999
+    },
+    "rating": 3.5,
+    "review_count": 8,
+    "rating_summary": [
+      {
+        "stars": 1,
+        "amount": 2
+      },
+      {
+        "stars": 2,
+        "amount": 0
+      },
+      {
+        "stars": 3,
+        "amount": 1
+      },
+      {
+        "stars": 4,
+        "amount": 2
+      },
+      {
+        "stars": 5,
+        "amount": 3
+      }
+    ],
+    "price": "1-100.000 ₫",
+    "price_details": {
+      "distribution": [
+        {
+          "price": "1-100.000 ₫",
+          "percentage": 100,
+          "reported_count": 3
+        },
+        {
+          "price": "100.000-200.000 ₫",
+          "percentage": 0,
+          "reported_count": 0
+        },
+        {
+          "price": "200.000-300.000 ₫",
+          "percentage": 0,
+          "reported_count": 0
+        }
+      ],
+      "total_reported": 3
+    },
+    "type": [
+      "Quán ăn nhỏ"
+    ],
+    "service_options": {
+      "Ăn_tại_chỗ": true,
+      "Đồ_ăn_mang_đi": true
+    },
+    "offerings": [
+      "Nhà hàng thức ăn nhanh"
+    ],
+    "atmosphere": [
+      "Thông thường"
+    ],
+    "crowd": [
+      "Nhóm"
+    ],
+    "dining_options": [
+      "Dịch vụ ăn uống",
+      "Phục vụ tại bàn"
+    ],
+    "reviews": [
+      {
+        "username": "Trần Trần",
+        "rating": 4,
+        "description": "Quán khá rộng, cả trông nhà và sân ngoài trời. Menu rất rất rất nhiều món. Nhưng bánh mì nướng thì dai má ơi dai luôn nhé. Quán kiểu buffet bân xiển ý, hầu hết là đồ chiên. Có cả cháo bún các thứ"
+      },
+      {
+        "username": "Quỳnh Anh Phạm",
+        "rating": 5,
+        "description": "Đồ ăn lên nhanh. Quán ở cạnh sát trạm y tế, có chỗ để xe máy thoải mái luôn. Đúng kiểu quán sv ý, vui vẻ, k khí nói chuyện thoải mái. Nma bánh gà k ngon, nem chua rán và bánh tráng nướng ngon hơn. Rá rẻ, chiều đông người lắm"
+      },
+      {
+        "username": "Rin Nguyễn",
+        "rating": 5,
+        "description": "Không thể đếm được số lần bọn mình đi ăn bánh tráng ở tiệm này. Có đợt là tuần nào cũng ăn luôn, quá là nghiền.\nThông thường bọn mình sẽ gọi bánh tráng nướng, trứng cút nướng, bánh tráng cuộn. Thỉnh thoảng sẽ gọi thêm nem chua rán và phomai que. Nhìn chung mình rất là ưng bánh tráng cuộn và trứng cút nướng ở đây. Món nào cũng đầy đặn và hợp khẩu vị lắm á!\nQuán ở khu sinh viên Bách Khoa nên giá thì siêu rẻ. Các món trung bình tầm 15k-25k thôi ý, gọi đầy một bàn cũng tầm 120k hai đứa ăn no dã man.\n\n📌 Địa chỉ: Quán Tít - cổng y tế số 5 Tạ Quang Bửu, Hai Bà Trưng, Hà Nội."
+      },
+      {
+        "username": "Phùng Ngọc Hà",
+        "rating": 4,
+        "description": "Quán rộng rãi, menu đồ ăn vặt đa dạng. Trứng cút nướng ngon. Phù hợp với sinh viên"
+      },
+      {
+        "username": "Hồng Minh Nguyễn",
+        "rating": 1,
+        "description": "Nhân viên phục vụ tốt mỗi tội bà chủ nói chuyện rất thái độ có í đuổi khách"
+      },
+      {
+        "username": "Hải Dương Nguyễn",
+        "rating": 1,
+        "description": "Phục vụ lâu quá"
+      }
+    ],
+    "google_maps_ids": {
+      "data_id": "0x3135ad67a36b2d79:0xd1b11477086f8e6c",
+      "place_id": "ChIJeS1ro2etNTERbI5vCHcUsdE"
+    }
+  }
+]

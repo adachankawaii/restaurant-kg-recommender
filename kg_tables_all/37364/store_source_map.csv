@@ -1,0 +1,3 @@
+﻿store_id,source_name,source_store_key,source_url,source_name_raw,address_raw,match_confidence,note
+37364,befood,37364,,Quán Ngon - Gà Tần & Bánh Cuốn Nóng - Tạ Quang Bửu,"Số 3A1 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
+37364,google,ChIJgSa2OdmrNTERdN2XjloqtMs,,"Hà Anh: Bánh Cuốn Nóng, Gà Tần, Mỳ Gà Tần","101 K10B Đ. Nguyễn Hiền, Bách Khoa, Bạch Mai, Hà Nội 11615, Việt Nam",high,method=direct_id; place_id=ChIJgSa2OdmrNTERdN2XjloqtMs; score=None

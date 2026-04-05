@@ -1,0 +1,19 @@
+﻿review_id,store_id,source_name,rated_at,rating_5,review_text,is_promo,reviewer,raw_rating_scale,sentiment
+be_86930_86,86930,befood,2025-05-24 11:56:00,3.0,"nhầm món, đặt bún cá chấm mà thành bún nước 😂, Sai/Thiếu món",0,,5,neutral
+be_86930_87,86930,befood,2026-01-08 21:13:00,5.0,Ngon xỉu,0,,5,positive
+be_86930_88,86930,befood,2024-10-17 19:38:00,5.0,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",0,,5,positive
+be_86930_89,86930,befood,2024-08-04 14:09:00,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",0,,5,positive
+be_86930_90,86930,befood,2025-11-09 00:05:00,4.0,"giao hàng nhanh, đúng đủ số lượng, sản phẩm. nhưng bún hơi mặn vs ít 🥲",0,,5,positive
+be_86930_91,86930,befood,2024-11-22 22:22:00,3.0,"thập cẩm hnay k có thịt bò
+quán cx k liên hệ lại để hỏi 
+nước dùng nhạt chắc mình đặt lúc quán gần đóng nên quán chế nước cho mình mà quên thêm gia vị",0,,5,neutral
+be_86930_92,86930,befood,2025-05-08 10:57:00,1.0,không đúng miêu tả,0,,5,negative
+be_86930_93,86930,befood,2025-07-05 17:13:00,5.0,,0,,5,positive
+be_86930_94,86930,befood,2025-04-28 02:56:00,5.0,,0,,5,positive
+be_86930_95,86930,befood,2024-12-27 19:47:00,5.0,,0,,5,positive
+be_86930_96,86930,befood,2024-10-29 11:41:00,5.0,,0,,5,positive
+be_86930_97,86930,befood,2024-10-14 16:21:00,5.0,,0,,5,positive
+be_86930_98,86930,befood,2024-08-01 16:57:00,5.0,,0,,5,positive
+google_86930_0,86930,google,,5.0,"Ngon, nên thử nha",0,Vũ Tiến Đạt,5,positive
+google_86930_1,86930,google,,5.0,Ăn từ năm nhất đến h chưa chán,0,Huy Việt,5,positive
+google_86930_2,86930,google,,1.0,Trải nghiệm k tốt về nhân viên,0,Tuấn anh Trần,5,negative

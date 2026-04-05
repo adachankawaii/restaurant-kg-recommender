@@ -1,0 +1,7 @@
+﻿store_id,aspect_name,mention_count,positive_mentions,negative_mentions,neutral_mentions,aspect_sentiment,evidence_sources
+118304,taste,7,7,0,0,positive,google
+118304,cleanliness,5,5,0,0,positive,google
+118304,staff_service,5,5,0,0,positive,google
+118304,space,4,4,0,0,positive,google
+118304,value_for_money,3,3,0,0,positive,google
+118304,work_friendly,2,2,0,0,positive,google

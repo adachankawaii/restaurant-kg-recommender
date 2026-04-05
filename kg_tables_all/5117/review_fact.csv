@@ -1,0 +1,62 @@
+﻿review_id,store_id,source_name,rated_at,rating_5,review_text,is_promo,reviewer,raw_rating_scale,sentiment
+be_5117_62,5117,befood,2026-03-20 17:05:00,5.0,"ngon mới uống ts lài thấy k ngấy thơm trà, Ngon xỉu",0,,5,positive
+be_5117_63,5117,befood,2026-03-19 15:48:00,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",0,,5,positive
+be_5117_64,5117,befood,2026-03-19 15:41:00,4.0,Khá ngon,0,,5,positive
+be_5117_65,5117,befood,2026-03-17 10:24:00,5.0,"ngon, đậm vị trà, dễ uống",0,,5,positive
+be_5117_66,5117,befood,2026-03-25 00:18:00,5.0,,0,,5,positive
+be_5117_67,5117,befood,2026-03-24 18:04:00,5.0,,0,,5,positive
+be_5117_68,5117,befood,2026-03-24 10:17:00,5.0,,0,,5,positive
+be_5117_69,5117,befood,2026-03-21 12:52:00,5.0,,0,,5,positive
+be_5117_70,5117,befood,2026-03-21 11:37:00,5.0,,0,,5,positive
+be_5117_71,5117,befood,2026-03-20 17:08:00,5.0,,0,,5,positive
+be_5117_72,5117,befood,2026-03-20 17:07:00,5.0,,0,,5,positive
+be_5117_73,5117,befood,2026-03-20 15:16:00,5.0,,0,,5,positive
+be_5117_74,5117,befood,2026-03-20 13:43:00,5.0,,0,,5,positive
+be_5117_75,5117,befood,2026-03-20 12:29:00,5.0,,0,,5,positive
+be_5117_76,5117,befood,2026-03-19 20:05:00,5.0,,0,,5,positive
+be_5117_77,5117,befood,2026-03-19 14:16:00,5.0,,0,,5,positive
+be_5117_78,5117,befood,2026-03-19 13:07:00,5.0,,0,,5,positive
+be_5117_79,5117,befood,2026-03-18 14:23:00,5.0,,0,,5,positive
+be_5117_80,5117,befood,2026-03-18 11:22:00,5.0,,0,,5,positive
+be_5117_81,5117,befood,2026-03-17 20:04:00,5.0,,0,,5,positive
+foody_17358299,5117,foody,2023-03-20 00:00:00,1.1,"Phúc Long Trần Đại Nghĩa Quá tệ Mình vào oder nhân viên lơ lơ vẫn ngồi nói chuyện với nhau mãi mới hỏi mình dùng gì để cho oder. Đến khi lên trên quán bàn cực bẩn cốc nước khách để tùm lum trên bàn phải 15-20p sau mới có người lên dọn, dãy ban công tâng 3 thì thôi không ai dọn luôn. Ngồi được 15p mình đi về xin túi để mang nước về, mình có hỏi :"" Bên bạn còn túi không, có thể cho mình xin túi để mang nước về"" nhân viên đáp xanh rờn : "" có!"". Ngồi một lần từ thái độ phục vụ, đến vệ sinh quán cực tệ. Mình không phải khó tính, nhưng thái độ thờ ơ khi khách oder, rồi nói chuyện không chủ ngữ vị ngữ thì thôi xin tạm biệt. Tính ra ngồi để thư giãn ai ngờ mang bực vào mình",1,Công Tuyền,10,negative
+foody_14956894,5117,foody,2022-01-19 00:00:00,2.9,Phúc Long Trần Đại Nghĩa Hi. Mình có order Caramel chảy bên PL kết quả là bạn mình bị nôn do bị say cà phê ạ. Mình nghĩ PL nên để rõ thành phần có trong món trên app để ko gặp phải những trường hợp tương tự. Tội nghiệp bạn mình nôn nguyên buổi tối 😥,0,Dũng Trần,10,neutral
+foody_14395393,5117,foody,2021-12-08 00:00:00,2.2,Nhân viên cần training 11h sáng Khách đang ngồi tự dưng ra tắt bụp phát hết đèn đi chả hiểu kiểu gì muốn đuổi khách ah.,0,Tien Vu,10,neutral
+foody_12514617,5117,foody,2021-05-05 00:00:00,0.5,"Đồ uống có vị xăng Sáng nay mình vừa mua 1 cốc phúc long ở phúc long trần đại nghĩa. Hí hửng sẽ ngon như mọi khi nhưng không, uống cốc trà vải mà có vị xăng, uống xong đầu lưỡi còn có vị nhựa :D. Mình không hiểu phúc long này làm ăn kiểu gì nhưng như thế này thì không thể chấp nhận được. Tạm biệt và sẽ không hẹn gặp lại",0,Pham Dinh Thien,10,negative
+foody_12312097,5117,foody,2021-04-20 00:00:00,0.5,Giao nhầm hàng M đặt trà đào sữa đá. Cửa hàng giao ko có sữa. :). dừa xay đá chán kinh khủng. Ăn nó cứ lợn cợn ấy.,0,Giang Hương,10,negative
+foody_12164334,5117,foody,2021-04-12 00:00:00,1.4,"Đồ uống dở tệ. chọn Ô long sữa, mà vẫn đắng và nhạt. Do trà sữa vừa pha nóng, nó cho đá vào luôn, hỏi s k nhạt. Đồ uống dở tệ. chọn Ô long sữa, mà vẫn đắng và nhạt. Do trà sữa vừa pha nóng, nó cho đá vào luôn, hỏi s k nhạt.",0,Minh Trang,10,negative
+foody_8896337,5117,foody,2020-10-25 00:00:00,0.5,"Đồ uống ngon nhưng vì sao mình lại cho 1 điểm !!! Đồ uống thì mình thấy không có gì để chê cả nên thỉnh thoảng vẫn qua uống. Và hôm nay chủ nhật đẹp trời mình lại tới, trước cửa hàng còn thừa rất nhiều chỗ để xe NHƯNG chú bảo vệ lại không cho mình phi xe lên đó mà bắt mình gửi bên đường và mất thêm tiền. Ơ, hết chỗ thì không nói làm gì, nhưng mà đây lại còn thừa rất nhiều chỗ mà không cho để xe là sao. Mình có nói thì chú bảo thông cảm vậy chịu khó sang đường gửi. Oki, mình thông cảm cho chú và quyết định quay xe sang quán bên cạnh ngồi cho chú vừa lòng :)). Vậy cho nên quán mất khách đôi lúc không phải do đồ uống tệ hay giá quá đắt đâu các bạn ạ.",0,just_a_random_dude,10,negative
+foody_8273857,5117,foody,2020-09-28 00:00:00,3.9,"Đồ uống ổn Quán rộng nhưng rất rất đông, mình đến buổi tối phải xếp hàng chờ 1 lúc mới gọi được đồ uống. Là nơi tụ tập bạn bè lý tưởng, đồ uống ổn, giá k rẻ nhưng k quá đắt",0,Hoàng Kiều Linh,10,neutral
+foody_5989623,5117,foody,2020-06-26 00:00:00,1.6,"Phúc Long Coffee & Tea - Trần Đại Nghĩa Cửa hàng bé, không có chỗ gửi xe, bắt buộc phải sang đường gửi xe mất 5k, bảo vệ và nv dọn dẹp thái độ khó chịu như muốn đuổi khách",0,hoangduong28,10,negative
+foody_5987630,5117,foody,2020-06-25 00:00:00,2.4,"Phúc Long Coffee & Tea - Trần Đại Nghĩa Ngồi thử cơ sở này vì gần nhà hơn nhưng chắc lsau không quay lại hoặc chỉ order Now thôi chứ thái độ***bảo vệ không tốt cực kì. Mình đi vào tầm 7r 8h tối cũng ko đông lắm đâu ạ vẫn còn chỗ để xe trước cửa quán nhé nhưng lúc mình định phi xe lên thì bve nhất quyết ko cho mà chỉ tay sang đường gửi xong bảo là rẽ vào sau con ô tô, mà bên đường thì đỗ 1 hàng ô tô cơ ạ nên mình kbiet cái nào. Mình hỏi lại thì thái độ với mình như kiểu mình đi ăn xin chứ ko phải bỏ tiền ra để được hưởng dịch vụ, xong tí bạn mình đến sau mình lại phải ra chỉ chỗ để xe cho. Chỗ gửi xe bên đường thì lúc mình đi xe vào ở bốt trông xe ko có ai, về sau có 1 chú đi tới nhưng ko ra đưa thẻ xe cho mình mặc dù có nhìn thấy? Mình còn đứng đợi một lúc xem chú có ra không xong mới định đi thì chú gọi giật lại bắt mình chạy vào bốt cách đấy 10m để lấy thẻ xe xong kêu ở đâu thì cũng phải thế này thế kia, không lấy thẻ thì tí không cho lấy xe các kiểu. Xong tí ra lấy xe thì mất 5k hay 10k/1xe gì đó mình không nhớ. Mình đi 2 xe vị chi mất 10-20k gửi xe rồi mà vào uống 2 cốc nước có gần 100k trong khi cửa hàng có chỗ gửi xe? Vô lí cực kì luôn ạ lsau thèm nhưng chắc cũng né cơ sở này ra hoy hoặc gọi ship cho khoẻ ạ. Ah đồ uống thì vẫn ổn, các bạn nvien trong cửa hàng cũng nhiệt tình nhưng thái độ bảo vệ thì không iu được ạ 😃",0,Tú Anh Đào,10,neutral
+google_5117_0,5117,google,,5.0,"🇻🇳 Phúc Long – 69 Trần Đại Nghĩa, Hải Phòng
+
+☕ Quán nằm trên trục đường Trần Đại Nghĩa, vị trí dễ tìm, thuận tiện ghé nhanh
+🍵 Trà và cà phê giữ đúng hương vị Phúc Long quen thuộc, đậm trà, dễ uống
+🪑 Không gian gọn gàng, sạch sẽ, phù hợp ngồi ngắn hoặc mua mang đi
+👩‍🍳 Nhân viên phục vụ nhanh, khá chuyên nghiệp kể cả giờ cao điểm
+💰 Giá ở mức chuỗi thương hiệu, phù hợp học sinh, sinh viên và dân văn phòng
+⛔ Một số khung giờ quán khá đông, không gian ngồi chưa thật sự thoải mái nếu ở lâu
+
+⸻
+
+🇬🇧 Phuc Long – 69 Tran Dai Nghia, Hai Phong
+
+☕ Convenient location on Tran Dai Nghia Street, easy to stop by
+🍵 Signature tea and coffee with strong, familiar Phuc Long flavors
+🪑 Clean and tidy space, suitable for short stays or takeaway
+👩‍🍳 Fast and professional service even during busy hours
+💰 Reasonable prices for a popular beverage chain
+⛔ Can get crowded at peak times, not ideal for long stays",0,Quốc Hưng,5,positive
+google_5117_1,5117,google,,3.0,"Các món liên quan tới trà sữa ngon nhưng trà thì chưa thật sự vừa ý, nhân viên order cho khách nói chuyện thiếu niềm nở, nhà vệ sinh thì bẩn, cần training lại thái độ nhân viên.",0,Minh Xeo Nguyễn,5,neutral
+google_5117_2,5117,google,,1.0,"Đồ uống giá cao, chất lượng không tương xứng. Trà nhãn sen, nếu topping chỉ có nhãn thì nên đặt tên đúng bản chất là ""trà sen thêm nhãn""",0,Huyen Nguyen,5,negative
+google_5117_3,5117,google,,2.0,"Đang tìm chỗ ngồi nch ai ngờ bước vào thấy nguyên cái quán học bài :))). Ord nước tầng 1 xong lên tầng trên tìm chỗ ngồi thì thấy tất cả mng chạy dl, ko dám ho he gì. Cf thấy cũng bthg
+Ko đủ ấn tượng để qlai 🥲",0,Hường Nguyễn Thị Thúy,5,negative
+google_5117_4,5117,google,,3.0,"Mình thường xuyên ghé Phúc Long cơ sở Trần Đại Nghĩa, nhưng lần nào tới cũng bị bảo vệ bảo gửi xe ở đoạn ngã ba hoặc bãi xe B6 dù quán thời điểm đó rất ít khách. Bên bãi xe gửi miễn phí thì rất vắng xe nhưng bảo vệ xếp xe cách quá xa nhau và bảo phải ra bãi gửi xe mất phí để gửi",0,Hải Yến Lê,5,neutral
+google_5117_5,5117,google,,1.0,"Tệ. Trên hoá đơn ghi mở cửa đến 23h nhưng 22h đã đuổi khách. Trước khi vào đã cẩn thận hỏi nhân viên là mở cửa đến mấy giờ thì bảo là đến 22h là đóng quầy dọn dẹp, ok hiểu là không nhận đơn nữa còn ngồi thì cứ ngồi ai ngờ đến đúng giờ dọn quầy là cũng được “mời” về luôn.
+
+Đồ uống thì như đấm vào mồm. Trà sữa ô long nhạt thếch không rõ vị trà, cảm giác như nước chè chát. Matcha thì không hay uống nên không rành lắm nhưng mà nó chua trời ơi lần đầu uống cốc matcha nó chua lạ lùng.
+
+Tóm lại là Phúc Long cứ như này thì quá xứng đáng với 2 chữ HẾT THỜI. Giờ rất nhiều brand khác đồ uống ngon vừa miệng mà chiều khách.",0,Vương Trung Hiếu,5,negative
+google_5117_6,5117,google,,2.0,"Đồ uống siêu tệ nha. Hạt đác thơm ko đều, hạt nhũn hạt cứng. Dứa thì cứng và xơ, kiểu để rất lâu r í, ko xứng với giá 70k/ cốc. Matcha là vị loại bình thường, tạm được. Với giá này mình sẽ có nhiều lựa chọn ngon hơn và xứng với giá tiền, ko gian hơn nhé",0,Hoang Lan Nguyen,5,negative
+google_5117_7,5117,google,,4.0,"Quán ko gian rộng, 2 tầng còn tầng t3 thì đang setup, khách hàng chủ yếu là sinh viên, đồ uống chủ yếu là các loại trà. Mình gọi trà sen nhãn 45k thì thấy hơi ngọt gắt, uống có vị trà khá đậm tuy nhiên mình gọi sen nhãn nhưng chỉ có nhãn thui và nó bị ngọt quá.  Không gian đơn giản, mát mẻ, dễ chịu",0,Khánh Linh Đỗ,5,positive

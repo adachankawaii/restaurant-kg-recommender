@@ -1,0 +1,7 @@
+﻿store_id,aspect_name,mention_count,positive_mentions,negative_mentions,neutral_mentions,aspect_sentiment,evidence_sources
+96198,taste,7,5,1,1,positive,google
+96198,value_for_money,5,5,0,0,positive,google
+96198,cleanliness,4,4,0,0,positive,google
+96198,staff_service,4,3,0,1,positive,google
+96198,space,2,2,0,0,positive,google
+96198,work_friendly,1,1,0,0,mixed_positive,google

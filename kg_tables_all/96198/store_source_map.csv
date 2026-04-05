@@ -1,0 +1,3 @@
+﻿store_id,source_name,source_store_key,source_url,source_name_raw,address_raw,match_confidence,note
+96198,befood,96198,,92 Degree - Trần Đại Nghĩa,"75 Trần Đại Nghĩa, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
+96198,google,ChIJx4O7LQCtNTERW8cByt7xLGQ,,92 Degree coffee and milk tea,"75 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJx4O7LQCtNTERW8cByt7xLGQ; score=None

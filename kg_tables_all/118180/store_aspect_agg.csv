@@ -1,0 +1,8 @@
+﻿store_id,aspect_name,mention_count,positive_mentions,negative_mentions,neutral_mentions,aspect_sentiment,evidence_sources
+118180,taste,15,11,2,2,positive,befood|google
+118180,cleanliness,10,8,0,2,positive,befood|google
+118180,value_for_money,6,3,1,2,positive,google
+118180,space,5,3,0,2,positive,google
+118180,staff_service,4,2,1,1,mixed,google
+118180,delivery_accuracy,1,0,1,0,mixed_negative,google
+118180,work_friendly,1,1,0,0,mixed_positive,google

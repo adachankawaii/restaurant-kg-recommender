@@ -1,0 +1,6 @@
+﻿store_id,aspect_name,mention_count,positive_mentions,negative_mentions,neutral_mentions,aspect_sentiment,evidence_sources
+32441,taste,18,9,5,4,positive,befood|foody|google
+32441,cleanliness,12,4,5,3,mixed,befood|foody|google
+32441,staff_service,11,2,6,3,negative,foody|google
+32441,value_for_money,11,3,5,3,negative,befood|foody|google
+32441,space,8,3,3,2,mixed,foody|google

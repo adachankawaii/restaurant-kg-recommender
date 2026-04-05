@@ -1,0 +1,6 @@
+﻿store_id,aspect_name,mention_count,positive_mentions,negative_mentions,neutral_mentions,aspect_sentiment,evidence_sources
+27878,taste,9,7,2,0,positive,befood|google
+27878,cleanliness,6,4,2,0,positive,befood|google
+27878,space,3,3,0,0,positive,google
+27878,value_for_money,3,2,1,0,mixed,befood|google
+27878,staff_service,2,0,2,0,negative,google

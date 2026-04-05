@@ -1,0 +1,6 @@
+﻿store_id,aspect_name,mention_count,positive_mentions,negative_mentions,neutral_mentions,aspect_sentiment,evidence_sources
+37364,taste,7,5,2,0,positive,google
+37364,cleanliness,6,5,1,0,positive,google
+37364,value_for_money,4,2,2,0,mixed,google
+37364,space,3,1,2,0,mixed,google
+37364,staff_service,1,0,1,0,mixed_negative,google
