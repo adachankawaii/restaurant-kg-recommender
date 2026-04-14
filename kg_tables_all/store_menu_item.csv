@@ -1,0 +1,41 @@
+﻿menu_item_id,store_id,item_name,item_category,price_vnd,is_signature,spicy_level,dietary_tag,source_name
+mi_5117_1,5117,Trà sữa trân châu,milk_tea,35000,1,0,vegetarian,mock_menu
+mi_5117_2,5117,Cà phê sữa đá,coffee,32000,0,0,vegetarian,mock_menu
+mi_5117_3,5117,Trà đào cam sả,fruit_tea,39000,0,0,vegetarian,mock_menu
+mi_5117_4,5117,Bánh ngọt dùng kèm,dessert,29000,0,0,vegetarian,mock_menu
+mi_24209_1,24209,Trà sữa trân châu,milk_tea,35000,1,0,vegetarian,mock_menu
+mi_24209_2,24209,Cà phê sữa đá,coffee,32000,0,0,vegetarian,mock_menu
+mi_24209_3,24209,Trà đào cam sả,fruit_tea,39000,0,0,vegetarian,mock_menu
+mi_24209_4,24209,Bánh ngọt dùng kèm,dessert,29000,0,0,vegetarian,mock_menu
+mi_27878_1,27878,Bánh tráng nướng,snack,25000,1,1,meat,mock_menu
+mi_27878_2,27878,Bánh tráng cuốn,snack,30000,0,1,meat,mock_menu
+mi_27878_3,27878,Nem chua rán,snack,35000,0,0,meat,mock_menu
+mi_27878_4,27878,Trà tắc,drink,15000,0,0,vegetarian,mock_menu
+mi_28819_1,28819,Trà sữa trân châu,milk_tea,35000,1,0,vegetarian,mock_menu
+mi_28819_2,28819,Cà phê sữa đá,coffee,32000,0,0,vegetarian,mock_menu
+mi_28819_3,28819,Trà đào cam sả,fruit_tea,39000,0,0,vegetarian,mock_menu
+mi_28819_4,28819,Bánh ngọt dùng kèm,dessert,29000,0,0,vegetarian,mock_menu
+mi_32441_1,32441,Trà sữa trân châu,milk_tea,35000,1,0,vegetarian,mock_menu
+mi_32441_2,32441,Cà phê sữa đá,coffee,32000,0,0,vegetarian,mock_menu
+mi_32441_3,32441,Trà đào cam sả,fruit_tea,39000,0,0,vegetarian,mock_menu
+mi_32441_4,32441,Bánh ngọt dùng kèm,dessert,29000,0,0,vegetarian,mock_menu
+mi_37364_1,37364,Gà tần,traditional_food,55000,1,0,meat,mock_menu
+mi_37364_2,37364,Bánh cuốn nóng,traditional_food,35000,0,0,meat,mock_menu
+mi_37364_3,37364,Cháo/súp nóng,traditional_food,30000,0,0,meat,mock_menu
+mi_37364_4,37364,Rau ăn kèm,side_dish,10000,0,0,vegetarian,mock_menu
+mi_86930_1,86930,Trà sữa trân châu,milk_tea,35000,1,0,vegetarian,mock_menu
+mi_86930_2,86930,Cà phê sữa đá,coffee,32000,0,0,vegetarian,mock_menu
+mi_86930_3,86930,Trà đào cam sả,fruit_tea,39000,0,0,vegetarian,mock_menu
+mi_86930_4,86930,Bánh ngọt dùng kèm,dessert,29000,0,0,vegetarian,mock_menu
+mi_96198_1,96198,Trà sữa trân châu,milk_tea,35000,1,0,vegetarian,mock_menu
+mi_96198_2,96198,Cà phê sữa đá,coffee,32000,0,0,vegetarian,mock_menu
+mi_96198_3,96198,Trà đào cam sả,fruit_tea,39000,0,0,vegetarian,mock_menu
+mi_96198_4,96198,Bánh ngọt dùng kèm,dessert,29000,0,0,vegetarian,mock_menu
+mi_118180_1,118180,Trà sữa trân châu,milk_tea,35000,1,0,vegetarian,mock_menu
+mi_118180_2,118180,Cà phê sữa đá,coffee,32000,0,0,vegetarian,mock_menu
+mi_118180_3,118180,Trà đào cam sả,fruit_tea,39000,0,0,vegetarian,mock_menu
+mi_118180_4,118180,Bánh ngọt dùng kèm,dessert,29000,0,0,vegetarian,mock_menu
+mi_118304_1,118304,Trà sữa trân châu,milk_tea,35000,1,0,vegetarian,mock_menu
+mi_118304_2,118304,Cà phê sữa đá,coffee,32000,0,0,vegetarian,mock_menu
+mi_118304_3,118304,Trà đào cam sả,fruit_tea,39000,0,0,vegetarian,mock_menu
+mi_118304_4,118304,Bánh ngọt dùng kèm,dessert,29000,0,0,vegetarian,mock_menu

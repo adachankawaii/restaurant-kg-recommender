@@ -1,0 +1,11 @@
+﻿location_id,store_id,canonical_address,street,ward,district,city,lat,lng,area_tag
+loc_5117,5117,"69 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",69 Phố Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00653076,105.8454971,bach_khoa_hai_ba_trung
+loc_24209,24209,"63 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",63 Phố Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00665092,105.8453827,bach_khoa_hai_ba_trung
+loc_27878,27878,"10 Phố Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",10 Phố Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00597,105.8471832,bach_khoa_hai_ba_trung
+loc_28819,28819,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",91 Phố Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00411034,105.8455963,bach_khoa_hai_ba_trung
+loc_32441,32441,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",91 Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00428963,105.8455582,bach_khoa_hai_ba_trung
+loc_37364,37364,"Số 3A1 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Hai Bà Trưng, Hà Nội",Số 3A1 Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00509071,105.8468018,bach_khoa_hai_ba_trung
+loc_86930,86930,"Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",Số 3 Ngõ 40/2 Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00382042,105.8466873,bach_khoa_hai_ba_trung
+loc_96198,96198,"75 Trần Đại Nghĩa, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",75 Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00592995,105.8457565,bach_khoa_hai_ba_trung
+loc_118180,118180,"71B Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",71B Trần Đại Nghĩa,Bạch Mai,Phường Bạch Mai,Hà Nội,21.00646019,105.8456116,bach_mai_phuong_bach_mai
+loc_118304,118304,"65 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",65 Trần Đại Nghĩa,Bạch Mai,Phường Bạch Mai,Hà Nội,21.00655937,105.8453598,bach_mai_phuong_bach_mai

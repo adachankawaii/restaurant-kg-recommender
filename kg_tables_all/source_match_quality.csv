@@ -1,0 +1,11 @@
+﻿store_id,source_name,match_confidence_recomputed,geo_distance_m,name_similarity,address_similarity,is_suspect,note
+5117,google,high,2.3,0.286,0.667,0,mock_recheck: looks usable
+24209,google,high,0.3,0.333,0.625,0,mock_recheck: looks usable
+27878,google,high,28.5,0.333,0.529,0,mock_recheck: looks usable
+28819,google,high,87.7,0.4,0.667,0,mock_recheck: looks usable
+32441,google,low,689.9,1.0,0.333,1,mock_recheck: verify Google place manually
+37364,google,low,462.2,0.385,0.19,1,mock_recheck: verify Google place manually
+86930,google,high,33.3,0.571,0.435,0,mock_recheck: looks usable
+96198,google,medium,11.6,0.222,0.5,0,mock_recheck: looks usable
+118180,google,medium,20.1,0.083,0.667,0,mock_recheck: looks usable
+118304,google,medium,14.5,0.1,0.667,0,mock_recheck: looks usable

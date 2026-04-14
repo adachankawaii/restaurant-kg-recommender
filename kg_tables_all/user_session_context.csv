@@ -1,0 +1,4 @@
+﻿session_id,user_id,query_time,current_lat,current_lng,radius_m,party_size,budget_min_vnd,budget_max_vnd,intent,desired_service,weather_context,time_context
+s001,u001,2026-04-14 11:45:00,21.0058,105.8458,900,2,25000,50000,quick_lunch,dine_in,hot,lunch
+s002,u002,2026-04-14 15:30:00,21.0062,105.846,700,1,30000,70000,work_friendly_cafe,dine_in,normal,afternoon
+s003,u003,2026-04-14 20:15:00,21.0045,105.8465,1200,4,20000,45000,group_snack,takeaway,rain,evening

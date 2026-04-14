@@ -1,0 +1,4 @@
+﻿user_id,display_name,home_district,dietary_profile,default_budget_vnd
+u001,Sinh viên Bách Khoa,Hai Bà Trưng,no_restriction,45000
+u002,Nhân viên văn phòng,Đống Đa,low_spicy,65000
+u003,Người dùng ăn nhẹ,Hai Bà Trưng,vegetarian_flexible,40000

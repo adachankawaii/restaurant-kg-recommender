@@ -1,0 +1,7 @@
+﻿user_id,preference_type,preference_value,weight,source
+u001,category,noodle_rice_fastcasual,0.9,mock_profile
+u001,aspect,value_for_money,0.8,mock_profile
+u002,aspect,work_friendly,0.95,mock_profile
+u002,service,seating,0.75,mock_profile
+u003,category,an_vat,0.85,mock_profile
+u003,service,đo_an_mang_đi,0.7,mock_profile

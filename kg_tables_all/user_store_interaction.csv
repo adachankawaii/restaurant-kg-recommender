@@ -1,0 +1,7 @@
+﻿interaction_id,user_id,store_id,interaction_type,interacted_at,rating_5,session_id,source
+ui_001,u001,32441,clicked,2026-04-14 11:10:00,4.0,s001,mock_interaction
+ui_002,u001,86930,ordered,2026-04-14 12:10:00,4.5,s001,mock_interaction
+ui_003,u002,28819,saved,2026-04-14 13:10:00,4.0,s002,mock_interaction
+ui_004,u002,5117,visited,2026-04-14 14:10:00,3.5,s002,mock_interaction
+ui_005,u003,27878,ordered,2026-04-14 15:10:00,4.5,s003,mock_interaction
+ui_006,u003,118304,clicked,2026-04-14 16:10:00,4.0,s003,mock_interaction
