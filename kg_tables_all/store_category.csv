@@ -1,60 +1,545 @@
 ﻿store_id,category_type,category_value,source_name
-5117,primary,cafe_tea,befood
-5117,place_type,quan_ca_phe,google
-5117,offering,ca_phe,google
-5117,offering,nha_hang_thuc_an_nhanh,google
-5117,highlight,ca_phe_ngon,google
-5117,highlight,mon_trang_mieng_ngon,google
-5117,highlight,nhieu_tra_ngon,google
-24209,primary,sinh_to_nuoc_ep_sua,befood
-27878,primary,an_vat,befood
-27878,place_type,quan_an_nho,google
-27878,offering,nha_hang_thuc_an_nhanh,google
-28819,primary,cafe_tea,befood
-28819,place_type,quan_ca_phe,google
-28819,offering,ca_phe,google
-28819,offering,nha_hang_thuc_an_nhanh,google
-28819,highlight,ca_phe_ngon,google
-28819,highlight,mon_trang_mieng_ngon,google
-28819,highlight,nhieu_tra_ngon,google
-32441,primary,noodle_rice_fastcasual,befood
-32441,place_type,nha_hang_han_quoc,google
-32441,offering,nha_hang_thuc_an_nhanh,google
-37364,primary,mon_truyen_thong_đac_san,befood
-37364,place_type,quan_an_nho,google
-37364,place_type,nha_hang_an_nhanh,google
-37364,place_type,nha_hang_pho,google
-37364,place_type,nha_hang,google
-37364,place_type,quan_an_nhe,google
-37364,offering,an_thoa_thich,google
-37364,offering,bia,google
-37364,offering,ca_phe,google
-37364,offering,cac_mon_chay,google
-37364,offering,cac_mon_thuan_chay,google
-37364,offering,co_gio_giam_gia_đac_biet,google
-37364,offering,đo_an_khuya,google
-37364,offering,đo_uong_vao_gio_vang,google
-37364,offering,mon_an_tu_nguyen_lieu_huu_co,google
-37364,offering,nha_hang_thuc_an_nhanh,google
-37364,offering,phan_an_nho,google
-37364,offering,phong_an_rieng_tu,google
-37364,offering,quay_rau_tron,google
-37364,offering,ruou,google
-37364,highlight,cho_ngoi_tren_san_thuong,google
-37364,highlight,lo_suoi,google
-37364,highlight,the_thao,google
-86930,primary,noodle_rice_fastcasual,befood
-86930,place_type,nha_hang_an_nhanh,google
-86930,offering,nha_hang_thuc_an_nhanh,google
-96198,primary,cafe_tea,befood
-96198,place_type,quan_ca_phe,google
-96198,offering,ca_phe,google
-118180,primary,cafe_tea,befood
-118180,place_type,quan_ca_phe,google
-118180,offering,ca_phe,google
-118180,highlight,ca_phe_ngon,google
-118304,primary,cafe_tea,befood
-118304,place_type,quan_ca_phe,google
-118304,offering,ca_phe,google
-118304,highlight,ca_phe_ngon,google
-118304,highlight,nhieu_tra_ngon,google
+32441,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+32441,google_type,Nhà hàng Hàn Quốc,google_maps_unique
+32441,foody_category,Nhà hàng,foody_hust_places
+32441,foody_cuisine,Món Hàn,foody_hust_places
+32441,wifi,seoultang1::66668888|seoul tang1::66668888|Seoul tang1::91trandainghia,foody_hust_places
+32441,menu_category,Hot Deal,menu_item_from_top5_json
+32441,menu_category,Mì Cay,menu_item_from_top5_json
+32441,menu_category,Đồ Ăn Vặt,menu_item_from_top5_json
+32441,menu_category,Lẩu,menu_item_from_top5_json
+32441,menu_category,Trà Sữa Kem Mặn,menu_item_from_top5_json
+32441,menu_category,Nước Ép,menu_item_from_top5_json
+32441,menu_category,Trà,menu_item_from_top5_json
+32441,menu_category,Nước ngọt,menu_item_from_top5_json
+32441,menu_category,Soda,menu_item_from_top5_json
+31947,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+31947,google_type,Nhà hàng,google_maps_unique
+31947,foody_category,Quán ăn,foody_hust_places
+31947,menu_category,Mì bùnn,menu_item_from_top5_json
+31947,menu_category,Set mì vuiii,menu_item_from_top5_json
+31947,menu_category,Combo,menu_item_from_top5_json
+31947,menu_category,Drink,menu_item_from_top5_json
+40268,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+40268,google_type,Nhà hàng ăn nhanh,google_maps_unique
+40268,foody_category,Quán ăn,foody_hust_places
+40268,menu_category,Giảm 25K - ĐÃÃ QUÁ PEPSI ƠI,menu_item_from_top5_json
+40268,menu_category,Giảm 40K - ĐÃÃ QUÁ PEPSI ƠI!,menu_item_from_top5_json
+40268,menu_category,MÓN MỚI,menu_item_from_top5_json
+40268,menu_category,COMBO BÙNG CHÁY,menu_item_from_top5_json
+40268,menu_category,MENU,menu_item_from_top5_json
+40268,menu_category,COMBO,menu_item_from_top5_json
+40268,menu_category,ĐỒ UỐNG,menu_item_from_top5_json
+40268,menu_category,ĐỒ CHIÊN ĂN VẶT,menu_item_from_top5_json
+72445,primary,Bánh Mì/Xôi,store_from_top5_json
+72445,google_type,Nhà hàng Việt Nam,google_maps_unique
+72445,foody_category,Quán ăn,foody_hust_places
+72445,menu_category,BÁNH MÌ CHẢO SỐT VANG BẾP CÔ NỤ,menu_item_from_top5_json
+72445,menu_category,ĐỒ UỐNG,menu_item_from_top5_json
+126679,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+126679,google_type,Nhà hàng châu Á,google_maps_unique
+126679,menu_category,Mì Cay Sassin,menu_item_from_top5_json
+126679,menu_category,Ăn Vặt,menu_item_from_top5_json
+80180,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+80180,google_type,Nhà hàng phở,google_maps_unique
+80180,foody_category,Quán ăn,foody_hust_places
+80180,menu_category,Cháo,menu_item_from_top5_json
+80180,menu_category,Mì xào,menu_item_from_top5_json
+80180,menu_category,Đồ uống,menu_item_from_top5_json
+80180,menu_category,Mì trộn,menu_item_from_top5_json
+80180,menu_category,Phở trộn,menu_item_from_top5_json
+80180,menu_category,Miến trộn,menu_item_from_top5_json
+80180,menu_category,Phở nước,menu_item_from_top5_json
+80180,menu_category,Miến nước,menu_item_from_top5_json
+47053,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+47053,google_type,Quán ăn nhỏ,google_maps_unique
+47053,foody_category,QuÃ¡n Äƒn,foody_hust_places
+47053,menu_category,BÚN SƯỜN CHUA TRỘN,menu_item_from_top5_json
+47053,menu_category,BÚN SƯỜN CHUA,menu_item_from_top5_json
+47053,menu_category,CHÁO SƯỜN SỤN,menu_item_from_top5_json
+47053,menu_category,Mỳ Sườn Chua Trộn,menu_item_from_top5_json
+47053,menu_category,Đồ uống,menu_item_from_top5_json
+47053,menu_category,Topping Thêm,menu_item_from_top5_json
+47053,menu_category,Mỳ Sườn Chua,menu_item_from_top5_json
+130783,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+130783,google_type,Nhà hàng,google_maps_unique
+130783,foody_category,Ăn vặt/vỉa hè,foody_hust_places
+130783,menu_category,Bún Bò Huế Sườn,menu_item_from_top5_json
+130783,menu_category,Bún Bò Huế,menu_item_from_top5_json
+130783,menu_category,Bún Bò Huế Tự Chọn,menu_item_from_top5_json
+130783,menu_category,Bún Bò Huế - Coca,menu_item_from_top5_json
+130783,menu_category,Món Thêm,menu_item_from_top5_json
+86930,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+86930,google_type,Nhà hàng ăn nhanh,google_maps_unique
+86930,foody_category,Quán ăn,foody_hust_places
+86930,foody_cuisine,Món Bắc,foody_hust_places
+86930,foody_cuisine,Món Miền Trung,foody_hust_places
+86930,foody_cuisine,Món Miền Nam,foody_hust_places
+86930,foody_cuisine,Tây Nguyên,foody_hust_places
+86930,foody_audience,Sinh viên,foody_hust_places
+86930,foody_audience,Cặp đôi,foody_hust_places
+86930,foody_audience,Gia đình,foody_hust_places
+86930,foody_audience,Nhóm hội,foody_hust_places
+86930,foody_audience,Giới văn phòng,foody_hust_places
+86930,foody_audience,Giới Manager,foody_hust_places
+86930,foody_audience,Khách du lịch,foody_hust_places
+86930,foody_audience,Trẻ em,foody_hust_places
+86930,menu_category,Menu,menu_item_from_top5_json
+117526,primary,Cơm/Cơm tấm,store_from_top5_json
+117526,google_type,Nhà hàng Trung Quốc có giao hàng,google_maps_unique
+117526,foody_category,Quán ăn,foody_hust_places
+117526,menu_category,Cơm,menu_item_from_top5_json
+117526,menu_category,Gọi Thêm,menu_item_from_top5_json
+117526,menu_category,Đồ Uống,menu_item_from_top5_json
+6930,primary,Cơm/Cơm tấm,store_from_top5_json
+6930,google_type,Nhà hàng,google_maps_unique
+6930,google_type,Nhà hàng Singapore,google_maps_unique
+6930,foody_category,NhÃ  hÃ ng,foody_hust_places
+6930,foody_cuisine,Singapore,foody_hust_places
+6930,foody_audience,Gia Ä‘Ã¬nh,foody_hust_places
+6930,foody_audience,NhÃ³m há»™i,foody_hust_places
+6930,wifi,Kombo ngon::12345678|Kombo ngon::12345678,foody_hust_places
+6930,menu_category,MÓN PHỤ,menu_item_from_top5_json
+6930,menu_category,MÓN SALAD,menu_item_from_top5_json
+6930,menu_category,ĐỒ UỐNG,menu_item_from_top5_json
+6930,menu_category,CƠM NIÊU SINGAPORE KOMBO,menu_item_from_top5_json
+6930,menu_category,MÓN CANH - RAU,menu_item_from_top5_json
+6930,menu_category,MÓN ĂN KÈM,menu_item_from_top5_json
+6930,menu_category,MÓN ĂN CHƠI,menu_item_from_top5_json
+31215,primary,Cơm/Cơm tấm,store_from_top5_json
+31215,google_type,Cửa hàng tạp phẩm,google_maps_unique
+31215,foody_category,Quán ăn,foody_hust_places
+31215,menu_category,Cơm Rang Gia Truyền Nam Định,menu_item_from_top5_json
+31215,menu_category,Phở/Mỳ Xào,menu_item_from_top5_json
+31215,menu_category,Đồ Ăn Thêm,menu_item_from_top5_json
+31215,menu_category,Đồ Uống,menu_item_from_top5_json
+11471,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+11471,google_type,Nhà hàng phở,google_maps_unique
+11471,foody_category,Quán ăn,foody_hust_places
+11471,menu_category,Deal 1K,menu_item_from_top5_json
+11471,menu_category,PHỞ,menu_item_from_top5_json
+11471,menu_category,CƠM RANG (BÁN BUỔI TRƯA),menu_item_from_top5_json
+11471,menu_category,Nước ngọt,menu_item_from_top5_json
+11471,menu_category,Combo cùng coca,menu_item_from_top5_json
+99491,primary,Cà Phê/Trà,store_from_top5_json
+99491,google_type,Quán cà phê,google_maps_unique
+99491,menu_category,Cafe Pha Máy,menu_item_from_top5_json
+99491,menu_category,Matcha,menu_item_from_top5_json
+99491,menu_category,Cacao,menu_item_from_top5_json
+99491,menu_category,Giải Khát,menu_item_from_top5_json
+99491,menu_category,Sữa Chua,menu_item_from_top5_json
+99491,menu_category,Trà Nhúng,menu_item_from_top5_json
+55021,primary,Cà Phê/Trà,store_from_top5_json
+55021,google_type,Quán cà phê,google_maps_unique
+55021,foody_category,Café/Dessert,foody_hust_places
+55021,foody_cuisine,Món Bắc,foody_hust_places
+55021,menu_category,Best Seller,menu_item_from_top5_json
+55021,menu_category,Cà Phê,menu_item_from_top5_json
+55021,menu_category,Nước Ép Hoa Quả,menu_item_from_top5_json
+55021,menu_category,Ăn Vặt,menu_item_from_top5_json
+55021,menu_category,Matcha,menu_item_from_top5_json
+55021,menu_category,Trà,menu_item_from_top5_json
+55021,menu_category,Cacao,menu_item_from_top5_json
+91370,primary,Cà Phê/Trà,store_from_top5_json
+91370,google_type,Quán cà phê,google_maps_unique
+91370,foody_category,Café/Dessert,foody_hust_places
+91370,foody_cuisine,Món Việt,foody_hust_places
+91370,foody_audience,Sinh viên,foody_hust_places
+91370,foody_audience,Nhóm hội,foody_hust_places
+91370,foody_audience,Giới văn phòng,foody_hust_places
+91370,menu_category,Menu,menu_item_from_top5_json
+132692,primary,Cà Phê/Trà,store_from_top5_json
+132692,google_type,Quán cà phê,google_maps_unique
+132692,foody_category,Bank - ATM,foody_hust_places
+132692,foody_audience,Gia đình,foody_hust_places
+132692,foody_audience,Giới văn phòng,foody_hust_places
+132692,menu_category,Cafe,menu_item_from_top5_json
+132692,menu_category,Matcha,menu_item_from_top5_json
+132692,menu_category,Cacao,menu_item_from_top5_json
+132692,menu_category,Milo - Trà Sữa,menu_item_from_top5_json
+132692,menu_category,Yogurt,menu_item_from_top5_json
+132692,menu_category,Đồ ăn vặt,menu_item_from_top5_json
+103976,primary,Cà Phê/Trà,store_from_top5_json
+103976,google_type,Quán cà phê,google_maps_unique
+103976,foody_category,Quán ăn,foody_hust_places
+103976,menu_category,Cà Phê - Gu Tỉnh Táo,menu_item_from_top5_json
+103976,menu_category,Trà - Trà Thảo Mộc,menu_item_from_top5_json
+103976,menu_category,Hoa Quả - Nước Ép,menu_item_from_top5_json
+103976,menu_category,Cacao,menu_item_from_top5_json
+129860,primary,Cà Phê/Trà,store_from_top5_json
+129860,google_type,Quán cà phê,google_maps_unique
+129860,foody_category,Café/Dessert,foody_hust_places
+129860,menu_category,Đặc Biệt,menu_item_from_top5_json
+129860,menu_category,Trà Sữa,menu_item_from_top5_json
+129860,menu_category,Classic Drink,menu_item_from_top5_json
+129860,menu_category,Trà Hoa Quả,menu_item_from_top5_json
+129860,menu_category,Detox Juice,menu_item_from_top5_json
+129860,menu_category,Cà Phê Máy,menu_item_from_top5_json
+82559,primary,Trà sữa,store_from_top5_json
+82559,google_type,Nhà hàng,google_maps_unique
+82559,google_type,Cửa hàng bia,google_maps_unique
+82559,menu_category,Menu,menu_item_from_top5_json
+64917,primary,Trà sữa,store_from_top5_json
+64917,google_type,Quán trà Trung Quốc,google_maps_unique
+64917,google_type,Nhà phân phối đồ uống,google_maps_unique
+64917,foody_category,Café/Dessert,foody_hust_places
+64917,menu_category,Sundea,menu_item_from_top5_json
+64917,menu_category,Sữa Chua,menu_item_from_top5_json
+64917,menu_category,Sữa Dừa,menu_item_from_top5_json
+64917,menu_category,Trà,menu_item_from_top5_json
+64917,menu_category,Trà Sữa,menu_item_from_top5_json
+64917,menu_category,Yakult,menu_item_from_top5_json
+64917,menu_category,Trà Kem,menu_item_from_top5_json
+64917,menu_category,Bữa Sáng - Giảm 50%,menu_item_from_top5_json
+64917,menu_category,Bữa Xế - Đồng Giá 15k,menu_item_from_top5_json
+131660,primary,Sinh tố/Nước ép/Sữa,store_from_top5_json
+131660,google_type,Quán cà phê,google_maps_unique
+131660,menu_category,MATCHA_ CACAO_ KHOAI MÔN,menu_item_from_top5_json
+131660,menu_category,SỮA CHUA LẮC VỊ,menu_item_from_top5_json
+131660,menu_category,NƯỚC ÉP_ SINH TỐ,menu_item_from_top5_json
+131660,menu_category,CAFE,menu_item_from_top5_json
+131660,menu_category,CÁC LOẠI TRÀ,menu_item_from_top5_json
+129518,primary,Trà sữa,store_from_top5_json
+129518,google_type,Quán cà phê,google_maps_unique
+129518,foody_category,Café/Dessert,foody_hust_places
+129518,menu_category,BST Hào Môn,menu_item_from_top5_json
+129518,menu_category,Món Mới Phải Thử - BST Bung Hương - Trà Sữa Healthy,menu_item_from_top5_json
+129518,menu_category,Trà Sữa,menu_item_from_top5_json
+129518,menu_category,Trà Sữa Đặc Biệt,menu_item_from_top5_json
+129518,menu_category,Sữa Tươi,menu_item_from_top5_json
+129518,menu_category,Trà Trái Cây,menu_item_from_top5_json
+129518,menu_category,Đồ Đá Xay,menu_item_from_top5_json
+129518,menu_category,Matcha,menu_item_from_top5_json
+129518,menu_category,Cà Phê Pha Máy,menu_item_from_top5_json
+129518,menu_category,Chocolate,menu_item_from_top5_json
+129518,menu_category,Đồ Uống Nóng,menu_item_from_top5_json
+129518,menu_category,Đồ Uống Mới - Hạ Mọng,menu_item_from_top5_json
+129518,menu_category,Topping,menu_item_from_top5_json
+92263,primary,Ăn vặt,store_from_top5_json
+92263,google_type,Dịch vụ trông thú cưng,google_maps_unique
+92263,google_type,Trại chăm sóc mèo,google_maps_unique
+92263,google_type,Trung tâm chăm sóc chó ban ngày,google_maps_unique
+92263,google_type,Người huấn luyện chó,google_maps_unique
+92263,google_type,Người dắt chó đi dạo,google_maps_unique
+92263,google_type,Dịch vụ cấp cứu thú y,google_maps_unique
+92263,google_type,Dịch vụ nhận nuôi thú cảnh,google_maps_unique
+92263,google_type,Dịch vụ chăm sóc thú nuôi,google_maps_unique
+92263,google_type,Huấn luận viên thú cảnh,google_maps_unique
+92263,foody_category,Quán ăn,foody_hust_places
+92263,menu_category,BÁNH,menu_item_from_top5_json
+92263,menu_category,NƯỚC,menu_item_from_top5_json
+92263,menu_category,HOA QUẢ SẤY KHÔ,menu_item_from_top5_json
+92263,menu_category,BIMBIM,menu_item_from_top5_json
+92263,menu_category,MÌ ĂN LIỀN,menu_item_from_top5_json
+92263,menu_category,KẸO,menu_item_from_top5_json
+92263,menu_category,ĐỒ MẶN,menu_item_from_top5_json
+92263,menu_category,ĐỒ DÙNG CÁ NHÂN,menu_item_from_top5_json
+92263,menu_category,SỮA,menu_item_from_top5_json
+92263,menu_category,RONG BIỂN,menu_item_from_top5_json
+92263,menu_category,THẠCH,menu_item_from_top5_json
+92263,menu_category,Ô MAI,menu_item_from_top5_json
+92263,menu_category,NGŨ CỐC,menu_item_from_top5_json
+92263,menu_category,Ổ CẮM LIOA CHÍNH HÃNG,menu_item_from_top5_json
+92263,menu_category,BIA,menu_item_from_top5_json
+92263,menu_category,BCS,menu_item_from_top5_json
+92263,menu_category,BĂNG VỆ SINH,menu_item_from_top5_json
+92263,menu_category,"DẦU GỘI, SỮA TẮM",menu_item_from_top5_json
+92263,menu_category,"KEM ĐÁNH RĂNG, BÀN CHẢI",menu_item_from_top5_json
+92263,menu_category,"SỮA RỬA MẶT, BÔNG TẨY TRANG",menu_item_from_top5_json
+92263,menu_category,"GIẤY ĂN, KHĂN ƯỚT",menu_item_from_top5_json
+92263,menu_category,CƠM CHÁY,menu_item_from_top5_json
+113989,primary,Món chay,store_from_top5_json
+113989,google_type,Nhà hàng cho người ăn chay,google_maps_unique
+113989,foody_category,Ăn chay,foody_hust_places
+113989,menu_category,Combo Ưu Đãi Hôm Nay,menu_item_from_top5_json
+113989,menu_category,Bánh Mì - Xôi Xéo,menu_item_from_top5_json
+113989,menu_category,Bánh Bao,menu_item_from_top5_json
+113989,menu_category,Cơm Trộn Hàn Quốc - Cơm Rang,menu_item_from_top5_json
+113989,menu_category,Bún - Mì - Miến,menu_item_from_top5_json
+113989,menu_category,Ăn Nhẹ - Đồ Đóng Gói,menu_item_from_top5_json
+113989,menu_category,Đồ Uống,menu_item_from_top5_json
+72995,primary,Ăn vặt,store_from_top5_json
+72995,google_type,Nhà hàng món nướng,google_maps_unique
+72995,foody_category,Shop Online,foody_hust_places
+72995,foody_cuisine,Món Việt,foody_hust_places
+72995,menu_category,Thực Đơn Món Chiên,menu_item_from_top5_json
+72995,menu_category,Đồ Uống,menu_item_from_top5_json
+72995,menu_category,Món Hot,menu_item_from_top5_json
+72995,menu_category,Đồ Chấm Mua Thêm,menu_item_from_top5_json
+72995,menu_category,Chế Biến Viên Mua Lẻ,menu_item_from_top5_json
+9934,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+9934,google_type,Nhà hàng châu Á,google_maps_unique
+9934,foody_category,Quán ăn,foody_hust_places
+9934,foody_cuisine,Món Huế,foody_hust_places
+9934,foody_audience,Gia đình,foody_hust_places
+9934,foody_audience,Nhóm hội,foody_hust_places
+9934,foody_audience,Giới văn phòng,foody_hust_places
+9934,menu_category,Bún bò,menu_item_from_top5_json
+7160,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+7160,google_type,Nhà hàng Việt Nam,google_maps_unique
+7160,google_type,Quán mì,google_maps_unique
+7160,foody_category,Quán ăn,foody_hust_places
+7160,foody_cuisine,Món Việt,foody_hust_places
+7160,foody_audience,Cặp đôi,foody_hust_places
+7160,foody_audience,Gia đình,foody_hust_places
+7160,foody_audience,Giới văn phòng,foody_hust_places
+7160,menu_category,Combo + Coca,menu_item_from_top5_json
+7160,menu_category,Menu chính,menu_item_from_top5_json
+7160,menu_category,Đồ uống thêm,menu_item_from_top5_json
+7160,menu_category,Dụng cụ ăn uống,menu_item_from_top5_json
+7160,menu_category,Menu,menu_item_from_top5_json
+22758,primary,Cơm/Cơm tấm,store_from_top5_json
+22758,google_type,Chùa phật giáo,google_maps_unique
+22758,google_type,Chùa,google_maps_unique
+22758,google_type,Điểm thu hút khách du lịch,google_maps_unique
+22758,foody_category,Shop Online,foody_hust_places
+22758,foody_cuisine,Món Việt,foody_hust_places
+22758,foody_audience,Sinh viên,foody_hust_places
+22758,foody_audience,Gia đình,foody_hust_places
+22758,foody_audience,Giới văn phòng,foody_hust_places
+22758,menu_category,XÔI CHIÊN,menu_item_from_top5_json
+22758,menu_category,CƠM,menu_item_from_top5_json
+22758,menu_category,TRÀ SỮA,menu_item_from_top5_json
+22758,menu_category,MỲ,menu_item_from_top5_json
+22758,menu_category,ĂN VẶT,menu_item_from_top5_json
+22758,menu_category,ĐỒ UỐNG,menu_item_from_top5_json
+67067,primary,Cà Phê/Trà,store_from_top5_json
+67067,google_type,Cửa hàng trà,google_maps_unique
+67067,menu_category,Menu,menu_item_from_top5_json
+111026,primary,Cơm/Cơm tấm,store_from_top5_json
+111026,google_type,Nhà hàng châu Á,google_maps_unique
+111026,foody_category,Quán ăn,foody_hust_places
+111026,foody_cuisine,Món Việt,foody_hust_places
+111026,foody_audience,Gia đình,foody_hust_places
+111026,foody_audience,Nhóm hội,foody_hust_places
+111026,foody_audience,Giới văn phòng,foody_hust_places
+111026,menu_category,Cơm Ngon Cả Ngày,menu_item_from_top5_json
+111026,menu_category,Món Âu Trọn Bữa,menu_item_from_top5_json
+111026,menu_category,Món Ăn Kèm,menu_item_from_top5_json
+8919,primary,Cơm/Cơm tấm,store_from_top5_json
+8919,google_type,Cửa hàng tạp phẩm,google_maps_unique
+8919,foody_category,Shop/Cửa hàng,foody_hust_places
+8919,menu_category,Combo,menu_item_from_top5_json
+8919,menu_category,Hot deal,menu_item_from_top5_json
+8919,menu_category,Đồ ăn,menu_item_from_top5_json
+8919,menu_category,Đồ uống,menu_item_from_top5_json
+8919,menu_category,Nước ép nguyên chất,menu_item_from_top5_json
+8919,menu_category,Trà Hoa quả Mẹ Shin,menu_item_from_top5_json
+8919,menu_category,Deal hot on now,menu_item_from_top5_json
+62366,primary,Cà Phê/Trà,store_from_top5_json
+62366,google_type,Quán cà phê,google_maps_unique
+62366,menu_category,Coffee,menu_item_from_top5_json
+62366,menu_category,Others,menu_item_from_top5_json
+120238,primary,Trà sữa,store_from_top5_json
+120238,google_type,Quán cà phê,google_maps_unique
+120238,foody_category,Café/Dessert,foody_hust_places
+120238,menu_category,BST Hào Môn,menu_item_from_top5_json
+120238,menu_category,BST Thanh Tân,menu_item_from_top5_json
+120238,menu_category,"Món Mới Phải Thử - BST ""Bung Hương"" (Trà Sữa Healthy)",menu_item_from_top5_json
+120238,menu_category,Trà Sữa,menu_item_from_top5_json
+120238,menu_category,Trà Sữa Đặc Biệt,menu_item_from_top5_json
+120238,menu_category,Sữa Tươi,menu_item_from_top5_json
+120238,menu_category,Trà Trái Cây,menu_item_from_top5_json
+120238,menu_category,Đồ Đá Xay,menu_item_from_top5_json
+120238,menu_category,Matcha,menu_item_from_top5_json
+120238,menu_category,Cà Phê Pha Máy,menu_item_from_top5_json
+120238,menu_category,Chocolate,menu_item_from_top5_json
+120238,menu_category,Đồ Uống Nóng,menu_item_from_top5_json
+120238,menu_category,Đồ Uống Mới - Hạ Mọng,menu_item_from_top5_json
+120238,menu_category,Trà Đặc Biệt,menu_item_from_top5_json
+126162,primary,Cà Phê/Trà,store_from_top5_json
+126162,google_type,Quán cà phê,google_maps_unique
+126162,menu_category,Menu,menu_item_from_top5_json
+103957,primary,Trà sữa,store_from_top5_json
+103957,google_type,Quán cà phê,google_maps_unique
+103957,foody_category,Café/Dessert,foody_hust_places
+103957,foody_cuisine,Món Việt,foody_hust_places
+103957,foody_cuisine,Món Trung Hoa,foody_hust_places
+103957,foody_cuisine,Món Thái,foody_hust_places
+103957,menu_category,Best Sell,menu_item_from_top5_json
+103957,menu_category,Trà Sữa,menu_item_from_top5_json
+103957,menu_category,Trà Chanh Giã Tay,menu_item_from_top5_json
+103957,menu_category,Trà Sữa Thái,menu_item_from_top5_json
+103957,menu_category,Trà Hoa Quả,menu_item_from_top5_json
+103957,menu_category,Hoa Quả Đá Xay,menu_item_from_top5_json
+103957,menu_category,Cà Phê,menu_item_from_top5_json
+103957,menu_category,Nước Dừa - Nước Mía,menu_item_from_top5_json
+103957,menu_category,Đồ Nóng,menu_item_from_top5_json
+103957,menu_category,Món Mới,menu_item_from_top5_json
+4389,primary,Trà sữa,store_from_top5_json
+4389,google_type,Trà trân châu,google_maps_unique
+4389,google_type,Cửa hàng bán nước quả ép,google_maps_unique
+4389,google_type,Quầy giải khát,google_maps_unique
+4389,google_type,Cửa hàng trà,google_maps_unique
+4389,foody_category,CafÃ©/Dessert,foody_hust_places
+4389,foody_cuisine,Ä�Ã i Loan,foody_hust_places
+4389,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+4389,foody_audience,Gia Ä‘Ã¬nh,foody_hust_places
+4389,foody_audience,NhÃ³m há»™i,foody_hust_places
+4389,wifi,QUYNHCHI::chinhi24042006,foody_hust_places
+4389,menu_category,Ưu Đãi Độc Quyền,menu_item_from_top5_json
+4389,menu_category,Trà Sữa,menu_item_from_top5_json
+4389,menu_category,Trà Trái Cây,menu_item_from_top5_json
+4389,menu_category,Chocolate & Matcha,menu_item_from_top5_json
+4389,menu_category,Trà Đài Loan,menu_item_from_top5_json
+4389,menu_category,Kem Mousse,menu_item_from_top5_json
+4389,menu_category,Sữa Trái Cây,menu_item_from_top5_json
+4389,menu_category,Cake Cream,menu_item_from_top5_json
+4389,menu_category,Trà Sữa Sữa Tươi - Latte,menu_item_from_top5_json
+2188,primary,Ăn vặt,store_from_top5_json
+2188,google_type,Quán ăn nhỏ,google_maps_unique
+2188,foody_category,Shop Online,foody_hust_places
+2188,foody_cuisine,MÃ³n Viá»‡t,foody_hust_places
+2188,foody_audience,Sinh viÃªn,foody_hust_places
+2188,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+2188,foody_audience,Giá»›i vÄƒn phÃ²ng,foody_hust_places
+2188,menu_category,menu,menu_item_from_top5_json
+2188,menu_category,Mì Ý,menu_item_from_top5_json
+2188,menu_category,Đồ Uống,menu_item_from_top5_json
+2188,menu_category,Salad,menu_item_from_top5_json
+2188,menu_category,Đồ Ăn Vặt,menu_item_from_top5_json
+2188,menu_category,Grilled Meat,menu_item_from_top5_json
+93168,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+93168,google_type,Quán ăn nhẹ,google_maps_unique
+93168,foody_category,Quán ăn,foody_hust_places
+93168,menu_category,Bún Trộn Nam Bộ,menu_item_from_top5_json
+93168,menu_category,Phở Trộn,menu_item_from_top5_json
+93168,menu_category,Món Thêm,menu_item_from_top5_json
+93168,menu_category,Nước Uống Minh Sơn,menu_item_from_top5_json
+93168,menu_category,COMBO,menu_item_from_top5_json
+93168,menu_category,Ưu Đãi Mới,menu_item_from_top5_json
+42458,primary,Cơm/Cơm tấm,store_from_top5_json
+42458,google_type,Nhà hàng thịt gà,google_maps_unique
+42458,google_type,Nhà hàng cánh gà,google_maps_unique
+42458,google_type,Nhà hàng,google_maps_unique
+42458,menu_category,MENU,menu_item_from_top5_json
+42458,menu_category,Cùng Coca Cola,menu_item_from_top5_json
+25223,primary,Cà Phê/Trà,store_from_top5_json
+25223,google_type,Quán cà phê,google_maps_unique
+25223,foody_category,Café/Dessert,foody_hust_places
+25223,menu_category,Pizza & Pasta,menu_item_from_top5_json
+25223,menu_category,Matcha,menu_item_from_top5_json
+25223,menu_category,Cà Phê Phin,menu_item_from_top5_json
+25223,menu_category,Trà Sữa,menu_item_from_top5_json
+25223,menu_category,Trà Trái Cây,menu_item_from_top5_json
+25223,menu_category,Món Nóng,menu_item_from_top5_json
+25223,menu_category,Frappe,menu_item_from_top5_json
+25223,menu_category,Espresso,menu_item_from_top5_json
+25223,menu_category,Latte,menu_item_from_top5_json
+25223,menu_category,Cold Brew,menu_item_from_top5_json
+25223,menu_category,Bánh Mặn,menu_item_from_top5_json
+25223,menu_category,Bánh Ngọt,menu_item_from_top5_json
+25223,menu_category,Topping,menu_item_from_top5_json
+25223,menu_category,Ưu Đãi Sắp Tới,menu_item_from_top5_json
+25223,menu_category,A-Mê,menu_item_from_top5_json
+28819,primary,Cà Phê/Trà,store_from_top5_json
+28819,google_type,Quán cà phê,google_maps_unique
+28819,foody_category,CafÃ©/Dessert,foody_hust_places
+28819,foody_cuisine,MÃ³n Viá»‡t,foody_hust_places
+28819,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+28819,foody_audience,NhÃ³m há»™i,foody_hust_places
+28819,foody_audience,Giá»›i vÄƒn phÃ²ng,foody_hust_places
+28819,menu_category,MÓN MỚI PHẢI THỬ,menu_item_from_top5_json
+28819,menu_category,MUA 2 TẶNG 1,menu_item_from_top5_json
+28819,menu_category,PHINDI,menu_item_from_top5_json
+28819,menu_category,ESPRESSO COFFEE,menu_item_from_top5_json
+28819,menu_category,TRADITIONAL COFFEE,menu_item_from_top5_json
+28819,menu_category,TEA,menu_item_from_top5_json
+28819,menu_category,TRÀ SỮA,menu_item_from_top5_json
+28819,menu_category,FREEZE,menu_item_from_top5_json
+28819,menu_category,OTHER BEVERAGES,menu_item_from_top5_json
+28819,menu_category,MÓN THÊM TUYỆT ĐỈNH,menu_item_from_top5_json
+28819,menu_category,BÁNH MẶN,menu_item_from_top5_json
+28819,menu_category,BÁNH NGỌT,menu_item_from_top5_json
+78552,primary,Cà Phê/Trà,store_from_top5_json
+78552,google_type,Quầy cà phê,google_maps_unique
+78552,google_type,Quán cà phê,google_maps_unique
+78552,foody_category,Café/Dessert,foody_hust_places
+78552,foody_cuisine,Món Việt,foody_hust_places
+78552,foody_audience,Cặp đôi,foody_hust_places
+78552,foody_audience,Nhóm hội,foody_hust_places
+78552,foody_audience,Giới văn phòng,foody_hust_places
+78552,menu_category,Cafe,menu_item_from_top5_json
+78552,menu_category,Cafe Máy,menu_item_from_top5_json
+78552,menu_category,Cafe Phin,menu_item_from_top5_json
+78552,menu_category,Trà,menu_item_from_top5_json
+78552,menu_category,Đá Xay,menu_item_from_top5_json
+78552,menu_category,Nước Ép,menu_item_from_top5_json
+78552,menu_category,Sữa Chua,menu_item_from_top5_json
+78552,menu_category,Trà Nóng Mùa Đông,menu_item_from_top5_json
+73374,primary,Bún/Phở/Mỳ/Cháo,store_from_top5_json
+73374,google_type,Chùa phật giáo,google_maps_unique
+73374,google_type,Chùa,google_maps_unique
+73374,google_type,Điểm thu hút khách du lịch,google_maps_unique
+73374,foody_category,Shop Online,foody_hust_places
+73374,foody_category,Giao cơm văn phòng,foody_hust_places
+73374,foody_cuisine,Món Bắc,foody_hust_places
+73374,menu_category,Đồ Ăn,menu_item_from_top5_json
+9606,primary,Cơm/Cơm tấm,store_from_top5_json
+9606,google_type,Nhà hàng,google_maps_unique
+9606,menu_category,Cơm Siêu Tiết Kiệm,menu_item_from_top5_json
+9606,menu_category,CƠM VIP,menu_item_from_top5_json
+9606,menu_category,COMBO,menu_item_from_top5_json
+9606,menu_category,Món Thêm,menu_item_from_top5_json
+9606,menu_category,Đồ Uống,menu_item_from_top5_json
+9606,menu_category,Combo cùng Coca,menu_item_from_top5_json
+125252,primary,Cà Phê/Trà,store_from_top5_json
+125252,google_type,Quán cà phê,google_maps_unique
+125252,foody_category,Café/Dessert,foody_hust_places
+125252,foody_cuisine,Món Việt,foody_hust_places
+125252,foody_audience,Cặp đôi,foody_hust_places
+125252,foody_audience,Nhóm hội,foody_hust_places
+125252,menu_category,Cold,menu_item_from_top5_json
+125252,menu_category,Milk Tea,menu_item_from_top5_json
+125252,menu_category,Yogurt,menu_item_from_top5_json
+125252,menu_category,Coffee,menu_item_from_top5_json
+125252,menu_category,Nước Ép,menu_item_from_top5_json
+125252,menu_category,Love,menu_item_from_top5_json
+125252,menu_category,Snack,menu_item_from_top5_json
+103271,primary,Ẩm thực quốc tế,store_from_top5_json
+103271,google_type,Nhà hàng Hàn Quốc,google_maps_unique
+103271,foody_category,Quán ăn,foody_hust_places
+103271,menu_category,"Korean chicken, 치킨",menu_item_from_top5_json
+103271,menu_category,Tokbokki,menu_item_from_top5_json
+103271,menu_category,"Cơm & mỳ ý, korean ramen",menu_item_from_top5_json
+103271,menu_category,Tokk & Khoai tây chiên,menu_item_from_top5_json
+103271,menu_category,Lẩu,menu_item_from_top5_json
+103271,menu_category,Đồ uống,menu_item_from_top5_json
+4633,primary,Trà sữa,store_from_top5_json
+4633,google_type,Trà trân châu,google_maps_unique
+4633,foody_category,CafÃ©/Dessert,foody_hust_places
+4633,foody_cuisine,MÃ³n Trung Hoa,foody_hust_places
+4633,foody_audience,Sinh viÃªn,foody_hust_places
+4633,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+4633,foody_audience,NhÃ³m há»™i,foody_hust_places
+4633,foody_audience,Giá»›i vÄƒn phÃ²ng,foody_hust_places
+4633,wifi,k cÃ³ wifi::thoidodavcc,foody_hust_places
+4633,menu_category,Best Seller,menu_item_from_top5_json
+4633,menu_category,Sữa Tươi Trân Châu Đường Đen,menu_item_from_top5_json
+4633,menu_category,Trà Sữa,menu_item_from_top5_json
+4633,menu_category,Trà Sữa Tươi,menu_item_from_top5_json
+4633,menu_category,Trà Sữa Tươi Nhân Hoa Quả,menu_item_from_top5_json
+4633,menu_category,Special Drink,menu_item_from_top5_json
+4633,menu_category,Trà Hoa Quả,menu_item_from_top5_json
+4633,menu_category,Trà Kem Mặn,menu_item_from_top5_json
+4633,menu_category,Trà Nguyên Chất,menu_item_from_top5_json
+4633,menu_category,Cafe,menu_item_from_top5_json
+4633,menu_category,Fast Food,menu_item_from_top5_json
+4633,menu_category,Matcha Series,menu_item_from_top5_json
+4633,menu_category,Khoai Lang Tím Series,menu_item_from_top5_json
+4633,menu_category,Topping Lover,menu_item_from_top5_json
+62733,primary,Cà Phê/Trà,store_from_top5_json
+62733,google_type,Quán cà phê,google_maps_unique
+62733,foody_category,CafÃ©/Dessert,foody_hust_places
+62733,foody_cuisine,MÃ³n Ã�,foody_hust_places
+62733,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+62733,foody_audience,NhÃ³m há»™i,foody_hust_places
+62733,wifi,swan tea::12345678,foody_hust_places
+62733,menu_category,Trà Hoa Quả,menu_item_from_top5_json
+62733,menu_category,Sữa Tươi,menu_item_from_top5_json
+62733,menu_category,Sinh Tố,menu_item_from_top5_json
+62733,menu_category,Nước Ép Theo Mùa,menu_item_from_top5_json
+62733,menu_category,Cafe,menu_item_from_top5_json
+62733,menu_category,Soda,menu_item_from_top5_json
+62733,menu_category,Đá xay,menu_item_from_top5_json
+62733,menu_category,Trà Sữa,menu_item_from_top5_json

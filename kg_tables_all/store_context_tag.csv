@@ -1,61 +1,514 @@
 ﻿store_id,tag_type,tag_value,source_name
-5117,crowd,du_khach,google
-5117,crowd,nhom,google
-5117,crowd,sinh_vien,google
-5117,popular_for,phu_hop_đe_lam_viec_tren_may_tinh_xach_tay,google
-5117,dining_time_or_option,bua_sang,google
-5117,dining_time_or_option,bua_nua_buoi,google
-5117,dining_time_or_option,dich_vu_an_uong,google
-5117,dining_time_or_option,mon_trang_mieng,google
-5117,dining_time_or_option,phuc_vu_tai_ban,google
-5117,atmosphere,am_cung,google
-5117,atmosphere,thong_thuong,google
-27878,crowd,nhom,google
-27878,dining_time_or_option,dich_vu_an_uong,google
-27878,dining_time_or_option,phuc_vu_tai_ban,google
-27878,atmosphere,thong_thuong,google
-28819,crowd,du_khach,google
-28819,crowd,nhom,google
-28819,crowd,sinh_vien,google
-28819,popular_for,phu_hop_đe_lam_viec_tren_may_tinh_xach_tay,google
-28819,dining_time_or_option,bua_sang,google
-28819,dining_time_or_option,bua_nua_buoi,google
-28819,dining_time_or_option,dich_vu_an_uong,google
-28819,dining_time_or_option,mon_trang_mieng,google
-28819,dining_time_or_option,cho_ngoi,google
-28819,dining_time_or_option,phuc_vu_tai_ban,google
-28819,atmosphere,am_cung,google
-28819,atmosphere,thong_thuong,google
-32441,crowd,nhom,google
-32441,crowd,sinh_vien,google
-32441,popular_for,bua_toi,google
-32441,popular_for,an_toi_mot_minh,google
-32441,dining_time_or_option,bua_trua,google
-32441,dining_time_or_option,bua_toi,google
-32441,dining_time_or_option,dich_vu_an_uong,google
-32441,dining_time_or_option,phuc_vu_tai_ban,google
-32441,atmosphere,am_cung,google
-32441,atmosphere,thong_thuong,google
-37364,crowd,chao_đon_nhung_nguoi_thuoc_gioi_lgbtq,google
-37364,crowd,danh_cho_gia_đinh,google
-37364,crowd,noi_an_toan_cho_nguoi_chuyen_gioi,google
-37364,popular_for,bua_sang,google
-37364,dining_time_or_option,bua_sang,google
-37364,dining_time_or_option,bua_nua_buoi,google
-37364,dining_time_or_option,bua_trua,google
-37364,dining_time_or_option,bua_toi,google
-37364,dining_time_or_option,dich_vu_an_uong,google
-37364,dining_time_or_option,dich_vu_tai_quay,google
-37364,dining_time_or_option,mon_trang_mieng,google
-37364,dining_time_or_option,cho_ngoi,google
-37364,dining_time_or_option,phuc_vu_tai_ban,google
-37364,atmosphere,thong_thuong,google
-86930,dining_time_or_option,dich_vu_an_uong,google
-86930,atmosphere,thong_thuong,google
-118180,crowd,nhom,google
-118180,dining_time_or_option,cho_ngoi,google
-118180,atmosphere,am_cung,google
-118180,atmosphere,thong_thuong,google
-118304,crowd,nhom,google
-118304,atmosphere,am_cung,google
-118304,atmosphere,thong_thuong,google
+32441,popular_for,Bữa tối,google_maps_unique
+32441,popular_for,Ăn tối một mình,google_maps_unique
+32441,atmosphere,Ấm cúng,google_maps_unique
+32441,atmosphere,Thông thường,google_maps_unique
+32441,crowd,Nhóm,google_maps_unique
+32441,crowd,Sinh viên,google_maps_unique
+32441,dining_option,Bữa trưa,google_maps_unique
+32441,dining_option,Bữa tối,google_maps_unique
+32441,dining_option,Dịch vụ ăn uống,google_maps_unique
+32441,dining_option,Phục vụ tại bàn,google_maps_unique
+32441,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+32441,foody_category,Nhà hàng,foody_hust_places
+32441,foody_cuisine,Món Hàn,foody_hust_places
+31947,atmosphere,Thông thường,google_maps_unique
+31947,crowd,Nhóm,google_maps_unique
+31947,dining_option,Dịch vụ ăn uống,google_maps_unique
+31947,dining_option,Phục vụ tại bàn,google_maps_unique
+31947,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+31947,foody_category,Quán ăn,foody_hust_places
+40268,atmosphere,Thông thường,google_maps_unique
+40268,crowd,Nhóm,google_maps_unique
+40268,dining_option,Dịch vụ ăn uống,google_maps_unique
+40268,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+40268,foody_category,Quán ăn,foody_hust_places
+72445,foody_category,Quán ăn,foody_hust_places
+126679,popular_for,Bữa trưa,google_maps_unique
+126679,popular_for,Bữa tối,google_maps_unique
+126679,popular_for,Ăn tối một mình,google_maps_unique
+126679,atmosphere,Ấm cúng,google_maps_unique
+126679,atmosphere,Thông thường,google_maps_unique
+126679,crowd,Nhóm,google_maps_unique
+126679,crowd,Sinh viên,google_maps_unique
+126679,dining_option,Bữa trưa,google_maps_unique
+126679,dining_option,Bữa tối,google_maps_unique
+126679,dining_option,Dịch vụ ăn uống,google_maps_unique
+126679,dining_option,Phục vụ tại bàn,google_maps_unique
+126679,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+80180,atmosphere,Thông thường,google_maps_unique
+80180,crowd,Nhóm,google_maps_unique
+80180,dining_option,Dịch vụ ăn uống,google_maps_unique
+80180,dining_option,Phục vụ tại bàn,google_maps_unique
+80180,foody_category,Quán ăn,foody_hust_places
+47053,atmosphere,Thông thường,google_maps_unique
+47053,dining_option,Bữa tối,google_maps_unique
+47053,dining_option,Dịch vụ ăn uống,google_maps_unique
+47053,dining_option,Phục vụ tại bàn,google_maps_unique
+47053,foody_category,QuÃ¡n Äƒn,foody_hust_places
+130783,atmosphere,Thông thường,google_maps_unique
+130783,crowd,Nhóm,google_maps_unique
+130783,dining_option,Bữa sáng,google_maps_unique
+130783,dining_option,Bữa trưa,google_maps_unique
+130783,dining_option,Bữa tối,google_maps_unique
+130783,dining_option,Dịch vụ ăn uống,google_maps_unique
+130783,dining_option,Phục vụ tại bàn,google_maps_unique
+130783,foody_category,Ăn vặt/vỉa hè,foody_hust_places
+86930,atmosphere,Thông thường,google_maps_unique
+86930,dining_option,Dịch vụ ăn uống,google_maps_unique
+86930,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+86930,foody_category,Quán ăn,foody_hust_places
+86930,foody_cuisine,Món Bắc,foody_hust_places
+86930,foody_cuisine,Món Miền Trung,foody_hust_places
+86930,foody_cuisine,Món Miền Nam,foody_hust_places
+86930,foody_cuisine,Tây Nguyên,foody_hust_places
+86930,foody_audience,Sinh viên,foody_hust_places
+86930,foody_audience,Cặp đôi,foody_hust_places
+86930,foody_audience,Gia đình,foody_hust_places
+86930,foody_audience,Nhóm hội,foody_hust_places
+86930,foody_audience,Giới văn phòng,foody_hust_places
+86930,foody_audience,Giới Manager,foody_hust_places
+86930,foody_audience,Khách du lịch,foody_hust_places
+86930,foody_audience,Trẻ em,foody_hust_places
+117526,foody_category,Quán ăn,foody_hust_places
+6930,popular_for,Bữa trưa,google_maps_unique
+6930,popular_for,Bữa tối,google_maps_unique
+6930,popular_for,Ăn tối một mình,google_maps_unique
+6930,atmosphere,Ấm cúng,google_maps_unique
+6930,crowd,Chào đón những người thuộc giới LGBTQ+,google_maps_unique
+6930,crowd,Dành cho gia đình,google_maps_unique
+6930,crowd,Nhóm,google_maps_unique
+6930,crowd,Nơi an toàn cho người chuyển giới,google_maps_unique
+6930,dining_option,Bữa nửa buổi,google_maps_unique
+6930,dining_option,Bữa trưa,google_maps_unique
+6930,dining_option,Bữa tối,google_maps_unique
+6930,dining_option,Dịch vụ ăn uống,google_maps_unique
+6930,dining_option,Món tráng miệng,google_maps_unique
+6930,dining_option,Chỗ ngồi,google_maps_unique
+6930,dining_option,Phục vụ tại bàn,google_maps_unique
+6930,offering,Ăn thoả thích,google_maps_unique
+6930,offering,Bia,google_maps_unique
+6930,offering,Món ăn từ nguyên liệu hữu cơ,google_maps_unique
+6930,offering,Phần ăn nhỏ,google_maps_unique
+6930,offering,Rượu,google_maps_unique
+6930,foody_category,NhÃ  hÃ ng,foody_hust_places
+6930,foody_cuisine,Singapore,foody_hust_places
+6930,foody_audience,Gia Ä‘Ã¬nh,foody_hust_places
+6930,foody_audience,NhÃ³m há»™i,foody_hust_places
+31215,foody_category,Quán ăn,foody_hust_places
+11471,atmosphere,Thông thường,google_maps_unique
+11471,crowd,Nhóm,google_maps_unique
+11471,dining_option,Bữa trưa,google_maps_unique
+11471,dining_option,Bữa tối,google_maps_unique
+11471,dining_option,Dịch vụ ăn uống,google_maps_unique
+11471,dining_option,Phục vụ tại bàn,google_maps_unique
+11471,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+11471,foody_category,Quán ăn,foody_hust_places
+99491,highlight,Cà phê ngon,google_maps_unique
+99491,atmosphere,Ấm cúng,google_maps_unique
+99491,atmosphere,Thông thường,google_maps_unique
+99491,crowd,Nhóm,google_maps_unique
+99491,offering,Cà phê,google_maps_unique
+55021,highlight,Cà phê ngon,google_maps_unique
+55021,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+55021,atmosphere,Thông thường,google_maps_unique
+55021,crowd,Nhóm,google_maps_unique
+55021,dining_option,Chỗ ngồi,google_maps_unique
+55021,dining_option,Phục vụ tại bàn,google_maps_unique
+55021,offering,Cà phê,google_maps_unique
+55021,foody_category,Café/Dessert,foody_hust_places
+55021,foody_cuisine,Món Bắc,foody_hust_places
+91370,atmosphere,Ấm cúng,google_maps_unique
+91370,atmosphere,Thông thường,google_maps_unique
+91370,crowd,Nhóm,google_maps_unique
+91370,dining_option,Phục vụ tại bàn,google_maps_unique
+91370,offering,Cà phê,google_maps_unique
+91370,foody_category,Café/Dessert,foody_hust_places
+91370,foody_cuisine,Món Việt,foody_hust_places
+91370,foody_audience,Sinh viên,foody_hust_places
+91370,foody_audience,Nhóm hội,foody_hust_places
+91370,foody_audience,Giới văn phòng,foody_hust_places
+132692,highlight,Cà phê ngon,google_maps_unique
+132692,highlight,Nhiều trà ngon,google_maps_unique
+132692,highlight,Thể thao,google_maps_unique
+132692,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+132692,atmosphere,Ấm cúng,google_maps_unique
+132692,atmosphere,Lãng mạn,google_maps_unique
+132692,atmosphere,Thông thường,google_maps_unique
+132692,crowd,Nhóm,google_maps_unique
+132692,crowd,Sinh viên,google_maps_unique
+132692,dining_option,Bữa nửa buổi,google_maps_unique
+132692,dining_option,Bữa trưa,google_maps_unique
+132692,dining_option,Bữa tối,google_maps_unique
+132692,dining_option,Dịch vụ ăn uống,google_maps_unique
+132692,dining_option,Món tráng miệng,google_maps_unique
+132692,dining_option,Chỗ ngồi,google_maps_unique
+132692,dining_option,Phục vụ tại bàn,google_maps_unique
+132692,offering,Cà phê,google_maps_unique
+132692,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+132692,offering,Rượu,google_maps_unique
+132692,foody_category,Bank - ATM,foody_hust_places
+132692,foody_audience,Gia đình,foody_hust_places
+132692,foody_audience,Giới văn phòng,foody_hust_places
+103976,highlight,Cà phê ngon,google_maps_unique
+103976,highlight,Nhiều trà ngon,google_maps_unique
+103976,atmosphere,Ấm cúng,google_maps_unique
+103976,atmosphere,Thông thường,google_maps_unique
+103976,crowd,Chào đón những người thuộc giới LGBTQ+,google_maps_unique
+103976,crowd,Dành cho gia đình,google_maps_unique
+103976,crowd,Nhóm,google_maps_unique
+103976,crowd,Nơi an toàn cho người chuyển giới,google_maps_unique
+103976,crowd,Sinh viên,google_maps_unique
+103976,dining_option,Bữa sáng,google_maps_unique
+103976,dining_option,Bữa nửa buổi,google_maps_unique
+103976,dining_option,Bữa trưa,google_maps_unique
+103976,dining_option,Bữa tối,google_maps_unique
+103976,dining_option,Dịch vụ ăn uống,google_maps_unique
+103976,dining_option,Món tráng miệng,google_maps_unique
+103976,dining_option,Chỗ ngồi,google_maps_unique
+103976,offering,Cà phê,google_maps_unique
+103976,offering,Rượu,google_maps_unique
+103976,foody_category,Quán ăn,foody_hust_places
+129860,offering,Cà phê,google_maps_unique
+129860,foody_category,Café/Dessert,foody_hust_places
+82559,highlight,Món tráng miệng ngon,google_maps_unique
+82559,highlight,Nhạc sống,google_maps_unique
+82559,highlight,Nhiều bia ngon,google_maps_unique
+82559,highlight,Nhiều rượu vang ngon,google_maps_unique
+82559,highlight,Rượu cốc tai ngon,google_maps_unique
+82559,popular_for,Bữa sáng,google_maps_unique
+82559,popular_for,Bữa trưa,google_maps_unique
+82559,popular_for,Bữa tối,google_maps_unique
+82559,atmosphere,Ấm cúng,google_maps_unique
+82559,atmosphere,Cao cấp,google_maps_unique
+82559,crowd,Du khách,google_maps_unique
+82559,crowd,Nhóm,google_maps_unique
+82559,dining_option,Bữa sáng,google_maps_unique
+82559,dining_option,Bữa nửa buổi,google_maps_unique
+82559,dining_option,Bữa trưa,google_maps_unique
+82559,dining_option,Bữa tối,google_maps_unique
+82559,dining_option,Dịch vụ ăn uống,google_maps_unique
+82559,dining_option,Món tráng miệng,google_maps_unique
+82559,dining_option,Chỗ ngồi,google_maps_unique
+82559,dining_option,Phục vụ tại bàn,google_maps_unique
+82559,offering,Bia,google_maps_unique
+82559,offering,Cà phê,google_maps_unique
+82559,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+82559,offering,Phần ăn nhỏ,google_maps_unique
+82559,offering,Rượu,google_maps_unique
+82559,offering,Rượu cốc tai,google_maps_unique
+82559,offering,Rượu mạnh,google_maps_unique
+82559,offering,Rượu vang,google_maps_unique
+64917,foody_category,Café/Dessert,foody_hust_places
+131660,highlight,Cà phê ngon,google_maps_unique
+131660,highlight,Nhiều trà ngon,google_maps_unique
+131660,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+131660,atmosphere,Ấm cúng,google_maps_unique
+131660,atmosphere,Thông thường,google_maps_unique
+131660,crowd,Nhóm,google_maps_unique
+131660,crowd,Sinh viên,google_maps_unique
+131660,dining_option,Dịch vụ ăn uống,google_maps_unique
+131660,dining_option,Phục vụ tại bàn,google_maps_unique
+131660,offering,Cà phê,google_maps_unique
+129518,highlight,Cà phê ngon,google_maps_unique
+129518,highlight,Nhiều trà ngon,google_maps_unique
+129518,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+129518,atmosphere,Thông thường,google_maps_unique
+129518,crowd,Nhóm,google_maps_unique
+129518,crowd,Sinh viên,google_maps_unique
+129518,dining_option,Dịch vụ ăn uống,google_maps_unique
+129518,offering,Cà phê,google_maps_unique
+129518,foody_category,Café/Dessert,foody_hust_places
+92263,crowd,Chào đón những người thuộc giới LGBTQ+,google_maps_unique
+92263,crowd,Nơi an toàn cho người chuyển giới,google_maps_unique
+92263,foody_category,Quán ăn,foody_hust_places
+113989,popular_for,Bữa trưa,google_maps_unique
+113989,popular_for,Ăn tối một mình,google_maps_unique
+113989,atmosphere,Thông thường,google_maps_unique
+113989,dining_option,Bữa trưa,google_maps_unique
+113989,dining_option,Dịch vụ ăn uống,google_maps_unique
+113989,offering,Các món chay,google_maps_unique
+113989,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+113989,foody_category,Ăn chay,foody_hust_places
+72995,highlight,Nhiều bia ngon,google_maps_unique
+72995,popular_for,Bữa tối,google_maps_unique
+72995,popular_for,Ăn tối một mình,google_maps_unique
+72995,atmosphere,Ấm cúng,google_maps_unique
+72995,atmosphere,Thông thường,google_maps_unique
+72995,crowd,Du khách,google_maps_unique
+72995,crowd,Nhóm,google_maps_unique
+72995,crowd,Sinh viên,google_maps_unique
+72995,dining_option,Bữa trưa,google_maps_unique
+72995,dining_option,Bữa tối,google_maps_unique
+72995,dining_option,Dịch vụ ăn uống,google_maps_unique
+72995,dining_option,Món tráng miệng,google_maps_unique
+72995,dining_option,Chỗ ngồi,google_maps_unique
+72995,dining_option,Phục vụ tại bàn,google_maps_unique
+72995,offering,Ăn thoả thích,google_maps_unique
+72995,offering,Bia,google_maps_unique
+72995,offering,Có giờ giảm giá đặc biệt,google_maps_unique
+72995,offering,Đồ ăn khuya,google_maps_unique
+72995,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+72995,offering,Phần ăn nhỏ,google_maps_unique
+72995,offering,Rượu,google_maps_unique
+72995,offering,Rượu mạnh,google_maps_unique
+72995,foody_category,Shop Online,foody_hust_places
+72995,foody_cuisine,Món Việt,foody_hust_places
+9934,atmosphere,Thông thường,google_maps_unique
+9934,crowd,Nhóm,google_maps_unique
+9934,dining_option,Dịch vụ ăn uống,google_maps_unique
+9934,dining_option,Phục vụ tại bàn,google_maps_unique
+9934,foody_category,Quán ăn,foody_hust_places
+9934,foody_cuisine,Món Huế,foody_hust_places
+9934,foody_audience,Gia đình,foody_hust_places
+9934,foody_audience,Nhóm hội,foody_hust_places
+9934,foody_audience,Giới văn phòng,foody_hust_places
+7160,highlight,Nhiều bia ngon,google_maps_unique
+7160,popular_for,Bữa sáng,google_maps_unique
+7160,popular_for,Bữa trưa,google_maps_unique
+7160,popular_for,Bữa tối,google_maps_unique
+7160,popular_for,Ăn tối một mình,google_maps_unique
+7160,atmosphere,Thông thường,google_maps_unique
+7160,crowd,Du khách,google_maps_unique
+7160,crowd,Nhóm,google_maps_unique
+7160,crowd,Sinh viên,google_maps_unique
+7160,dining_option,Bữa sáng,google_maps_unique
+7160,dining_option,Bữa nửa buổi,google_maps_unique
+7160,dining_option,Bữa trưa,google_maps_unique
+7160,dining_option,Bữa tối,google_maps_unique
+7160,dining_option,Dịch vụ ăn uống,google_maps_unique
+7160,dining_option,Dịch vụ tại quầy,google_maps_unique
+7160,dining_option,Phục vụ tại bàn,google_maps_unique
+7160,offering,Bia,google_maps_unique
+7160,offering,Các món chay,google_maps_unique
+7160,offering,Các món thuần chay,google_maps_unique
+7160,offering,Các món tốt cho sức khoẻ,google_maps_unique
+7160,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+7160,offering,Phần ăn nhỏ,google_maps_unique
+7160,offering,Rượu,google_maps_unique
+7160,foody_category,Quán ăn,foody_hust_places
+7160,foody_cuisine,Món Việt,foody_hust_places
+7160,foody_audience,Cặp đôi,foody_hust_places
+7160,foody_audience,Gia đình,foody_hust_places
+7160,foody_audience,Giới văn phòng,foody_hust_places
+22758,foody_category,Shop Online,foody_hust_places
+22758,foody_cuisine,Món Việt,foody_hust_places
+22758,foody_audience,Sinh viên,foody_hust_places
+22758,foody_audience,Gia đình,foody_hust_places
+22758,foody_audience,Giới văn phòng,foody_hust_places
+111026,popular_for,Bữa trưa,google_maps_unique
+111026,atmosphere,Thông thường,google_maps_unique
+111026,crowd,Nhóm,google_maps_unique
+111026,dining_option,Bữa trưa,google_maps_unique
+111026,dining_option,Bữa tối,google_maps_unique
+111026,dining_option,Dịch vụ ăn uống,google_maps_unique
+111026,dining_option,Phục vụ tại bàn,google_maps_unique
+111026,offering,Ăn thoả thích,google_maps_unique
+111026,offering,Bia,google_maps_unique
+111026,offering,Rượu,google_maps_unique
+111026,foody_category,Quán ăn,foody_hust_places
+111026,foody_cuisine,Món Việt,foody_hust_places
+111026,foody_audience,Gia đình,foody_hust_places
+111026,foody_audience,Nhóm hội,foody_hust_places
+111026,foody_audience,Giới văn phòng,foody_hust_places
+8919,foody_category,Shop/Cửa hàng,foody_hust_places
+62366,highlight,Cà phê ngon,google_maps_unique
+62366,highlight,Chỗ ngồi trên sân thượng,google_maps_unique
+62366,highlight,Món tráng miệng ngon,google_maps_unique
+62366,highlight,Nhiều trà ngon,google_maps_unique
+62366,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+62366,atmosphere,Ấm cúng,google_maps_unique
+62366,atmosphere,Thông thường,google_maps_unique
+62366,atmosphere,Yên tĩnh,google_maps_unique
+62366,crowd,Chào đón những người thuộc giới LGBTQ+,google_maps_unique
+62366,crowd,Dành cho gia đình,google_maps_unique
+62366,crowd,Nhóm,google_maps_unique
+62366,crowd,Nơi an toàn cho người chuyển giới,google_maps_unique
+62366,crowd,Sinh viên,google_maps_unique
+62366,dining_option,Bữa sáng,google_maps_unique
+62366,dining_option,Bữa nửa buổi,google_maps_unique
+62366,dining_option,Bữa trưa,google_maps_unique
+62366,dining_option,Bữa tối,google_maps_unique
+62366,dining_option,Dịch vụ ăn uống,google_maps_unique
+62366,dining_option,Món tráng miệng,google_maps_unique
+62366,dining_option,Chỗ ngồi,google_maps_unique
+62366,dining_option,Phục vụ tại bàn,google_maps_unique
+62366,offering,Bia,google_maps_unique
+62366,offering,Cà phê,google_maps_unique
+62366,offering,Có giờ giảm giá đặc biệt,google_maps_unique
+62366,offering,Đồ uống vào giờ vàng,google_maps_unique
+62366,offering,Phần ăn nhỏ,google_maps_unique
+62366,offering,Rượu,google_maps_unique
+62366,offering,Rượu cốc tai,google_maps_unique
+62366,offering,Thức ăn chế biến sẵn,google_maps_unique
+120238,highlight,Cà phê ngon,google_maps_unique
+120238,highlight,Nhiều trà ngon,google_maps_unique
+120238,atmosphere,Thông thường,google_maps_unique
+120238,crowd,Nhóm,google_maps_unique
+120238,offering,Cà phê,google_maps_unique
+120238,foody_category,Café/Dessert,foody_hust_places
+126162,highlight,Cà phê ngon,google_maps_unique
+126162,highlight,Nhiều trà ngon,google_maps_unique
+126162,atmosphere,Ấm cúng,google_maps_unique
+126162,atmosphere,Thông thường,google_maps_unique
+126162,crowd,Nhóm,google_maps_unique
+126162,crowd,Sinh viên,google_maps_unique
+126162,offering,Cà phê,google_maps_unique
+103957,highlight,Nhiều trà ngon,google_maps_unique
+103957,atmosphere,Thông thường,google_maps_unique
+103957,crowd,Nhóm,google_maps_unique
+103957,offering,Cà phê,google_maps_unique
+103957,foody_category,Café/Dessert,foody_hust_places
+103957,foody_cuisine,Món Việt,foody_hust_places
+103957,foody_cuisine,Món Trung Hoa,foody_hust_places
+103957,foody_cuisine,Món Thái,foody_hust_places
+4389,highlight,Nhiều trà ngon,google_maps_unique
+4389,foody_category,CafÃ©/Dessert,foody_hust_places
+4389,foody_cuisine,Ä�Ã i Loan,foody_hust_places
+4389,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+4389,foody_audience,Gia Ä‘Ã¬nh,foody_hust_places
+4389,foody_audience,NhÃ³m há»™i,foody_hust_places
+2188,highlight,Món tráng miệng ngon,google_maps_unique
+2188,popular_for,Bữa trưa,google_maps_unique
+2188,popular_for,Bữa tối,google_maps_unique
+2188,popular_for,Ăn tối một mình,google_maps_unique
+2188,atmosphere,Ấm cúng,google_maps_unique
+2188,atmosphere,Thông thường,google_maps_unique
+2188,crowd,Nhóm,google_maps_unique
+2188,crowd,Sinh viên,google_maps_unique
+2188,dining_option,Bữa nửa buổi,google_maps_unique
+2188,dining_option,Bữa trưa,google_maps_unique
+2188,dining_option,Bữa tối,google_maps_unique
+2188,dining_option,Dịch vụ ăn uống,google_maps_unique
+2188,dining_option,Món tráng miệng,google_maps_unique
+2188,dining_option,Phục vụ tại bàn,google_maps_unique
+2188,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+2188,foody_category,Shop Online,foody_hust_places
+2188,foody_cuisine,MÃ³n Viá»‡t,foody_hust_places
+2188,foody_audience,Sinh viÃªn,foody_hust_places
+2188,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+2188,foody_audience,Giá»›i vÄƒn phÃ²ng,foody_hust_places
+93168,atmosphere,Thông thường,google_maps_unique
+93168,dining_option,Bữa sáng,google_maps_unique
+93168,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+93168,foody_category,Quán ăn,foody_hust_places
+42458,highlight,Món tráng miệng ngon,google_maps_unique
+42458,highlight,Nhiều bia ngon,google_maps_unique
+42458,highlight,Nhiều rượu vang ngon,google_maps_unique
+42458,popular_for,Bữa trưa,google_maps_unique
+42458,popular_for,Bữa tối,google_maps_unique
+42458,popular_for,Ăn tối một mình,google_maps_unique
+42458,atmosphere,Ấm cúng,google_maps_unique
+42458,atmosphere,Cao cấp,google_maps_unique
+42458,atmosphere,Thông thường,google_maps_unique
+42458,crowd,Chào đón những người thuộc giới LGBTQ+,google_maps_unique
+42458,crowd,Dành cho gia đình,google_maps_unique
+42458,crowd,Du khách,google_maps_unique
+42458,crowd,Nhóm,google_maps_unique
+42458,crowd,Nơi an toàn cho người chuyển giới,google_maps_unique
+42458,dining_option,Bữa nửa buổi,google_maps_unique
+42458,dining_option,Bữa trưa,google_maps_unique
+42458,dining_option,Bữa tối,google_maps_unique
+42458,dining_option,Dịch vụ ăn uống,google_maps_unique
+42458,dining_option,Món tráng miệng,google_maps_unique
+42458,dining_option,Phục vụ tại bàn,google_maps_unique
+42458,offering,Bia,google_maps_unique
+42458,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+42458,offering,Phần ăn nhỏ,google_maps_unique
+42458,offering,Rượu,google_maps_unique
+42458,offering,Rượu mạnh,google_maps_unique
+42458,offering,Rượu vang,google_maps_unique
+25223,highlight,Cà phê ngon,google_maps_unique
+25223,highlight,Món tráng miệng ngon,google_maps_unique
+25223,highlight,Nhiều trà ngon,google_maps_unique
+25223,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+25223,atmosphere,Ấm cúng,google_maps_unique
+25223,atmosphere,Thông thường,google_maps_unique
+25223,atmosphere,Yên tĩnh,google_maps_unique
+25223,crowd,Nhóm,google_maps_unique
+25223,crowd,Sinh viên,google_maps_unique
+25223,dining_option,Bữa sáng,google_maps_unique
+25223,dining_option,Dịch vụ ăn uống,google_maps_unique
+25223,dining_option,Món tráng miệng,google_maps_unique
+25223,dining_option,Chỗ ngồi,google_maps_unique
+25223,dining_option,Phục vụ tại bàn,google_maps_unique
+25223,offering,Cà phê,google_maps_unique
+25223,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+25223,foody_category,Café/Dessert,foody_hust_places
+28819,highlight,Cà phê ngon,google_maps_unique
+28819,highlight,Món tráng miệng ngon,google_maps_unique
+28819,highlight,Nhiều trà ngon,google_maps_unique
+28819,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+28819,atmosphere,Ấm cúng,google_maps_unique
+28819,atmosphere,Thông thường,google_maps_unique
+28819,crowd,Du khách,google_maps_unique
+28819,crowd,Nhóm,google_maps_unique
+28819,crowd,Sinh viên,google_maps_unique
+28819,dining_option,Bữa sáng,google_maps_unique
+28819,dining_option,Bữa nửa buổi,google_maps_unique
+28819,dining_option,Dịch vụ ăn uống,google_maps_unique
+28819,dining_option,Món tráng miệng,google_maps_unique
+28819,dining_option,Chỗ ngồi,google_maps_unique
+28819,dining_option,Phục vụ tại bàn,google_maps_unique
+28819,offering,Cà phê,google_maps_unique
+28819,offering,Nhà hàng thức ăn nhanh,google_maps_unique
+28819,foody_category,CafÃ©/Dessert,foody_hust_places
+28819,foody_cuisine,MÃ³n Viá»‡t,foody_hust_places
+28819,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+28819,foody_audience,NhÃ³m há»™i,foody_hust_places
+28819,foody_audience,Giá»›i vÄƒn phÃ²ng,foody_hust_places
+78552,foody_category,Café/Dessert,foody_hust_places
+78552,foody_cuisine,Món Việt,foody_hust_places
+78552,foody_audience,Cặp đôi,foody_hust_places
+78552,foody_audience,Nhóm hội,foody_hust_places
+78552,foody_audience,Giới văn phòng,foody_hust_places
+73374,foody_category,Shop Online,foody_hust_places
+73374,foody_category,Giao cơm văn phòng,foody_hust_places
+73374,foody_cuisine,Món Bắc,foody_hust_places
+9606,atmosphere,Thông thường,google_maps_unique
+9606,dining_option,Dịch vụ ăn uống,google_maps_unique
+125252,highlight,Cà phê ngon,google_maps_unique
+125252,highlight,Nhiều trà ngon,google_maps_unique
+125252,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+125252,atmosphere,Ấm cúng,google_maps_unique
+125252,atmosphere,Thông thường,google_maps_unique
+125252,crowd,Nhóm,google_maps_unique
+125252,crowd,Sinh viên,google_maps_unique
+125252,dining_option,Món tráng miệng,google_maps_unique
+125252,dining_option,Chỗ ngồi,google_maps_unique
+125252,dining_option,Phục vụ tại bàn,google_maps_unique
+125252,offering,Cà phê,google_maps_unique
+125252,foody_category,Café/Dessert,foody_hust_places
+125252,foody_cuisine,Món Việt,foody_hust_places
+125252,foody_audience,Cặp đôi,foody_hust_places
+125252,foody_audience,Nhóm hội,foody_hust_places
+103271,atmosphere,Thông thường,google_maps_unique
+103271,crowd,Nhóm,google_maps_unique
+103271,dining_option,Bữa trưa,google_maps_unique
+103271,dining_option,Bữa tối,google_maps_unique
+103271,dining_option,Dịch vụ ăn uống,google_maps_unique
+103271,dining_option,Phục vụ tại bàn,google_maps_unique
+103271,offering,Bia,google_maps_unique
+103271,offering,Rượu,google_maps_unique
+103271,foody_category,Quán ăn,foody_hust_places
+4633,highlight,Nhiều trà ngon,google_maps_unique
+4633,foody_category,CafÃ©/Dessert,foody_hust_places
+4633,foody_cuisine,MÃ³n Trung Hoa,foody_hust_places
+4633,foody_audience,Sinh viÃªn,foody_hust_places
+4633,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+4633,foody_audience,NhÃ³m há»™i,foody_hust_places
+4633,foody_audience,Giá»›i vÄƒn phÃ²ng,foody_hust_places
+62733,highlight,Cà phê ngon,google_maps_unique
+62733,highlight,Nhiều trà ngon,google_maps_unique
+62733,popular_for,Phù hợp để làm việc trên máy tính xách tay,google_maps_unique
+62733,atmosphere,Ấm cúng,google_maps_unique
+62733,atmosphere,Thông thường,google_maps_unique
+62733,crowd,Nhóm,google_maps_unique
+62733,crowd,Sinh viên,google_maps_unique
+62733,dining_option,Dịch vụ ăn uống,google_maps_unique
+62733,dining_option,Phục vụ tại bàn,google_maps_unique
+62733,offering,Cà phê,google_maps_unique
+62733,foody_category,CafÃ©/Dessert,foody_hust_places
+62733,foody_cuisine,MÃ³n Ã�,foody_hust_places
+62733,foody_audience,Cáº·p Ä‘Ã´i,foody_hust_places
+62733,foody_audience,NhÃ³m há»™i,foody_hust_places

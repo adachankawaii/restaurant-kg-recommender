@@ -1,30 +1,232 @@
 ﻿store_id,service_option,value,source_name
-5117,an_tai_cho,1,google
-5117,đo_an_mang_đi,1,google
-5117,giao_hang_gian_tiep,1,google
-5117,table_service,1,google
-27878,an_tai_cho,1,google
-27878,đo_an_mang_đi,1,google
-27878,table_service,1,google
-28819,an_tai_cho,1,google
-28819,đo_an_mang_đi,1,google
-28819,giao_hang_gian_tiep,1,google
-28819,seating,1,google
-28819,table_service,1,google
-32441,an_tai_cho,1,google
-32441,đo_an_mang_đi,1,google
-32441,giao_hang_gian_tiep,1,google
-32441,table_service,1,google
-37364,an_tai_cho,1,google
-37364,mua_hang_ngay_tren_xe,1,google
-37364,giao_hang_gian_tiep,1,google
-37364,counter_service,1,google
-37364,seating,1,google
-37364,table_service,1,google
-86930,an_tai_cho,1,google
-86930,đo_an_mang_đi,1,google
-118180,an_tai_cho,1,google
-118180,seating,1,google
-118304,an_tai_cho,1,google
-118304,đo_an_mang_đi,1,google
-118304,giao_hang_gian_tiep,1,google
+32441,Ăn_tại_chỗ,True,google_maps_unique
+32441,Đồ_ăn_mang_đi,True,google_maps_unique
+32441,giao_hàng_gián_tiếp,True,google_maps_unique
+32441,Bữa trưa,True,google_maps_unique
+32441,Bữa tối,True,google_maps_unique
+32441,Dịch vụ ăn uống,True,google_maps_unique
+32441,Phục vụ tại bàn,True,google_maps_unique
+31947,Ăn_tại_chỗ,True,google_maps_unique
+31947,Đồ_ăn_mang_đi,True,google_maps_unique
+31947,Dịch vụ ăn uống,True,google_maps_unique
+31947,Phục vụ tại bàn,True,google_maps_unique
+40268,Ăn_tại_chỗ,True,google_maps_unique
+40268,Đồ_ăn_mang_đi,True,google_maps_unique
+40268,Dịch vụ ăn uống,True,google_maps_unique
+72445,Ăn_tại_chỗ,True,google_maps_unique
+72445,Đồ_ăn_mang_đi,True,google_maps_unique
+72445,giao_hàng,True,google_maps_unique
+126679,Ăn_tại_chỗ,True,google_maps_unique
+126679,Đồ_ăn_mang_đi,True,google_maps_unique
+126679,giao_hàng,True,google_maps_unique
+126679,Bữa trưa,True,google_maps_unique
+126679,Bữa tối,True,google_maps_unique
+126679,Dịch vụ ăn uống,True,google_maps_unique
+126679,Phục vụ tại bàn,True,google_maps_unique
+80180,Ăn_tại_chỗ,True,google_maps_unique
+80180,Đồ_ăn_mang_đi,True,google_maps_unique
+80180,Dịch vụ ăn uống,True,google_maps_unique
+80180,Phục vụ tại bàn,True,google_maps_unique
+47053,Ăn_tại_chỗ,True,google_maps_unique
+47053,Đồ_ăn_mang_đi,True,google_maps_unique
+47053,giao_hàng,True,google_maps_unique
+47053,Bữa tối,True,google_maps_unique
+47053,Dịch vụ ăn uống,True,google_maps_unique
+47053,Phục vụ tại bàn,True,google_maps_unique
+130783,Ăn_tại_chỗ,True,google_maps_unique
+130783,Đồ_ăn_mang_đi,True,google_maps_unique
+130783,Bữa sáng,True,google_maps_unique
+130783,Bữa trưa,True,google_maps_unique
+130783,Bữa tối,True,google_maps_unique
+130783,Dịch vụ ăn uống,True,google_maps_unique
+130783,Phục vụ tại bàn,True,google_maps_unique
+86930,Ăn_tại_chỗ,True,google_maps_unique
+86930,Đồ_ăn_mang_đi,True,google_maps_unique
+86930,Dịch vụ ăn uống,True,google_maps_unique
+117526,Ăn_tại_chỗ,True,google_maps_unique
+117526,Đồ_ăn_mang_đi,True,google_maps_unique
+117526,giao_hàng_gián_tiếp,True,google_maps_unique
+6930,Ăn_tại_chỗ,True,google_maps_unique
+6930,mua_hàng_ngay_trên_xe,True,google_maps_unique
+6930,giao_hàng_gián_tiếp,True,google_maps_unique
+6930,Bữa nửa buổi,True,google_maps_unique
+6930,Bữa trưa,True,google_maps_unique
+6930,Bữa tối,True,google_maps_unique
+6930,Dịch vụ ăn uống,True,google_maps_unique
+6930,Món tráng miệng,True,google_maps_unique
+6930,Chỗ ngồi,True,google_maps_unique
+6930,Phục vụ tại bàn,True,google_maps_unique
+11471,Ăn_tại_chỗ,True,google_maps_unique
+11471,Đồ_ăn_mang_đi,True,google_maps_unique
+11471,Bữa trưa,True,google_maps_unique
+11471,Bữa tối,True,google_maps_unique
+11471,Dịch vụ ăn uống,True,google_maps_unique
+11471,Phục vụ tại bàn,True,google_maps_unique
+99491,Ăn_tại_chỗ,True,google_maps_unique
+55021,Ăn_tại_chỗ,True,google_maps_unique
+55021,mua_hàng_ngay_trên_xe,True,google_maps_unique
+55021,giao_hàng_gián_tiếp,True,google_maps_unique
+55021,Chỗ ngồi,True,google_maps_unique
+55021,Phục vụ tại bàn,True,google_maps_unique
+91370,Ăn_tại_chỗ,True,google_maps_unique
+91370,giao_hàng,True,google_maps_unique
+91370,Phục vụ tại bàn,True,google_maps_unique
+132692,Ăn_tại_chỗ,True,google_maps_unique
+132692,Đồ_ăn_mang_đi,True,google_maps_unique
+132692,Bữa nửa buổi,True,google_maps_unique
+132692,Bữa trưa,True,google_maps_unique
+132692,Bữa tối,True,google_maps_unique
+132692,Dịch vụ ăn uống,True,google_maps_unique
+132692,Món tráng miệng,True,google_maps_unique
+132692,Chỗ ngồi,True,google_maps_unique
+132692,Phục vụ tại bàn,True,google_maps_unique
+103976,Ăn_tại_chỗ,True,google_maps_unique
+103976,mua_hàng_ngay_trên_xe,True,google_maps_unique
+103976,giao_hàng_gián_tiếp,True,google_maps_unique
+103976,Bữa sáng,True,google_maps_unique
+103976,Bữa nửa buổi,True,google_maps_unique
+103976,Bữa trưa,True,google_maps_unique
+103976,Bữa tối,True,google_maps_unique
+103976,Dịch vụ ăn uống,True,google_maps_unique
+103976,Món tráng miệng,True,google_maps_unique
+103976,Chỗ ngồi,True,google_maps_unique
+82559,Ăn_tại_chỗ,True,google_maps_unique
+82559,Đồ_ăn_mang_đi,True,google_maps_unique
+82559,Bữa sáng,True,google_maps_unique
+82559,Bữa nửa buổi,True,google_maps_unique
+82559,Bữa trưa,True,google_maps_unique
+82559,Bữa tối,True,google_maps_unique
+82559,Dịch vụ ăn uống,True,google_maps_unique
+82559,Món tráng miệng,True,google_maps_unique
+82559,Chỗ ngồi,True,google_maps_unique
+82559,Phục vụ tại bàn,True,google_maps_unique
+64917,Ăn_tại_chỗ,True,google_maps_unique
+64917,Đồ_ăn_mang_đi,True,google_maps_unique
+131660,Ăn_tại_chỗ,True,google_maps_unique
+131660,mua_hàng_ngay_trên_xe,True,google_maps_unique
+131660,giao_hàng_gián_tiếp,True,google_maps_unique
+131660,Dịch vụ ăn uống,True,google_maps_unique
+131660,Phục vụ tại bàn,True,google_maps_unique
+129518,Ăn_tại_chỗ,True,google_maps_unique
+129518,Đồ_ăn_mang_đi,True,google_maps_unique
+129518,Dịch vụ ăn uống,True,google_maps_unique
+92263,Ăn_tại_chỗ,True,google_maps_unique
+92263,nhận_hàng_ở_lề_đường,True,google_maps_unique
+92263,giao_hàng,True,google_maps_unique
+113989,Ăn_tại_chỗ,True,google_maps_unique
+113989,Đồ_ăn_mang_đi,True,google_maps_unique
+113989,giao_hàng,True,google_maps_unique
+113989,Bữa trưa,True,google_maps_unique
+113989,Dịch vụ ăn uống,True,google_maps_unique
+72995,Ăn_tại_chỗ,True,google_maps_unique
+72995,mua_hàng_ngay_trên_xe,True,google_maps_unique
+72995,giao_hàng_gián_tiếp,True,google_maps_unique
+72995,Bữa trưa,True,google_maps_unique
+72995,Bữa tối,True,google_maps_unique
+72995,Dịch vụ ăn uống,True,google_maps_unique
+72995,Món tráng miệng,True,google_maps_unique
+72995,Chỗ ngồi,True,google_maps_unique
+72995,Phục vụ tại bàn,True,google_maps_unique
+9934,Ăn_tại_chỗ,True,google_maps_unique
+9934,Dịch vụ ăn uống,True,google_maps_unique
+9934,Phục vụ tại bàn,True,google_maps_unique
+7160,Ăn_tại_chỗ,True,google_maps_unique
+7160,Đồ_ăn_mang_đi,True,google_maps_unique
+7160,giao_hàng,True,google_maps_unique
+7160,Bữa sáng,True,google_maps_unique
+7160,Bữa nửa buổi,True,google_maps_unique
+7160,Bữa trưa,True,google_maps_unique
+7160,Bữa tối,True,google_maps_unique
+7160,Dịch vụ ăn uống,True,google_maps_unique
+7160,Dịch vụ tại quầy,True,google_maps_unique
+7160,Phục vụ tại bàn,True,google_maps_unique
+67067,giao_hàng,True,google_maps_unique
+111026,Ăn_tại_chỗ,True,google_maps_unique
+111026,Đồ_ăn_mang_đi,True,google_maps_unique
+111026,giao_hàng_gián_tiếp,True,google_maps_unique
+111026,Bữa trưa,True,google_maps_unique
+111026,Bữa tối,True,google_maps_unique
+111026,Dịch vụ ăn uống,True,google_maps_unique
+111026,Phục vụ tại bàn,True,google_maps_unique
+62366,Ăn_tại_chỗ,True,google_maps_unique
+62366,Đồ_ăn_mang_đi,True,google_maps_unique
+62366,giao_hàng,True,google_maps_unique
+62366,Bữa sáng,True,google_maps_unique
+62366,Bữa nửa buổi,True,google_maps_unique
+62366,Bữa trưa,True,google_maps_unique
+62366,Bữa tối,True,google_maps_unique
+62366,Dịch vụ ăn uống,True,google_maps_unique
+62366,Món tráng miệng,True,google_maps_unique
+62366,Chỗ ngồi,True,google_maps_unique
+62366,Phục vụ tại bàn,True,google_maps_unique
+120238,Ăn_tại_chỗ,True,google_maps_unique
+126162,Ăn_tại_chỗ,True,google_maps_unique
+126162,Đồ_ăn_mang_đi,True,google_maps_unique
+126162,giao_hàng_gián_tiếp,True,google_maps_unique
+103957,Ăn_tại_chỗ,True,google_maps_unique
+4389,Ăn_tại_chỗ,True,google_maps_unique
+4389,Đồ_ăn_mang_đi,True,google_maps_unique
+4389,giao_hàng,True,google_maps_unique
+2188,Ăn_tại_chỗ,True,google_maps_unique
+2188,Đồ_ăn_mang_đi,True,google_maps_unique
+2188,giao_hàng,True,google_maps_unique
+2188,Bữa nửa buổi,True,google_maps_unique
+2188,Bữa trưa,True,google_maps_unique
+2188,Bữa tối,True,google_maps_unique
+2188,Dịch vụ ăn uống,True,google_maps_unique
+2188,Món tráng miệng,True,google_maps_unique
+2188,Phục vụ tại bàn,True,google_maps_unique
+93168,Ăn_tại_chỗ,True,google_maps_unique
+93168,mua_hàng_ngay_trên_xe,True,google_maps_unique
+93168,giao_hàng_gián_tiếp,True,google_maps_unique
+93168,Bữa sáng,True,google_maps_unique
+42458,Ăn_tại_chỗ,True,google_maps_unique
+42458,Đồ_ăn_mang_đi,True,google_maps_unique
+42458,giao_hàng_gián_tiếp,True,google_maps_unique
+42458,Bữa nửa buổi,True,google_maps_unique
+42458,Bữa trưa,True,google_maps_unique
+42458,Bữa tối,True,google_maps_unique
+42458,Dịch vụ ăn uống,True,google_maps_unique
+42458,Món tráng miệng,True,google_maps_unique
+42458,Phục vụ tại bàn,True,google_maps_unique
+25223,Ăn_tại_chỗ,True,google_maps_unique
+25223,mua_hàng_ngay_trên_xe,True,google_maps_unique
+25223,giao_hàng_gián_tiếp,True,google_maps_unique
+25223,Bữa sáng,True,google_maps_unique
+25223,Dịch vụ ăn uống,True,google_maps_unique
+25223,Món tráng miệng,True,google_maps_unique
+25223,Chỗ ngồi,True,google_maps_unique
+25223,Phục vụ tại bàn,True,google_maps_unique
+28819,Ăn_tại_chỗ,True,google_maps_unique
+28819,Đồ_ăn_mang_đi,True,google_maps_unique
+28819,giao_hàng_gián_tiếp,True,google_maps_unique
+28819,Bữa sáng,True,google_maps_unique
+28819,Bữa nửa buổi,True,google_maps_unique
+28819,Dịch vụ ăn uống,True,google_maps_unique
+28819,Món tráng miệng,True,google_maps_unique
+28819,Chỗ ngồi,True,google_maps_unique
+28819,Phục vụ tại bàn,True,google_maps_unique
+78552,Ăn_tại_chỗ,True,google_maps_unique
+78552,Đồ_ăn_mang_đi,True,google_maps_unique
+9606,Ăn_tại_chỗ,True,google_maps_unique
+9606,Dịch vụ ăn uống,True,google_maps_unique
+125252,Ăn_tại_chỗ,True,google_maps_unique
+125252,mua_hàng_ngay_trên_xe,True,google_maps_unique
+125252,giao_hàng_gián_tiếp,True,google_maps_unique
+125252,Món tráng miệng,True,google_maps_unique
+125252,Chỗ ngồi,True,google_maps_unique
+125252,Phục vụ tại bàn,True,google_maps_unique
+103271,Ăn_tại_chỗ,True,google_maps_unique
+103271,Đồ_ăn_mang_đi,True,google_maps_unique
+103271,giao_hàng_gián_tiếp,True,google_maps_unique
+103271,Bữa trưa,True,google_maps_unique
+103271,Bữa tối,True,google_maps_unique
+103271,Dịch vụ ăn uống,True,google_maps_unique
+103271,Phục vụ tại bàn,True,google_maps_unique
+4633,Ăn_tại_chỗ,True,google_maps_unique
+4633,Đồ_ăn_mang_đi,True,google_maps_unique
+62733,Ăn_tại_chỗ,True,google_maps_unique
+62733,mua_hàng_ngay_trên_xe,True,google_maps_unique
+62733,giao_hàng_gián_tiếp,True,google_maps_unique
+62733,Dịch vụ ăn uống,True,google_maps_unique
+62733,Phục vụ tại bàn,True,google_maps_unique

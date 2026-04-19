@@ -1,11 +1,50 @@
 ﻿location_id,store_id,canonical_address,street,ward,district,city,lat,lng,area_tag
-loc_5117,5117,"69 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",69 Phố Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00653076,105.8454971,bach_khoa_hai_ba_trung
-loc_24209,24209,"63 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",63 Phố Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00665092,105.8453827,bach_khoa_hai_ba_trung
-loc_27878,27878,"10 Phố Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",10 Phố Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00597,105.8471832,bach_khoa_hai_ba_trung
-loc_28819,28819,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",91 Phố Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00411034,105.8455963,bach_khoa_hai_ba_trung
-loc_32441,32441,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",91 Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00428963,105.8455582,bach_khoa_hai_ba_trung
-loc_37364,37364,"Số 3A1 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Hai Bà Trưng, Hà Nội",Số 3A1 Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00509071,105.8468018,bach_khoa_hai_ba_trung
-loc_86930,86930,"Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",Số 3 Ngõ 40/2 Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00382042,105.8466873,bach_khoa_hai_ba_trung
-loc_96198,96198,"75 Trần Đại Nghĩa, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",75 Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.00592995,105.8457565,bach_khoa_hai_ba_trung
-loc_118180,118180,"71B Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",71B Trần Đại Nghĩa,Bạch Mai,Phường Bạch Mai,Hà Nội,21.00646019,105.8456116,bach_mai_phuong_bach_mai
-loc_118304,118304,"65 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",65 Trần Đại Nghĩa,Bạch Mai,Phường Bạch Mai,Hà Nội,21.00655937,105.8453598,bach_mai_phuong_bach_mai
+loc_32441,32441,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",91 Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,20.9980989,105.84599639999999,bach_khoa_hai_ba_trung
+loc_31947,31947,"22 Ngách 62B Ngõ 219 Đê Tô Hoàng, P. Cầu Dền, Hai Bà Trưng, Hà Nội",22 Ngách 62B Ngõ 219 Đê Tô Hoàng,,Hai Bà Trưng,Hà Nội,21.008567,105.8504729,_hai_ba_trung
+loc_40268,40268,"5 ngõ 17 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội",5 ngõ 17 Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,20.996048599999998,105.8591603,bach_khoa_hai_ba_trung
+loc_72445,72445,"26 Ngõ 183 Trần Đại Nghĩa, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",26 Ngõ 183 Trần Đại Nghĩa,,Hai Bà Trưng,Hà Nội,21.0002302,105.8463615,_hai_ba_trung
+loc_126679,126679,"104K9 Nguyễn Hiền, Phường Bạch Mai, Hà Nội",104K9 Nguyễn Hiền,Bạch Mai,Phường Bạch Mai,Hà Nội,21.0024083,105.84488909999999,bach_mai_phuong_bach_mai
+loc_80180,80180,"52 Phố Vọng, Phương Mai, Đống Đa, Hà Nội",52 Phố Vọng,,Đống Đa,Hà Nội,20.9981938,105.8421336,_đong_đa
+loc_47053,47053,"18 Ngõ Thái Lợi, Tổ dân phố 3A+Tổ dân phố 3B, Bạch Mai, Hai Bà Trưng, Hà Nội, Việt Nam",18 Ngõ Thái Lợi,Bạch Mai,Hai Bà Trưng,Hà Nội,21.001455,105.8511721,bach_mai_hai_ba_trung
+loc_130783,130783,"Số 10 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",Số 10 Tạ Quang Bửu,Bạch Mai,Phường Bạch Mai,Hà Nội,21.0078881,105.84690739999999,bach_mai_phuong_bach_mai
+loc_86930,86930,"Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",Số 3 Ngõ 40/2 Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.0040943,105.8465573,bach_khoa_hai_ba_trung
+loc_117526,117526,"40 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",40 Lê Thanh Nghị,Bạch Mai,Phường Bạch Mai,Hà Nội,20.998808399999998,105.8006127,bach_mai_phuong_bach_mai
+loc_6930,6930,"46 Trần Đại Nghĩa, P. Đồng Tâm, Q. Hai Bà Trưng, Hà Nội",46 Trần Đại Nghĩa,Báº¡ch Mai,Hai Bà Trưng,Hà Nội,21.002047299999997,105.8447676,bao_ch_mai_hai_ba_trung
+loc_31215,31215,"32 Ngõ 75 Giải Phóng, P.Đồng Tâm, Q.Hai Bà Trưng, Hà Nội",32 Ngõ 75 Giải Phóng,,Hai Bà Trưng,Hà Nội,20.991828599999998,105.8518271,_hai_ba_trung
+loc_11471,11471,"15 Ngõ 75 Đường Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội, Việt Nam",15 Ngõ 75 Đường Giải Phóng,,Hai Bà Trưng,Hà Nội,21.0081718,105.82014509999999,_hai_ba_trung
+loc_99491,99491,"112 K2 Khu Tập Thể Bách Khoa, Ngõ 48 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội",112 K2 Khu Tập Thể Bách Khoa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.0013261,105.84933199999999,bach_khoa_hai_ba_trung
+loc_55021,55021,"29 Tô Hiến Thành, P.Nguyễn Du, Q.Hai Bà Trưng, Hà Nội",29 Tô Hiến Thành,,Hai Bà Trưng,Hà Nội,21.0135448,105.8498226,_hai_ba_trung
+loc_91370,91370,"111 Khu Tập Thể 257 Thanh Nhàn, Hai Bà Trưng, Hà Nội",111 Khu Tập Thể 257 Thanh Nhàn,Công Viên Thống Nhất,Hai Bà Trưng,Hà Nội,21.0021421,105.8529628,cong_vien_thong_nhat_hai_ba_trung
+loc_132692,132692,"Số 10 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",Số 10 Tạ Quang Bửu,Bạch Mai,Phường Bạch Mai,Hà Nội,21.002006599999998,105.84974,bach_mai_phuong_bach_mai
+loc_103976,103976,"Số 25 ngõ 104 Lê Thanh Nghị, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",Số 25 ngõ 104 Lê Thanh Nghị,Bách Khoa,Hai Bà Trưng,Hà Nội,21.002580899999998,105.8460023,bach_khoa_hai_ba_trung
+loc_129860,129860,"75 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",75 Trần Đại Nghĩa,Bạch Mai,Phường Bạch Mai,Hà Nội,21.0058965,105.845821,bach_mai_phuong_bach_mai
+loc_82559,82559,"72 Ngõ 24 Giải Phóng, Phường Phương Mai, Quận Đống Đa, Hà Nội",72 Ngõ 24 Giải Phóng,,Đống Đa,Hà Nội,21.0218201,105.8574689,_đong_đa
+loc_64917,64917,"123 Trần Đại Nghĩa, Đồng Tâm, Hai Bà Trưng, Hà Nội",123 Trần Đại Nghĩa,,Hai Bà Trưng,Hà Nội,21.0013971,105.84504969999999,_hai_ba_trung
+loc_131660,131660,"Số Nhà 98 Ngõ 40 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",Số Nhà 98 Ngõ 40 Tạ Quang Bửu,Bạch Mai,Phường Bạch Mai,Hà Nội,21.000915199999998,105.84883529999999,bach_mai_phuong_bach_mai
+loc_129518,129518,"117 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",117 Lê Thanh Nghị,Bạch Mai,Phường Bạch Mai,Hà Nội,21.0017106,105.8433312,bach_mai_phuong_bach_mai
+loc_92263,92263,"31 Ngõ 66 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",31 Ngõ 66 Đại Cồ Việt,,Hai Bà Trưng,Hà Nội,21.008502,105.851036,_hai_ba_trung
+loc_113989,113989,"57 Ngõ Chùa Liên Phái, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",57 Ngõ Chùa Liên Phái,Bách Khoa,Hai Bà Trưng,Hà Nội,21.004993199999998,105.8494762,bach_khoa_hai_ba_trung
+loc_72995,72995,"25 Ngõ 67 Đê Tô Hoàng, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",25 Ngõ 67 Đê Tô Hoàng,,Hai Bà Trưng,Hà Nội,21.019564,105.8273887,_hai_ba_trung
+loc_9934,9934,"51 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",51 Đại Cồ Việt,Bách Khoa,Hai Bà Trưng,Hà Nội,21.007825,105.84684759999999,bach_khoa_hai_ba_trung
+loc_7160,7160,"90a Phố Vân Hồ 3, Lê Đại Hành, Hai Bà Trưng, Hà Nội, Việt Nam",90a Phố Vân Hồ 3,,Hai Bà Trưng,Hà Nội,21.0181373,105.8538926,_hai_ba_trung
+loc_22758,22758,"22 Ngách 55 Ngõ Chùa Liên Phái Bạch Mai, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",22 Ngách 55 Ngõ Chùa Liên Phái Bạch Mai,Bạch Mai,Hai Bà Trưng,Hà Nội,21.005312399999998,105.84882119999999,bach_mai_hai_ba_trung
+loc_67067,67067,"58 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",58 Đại Cồ Việt,,Hai Bà Trưng,Hà Nội,20.995402,105.85803209999999,_hai_ba_trung
+loc_111026,111026,"203 Bà Triệu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",203 Bà Triệu,Đại Học Bách Khoa,Hai Bà Trưng,Hà Nội,21.0142104,105.8505386,đai_hoc_bach_khoa_hai_ba_trung
+loc_8919,8919,"Sn 50 Ngõ Tô Hoàng, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",Sn 50 Ngõ Tô Hoàng,,Hai Bà Trưng,Hà Nội,21.0064284,105.8498934,_hai_ba_trung
+loc_62366,62366,"32A-34 Đại Cồ Việt, Phường Lê Đại Hành, Hai Bà Trưng, Hà Nội",32A-34 Đại Cồ Việt,,Hai Bà Trưng,Hà Nội,21.0089468,105.8492983,_hai_ba_trung
+loc_120238,120238,"25 Đoàn Trần Nghiệp, Phường Hai Bà Trưng, Hà Nội",25 Đoàn Trần Nghiệp,,Hai Bà Trưng,Hà Nội,21.0117646,105.8482346,_hai_ba_trung
+loc_126162,126162,"76 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",76 Lê Thanh Nghị,Bạch Mai,Phường Bạch Mai,Hà Nội,21.0032092,105.8354768,bach_mai_phuong_bach_mai
+loc_103957,103957,"87 Nguyễn Đình Chiểu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",87 Nguyễn Đình Chiểu,,Hai Bà Trưng,Hà Nội,21.0120956,105.8461821,_hai_ba_trung
+loc_4389,4389,"23 Lê Đại Hành, Lê Đại Hành, Hai Bà Trưng, Hà Nội",23 Lê Đại Hành,Há»“ Báº£y Máº«u,Hai Bà Trưng,Hà Nội,21.0098244,105.84975179999999,ha_bao_y_mao_u_hai_ba_trung
+loc_2188,2188,"107 E3 Lê Thanh Nghị, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",107 E3 Lê Thanh Nghị,Bách Khoa,Hai Bà Trưng,Hà Nội,21.0032241,105.84947149999999,bach_khoa_hai_ba_trung
+loc_93168,93168,"Số 9 Ngách 47 Ngõ 459 Bạch Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội",Số 9 Ngách 47 Ngõ 459 Bạch Mai,Bạch Mai,Hai Bà Trưng,Hà Nội,20.997731899999998,105.85054079999999,bach_mai_hai_ba_trung
+loc_42458,42458,"62 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",62 Phố Lê Thanh Nghị,Bách Khoa,Hai Bà Trưng,Hà Nội,21.007810499999998,105.8333663,bach_khoa_hai_ba_trung
+loc_25223,25223,"92 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",92 Phố Lê Thanh Nghị,Bách Khoa,Hai Bà Trưng,Hà Nội,21.003508399999998,105.84790679999999,bach_khoa_hai_ba_trung
+loc_28819,28819,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",91 Phố Trần Đại Nghĩa,Bách Khoa,Hai Bà Trưng,Hà Nội,21.0048458,105.8459008,bach_khoa_hai_ba_trung
+loc_78552,78552,"103 K1 Nguyễn Hiền, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",103 K1 Nguyễn Hiền,Bách Khoa,Hai Bà Trưng,Hà Nội,21.0006173,105.84658639999999,bach_khoa_hai_ba_trung
+loc_73374,73374,"81 Chùa Liên Phái, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",81 Chùa Liên Phái,,Hai Bà Trưng,Hà Nội,21.005312399999998,105.84882119999999,_hai_ba_trung
+loc_9606,9606,"108Y9 Ngõ Tự Do, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",108Y9 Ngõ Tự Do,,Hai Bà Trưng,Hà Nội,20.998110099999998,105.8469617,_hai_ba_trung
+loc_125252,125252,"Số 2 Nguyễn Hiền, Phường Bạch Mai, Hà Nội",Số 2 Nguyễn Hiền,Bạch Mai,Phường Bạch Mai,Hà Nội,21.0005764,105.8465365,bach_mai_phuong_bach_mai
+loc_103271,103271,"112b K2 - 48 Tạ Quang Bửu, phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",112b K2 - 48 Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.0014799,105.8493312,bach_khoa_hai_ba_trung
+loc_4633,4633,"307C Bạch Mai, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",307C Bạch Mai,Bạch Mai,Hai Bà Trưng,Hà Nội,21.002164999999998,105.85084599999999,bach_mai_hai_ba_trung
+loc_62733,62733,"109K2 Ngõ 48 Tạ Quang Bửu, Phường Bách Khoa, Hai Bà Trưng, Hà Nội",109K2 Ngõ 48 Tạ Quang Bửu,Bách Khoa,Hai Bà Trưng,Hà Nội,21.000915199999998,105.84883529999999,bach_khoa_hai_ba_trung

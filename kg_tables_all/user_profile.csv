@@ -1,4 +1,50 @@
 ﻿user_id,display_name,home_district,dietary_profile,default_budget_vnd
-u001,Sinh viên Bách Khoa,Hai Bà Trưng,no_restriction,45000
-u002,Nhân viên văn phòng,Đống Đa,low_spicy,65000
-u003,Người dùng ăn nhẹ,Hai Bà Trưng,vegetarian_flexible,40000
+u019,u019 - hust_giai_phong_gate,hust_giai_phong_gate,mi|mi_cay|mi_han_quoc,50000
+u013,u013 - hust_le_thanh_nghi,hust_le_thanh_nghi,mi|mi_cay|mi_han_quoc,50000
+u025,u025 - hust_bach_mai_side,hust_bach_mai_side,mi|mi_cay|mi_han_quoc,50000
+u001,u001 - hust_tran_dai_nghia,hust_tran_dai_nghia,mi|mi_cay|mi_han_quoc,50000
+u019,u019 - hust_giai_phong_gate,hust_giai_phong_gate,mi|mi_cay|mi_han_quoc,50000
+u020,u020 - hust_giai_phong_gate,hust_giai_phong_gate,bun|pho|chao|mi,50000
+u026,u026 - hust_bach_mai_side,hust_bach_mai_side,bun|pho|chao|mi,50000
+u008,u008 - hust_ta_quang_buu,hust_ta_quang_buu,bun|pho|chao|mi,50000
+u020,u020 - hust_giai_phong_gate,hust_giai_phong_gate,bun|pho|chao|mi,50000
+u027,u027 - hust_bach_mai_side,hust_bach_mai_side,com|com_trua|an_trua,50000
+u003,u003 - hust_tran_dai_nghia,hust_tran_dai_nghia,com|com_trua|an_trua,50000
+u003,u003 - hust_tran_dai_nghia,hust_tran_dai_nghia,com|com_trua|an_trua,50000
+u003,u003 - hust_tran_dai_nghia,hust_tran_dai_nghia,com|com_trua|an_trua,50000
+u022,u022 - hust_giai_phong_gate,hust_giai_phong_gate,ca_phe|coffee|cafe,100000
+u016,u016 - hust_le_thanh_nghi,hust_le_thanh_nghi,ca_phe|coffee|cafe,100000
+u004,u004 - hust_tran_dai_nghia,hust_tran_dai_nghia,ca_phe|coffee|cafe,100000
+u010,u010 - hust_ta_quang_buu,hust_ta_quang_buu,ca_phe|coffee|cafe,100000
+u022,u022 - hust_giai_phong_gate,hust_giai_phong_gate,ca_phe|coffee|cafe,100000
+u011,u011 - hust_ta_quang_buu,hust_ta_quang_buu,tra_sua|tea|drink,50000
+u005,u005 - hust_tran_dai_nghia,hust_tran_dai_nghia,tra_sua|tea|drink,50000
+u006,u006 - hust_tran_dai_nghia,hust_tran_dai_nghia,ca_phe|tea|noi_chuyen|hen_gap,100000
+u023,u023 - hust_giai_phong_gate,hust_giai_phong_gate,tra_sua|tea|drink,50000
+u005,u005 - hust_tran_dai_nghia,hust_tran_dai_nghia,tra_sua|tea|drink,50000
+u018,u018 - hust_le_thanh_nghi,hust_le_thanh_nghi,ca_phe|tea|noi_chuyen|hen_gap,100000
+u014,u014 - hust_le_thanh_nghi,hust_le_thanh_nghi,bun|pho|chao|mi,50000
+u013,u013 - hust_le_thanh_nghi,hust_le_thanh_nghi,mi|mi_cay|mi_han_quoc,50000
+u014,u014 - hust_le_thanh_nghi,hust_le_thanh_nghi,bun|pho|chao|mi,50000
+u014,u014 - hust_le_thanh_nghi,hust_le_thanh_nghi,bun|pho|chao|mi,50000
+u030,u030 - hust_bach_mai_side,hust_bach_mai_side,ca_phe|tea|noi_chuyen|hen_gap,100000
+u017,u017 - hust_le_thanh_nghi,hust_le_thanh_nghi,tra_sua|tea|drink,50000
+u015,u015 - hust_le_thanh_nghi,hust_le_thanh_nghi,com|com_trua|an_trua,50000
+u015,u015 - hust_le_thanh_nghi,hust_le_thanh_nghi,com|com_trua|an_trua,50000
+u016,u016 - hust_le_thanh_nghi,hust_le_thanh_nghi,ca_phe|coffee|cafe,100000
+u016,u016 - hust_le_thanh_nghi,hust_le_thanh_nghi,ca_phe|coffee|cafe,100000
+u029,u029 - hust_bach_mai_side,hust_bach_mai_side,tra_sua|tea|drink,50000
+u017,u017 - hust_le_thanh_nghi,hust_le_thanh_nghi,tra_sua|tea|drink,50000
+u018,u018 - hust_le_thanh_nghi,hust_le_thanh_nghi,ca_phe|tea|noi_chuyen|hen_gap,100000
+u025,u025 - hust_bach_mai_side,hust_bach_mai_side,mi|mi_cay|mi_han_quoc,50000
+u026,u026 - hust_bach_mai_side,hust_bach_mai_side,bun|pho|chao|mi,50000
+u021,u021 - hust_giai_phong_gate,hust_giai_phong_gate,com|com_trua|an_trua,50000
+u022,u022 - hust_giai_phong_gate,hust_giai_phong_gate,ca_phe|coffee|cafe,100000
+u022,u022 - hust_giai_phong_gate,hust_giai_phong_gate,ca_phe|coffee|cafe,100000
+u029,u029 - hust_bach_mai_side,hust_bach_mai_side,tra_sua|tea|drink,50000
+u026,u026 - hust_bach_mai_side,hust_bach_mai_side,bun|pho|chao|mi,50000
+u027,u027 - hust_bach_mai_side,hust_bach_mai_side,com|com_trua|an_trua,50000
+u028,u028 - hust_bach_mai_side,hust_bach_mai_side,ca_phe|coffee|cafe,100000
+u029,u029 - hust_bach_mai_side,hust_bach_mai_side,tra_sua|tea|drink,50000
+u029,u029 - hust_bach_mai_side,hust_bach_mai_side,tra_sua|tea|drink,50000
+u030,u030 - hust_bach_mai_side,hust_bach_mai_side,ca_phe|tea|noi_chuyen|hen_gap,100000

@@ -1,24 +1,148 @@
 ﻿store_id,source_name,source_store_key,source_url,source_name_raw,address_raw,match_confidence,note
-5117,befood,5117,,Phúc Long - Tạ Quang Bửu,"69 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
-5117,foody,https://www.foody.vn/ha-noi/phuc-long-tran-dai-nghia,https://www.foody.vn/ha-noi/phuc-long-tran-dai-nghia,Phúc Long - Tạ Quang Bửu,"69 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,match_method=manual_map; crawl_status=ok
-5117,google,ChIJG4MNTRKtNTERMdX9_nZCRnY,,Phuc Long Coffee & Tea,"69 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJG4MNTRKtNTERMdX9_nZCRnY; score=None
-24209,befood,24209,,Nước Dừa Trân Châu Phú Yên - Trần Đại Nghĩa,"63 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
-24209,google,ChIJNan-FHasNTERqQITN2_jD-c,,63 Trần Đại Nghĩa,"63 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội 100000, Việt Nam",high,method=direct_id; place_id=ChIJNan-FHasNTERqQITN2_jD-c; score=None
-27878,befood,27878,,Bánh Tráng Nướng Thảo Tồ - Tạ Quang Bửu,"10 Phố Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
-27878,google,ChIJeS1ro2etNTERbI5vCHcUsdE,,Quán bánh tráng nướng,"3a P. Tạ Quang Bửu, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJeS1ro2etNTERbI5vCHcUsdE; score=None
-28819,befood,28819,,Highlands Coffee -  Trần Đại Nghĩa,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,id gốc từ beFood
-28819,foody,https://www.foody.vn/ha-noi/highlands-coffee-tra-ca-phe-banh-dh-bach-khoa,https://www.foody.vn/ha-noi/highlands-coffee-tra-ca-phe-banh-dh-bach-khoa,Highlands Coffee - Trần Đại Nghĩa,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,match_method=manual_map; crawl_status=ok
-28819,google,ChIJ2eOmu8utNTERJF2ptkp1M1U,https://www.highlandscoffee.com.vn/,Highlands Coffee,"91 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJ2eOmu8utNTERJF2ptkp1M1U; score=None
-32441,befood,32441,,Mì Cay Seoul - Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
-32441,foody,https://www.foody.vn/ha-noi/mi-cay-seoul-tran-dai-nghia,https://www.foody.vn/ha-noi/mi-cay-seoul-tran-dai-nghia,Mì Cay Seoul - Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,match_method=manual_map; crawl_status=ok
-32441,google,ChIJQx4DbPStNTERHGh4b_1WM0s,https://micayseoul.com/,Mì Cay SEOUL Trần Đại Nghĩa,"223 Trần Đại Nghĩa, Đồng Tâm, Bạch Mai, Hà Nội 10000, Việt Nam",high,method=direct_id; place_id=ChIJQx4DbPStNTERHGh4b_1WM0s; score=None
-37364,befood,37364,,Quán Ngon - Gà Tần & Bánh Cuốn Nóng - Tạ Quang Bửu,"Số 3A1 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội, Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
-37364,google,ChIJgSa2OdmrNTERdN2XjloqtMs,,"Hà Anh: Bánh Cuốn Nóng, Gà Tần, Mỳ Gà Tần","101 K10B Đ. Nguyễn Hiền, Bách Khoa, Bạch Mai, Hà Nội 11615, Việt Nam",high,method=direct_id; place_id=ChIJgSa2OdmrNTERdN2XjloqtMs; score=None
-86930,befood,86930,,Bún Cá Cô Minh - Tạ Quang Bửu,"Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
-86930,google,ChIJfyn8ZwCtNTERx5svG5uV0as,,Bún Cá Cô Minh,"3 Ngh. 40/2 P. Tạ Quang Bửu, Bách Khoa, Bạch Mai, Hà Nội 100000, Việt Nam",high,method=direct_id; place_id=ChIJfyn8ZwCtNTERx5svG5uV0as; score=None
-96198,befood,96198,,92 Degree - Trần Đại Nghĩa,"75 Trần Đại Nghĩa, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,id gốc từ beFood
-96198,google,ChIJx4O7LQCtNTERW8cByt7xLGQ,,92 Degree coffee and milk tea,"75 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJx4O7LQCtNTERW8cByt7xLGQ; score=None
-118180,befood,118180,,1000M - Trà & Trà Sữa Shan Tuyết Thượng Hạng - Trần Đại Nghĩa,"71B Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",high,id gốc từ beFood
-118180,google,ChIJQyieCQCtNTERqqmnOm-Z-Kg,https://1000m.vn/,1000M Tea&Coffee,"71B Trần Đại Nghĩa Hà Nội, Bạch Mai, Hà Nội 100000, Việt Nam",high,method=direct_id; place_id=ChIJQyieCQCtNTERqqmnOm-Z-Kg; score=None
-118304,befood,118304,,Tiệm Trà Trái Cây Suncha - Trần Đại Nghĩa,"65 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",high,id gốc từ beFood
-118304,google,ChIJeUKoTQCtNTERUyftswtNbLI,,SUNCHA Tea & Fruit,"65 Trần Đại Nghĩa, Bách Khoa, Bạch Mai, Hà Nội, Việt Nam",high,method=direct_id; place_id=ChIJeUKoTQCtNTERUyftswtNbLI; score=None
+32441,top5_recommendation,32441,,Mì Cay Seoul - Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,rank=1; score=0.25425103886261075
+32441,google_maps_unique,32441,https://micayseoul.com/,Mì Cay SEOUL Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,google_rating=2.4; review_count=266
+32441,foody_hust_places,268714.0,https://www.foody.vn/ha-noi/mi-cay-seoul-tran-dai-nghia,Mì Cay Seoul - Trần Đại Nghĩa,"91 Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội",high,ok
+31947,top5_recommendation,31947,,Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng,"22 Ngách 62B Ngõ 219 Đê Tô Hoàng, P. Cầu Dền, Hai Bà Trưng, Hà Nội",high,rank=1; score=0.2536756834972964
+31947,google_maps_unique,31947,,Tuý food - mì trộn Indomie,"22 Ngách 62B Ngõ 219 Đê Tô Hoàng, P. Cầu Dền, Hai Bà Trưng, Hà Nội",high,google_rating=4.7; review_count=37
+31947,foody_hust_places,1153490.0,https://www.foody.vn/ha-noi/kufoodd-mi-tron-indomie-do-an-nhanh-de-to-hoang,Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng,"22 Ngách 62B Ngõ 219 Đê Tô Hoàng, P. Cầu Dền, Hai Bà Trưng, Hà Nội",high,ok
+40268,top5_recommendation,40268,,Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu,"5 ngõ 17 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội",high,rank=1; score=0.2548512361138462
+40268,google_maps_unique,40268,,Xuân Food - Mì Trộn Indomie - Minh Khai,"5 ngõ 17 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội",high,google_rating=4.7; review_count=3
+40268,foody_hust_places,1145100.0,https://www.foody.vn/ha-noi/xuan-food-mi-tron-indomie-ta-quang-buu,Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu,"5 ngõ 17 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội",high,ok
+72445,top5_recommendation,72445,,Bếp Cô Nụ - Bánh Mì Chảo Sốt Vang & Gà Viên Chiên - Trần Đại Nghĩa,"26 Ngõ 183 Trần Đại Nghĩa, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",high,rank=4; score=0.25349156913164567
+72445,google_maps_unique,72445,https://shopeefood.vn/u/rLSWLEu,Bánh Mì Chảo - Bếp Cô Nụ,"26 Ngõ 183 Trần Đại Nghĩa, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.7; review_count=186
+72445,foody_hust_places,1170422.0,https://www.foody.vn/ha-noi/banh-mi-bep-co-nu-banh-mi-chao-com-tron,Bánh Mì Bếp Cô Nụ - Bánh Mì Chảo & Cơm Trộn,"26 Ngõ 183 Trần Đại Nghĩa, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",high,ok
+126679,top5_recommendation,126679,,Mì Cay Sassin 7 Cấp Độ Hàn Quốc - Bách Khoa,"104K9 Nguyễn Hiền, Phường Bạch Mai, Hà Nội",high,rank=4; score=0.2536597593621158
+126679,google_maps_unique,126679,,Mỳ cay sasin,"104K9 Nguyễn Hiền, Phường Bạch Mai, Hà Nội",high,google_rating=3.9; review_count=1172
+126679,foody_hust_places,,,,"104K9 Nguyễn Hiền, Phường Bạch Mai, Hà Nội",medium,foody_url_not_found
+80180,top5_recommendation,80180,,"Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng","52 Phố Vọng, Phương Mai, Đống Đa, Hà Nội",high,rank=1; score=0.5851318814858141
+80180,google_maps_unique,80180,,Quyên phở gà,"52 Phố Vọng, Phương Mai, Đống Đa, Hà Nội",high,google_rating=; review_count=
+80180,foody_hust_places,1125947.0,https://www.foody.vn/ha-noi/quyen-pho-ga-mi-mien-tron-pho-vong,"Quyên Phở Gà - Mì, Miến Trộn - Phố Vọng","52 Phố Vọng, Phương Mai, Đống Đa, Hà Nội",high,ok
+47053,top5_recommendation,47053,,Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi,"18 Ngõ Thái Lợi, Tổ dân phố 3A+Tổ dân phố 3B, Bạch Mai, Hai Bà Trưng, Hà Nội, Việt Nam",high,rank=1; score=0.39021484716580496
+47053,google_maps_unique,47053,,Bee Quán,"18 Ngõ Thái Lợi, Tổ dân phố 3A+Tổ dân phố 3B, Bạch Mai, Hai Bà Trưng, Hà Nội, Việt Nam",high,google_rating=4.3; review_count=3
+47053,foody_hust_places,1168093.0,https://www.foody.vn/ha-noi/bee-quan-bun-suon-chua-chao-suon-mi-tron-indomie-thai-loi,"Bee QuÃ¡n - BÃºn SÆ°á»�n Chua, ChÃ¡o SÆ°á»�n & MÃ¬ Trá»™n Indomie - ThÃ¡i Lá»£i","18 Ngõ Thái Lợi, Tổ dân phố 3A+Tổ dân phố 3B, Bạch Mai, Hai Bà Trưng, Hà Nội, Việt Nam",high,ok
+130783,top5_recommendation,130783,,Bún Bò Huế Cố Đô 1 - Tạ Quang Bửu,"Số 10 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",high,rank=3; score=0.19536705570999316
+130783,google_maps_unique,130783,,Bún bò Huế Anh Quân,"Số 10 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",high,google_rating=4.2; review_count=25
+130783,foody_hust_places,1276010.0,https://www.foody.vn/ha-noi/bun-bo-hue-co-do-1,Bún Bò Huế - Cố Đô 1,"Số 10 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",high,ok
+86930,top5_recommendation,86930,,Bún Cá Cô Minh - Tạ Quang Bửu,"Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,rank=4; score=0.19662474908628413
+86930,google_maps_unique,86930,,Bún Cá Cô Minh,"Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.2; review_count=5
+86930,foody_hust_places,1000048639.0,https://www.foody.vn/ha-noi/bun-ca-co-minh-ta-quang-buu.nt1qad,Bún Cá Cô Minh - Tạ Quang Bửu,"Số 3 Ngõ 40/2 Tạ Quang Bửu, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,ok
+117526,top5_recommendation,117526,,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Lê Thanh Nghị,"40 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",high,rank=1; score=0.760526259945534
+117526,google_maps_unique,117526,https://bepbeo.vn/,Bếp Béo - Chuẩn Vị Trung Hoa,"40 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",high,google_rating=4.6; review_count=203
+117526,foody_hust_places,1196853.0,https://www.foody.vn/ha-noi/bep-be-beu-com-banh-mi-nuong-trung-hoa-le-thanh-nghi,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Lê Thanh Nghị,"40 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",high,ok
+6930,top5_recommendation,6930,,Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa,"46 Trần Đại Nghĩa, P. Đồng Tâm, Q. Hai Bà Trưng, Hà Nội",high,rank=2; score=0.506982523077927
+6930,google_maps_unique,6930,http://kombo.vn/,Cơm niêu Singapore KOMBO - 46 Trần Đại Nghĩa,"46 Trần Đại Nghĩa, P. Đồng Tâm, Q. Hai Bà Trưng, Hà Nội",high,google_rating=3.4; review_count=542
+6930,foody_hust_places,674183.0,https://www.foody.vn/ha-noi/kombo-com-nieu-singapore-tran-dai-nghia,KOMBO - CÆ¡m NiÃªu Singapore - Tráº§n Ä�áº¡i NghÄ©a,"46 Trần Đại Nghĩa, P. Đồng Tâm, Q. Hai Bà Trưng, Hà Nội",high,ok
+31215,top5_recommendation,31215,,Cơm Rang Hải Sơn - Giải Phóng,"32 Ngõ 75 Giải Phóng, P.Đồng Tâm, Q.Hai Bà Trưng, Hà Nội",high,rank=4; score=0.25381141536175583
+31215,google_maps_unique,31215,,Cơm rang hải sơn,"32 Ngõ 75 Giải Phóng, P.Đồng Tâm, Q.Hai Bà Trưng, Hà Nội",high,google_rating=; review_count=
+31215,foody_hust_places,1139203.0,https://www.foody.vn/ha-noi/com-rang-hai-son-giai-phong,Cơm Rang Hải Sơn - Giải Phóng,"32 Ngõ 75 Giải Phóng, P.Đồng Tâm, Q.Hai Bà Trưng, Hà Nội",high,ok
+11471,top5_recommendation,11471,,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,"15 Ngõ 75 Đường Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội, Việt Nam",high,rank=5; score=0.2537716992909943
+11471,google_maps_unique,11471,,Phở Bò Thiên Trường,"15 Ngõ 75 Đường Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội, Việt Nam",high,google_rating=4.5; review_count=22
+11471,foody_hust_places,1135528.0,https://www.foody.vn/ha-noi/thien-truong-pho-co-com-ga-xoi-mam-giai-phong,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,"15 Ngõ 75 Đường Giải Phóng, Đồng Tâm, Hai Bà Trưng, Hà Nội, Việt Nam",high,ok
+99491,top5_recommendation,99491,,Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa,"112 K2 Khu Tập Thể Bách Khoa, Ngõ 48 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội",high,rank=1; score=0.5069726959120908
+99491,google_maps_unique,99491,,SVN Coffee Tạ Quang Bửu,"112 K2 Khu Tập Thể Bách Khoa, Ngõ 48 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội",high,google_rating=4.7; review_count=9
+99491,foody_hust_places,,,,"112 K2 Khu Tập Thể Bách Khoa, Ngõ 48 Tạ Quang Bửu, Bách Khoa, Hai Bà Trưng, Hà Nội",medium,foody_url_not_found
+55021,top5_recommendation,55021,,Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành,"29 Tô Hiến Thành, P.Nguyễn Du, Q.Hai Bà Trưng, Hà Nội",high,rank=1; score=0.5068068965055011
+55021,google_maps_unique,55021,,Diên An Cà Phê - Tô Hiến Thành,"29 Tô Hiến Thành, P.Nguyễn Du, Q.Hai Bà Trưng, Hà Nội",high,google_rating=4.5; review_count=231
+55021,foody_hust_places,1000097664.0,https://www.foody.vn/ha-noi/tan-coffee-cafe-nuoc-ep-29-to-hien-thanh.3b1vnr,Tan. Coffee - Cafe & Nước Ép - 29 Tô Hiến Thành,"29 Tô Hiến Thành, P.Nguyễn Du, Q.Hai Bà Trưng, Hà Nội",high,ok
+91370,top5_recommendation,91370,,An Toàn Khu Coffee - Thanh Nhàn,"111 Khu Tập Thể 257 Thanh Nhàn, Hai Bà Trưng, Hà Nội",high,rank=3; score=0.2537040015118178
+91370,google_maps_unique,91370,,"46B Ngõ 257 Thanh Nhàn, Hai Bà Trưng, Hà Nội","111 Khu Tập Thể 257 Thanh Nhàn, Hai Bà Trưng, Hà Nội",high,google_rating=5.0; review_count=5
+91370,foody_hust_places,271685.0,https://www.foody.vn/ha-noi/cali-cafe-thanh-nhan,Cali Cafe - Thanh Nhàn,"111 Khu Tập Thể 257 Thanh Nhàn, Hai Bà Trưng, Hà Nội",high,ok
+132692,top5_recommendation,132692,,Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu,"Số 10 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",high,rank=3; score=0.2537706530966849
+132692,google_maps_unique,132692,https://www.facebook.com/kaffecayxang,Kàffe Cay Xang,"Số 10 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",high,google_rating=4.3; review_count=890
+132692,foody_hust_places,233770.0,https://www.foody.vn/ha-noi/sacombank-ta-quang-buu,SacomBank - Tạ Quang Bửu,"Số 10 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",high,ok
+103976,top5_recommendation,103976,,"Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị","Số 25 ngõ 104 Lê Thanh Nghị, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,rank=4; score=0.2540150366676111
+103976,google_maps_unique,103976,,"THE GO • Tagom - Cafe, Trà, Matcha & bánh...","Số 25 ngõ 104 Lê Thanh Nghị, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,google_rating=5.0; review_count=31
+103976,foody_hust_places,1238755.0,https://www.foody.vn/ha-noi/thego-tagom-matcha-cafe-tra-banh-bach-khoa,"Thego Tagom - Matcha Cafe, Trà & Bánh - Bách Khoa","Số 25 ngõ 104 Lê Thanh Nghị, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,ok
+129860,top5_recommendation,129860,,You Tea - Trần Đại Nghĩa,"75 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",high,rank=1; score=0.2542297796229426
+129860,google_maps_unique,129860,https://youtea.club/,You Tea Trần Đại Nghĩa,"75 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",high,google_rating=4.9; review_count=224
+129860,foody_hust_places,1278376.0,https://www.foody.vn/ha-noi/you-tea-75-tran-dai-nghia,You Tea - 75 Trần Đại Nghĩa,"75 Trần Đại Nghĩa, Phường Bạch Mai, Hà Nội",high,ok
+82559,top5_recommendation,82559,,Oet O Oet - Drink & Food - Giải Phóng,"72 Ngõ 24 Giải Phóng, Phường Phương Mai, Quận Đống Đa, Hà Nội",high,rank=2; score=0.25365341586493956
+82559,google_maps_unique,82559,http://z-one.com.vn/,Z'ONE,"72 Ngõ 24 Giải Phóng, Phường Phương Mai, Quận Đống Đa, Hà Nội",high,google_rating=4.1; review_count=1472
+82559,foody_hust_places,,,,"72 Ngõ 24 Giải Phóng, Phường Phương Mai, Quận Đống Đa, Hà Nội",medium,foody_url_not_found
+64917,top5_recommendation,64917,,Bing Long - Ice Cream & Tea - Trần Đại Nghĩa,"123 Trần Đại Nghĩa, Đồng Tâm, Hai Bà Trưng, Hà Nội",high,rank=2; score=0.19526411325400964
+64917,google_maps_unique,64917,,"BINHCHUN 52 Trần Đại Nghĩa, Đồng Tâm, Hai Bà Trưng","123 Trần Đại Nghĩa, Đồng Tâm, Hai Bà Trưng, Hà Nội",high,google_rating=4.0; review_count=50
+64917,foody_hust_places,1181047.0,https://www.foody.vn/ha-noi/bing-long-ice-cream-tea-khu-do-thi-do-nghia,Bing Long - Ice Cream & Tea - Khu Đô Thị Đô Nghĩa,"123 Trần Đại Nghĩa, Đồng Tâm, Hai Bà Trưng, Hà Nội",high,ok
+131660,top5_recommendation,131660,,"Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu","Số Nhà 98 Ngõ 40 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",high,rank=2; score=0.2537702826672587
+131660,google_maps_unique,131660,https://m.facebook.com/lucoffeetea/?mibextid=LQQJ4d,L’U Cofee & tea,"Số Nhà 98 Ngõ 40 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",high,google_rating=4.6; review_count=30
+131660,foody_hust_places,,,,"Số Nhà 98 Ngõ 40 Tạ Quang Bửu, Phường Bạch Mai, Hà Nội",medium,foody_url_not_found
+129518,top5_recommendation,129518,,Rosier Fresh Tea & Coffee - Lê Thanh Nghị,"117 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",high,rank=5; score=0.2535776261580125
+129518,google_maps_unique,129518,https://rosier.com.vn/,Rosier Fresh Tea & Coffee - Lê Thanh Nghị,"117 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",high,google_rating=3.4; review_count=60
+129518,foody_hust_places,1153809.0,https://www.foody.vn/ha-noi/tra-sua-rosier-fresh-tea-coffee-le-thanh-nghi,Trà Sữa Rosier - Fresh Tea & Coffee - Lê Thanh Nghị,"117 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",high,ok
+92263,top5_recommendation,92263,,Đồ Ăn Vặt Lay Mart - Đại Cồ Việt,"31 Ngõ 66 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,rank=1; score=0.19564446623875956
+92263,google_maps_unique,92263,https://www.petmart.vn/dich-vu-khach-san-trong-giu-cho-meo,Pet Mart Đại Cồ Việt - Cửa Hàng Thú Cưng,"31 Ngõ 66 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.5; review_count=84
+92263,foody_hust_places,1210087.0,https://www.foody.vn/ha-noi/lay-mart-cua-hang-tien-loi-do-an-vat,LAY MART - Cửa Hàng Tiện Lợi & Đồ Ăn Vặt,"31 Ngõ 66 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,ok
+113989,top5_recommendation,113989,,"Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái","57 Ngõ Chùa Liên Phái, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,rank=1; score=0.3902375964926172
+113989,google_maps_unique,113989,https://instagram.com/dianchaydi?igshid=OGQ5ZDc2ODk2ZA==,""" Đi Ăn Chay Đi "" Quán","57 Ngõ Chùa Liên Phái, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.1; review_count=59
+113989,foody_hust_places,1240229.0,https://www.foody.vn/ha-noi/di-an-chay-di-com-chay-bun-pho-mien-banh-mi-chay-57-chua-lien-phai,"Đi Ăn Chay Đi - Cơm Chay, Bún Phở Miến & Bánh Mì Chay - 57 Chùa Liên Phái","57 Ngõ Chùa Liên Phái, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,ok
+72995,top5_recommendation,72995,,2Mlem - Đồ Ăn Vặt & Mì - Đê Tô Hoàng,"25 Ngõ 67 Đê Tô Hoàng, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,rank=5; score=0.25356215975218627
+72995,google_maps_unique,72995,https://www.facebook.com/mlem.mr/,Mr Mlem 2 - Buffet Nướng Lẩu - có mở đêm,"25 Ngõ 67 Đê Tô Hoàng, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.8; review_count=1773
+72995,foody_hust_places,1000082963.0,https://www.foody.vn/ha-noi/2mlem-do-an-vat-mi-ngo-de-to-hoang.2pvbce,2Mlem - Đồ Ăn Vặt & Mì - Ngõ Đê Tô Hoàng,"25 Ngõ 67 Đê Tô Hoàng, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,ok
+9934,top5_recommendation,9934,,Bún Bò Huế Lan Chi - Đại Cồ Việt,"51 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,rank=3; score=0.196670697643216
+9934,google_maps_unique,9934,,Bún bò Lan Chi,"51 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,google_rating=3.4; review_count=5
+9934,foody_hust_places,795394.0,https://www.foody.vn/ha-noi/lan-chi-bun-bo-hue,Lan Chi - Bún Bò Huế,"51 Đại Cồ Việt, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,ok
+7160,top5_recommendation,7160,,Bún Chả Mẹ Nga - Vân Hồ 3,"90a Phố Vân Hồ 3, Lê Đại Hành, Hai Bà Trưng, Hà Nội, Việt Nam",high,rank=4; score=0.1955021061217852
+7160,google_maps_unique,7160,http://facebook.com/bunchahuonglienobama,Bún chả Hương Liên,"90a Phố Vân Hồ 3, Lê Đại Hành, Hai Bà Trưng, Hà Nội, Việt Nam",high,google_rating=4.1; review_count=11978
+7160,foody_hust_places,929108.0,https://www.foody.vn/ha-noi/bun-cha-me-nga-van-ho-3,Bún Chả Mẹ Nga - Vân Hồ 3,"90a Phố Vân Hồ 3, Lê Đại Hành, Hai Bà Trưng, Hà Nội, Việt Nam",high,ok
+22758,top5_recommendation,22758,,PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai,"22 Ngách 55 Ngõ Chùa Liên Phái Bạch Mai, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,rank=1; score=0.19678141107267258
+22758,google_maps_unique,22758,,Chùa Liên Phái,"22 Ngách 55 Ngõ Chùa Liên Phái Bạch Mai, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.5; review_count=719
+22758,foody_hust_places,648899.0,https://www.foody.vn/ha-noi/an-vat-bach-mai-shop-online,Ăn Vặt Bạch Mai - Shop Online,"22 Ngách 55 Ngõ Chùa Liên Phái Bạch Mai, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,ok
+67067,top5_recommendation,67067,,Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt,"58 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,rank=2; score=0.25371230071060524
+67067,google_maps_unique,67067,,Sunut- Trà Nhiệt Đới,"58 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.9; review_count=35
+67067,foody_hust_places,,,,"58 Đại Cồ Việt, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",medium,foody_url_not_found
+111026,top5_recommendation,111026,,Cơm Ngon Hà Nội - Bà Triệu,"203 Bà Triệu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,rank=4; score=0.25364744941941847
+111026,google_maps_unique,111026,https://online.fliphtml5.com/comle_amvigiadinh/hfik/?fbclid=IwY2xjawRL_ldleHRuA2FlbQIxMABicmlkETFnczdzWDVjQ0FWcHI2SEdDc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHo1Q7dDMSuW4xSE9WQFgFYgX8wzKkgLYHkRWH2v5av5j19XqzCYQVXnhFm6P_aem_Crlz8cX2RLn-cfdCvt9oRg,Cơm Lệ,"203 Bà Triệu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.5; review_count=248
+111026,foody_hust_places,1053975.0,https://www.foody.vn/ha-noi/com-ngon-ha-noi-ngo-tu-do,Cơm Ngon Hà Nội - Ngõ Tự Do,"203 Bà Triệu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,ok
+8919,top5_recommendation,8919,,Cơm Sạch Mẹ Shin - Tô Hoàng,"Sn 50 Ngõ Tô Hoàng, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,rank=5; score=0.2536091421642474
+8919,google_maps_unique,8919,,Cơm sạch Mẹ Shin,"Sn 50 Ngõ Tô Hoàng, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,google_rating=5.0; review_count=1
+8919,foody_hust_places,1108541.0,https://www.foody.vn/ha-noi/do-an-sach-me-shin-sn6-ngach-26-ngo-67-de-to-hoang,Đồ Ăn Sạch Mẹ Shin - SN6 Ngách 26 Ngõ 67 Đê Tô Hoàng,"Sn 50 Ngõ Tô Hoàng, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,ok
+62366,top5_recommendation,62366,,The Tryst Coffee & Desserts - Đại Cồ Việt,"32A-34 Đại Cồ Việt, Phường Lê Đại Hành, Hai Bà Trưng, Hà Nội",high,rank=4; score=0.2536367829913977
+62366,google_maps_unique,62366,https://www.facebook.com/thetrystcoffee/,The Tryst Rooftop Coffee Bar & Workspace,"32A-34 Đại Cồ Việt, Phường Lê Đại Hành, Hai Bà Trưng, Hà Nội",high,google_rating=4.8; review_count=77
+62366,foody_hust_places,,,,"32A-34 Đại Cồ Việt, Phường Lê Đại Hành, Hai Bà Trưng, Hà Nội",medium,foody_url_not_found
+120238,top5_recommendation,120238,,Rosier Fresh Tea & Coffee - Đoàn Trần Nghiệp,"25 Đoàn Trần Nghiệp, Phường Hai Bà Trưng, Hà Nội",high,rank=5; score=0.25355096400069066
+120238,google_maps_unique,120238,https://rosier.vn/,Rosier Fresh Tea & Coffee - Đoàn Trần Nghiệp,"25 Đoàn Trần Nghiệp, Phường Hai Bà Trưng, Hà Nội",high,google_rating=4.9; review_count=65
+120238,foody_hust_places,1267950.0,https://www.foody.vn/ha-noi/tra-sua-rosier-fresh-tea-coffee-doan-tran-nghiep,Trà Sữa Rosier - Fresh Tea & Coffee - Đoàn Trần Nghiệp,"25 Đoàn Trần Nghiệp, Phường Hai Bà Trưng, Hà Nội",high,ok
+126162,top5_recommendation,126162,,Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị,"76 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",high,rank=1; score=0.25414217006231976
+126162,google_maps_unique,126162,,Chi Trà,"76 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",high,google_rating=5.0; review_count=30
+126162,foody_hust_places,,,,"76 Lê Thanh Nghị, Phường Bạch Mai, Hà Nội",medium,foody_url_not_found
+103957,top5_recommendation,103957,,Rak Cha Tea - Nguyễn Đình Chiểu,"87 Nguyễn Đình Chiểu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,rank=5; score=0.2535300793013736
+103957,google_maps_unique,103957,,Rak cha tea,"87 Nguyễn Đình Chiểu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,google_rating=5.0; review_count=5
+103957,foody_hust_places,1000082369.0,https://www.foody.vn/ha-noi/rak-cha-tea-huong-vi-tra-va-ca-phe-doc-quyen-87-nguyen-dinh-chieu.wwiwak,Rak Cha Tea - Hương Vị Trà Và Cà Phê Độc Quyền - 87 Nguyễn Đình Chiểu,"87 Nguyễn Đình Chiểu, Phường Lê Đại Hành, Quận Hai Bà Trưng, Hà Nội",high,ok
+4389,top5_recommendation,4389,,Ding Tea - Lê Đại Hành,"23 Lê Đại Hành, Lê Đại Hành, Hai Bà Trưng, Hà Nội",high,rank=5; score=0.19524478320146033
+4389,google_maps_unique,4389,http://dingtea.vn/,Trà sữa Dingtea Việt nam,"23 Lê Đại Hành, Lê Đại Hành, Hai Bà Trưng, Hà Nội",high,google_rating=4.1; review_count=264
+4389,foody_hust_places,49210.0,https://www.foody.vn/ha-noi/ding-tea-le-dai-hanh,Ding Tea - LÃª Ä�áº¡i HÃ nh,"23 Lê Đại Hành, Lê Đại Hành, Hai Bà Trưng, Hà Nội",high,ok
+2188,top5_recommendation,2188,,Quán Ăn Quý - Mì Ý & Đồ Ăn Vặt Online - Lê Thanh Nghị,"107 E3 Lê Thanh Nghị, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,rank=4; score=0.25377069130049806
+2188,google_maps_unique,2188,,Quán Ăn Quý Mỳ Ý Và Đồ Ăn Vặt,"107 E3 Lê Thanh Nghị, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.7; review_count=160
+2188,foody_hust_places,1024611.0,https://www.foody.vn/ha-noi/quan-an-quy-mi-y-do-an-vat,QuÃ¡n Ä‚n QuÃ½ - MÃ¬ Ã� & Ä�á»“ Ä‚n Váº·t Online,"107 E3 Lê Thanh Nghị, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,ok
+93168,top5_recommendation,93168,,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,"Số 9 Ngách 47 Ngõ 459 Bạch Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội",high,rank=2; score=0.39011910658250937
+93168,google_maps_unique,93168,,Minh Sơn- Bún Trộn & Phở Chiên Phồng- Bạch Mai,"Số 9 Ngách 47 Ngõ 459 Bạch Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội",high,google_rating=; review_count=
+93168,foody_hust_places,1223948.0,https://www.foody.vn/ha-noi/minh-son-bun-tron-pho-chien-phong-bach-mai,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,"Số 9 Ngách 47 Ngõ 459 Bạch Mai, P. Bạch Mai, Hai Bà Trưng, Hà Nội",high,ok
+42458,top5_recommendation,42458,,Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị,"62 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,rank=4; score=0.2539228179330117
+42458,google_maps_unique,42458,https://kampong.vn/,Kampong Chicken House - Cơm gà Hải Nam,"62 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,google_rating=4.5; review_count=536
+42458,foody_hust_places,,,,"62 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",medium,foody_url_not_found
+25223,top5_recommendation,25223,,The Coffee House - Lê Thanh Nghị,"92 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,rank=3; score=0.2543211229818933
+25223,google_maps_unique,25223,http://www.thecoffeehouse.com/,The Coffee House,"92 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,google_rating=3.4; review_count=270
+25223,foody_hust_places,1118646.0,https://www.foody.vn/ha-noi/the-coffee-house-le-thanh-nghi,The Coffee House - Lê Thanh Nghị,"92 Phố Lê Thanh Nghị, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,ok
+28819,top5_recommendation,28819,,Highlands Coffee -  Trần Đại Nghĩa,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,rank=5; score=0.2539878356230709
+28819,google_maps_unique,28819,https://www.highlandscoffee.com.vn/,Highlands Coffee,"91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,google_rating=4.1; review_count=1301
+28819,foody_hust_places,784171.0,https://www.foody.vn/ha-noi/highlands-coffee-tra-ca-phe-banh-dh-bach-khoa,"Highlands Coffee - TrÃ , CÃ  PhÃª & BÃ¡nh - Ä�H BÃ¡ch Khoa","91 Phố Trần Đại Nghĩa, Bách Khoa, Hai Bà Trưng, Hà Nội, Việt Nam",high,ok
+78552,top5_recommendation,78552,,1920 Coffee And Tea - Nguyễn Hiền,"103 K1 Nguyễn Hiền, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,rank=2; score=0.25365485287594586
+78552,google_maps_unique,78552,https://www.facebook.com/COI.cafe2211,COI café,"103 K1 Nguyễn Hiền, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.6; review_count=11
+78552,foody_hust_places,284577.0,https://www.foody.vn/ha-noi/x-coffee-nguyen-hien,X - Coffee - Nguyễn Hiền,"103 K1 Nguyễn Hiền, Phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,ok
+73374,top5_recommendation,73374,,Cháo Ngon Cukking - Chùa Liên Phái,"81 Chùa Liên Phái, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,rank=5; score=0.19608449490549829
+73374,google_maps_unique,73374,,Chùa Liên Phái,"81 Chùa Liên Phái, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.5; review_count=719
+73374,foody_hust_places,1000073914.0,https://www.foody.vn/ha-noi/chao-ngon-cukking-chao-chua-lien-phai,CHÁO NGON CUKKING - Cháo - Chùa Liên Phái,"81 Chùa Liên Phái, Phường Cầu Dền, Quận Hai Bà Trưng, Hà Nội",high,ok
+9606,top5_recommendation,9606,,Cơm Ngon Quang Thắng,"108Y9 Ngõ Tự Do, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",high,rank=4; score=0.5068187434072069
+9606,google_maps_unique,9606,,Cơm Ngon Quang Thắng,"108Y9 Ngõ Tự Do, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",high,google_rating=3.0; review_count=4
+9606,foody_hust_places,,,,"108Y9 Ngõ Tự Do, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội",medium,foody_url_not_found
+125252,top5_recommendation,125252,,Linh Tinh - Coffee & Trà Chanh - Nguyễn Hiền,"Số 2 Nguyễn Hiền, Phường Bạch Mai, Hà Nội",high,rank=5; score=0.25369464167503947
+125252,google_maps_unique,125252,https://instagram.com/coffeelater.hn?igshid=Nzg3NjI1NGI=,coffee later?,"Số 2 Nguyễn Hiền, Phường Bạch Mai, Hà Nội",high,google_rating=4.5; review_count=54
+125252,foody_hust_places,985311.0,https://www.foody.vn/ha-noi/chill-tiem-tra-chanh-nguyen-hien,Chill - Tiệm Trà Chanh - Nguyễn Hiền,"Số 2 Nguyễn Hiền, Phường Bạch Mai, Hà Nội",high,ok
+103271,top5_recommendation,103271,,Gà Rán Orinchi - Quán Ăn Hàn Quốc - Tạ Quang Bửu,"112b K2 - 48 Tạ Quang Bửu, phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,rank=3; score=0.253629652955167
+103271,google_maps_unique,103271,,Orinchi Chicken Quán Ăn Hàn Quốc,"112b K2 - 48 Tạ Quang Bửu, phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.6; review_count=18
+103271,foody_hust_places,1238459.0,https://www.foody.vn/ha-noi/ga-ran-orinchi-ta-quang-buu,Gà Rán Orinchi - Tạ Quang Bửu,"112b K2 - 48 Tạ Quang Bửu, phường Bách Khoa, Quận Hai Bà Trưng, Hà Nội",high,ok
+4633,top5_recommendation,4633,,Trà Sữa Feeling Tea - Bạch Mai,"307C Bạch Mai, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",high,rank=5; score=0.25360832349492646
+4633,google_maps_unique,4633,http://www.feelingteaonline.com/,Feeling Tea Bạch Mai,"307C Bạch Mai, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",high,google_rating=4.2; review_count=102
+4633,foody_hust_places,93184.0,https://www.foody.vn/ha-noi/tra-sua-feeling-tea-bach-mai,TrÃ  Sá»¯a Feeling Tea - Báº¡ch Mai,"307C Bạch Mai, Phường Bạch Mai, Quận Hai Bà Trưng, Hà Nội",high,ok
+62733,top5_recommendation,62733,,Ngược Nắng Coffee & Tea - Tạ Quang Bửu,"109K2 Ngõ 48 Tạ Quang Bửu, Phường Bách Khoa, Hai Bà Trưng, Hà Nội",high,rank=5; score=0.19528534545083082
+62733,google_maps_unique,62733,https://m.facebook.com/lucoffeetea/?mibextid=LQQJ4d,L’U Cofee & tea,"109K2 Ngõ 48 Tạ Quang Bửu, Phường Bách Khoa, Hai Bà Trưng, Hà Nội",high,google_rating=4.6; review_count=30
+62733,foody_hust_places,917031.0,https://www.foody.vn/ha-noi/swan-tea-ta-quang-buu,Swan Tea - Táº¡ Quang Bá»­u,"109K2 Ngõ 48 Tạ Quang Bửu, Phường Bách Khoa, Hai Bà Trưng, Hà Nội",high,ok
