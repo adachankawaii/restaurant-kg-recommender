@@ -4,7 +4,6 @@ import argparse
 import csv
 import re
 from pathlib import Path
-
 from neo4j import GraphDatabase
 
 
