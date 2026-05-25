@@ -7,6 +7,7 @@ import pandas as pd
 from pydantic import BaseModel, Field
 
 from config import AppConfig
+from cross_encoder import CrossEncoderReranker
 from ingest import normalize_dish_family, to_float
 from observability import JsonlTraceLogger, RetrievalTrace
 from ranker import add_user_distance_to_record, rerank_candidates
@@ -112,6 +113,7 @@ class GraphRAGRetriever:
         summary: pd.DataFrame,
         intent_parser,
         trace_logger: Optional[JsonlTraceLogger] = None,
+        cross_encoder_reranker: Optional[CrossEncoderReranker] = None,
     ):
         self.config = config
         self.neo4j = neo4j_client
@@ -119,6 +121,7 @@ class GraphRAGRetriever:
         self.summary_by_key = summary.set_index("store_key").to_dict("index") if not summary.empty else {}
         self.intent_parser = intent_parser
         self.trace_logger = trace_logger
+        self.cross_encoder_reranker = cross_encoder_reranker
 
     def _location(self, user_lat: Optional[float], user_lng: Optional[float]) -> tuple[Optional[float], Optional[float]]:
         lat = to_float(user_lat) if user_lat is not None else self.config.user_lat
@@ -173,6 +176,7 @@ class GraphRAGRetriever:
         top_k: int = 5,
         user_lat: Optional[float] = None,
         user_lng: Optional[float] = None,
+        use_cross_encoder: Optional[bool] = None,
     ) -> tuple[dict, list[dict], RetrievalTrace]:
         trace = RetrievalTrace(query=query)
         intent = self.intent_parser(query)
@@ -186,7 +190,7 @@ class GraphRAGRetriever:
         store_scope = list({*(r["store_key"] for r in graph_hits), *(r["store_key"] for r in restaurant_hits), *(r["store_key"] for r in neighbor_hits)})
         text_hits = self.vector_store.search_text_units(query, top_k=20, store_keys=store_scope or None)
 
-        ranked = rerank_candidates(
+        ranked_rrf = rerank_candidates(
             query=query,
             graph_hits=graph_hits,
             neighbor_hits=neighbor_hits,
@@ -196,7 +200,18 @@ class GraphRAGRetriever:
             summary_by_key=self.summary_by_key,
             distance_weight=self.config.distance_weight,
             max_distance_km=self.config.max_distance_km,
-        )[:top_k]
+        )
+        should_use_ce = self.config.use_cross_encoder if use_cross_encoder is None else use_cross_encoder
+        if should_use_ce and self.cross_encoder_reranker is not None:
+            ranked = self.cross_encoder_reranker.rerank(
+                query=query,
+                candidates=ranked_rrf,
+                top_k=top_k,
+                intent=intent,
+                max_distance_km=self.config.max_distance_km,
+            )
+        else:
+            ranked = ranked_rrf[:top_k]
         trace.add_candidates(ranked)
         if self.trace_logger:
             self.trace_logger.write(trace)

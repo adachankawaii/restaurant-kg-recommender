@@ -6,6 +6,7 @@ Hệ thống gợi ý quán ăn dùng GraphRAG cho dữ liệu BeFood/Foody quan
 - Qdrant để semantic search trên restaurant summary và review text units.
 - LLM để parse intent và sinh câu trả lời.
 - RRF, geo-aware ranking, post-fusion constraint validation và optional cross-encoder để rerank kết quả.
+- Distance không được embed vào restaurant summary vì đây là tín hiệu theo từng user/session; hệ thống chỉ lưu `lat/lng` và tính `distance_km` tại thời điểm query.
 
 Notebook chính vẫn là `graph_rag.ipynb`, nhưng logic quan trọng đã được tách ra module Python để dễ test và tiến tới API/production.
 
@@ -62,6 +63,7 @@ restaurant-kg-recommender/
 - `graph_store.py`: Neo4j client, tạo constraints/indexes, upsert `Restaurant`, `Review`, `TextUnit`, `Attribute`, `MenuItem`, `DishFamily`.
 - `vector_store.py`: embedding service có cache, Qdrant collection management, index/search restaurant summary và text units.
 - `retriever.py`: hybrid retriever: graph filtering, graph neighbor expansion, vector search, text evidence search, trace hook.
+- `cross_encoder.py`: optional cross-encoder reranker cho API/module; lazy-load `FlagReranker`, build passage giàu context và normalize CE score theo từng query.
 - `ranker.py`: RRF fusion, geo intent (`nearest`, `nearby`, `normal`), post-fusion validation cho dish/price/distance/rating/evidence, rating bonus, source flags, score components.
 - `evaluation.py`: offline metrics gồm Recall@K, MRR@K, nDCG@K, latency và cost field.
 - `observability.py`: ghi trace JSONL cho mỗi request: intent, candidates, source flags, distance, score components, latency.
@@ -175,6 +177,9 @@ USER_LNG=105.843
 MAX_DISTANCE_KM=3
 DISTANCE_WEIGHT=0.20
 DISTANCE_DECAY_KM=3
+CROSS_ENCODER_MODEL=BAAI/bge-reranker-base
+USE_CROSS_ENCODER=true
+CROSS_ENCODER_WEIGHT=0.30
 
 RUN_COMMUNITY_REPORTS=true
 CACHE_DIR=.cache/graphrag
@@ -377,6 +382,8 @@ Mỗi request có thể log:
 - `restaurant_vec_score`
 - `text_unit_vec_score`
 - `distance_score`
+- `ce_raw_score`
+- `ce_score`
 - `final_score`
 - `latency_ms`
 

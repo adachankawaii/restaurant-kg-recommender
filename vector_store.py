@@ -44,7 +44,6 @@ def build_restaurant_summary_doc(row: pd.Series, attr_text: str = "") -> str:
         f"Restaurant name: {row.get('name')}",
         f"Address: {row.get('address')}",
         f"Area: {row.get('district')}, {row.get('city')}",
-        f"Distance from user: {row.get('distance_km')} km",
         f"Rating: {row.get('rating')}",
         f"Review count: {row.get('review_count')}",
         f"Price band: {row.get('price_band')}",

@@ -48,6 +48,8 @@ class AppConfig:
     embed_prefix_passage: str
     aspect_sentiment_model: str
     cross_encoder_model: str
+    use_cross_encoder: bool
+    cross_encoder_weight: float
 
     llm_provider: str
     openai_api_key: str
@@ -93,6 +95,8 @@ def load_config(repo_root: Optional[Path] = None) -> AppConfig:
         embed_prefix_passage=os.getenv("EMBED_PREFIX_PASSAGE", ""),
         aspect_sentiment_model=os.getenv("ASPECT_SENTIMENT_MODEL", "wonrax/phobert-base-vietnamese-sentiment"),
         cross_encoder_model=os.getenv("CROSS_ENCODER_MODEL", "BAAI/bge-reranker-base"),
+        use_cross_encoder=_env_bool("USE_CROSS_ENCODER", True),
+        cross_encoder_weight=float(os.getenv("CROSS_ENCODER_WEIGHT", "0.30")),
         llm_provider=os.getenv("LLM_PROVIDER", "openai").lower(),
         openai_api_key=os.getenv("OPENAI_API_KEY", ""),
         openai_model=os.getenv("OPENAI_MODEL", "gpt-4o-mini"),

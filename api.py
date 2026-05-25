@@ -4,6 +4,7 @@ from functools import lru_cache
 from typing import Optional
 
 from config import load_config
+from cross_encoder import CrossEncoderReranker
 from graph_store import Neo4jClient
 from ingest import load_raw_data, prepare_data
 from llm import create_intent_parser, generate_answer
@@ -42,6 +43,7 @@ def create_app():
         vector_store = QdrantVectorStore(config, embeddings)
         trace_logger = JsonlTraceLogger(config.observability_log_path)
         intent_parser = create_intent_parser(config)
+        cross_encoder = CrossEncoderReranker(config)
         return GraphRAGRetriever(
             config=config,
             neo4j_client=neo4j,
@@ -49,6 +51,7 @@ def create_app():
             summary=prepared.summary,
             intent_parser=intent_parser,
             trace_logger=trace_logger,
+            cross_encoder_reranker=cross_encoder,
         )
 
     class RecommendRequest(BaseModel):
@@ -56,6 +59,7 @@ def create_app():
         top_k: int = 5
         user_lat: Optional[float] = None
         user_lng: Optional[float] = None
+        use_cross_encoder: Optional[bool] = None
 
     @app.get("/health")
     def health():
@@ -69,6 +73,7 @@ def create_app():
             top_k=req.top_k,
             user_lat=req.user_lat,
             user_lng=req.user_lng,
+            use_cross_encoder=req.use_cross_encoder,
         )
         answer = generate_answer(config, req.query, intent, ranked)
         return {
