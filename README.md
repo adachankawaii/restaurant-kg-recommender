@@ -5,7 +5,7 @@ Hệ thống gợi ý quán ăn dùng GraphRAG cho dữ liệu BeFood/Foody quan
 - Neo4j để lưu knowledge graph nhà hàng, menu, review, aspect, khu vực và cộng đồng.
 - Qdrant để semantic search trên restaurant summary và review text units.
 - LLM để parse intent và sinh câu trả lời.
-- RRF, distance-aware ranking và optional cross-encoder để rerank kết quả.
+- RRF, geo-aware ranking, post-fusion constraint validation và optional cross-encoder để rerank kết quả.
 
 Notebook chính vẫn là `graph_rag.ipynb`, nhưng logic quan trọng đã được tách ra module Python để dễ test và tiến tới API/production.
 
@@ -56,13 +56,13 @@ restaurant-kg-recommender/
 ### Core Modules
 
 - `config.py`: đọc `.env`, gom toàn bộ config: đường dẫn data, Neo4j, Qdrant, model, LLM, distance, cache, observability.
-- `ingest.py`: xử lý CSV, canonicalize schema, parse comments, chuẩn hóa menu, suy luận district, tính distance, tạo bảng `summary`, `feedback`, `menu_items`, `dish_entities`.
+- `ingest.py`: xử lý CSV, canonicalize schema, parse comments, chuẩn hóa menu, suy luận district, tính distance, tính `price_band` từ phân phối giá menu, tạo `summary`, `feedback`, `menu_items`, `dish_families`.
 - `aspect_sentiment.py`: PhoBERT aspect sentiment cho review/comment, có cache disk để tránh chạy lại model khi input không đổi.
 - `cache.py`: JSON disk cache dùng cho embedding và aspect sentiment.
-- `graph_store.py`: Neo4j client, tạo constraints/indexes, upsert `Restaurant`, `Review`, `TextUnit`, `Attribute`, `MenuItem`, `DishEntity`.
+- `graph_store.py`: Neo4j client, tạo constraints/indexes, upsert `Restaurant`, `Review`, `TextUnit`, `Attribute`, `MenuItem`, `DishFamily`.
 - `vector_store.py`: embedding service có cache, Qdrant collection management, index/search restaurant summary và text units.
 - `retriever.py`: hybrid retriever: graph filtering, graph neighbor expansion, vector search, text evidence search, trace hook.
-- `ranker.py`: RRF fusion, distance-aware scoring, rating bonus, source flags, score components.
+- `ranker.py`: RRF fusion, geo intent (`nearest`, `nearby`, `normal`), post-fusion validation cho dish/price/distance/rating/evidence, rating bonus, source flags, score components.
 - `evaluation.py`: offline metrics gồm Recall@K, MRR@K, nDCG@K, latency và cost field.
 - `observability.py`: ghi trace JSONL cho mỗi request: intent, candidates, source flags, distance, score components, latency.
 - `llm.py`: LLM provider wrapper, intent parser, fallback parser, answer generation.
@@ -83,7 +83,7 @@ Luồng chính:
    - Quán -> `summary`
    - Comments -> `feedback`
    - Menu -> `menu_items`
-   - Menu item names -> `dish_entities`
+   - Menu item names -> `dish_families`
 3. Chấm aspect sentiment cho review/comment.
 4. Chunk review thành `TextUnit`.
 5. Upsert Neo4j graph.
@@ -93,7 +93,7 @@ Luồng chính:
 9. Detect community bằng Leiden (`python-igraph`).
 10. Parse user query thành intent.
 11. Retrieve bằng graph + vector + text evidence.
-12. Rerank bằng RRF + rating + distance + optional cross-encoder.
+12. Rerank bằng RRF + rating + geo-aware distance, validate constraints sau fusion, rồi optional cross-encoder.
 13. Sinh câu trả lời bằng LLM.
 
 ## Graph Schema
@@ -106,7 +106,7 @@ Node chính:
 - `Attribute`
 - `MenuItem`
 - `MenuCategory`
-- `DishEntity`
+- `DishFamily`
 - `Area`
 - `Category`
 - `Cuisine`
@@ -123,7 +123,7 @@ Quan hệ chính:
 - `(Restaurant)-[:HAS_ATTRIBUTE]->(Attribute)`
 - `(Restaurant)-[:HAS_MENU_ITEM]->(MenuItem)`
 - `(MenuItem)-[:IN_MENU_CATEGORY]->(MenuCategory)`
-- `(Restaurant)-[:SERVES]->(DishEntity)`
+- `(Restaurant)-[:SERVES_FAMILY]->(DishFamily)`
 - `(Restaurant)-[:IN_AREA]->(Area)`
 - `(Restaurant)-[:HAS_CATEGORY]->(Category)`
 - `(Restaurant)-[:HAS_PRICE_BAND]->(PriceBand)`
@@ -176,7 +176,7 @@ MAX_DISTANCE_KM=3
 DISTANCE_WEIGHT=0.20
 DISTANCE_DECAY_KM=3
 
-RUN_COMMUNITY_REPORTS=false
+RUN_COMMUNITY_REPORTS=true
 CACHE_DIR=.cache/graphrag
 OBSERVABILITY_LOG_PATH=logs/retrieval_traces.jsonl
 ```
@@ -311,10 +311,12 @@ Các case:
 
 - `test_haversine_km_zero_distance`: cùng tọa độ thì distance phải bằng `0.0`.
 - `test_haversine_km_known_small_distance`: kiểm tra khoảng cách thực tế nhỏ giữa 2 điểm gần Bách Khoa.
-- `test_price_band_from_bounds`: map khoảng giá sang `budget`, `mid`, `premium`.
+- `test_price_band_from_bounds`: map khoảng giá nguồn sang `budget`, `mid`, `premium`.
+- `test_price_band_from_menu_prices_uses_distribution_not_max`: đảm bảo `price_band` chính được suy ra từ median và tỷ lệ món giá rẻ trong menu, không bị một món max-price kéo lên `premium`.
+- `test_normalize_dish_family_groups_menu_items`: gom tên món cụ thể như `Cơm Gà Xối Mỡ`, `Bún chả đặc biệt`, `Gà rán combo` về family rộng.
 - `test_infer_district_from_vietnamese_address`: suy luận quận từ địa chỉ text.
 - `test_feedback_explodes_comments_list`: tách `comments_list` JSON string thành nhiều dòng feedback.
-- `test_prepare_data_shapes_and_distance`: tạo mock BeFood/Menu/Foody nhỏ và kiểm tra output `summary`, `feedback`, `menu_items`, `dish_entities`, `distance_km`.
+- `test_prepare_data_shapes_and_distance`: tạo mock BeFood/Menu/Foody nhỏ và kiểm tra output `summary`, `feedback`, `menu_items`, `dish_families`, `distance_km`.
 
 ### `tests/test_ranker.py`
 
@@ -323,6 +325,8 @@ Các case:
 - `test_safe_float_handles_bad_values`: đảm bảo score parser không crash với `None` hoặc string lỗi.
 - `test_rerank_uses_distance_for_near_query`: query có ý “gần tôi” thì quán gần được ưu tiên dù rating thấp hơn.
 - `test_text_unit_evidence_is_merged`: evidence từ review text unit được merge vào candidate.
+- `test_post_fusion_validation_filters_wrong_price_and_dish`: candidate từ vector branch bị loại nếu sai dish/price constraint.
+- `test_nearest_geo_intent_sorts_by_distance_first`: query “gần nhất” sort theo khoảng cách trước score tổng.
 
 ### `tests/test_retriever.py`
 
@@ -413,4 +417,4 @@ df = evaluate_retriever(
 - Browser geolocation thường yêu cầu HTTPS và user permission.
 - IP geolocation không đủ chính xác cho bài toán gợi ý quán ăn gần user.
 - `RECREATE_QDRANT=true` sẽ xóa và tạo lại collection Qdrant. Đặt `false` nếu muốn giữ index cũ.
-- `RUN_COMMUNITY_REPORTS=false` giúp tránh tự động gọi LLM tốn chi phí khi chạy notebook.
+- `RUN_COMMUNITY_REPORTS=true` bật sinh/check `CommunityReport`; đặt `false` nếu muốn tránh tự động gọi LLM tốn chi phí khi chạy notebook.

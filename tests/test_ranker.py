@@ -47,3 +47,32 @@ def test_text_unit_evidence_is_merged():
     assert ranked[0]["evidence"] == ["ngon"]
     assert "text_unit_vector" in ranked[0]["source_flags"]
 
+
+def test_post_fusion_validation_filters_wrong_price_and_dish():
+    ranked = rerank_candidates(
+        query="com ga gia re",
+        intent={"dish_name": "cơm gà", "price_band": "budget"},
+        graph_hits=[],
+        neighbor_hits=[],
+        restaurant_vector_hits=[
+            {"store_key": "bad", "name": "Bad", "price_band": "premium", "dish_families": ["phở"], "vec_score": 0.99},
+            {"store_key": "good", "name": "Good", "price_band": "budget", "dish_families": ["cơm gà"], "vec_score": 0.7},
+        ],
+        text_unit_hits=[],
+    )
+    assert [r["store_key"] for r in ranked] == ["good"]
+
+
+def test_nearest_geo_intent_sorts_by_distance_first():
+    near = {"store_key": "near", "name": "Near", "rating": 3.0, "distance_km": 0.2, "distance_score": 0.9}
+    far = {"store_key": "far", "name": "Far", "rating": 5.0, "distance_km": 1.8, "distance_score": 0.55}
+    ranked = rerank_candidates(
+        query="quan gan nhat",
+        intent={"geo_intent": "nearest"},
+        graph_hits=[far, near],
+        neighbor_hits=[],
+        restaurant_vector_hits=[],
+        text_unit_hits=[],
+    )
+    assert ranked[0]["store_key"] == "near"
+    assert ranked[0]["geo_intent"] == "nearest"

@@ -8,6 +8,8 @@ from ingest import (
     infer_district,
     prepare_data,
     price_band_from_bounds,
+    price_band_from_menu_prices,
+    normalize_dish_family,
 )
 
 
@@ -25,6 +27,18 @@ def test_price_band_from_bounds():
     assert price_band_from_bounds(10000, 50000) == "budget"
     assert price_band_from_bounds(58000, 95000) == "mid"
     assert price_band_from_bounds(15000, 490009) == "premium"
+
+
+def test_price_band_from_menu_prices_uses_distribution_not_max():
+    assert price_band_from_menu_prices([25000, 30000, 35000, 45000, 490000]) == "budget"
+    assert price_band_from_menu_prices([60000, 75000, 90000, 150000]) == "mid"
+    assert price_band_from_menu_prices([140000, 180000, 220000]) == "premium"
+
+
+def test_normalize_dish_family_groups_menu_items():
+    assert normalize_dish_family("Cơm Gà Xối Mỡ") == "cơm gà"
+    assert normalize_dish_family("Bún chả đặc biệt") == "bún chả"
+    assert normalize_dish_family("Gà rán combo") == "gà rán"
 
 
 def test_infer_district_from_vietnamese_address():
@@ -102,6 +116,7 @@ def test_prepare_data_shapes_and_distance():
     assert len(prepared.summary) == 1
     assert len(prepared.feedback) == 1
     assert len(prepared.menu_items) == 1
-    assert len(prepared.dish_entities) == 1
+    assert len(prepared.dish_families) == 1
+    assert prepared.dish_families.iloc[0]["dish_family"] == "cơm gà"
+    assert prepared.summary.iloc[0]["price_band"] == "budget"
     assert prepared.summary.iloc[0]["distance_km"] == 0.0
-

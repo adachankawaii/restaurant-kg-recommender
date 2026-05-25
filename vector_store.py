@@ -39,6 +39,7 @@ def stable_int_id(text: str) -> int:
 
 def build_restaurant_summary_doc(row: pd.Series, attr_text: str = "") -> str:
     menu_text = ", ".join(row.get("top_menu_items") or [])
+    family_text = ", ".join(row.get("dish_families") or [])
     return "\n".join([
         f"Restaurant name: {row.get('name')}",
         f"Address: {row.get('address')}",
@@ -51,6 +52,7 @@ def build_restaurant_summary_doc(row: pd.Series, attr_text: str = "") -> str:
         f"Menu price range: {row.get('menu_price_min')} - {row.get('menu_price_max')}, median={row.get('menu_price_median')}",
         f"Categories: {', '.join(row.get('categories') or [])}",
         f"Cuisines: {', '.join(row.get('cuisines') or [])}",
+        f"Dish families: {family_text}",
         f"Top menu items: {menu_text}",
         f"Opening hours: {row.get('opening_hours')}",
         f"Delivery time estimate: {row.get('delivery_time')}",
@@ -104,8 +106,13 @@ class QdrantVectorStore:
                     "distance_km": row.get("distance_km"),
                     "price_band": row.get("price_band"),
                     "top_menu_items": row.get("top_menu_items"),
+                    "dish_families": row.get("dish_families"),
+                    "categories": row.get("categories"),
+                    "cuisines": row.get("cuisines"),
                     "menu_price_min": row.get("menu_price_min"),
                     "menu_price_max": row.get("menu_price_max"),
+                    "menu_price_median": row.get("menu_price_median"),
+                    "menu_budget_item_ratio": row.get("menu_budget_item_ratio"),
                     "doc_text": doc,
                     "doc_type": "restaurant_summary",
                 },
@@ -134,8 +141,12 @@ class QdrantVectorStore:
                 "lng": payload.get("lng"),
                 "price_band": payload.get("price_band"),
                 "top_menu_items": payload.get("top_menu_items"),
+                "dish_families": payload.get("dish_families"),
+                "categories": payload.get("categories"),
+                "cuisines": payload.get("cuisines"),
                 "menu_price_min": payload.get("menu_price_min"),
                 "menu_price_max": payload.get("menu_price_max"),
+                "menu_price_median": payload.get("menu_price_median"),
                 "doc_text": payload.get("doc_text"),
                 "vec_score": round(float(hit.score), 4),
                 "source": "restaurant_vector",
@@ -170,4 +181,3 @@ class QdrantVectorStore:
                 "source": "text_unit_vector",
             })
         return rows
-

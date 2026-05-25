@@ -7,7 +7,7 @@ import pandas as pd
 from pydantic import BaseModel, Field
 
 from config import AppConfig
-from ingest import to_float
+from ingest import normalize_dish_family, to_float
 from observability import JsonlTraceLogger, RetrievalTrace
 from ranker import add_user_distance_to_record, rerank_candidates
 
@@ -30,6 +30,7 @@ class RestaurantIntent(BaseModel):
     min_rating: Optional[float] = Field(default=None, ge=0, le=5)
     max_distance_km: Optional[float] = Field(default=None, ge=0)
     price_band: Optional[str] = None
+    geo_intent: str = "normal"
     required_attributes: list[str] = Field(default_factory=list)
     sentiment_pref: Optional[str] = None
     top_k: int = Field(default=5, ge=1, le=20)
@@ -57,9 +58,9 @@ def build_graph_candidate_query(intent: dict, has_user_location: bool, has_max_d
         where.append("cat.name IN $categories")
         params["categories"] = intent["categories"]
     if intent.get("dish_name"):
-        match_lines.append("MATCH (r)-[:SERVES]->(dish:DishEntity)")
+        match_lines.append("MATCH (r)-[:SERVES_FAMILY]->(dish:DishFamily)")
         where.append("toLower(dish.name) CONTAINS toLower($dish_name)")
-        params["dish_name"] = intent["dish_name"]
+        params["dish_name"] = normalize_dish_family(intent["dish_name"]) or intent["dish_name"]
     if intent.get("min_rating") is not None:
         where.append("coalesce(r.rating, r.gmaps_rating, r.foody_rating, 0) >= $min_rating")
         params["min_rating"] = float(intent["min_rating"])
@@ -78,15 +79,22 @@ def build_graph_candidate_query(intent: dict, has_user_location: bool, has_max_d
     query += f"""
     OPTIONAL MATCH (r)-[:HAS_ATTRIBUTE]->(att:Attribute)
     OPTIONAL MATCH (r)-[:IN_AREA]->(a:Area)
+    OPTIONAL MATCH (r)-[:HAS_CATEGORY]->(cat_ret:Category)
+    OPTIONAL MATCH (r)-[:HAS_CUISINE]->(cui_ret:Cuisine)
+    OPTIONAL MATCH (r)-[:SERVES_FAMILY]->(df_ret:DishFamily)
     OPTIONAL MATCH (r)-[:IN_COMMUNITY]->(com:Community)-[:HAS_REPORT]->(rep:CommunityReport)
     WITH r, a, rep, collect(DISTINCT {{type: att.type, score: att.score}}) AS attributes,
+         collect(DISTINCT cat_ret.name) AS categories,
+         collect(DISTINCT cui_ret.name) AS cuisines,
+         collect(DISTINCT df_ret.name) AS dish_families,
          CASE WHEN r.lat IS NULL OR r.lng IS NULL THEN null ELSE {distance_expr} END AS distance_km
     RETURN r.store_key AS store_key, r.name AS name, r.address AS address,
            a.name AS district, a.city AS city, coalesce(r.rating, r.gmaps_rating, r.foody_rating) AS rating,
            r.lat AS lat, r.lng AS lng, distance_km,
            r.price_band AS price_band, r.top_menu_items AS top_menu_items,
            r.menu_price_min AS menu_price_min, r.menu_price_max AS menu_price_max,
-           attributes, rep.summary AS community_report
+           r.menu_price_median AS menu_price_median,
+           categories, cuisines, dish_families, attributes, rep.summary AS community_report
     ORDER BY CASE WHEN distance_km IS NULL THEN 1 ELSE 0 END, distance_km ASC,
              CASE WHEN coalesce(r.rating, r.gmaps_rating, r.foody_rating) IS NULL THEN 1 ELSE 0 END,
              coalesce(r.rating, r.gmaps_rating, r.foody_rating) DESC
@@ -137,15 +145,22 @@ class GraphRAGRetriever:
         MATCH (r:Restaurant {{store_key: key}})-[s:SIMILAR_TO]-(nbr:Restaurant)
         OPTIONAL MATCH (nbr)-[:HAS_ATTRIBUTE]->(att:Attribute)
         OPTIONAL MATCH (nbr)-[:IN_AREA]->(a:Area)
+        OPTIONAL MATCH (nbr)-[:HAS_CATEGORY]->(cat_ret:Category)
+        OPTIONAL MATCH (nbr)-[:HAS_CUISINE]->(cui_ret:Cuisine)
+        OPTIONAL MATCH (nbr)-[:SERVES_FAMILY]->(df_ret:DishFamily)
         OPTIONAL MATCH (nbr)-[:IN_COMMUNITY]->(com:Community)-[:HAS_REPORT]->(rep:CommunityReport)
         WITH nbr, max(s.similarity) AS sim, a, rep, collect(DISTINCT {{type: att.type, score: att.score}}) AS attributes,
+             collect(DISTINCT cat_ret.name) AS categories,
+             collect(DISTINCT cui_ret.name) AS cuisines,
+             collect(DISTINCT df_ret.name) AS dish_families,
              CASE WHEN nbr.lat IS NULL OR nbr.lng IS NULL THEN null ELSE {distance_expr} END AS distance_km
         RETURN nbr.store_key AS store_key, nbr.name AS name, nbr.address AS address,
                a.name AS district, a.city AS city, coalesce(nbr.rating, nbr.gmaps_rating, nbr.foody_rating) AS rating,
                nbr.lat AS lat, nbr.lng AS lng, distance_km,
                nbr.price_band AS price_band, nbr.top_menu_items AS top_menu_items,
                nbr.menu_price_min AS menu_price_min, nbr.menu_price_max AS menu_price_max,
-               sim, attributes, rep.summary AS community_report
+               nbr.menu_price_median AS menu_price_median,
+               categories, cuisines, dish_families, sim, attributes, rep.summary AS community_report
         ORDER BY sim DESC, CASE WHEN distance_km IS NULL THEN 1 ELSE 0 END, distance_km ASC, rating DESC
         LIMIT $max_neighbors
         """
@@ -177,8 +192,10 @@ class GraphRAGRetriever:
             neighbor_hits=neighbor_hits,
             restaurant_vector_hits=restaurant_hits,
             text_unit_hits=text_hits,
+            intent=intent,
             summary_by_key=self.summary_by_key,
             distance_weight=self.config.distance_weight,
+            max_distance_km=self.config.max_distance_km,
         )[:top_k]
         trace.add_candidates(ranked)
         if self.trace_logger:
@@ -202,4 +219,3 @@ class GraphRAGRetriever:
     def dump_trace_context(self, trace: RetrievalTrace, rows: list[dict]) -> RetrievalTrace:
         trace.prompt_context = self.format_prompt_context(rows)
         return trace
-

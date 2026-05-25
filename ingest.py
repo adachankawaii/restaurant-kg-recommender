@@ -117,6 +117,63 @@ def price_band_from_bounds(price_min: Any, price_max: Any) -> Optional[str]:
     return "premium"
 
 
+def price_band_from_menu_prices(prices: Any) -> Optional[str]:
+    if prices is None:
+        raw_values = []
+    else:
+        raw_values = list(prices)
+    vals = [to_float(x) for x in raw_values]
+    vals = [v for v in vals if v is not None and v > 0]
+    if not vals:
+        return None
+    median = float(np.median(vals))
+    budget_ratio = sum(v <= 50000 for v in vals) / len(vals)
+    premium_ratio = sum(v > 120000 for v in vals) / len(vals)
+    if median <= 50000 or budget_ratio >= 0.60:
+        return "budget"
+    if median <= 120000 and premium_ratio < 0.35:
+        return "mid"
+    return "premium"
+
+
+def normalize_dish_family(name: Any) -> str:
+    slug = slugify_vn(name)
+    if not slug:
+        return ""
+    rules = [
+        (["ga-ran"], "gà rán"),
+        (["com-tam"], "cơm tấm"),
+        (["com-ga"], "cơm gà"),
+        (["com-rang", "com-chien"], "cơm rang"),
+        (["com"], "cơm"),
+        (["bun-cha"], "bún chả"),
+        (["bun-bo"], "bún bò"),
+        (["bun-ca"], "bún cá"),
+        (["bun-rieu"], "bún riêu"),
+        (["bun"], "bún"),
+        (["pho"], "phở"),
+        (["banh-cuon"], "bánh cuốn"),
+        (["banh-mi"], "bánh mì"),
+        (["ga"], "gà"),
+        (["mi-cay"], "mì cay"),
+        (["mi"], "mì"),
+        (["mien"], "miến"),
+        (["chao"], "cháo"),
+        (["xoi"], "xôi"),
+        (["lau"], "lẩu"),
+        (["nuong"], "nướng"),
+        (["tra-sua"], "trà sữa"),
+        (["cafe", "ca-phe"], "cà phê"),
+        (["nuoc-ep"], "nước ép"),
+    ]
+    for needles, family in rules:
+        if any(n in slug for n in needles):
+            return family
+    stop = {"combo", "set", "size", "phan", "them", "dac", "biet", "full", "mix", "coca", "cola", "pepsi", "sprite", "dasani", "lon", "chai"}
+    toks = [t for t in slug.split("-") if t and t not in stop and not t.isdigit()]
+    return " ".join(toks[:2]) if toks else slug.replace("-", " ")
+
+
 def haversine_km(lat1: Any, lng1: Any, lat2: Any, lng2: Any) -> Optional[float]:
     lat1, lng1, lat2, lng2 = map(to_float, [lat1, lng1, lat2, lng2])
     if None in (lat1, lng1, lat2, lng2):
@@ -264,22 +321,22 @@ class PreparedData:
     summary: pd.DataFrame
     feedback: pd.DataFrame
     menu_items: pd.DataFrame
-    dish_entities: pd.DataFrame
+    dish_families: pd.DataFrame
 
 
-def build_menu_dish_entities(menu_df: pd.DataFrame) -> pd.DataFrame:
+def build_menu_dish_families(menu_df: pd.DataFrame) -> pd.DataFrame:
     if menu_df.empty:
-        return pd.DataFrame(columns=["store_key", "dish_name", "total_mentions", "positive_count", "avg_price", "order_count", "like_count", "menu_item_ids"])
+        return pd.DataFrame(columns=["store_key", "dish_family", "total_menu_items", "avg_price", "order_count", "like_count", "menu_item_ids", "example_items"])
     df = menu_df.copy()
-    df["dish_name"] = df["item_name"].astype(str).str.strip().str.lower()
-    df = df[df["dish_name"].ne("")].copy()
-    return df.groupby(["store_key", "dish_name"]).agg(
-        total_mentions=("menu_item_id", "count"),
-        positive_count=("like_count", "sum"),
+    df["dish_family"] = df["item_name"].apply(normalize_dish_family)
+    df = df[df["dish_family"].ne("")].copy()
+    return df.groupby(["store_key", "dish_family"]).agg(
+        total_menu_items=("menu_item_id", "count"),
         avg_price=("price", "mean"),
         order_count=("order_count", "sum"),
         like_count=("like_count", "sum"),
         menu_item_ids=("menu_item_id", lambda s: [str(x) for x in s]),
+        example_items=("item_name", lambda s: list(dict.fromkeys([str(x) for x in s if str(x).strip()]))[:5]),
     ).reset_index()
 
 
@@ -303,7 +360,7 @@ def prepare_data(
     restaurants["city_final"] = restaurants["city_foody"].fillna(restaurants["city"]).fillna("Ha Noi")
     restaurants["lat_final"] = restaurants["lat"].fillna(restaurants["foody_lat"])
     restaurants["lng_final"] = restaurants["lng"].fillna(restaurants["foody_lng"])
-    restaurants["price_band_final"] = restaurants["price_band"].fillna(restaurants["foody_price_band"])
+    restaurants["source_price_band_final"] = restaurants["price_band"].fillna(restaurants["foody_price_band"])
 
     menu_categories_by_store = menu_items.groupby("store_key")["category_name"].apply(lambda s: sorted({x for x in s if x})).to_dict()
     top_items = (
@@ -315,7 +372,11 @@ def prepare_data(
         menu_price_min=("price", "min"),
         menu_price_max=("price", "max"),
         menu_price_median=("price", "median"),
+        menu_budget_item_ratio=("price", lambda s: float((pd.to_numeric(s, errors="coerce") <= 50000).mean())),
+        menu_price_band=("price", price_band_from_menu_prices),
     ).reset_index()
+    dish_families = build_menu_dish_families(menu_items)
+    dish_families_by_store = dish_families.groupby("store_key")["dish_family"].apply(list).to_dict() if not dish_families.empty else {}
 
     restaurants["categories_final"] = [
         merge_list_cols(a, b, menu_categories_by_store.get(k, []), terms)
@@ -333,7 +394,7 @@ def prepare_data(
         "gmaps_rating": restaurants["gmaps_rating"],
         "foody_rating": restaurants["foody_rating"],
         "review_count": restaurants["gmaps_review_count"].fillna(restaurants["foody_review_count"]),
-        "price_band": restaurants["price_band_final"],
+        "source_price_band": restaurants["source_price_band_final"],
         "price_min": restaurants["price_min"],
         "price_max": restaurants["price_max"],
         "categories": restaurants["categories_final"],
@@ -344,11 +405,13 @@ def prepare_data(
         "delivery_time": restaurants["delivery_time"],
         "image_url": restaurants["image_url"],
         "top_menu_items": restaurants["store_key"].map(top_items).apply(lambda x: x if isinstance(x, list) else []),
+        "dish_families": restaurants["store_key"].map(dish_families_by_store).apply(lambda x: x if isinstance(x, list) else []),
         "lat": restaurants["lat_final"],
         "lng": restaurants["lng_final"],
     }).merge(price_stats, on="store_key", how="left")
 
     summary["menu_item_count"] = summary["menu_item_count"].fillna(0).astype(int)
+    summary["price_band"] = summary["menu_price_band"].fillna(summary["source_price_band"])
     summary["rating"] = summary["gmaps_rating"].fillna(summary["foody_rating"])
     if user_lat is not None and user_lng is not None:
         summary["distance_km"] = [haversine_km(user_lat, user_lng, lat, lng) for lat, lng in zip(summary["lat"], summary["lng"])]
@@ -356,5 +419,4 @@ def prepare_data(
         summary["distance_km"] = None
     summary["distance_score"] = summary["distance_km"].apply(lambda x: distance_score(x, distance_decay_km))
 
-    return PreparedData(summary=summary, feedback=feedback, menu_items=menu_items, dish_entities=build_menu_dish_entities(menu_items))
-
+    return PreparedData(summary=summary, feedback=feedback, menu_items=menu_items, dish_families=dish_families)

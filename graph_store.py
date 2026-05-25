@@ -37,7 +37,7 @@ class Neo4jClient:
             "CREATE CONSTRAINT category_name IF NOT EXISTS FOR (c:Category) REQUIRE c.name IS UNIQUE",
             "CREATE CONSTRAINT priceband_name IF NOT EXISTS FOR (p:PriceBand) REQUIRE p.name IS UNIQUE",
             "CREATE CONSTRAINT atmos_name IF NOT EXISTS FOR (a:AtmosphereTag) REQUIRE a.name IS UNIQUE",
-            "CREATE CONSTRAINT dish_name IF NOT EXISTS FOR (d:DishEntity) REQUIRE d.name IS UNIQUE",
+            "CREATE CONSTRAINT dish_family_name IF NOT EXISTS FOR (d:DishFamily) REQUIRE d.name IS UNIQUE",
             "CREATE CONSTRAINT menu_item_key IF NOT EXISTS FOR (m:MenuItem) REQUIRE m.menu_item_id IS UNIQUE",
             "CREATE CONSTRAINT menu_category_name IF NOT EXISTS FOR (m:MenuCategory) REQUIRE m.name IS UNIQUE",
             "CREATE CONSTRAINT community_key IF NOT EXISTS FOR (c:Community) REQUIRE c.community_id IS UNIQUE",
@@ -60,7 +60,8 @@ class Neo4jClient:
         SET r.name = row.name, r.address = row.address, r.district = row.district, r.city = row.city,
             r.lat = row.lat, r.lng = row.lng, r.rating = row.rating,
             r.gmaps_rating = row.gmaps_rating, r.foody_rating = row.foody_rating,
-            r.review_count = row.review_count, r.price_min = row.price_min, r.price_max = row.price_max,
+            r.review_count = row.review_count, r.price_band = row.price_band,
+            r.price_min = row.price_min, r.price_max = row.price_max,
             r.menu_item_count = row.menu_item_count, r.menu_price_min = row.menu_price_min,
             r.menu_price_max = row.menu_price_max, r.menu_price_median = row.menu_price_median,
             r.top_menu_items = row.top_menu_items, r.opening_hours = row.opening_hours,
@@ -145,20 +146,20 @@ class Neo4jClient:
           MERGE (mi)-[:IN_MENU_CATEGORY]->(mc))
         """, {"rows": menu_items.to_dict("records")})
 
-    def upsert_dish_entities(self, dish_entities: pd.DataFrame) -> None:
-        if dish_entities.empty:
+    def upsert_dish_families(self, dish_families: pd.DataFrame) -> None:
+        if dish_families.empty:
             return
-        rows = dish_entities.rename(columns={"dish_name": "name"}).to_dict("records")
+        rows = dish_families.rename(columns={"dish_family": "name"}).to_dict("records")
         self.run("""
         UNWIND $rows AS row
         MATCH (r:Restaurant {store_key: row.store_key})
-        MERGE (d:DishEntity {name: row.name})
-        MERGE (r)-[s:SERVES]->(d)
-        SET s.menu_item_count = row.total_mentions,
+        MERGE (d:DishFamily {name: row.name})
+        MERGE (r)-[s:SERVES_FAMILY]->(d)
+        SET s.menu_item_count = row.total_menu_items,
             s.like_count = row.like_count,
             s.order_count = row.order_count,
             s.avg_price = row.avg_price,
             s.menu_item_ids = row.menu_item_ids,
+            s.example_items = row.example_items,
             s.updated_at = datetime()
         """, {"rows": rows})
-

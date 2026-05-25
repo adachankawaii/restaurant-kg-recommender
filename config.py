@@ -104,8 +104,7 @@ def load_config(repo_root: Optional[Path] = None) -> AppConfig:
         max_distance_km=_env_float("MAX_DISTANCE_KM"),
         distance_weight=float(os.getenv("DISTANCE_WEIGHT", "0.20")),
         distance_decay_km=float(os.getenv("DISTANCE_DECAY_KM", "3.0")),
-        run_community_reports=_env_bool("RUN_COMMUNITY_REPORTS", False),
+        run_community_reports=_env_bool("RUN_COMMUNITY_REPORTS", True),
         cache_dir=cache_dir,
         observability_log_path=Path(os.getenv("OBSERVABILITY_LOG_PATH", str(repo_root / "logs" / "retrieval_traces.jsonl"))),
     )
-

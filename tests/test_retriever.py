@@ -16,11 +16,11 @@ def test_build_graph_candidate_query_includes_filters():
         has_max_distance=True,
     )
     assert "MATCH (r)-[:IN_AREA]->(area:Area)" in query
-    assert "MATCH (r)-[:SERVES]->(dish:DishEntity)" in query
+    assert "MATCH (r)-[:SERVES_FAMILY]->(dish:DishFamily)" in query
+    assert "dish_families" in query
     assert "point.distance" in query
     assert "att0" in query
     assert params["district"] == "Dong Da"
-    assert params["dish_name"] == "com"
+    assert params["dish_name"] == "cơm"
     assert params["min_rating"] == 4.0
     assert params["attr_0"] == "food_quality"
-

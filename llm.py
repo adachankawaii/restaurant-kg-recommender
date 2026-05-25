@@ -36,7 +36,11 @@ def fallback_intent_parser(query: str) -> dict:
         intent["dish_name"] = "phở"
     elif "bun" in q:
         intent["dish_name"] = "bún"
-    if any(x in q for x in ["gan", "quanh", "near", "around"]):
+    if any(x in q for x in ["gan-nhat", "closest", "nearest"]):
+        intent["geo_intent"] = "nearest"
+        intent["max_distance_km"] = 3.0
+    elif any(x in q for x in ["gan", "quanh", "near", "around", "xung-quanh"]):
+        intent["geo_intent"] = "nearby"
         intent["max_distance_km"] = 3.0
     if "dong-da" in q:
         intent["district"] = "Dong Da"
@@ -58,7 +62,7 @@ def create_intent_parser(config: AppConfig, use_llm: bool = True) -> Callable[[s
             ("system", """Bạn là bộ phân tích intent cho hệ gợi ý quán ăn GraphRAG.
 Trích xuất truy vấn thành schema RestaurantIntent.
 Chỉ chọn district/cuisine/category nếu người dùng thật sự nêu hoặc suy ra rõ.
-Nếu người dùng nói "gần đây", "quanh tôi", "trong bán kính X km", hãy set max_distance_km nếu có số km rõ ràng; nếu không có số rõ ràng thì để null."""),
+Nếu người dùng nói "gần nhất", set geo_intent=\"nearest\". Nếu nói "gần đây", "quanh tôi", "trong bán kính X km", set geo_intent=\"nearby\" và set max_distance_km nếu có số km rõ ràng; nếu không có số rõ ràng thì để null."""),
             ("human", "Query: {query}"),
         ])
 
@@ -106,4 +110,3 @@ def generate_answer(config: AppConfig, query: str, intent: dict, rows: list[dict
         return resp.content if hasattr(resp, "content") else str(resp)
     except Exception:
         return format_recommendation_context(rows)
-
