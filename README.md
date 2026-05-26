@@ -24,10 +24,12 @@ restaurant-kg-recommender/
 ├── ingest.py
 ├── aspect_sentiment.py
 ├── cache.py
+├── llm_graph_extraction.py
 ├── graph_store.py
 ├── vector_store.py
 ├── retriever.py
 ├── ranker.py
+├── cross_encoder.py
 ├── evaluation.py
 ├── observability.py
 ├── llm.py
@@ -37,9 +39,13 @@ restaurant-kg-recommender/
 │   ├── befood_bachkhoa_menu_items.csv
 │   └── foody_hust_places_from_store_csv.csv
 └── tests/
+    ├── test_aspect_sentiment.py
+    ├── test_cross_encoder.py
     ├── test_ingest.py
+    ├── test_llm_graph_extraction.py
     ├── test_ranker.py
-    └── test_retriever.py
+    ├── test_retriever.py
+    └── test_vector_store.py
 ```
 
 ## File Roles
@@ -58,9 +64,10 @@ restaurant-kg-recommender/
 
 - `config.py`: đọc `.env`, gom toàn bộ config: đường dẫn data, Neo4j, Qdrant, model, LLM, distance, cache, observability.
 - `ingest.py`: xử lý CSV, canonicalize schema, parse comments, chuẩn hóa menu, suy luận district, tính distance, tính `price_band` từ phân phối giá menu, tạo `summary`, `feedback`, `menu_items`, `dish_families`.
-- `aspect_sentiment.py`: PhoBERT aspect sentiment cho review/comment, có cache disk để tránh chạy lại model khi input không đổi.
+- `aspect_sentiment.py`: aspect sentiment cho review/comment, hỗ trợ `phobert` hoặc `llm`; LLM backend hiểu các từ ngữ domain đồ ăn như `khô`, `cứng`, `ngấy`, `tanh`, có cache disk.
 - `cache.py`: JSON disk cache dùng cho embedding và aspect sentiment.
-- `graph_store.py`: Neo4j client, tạo constraints/indexes, upsert `Restaurant`, `Review`, `TextUnit`, `Attribute`, `MenuItem`, `DishFamily`.
+- `llm_graph_extraction.py`: LLM-based entity/relation extraction từ review text, tạo `ExtractedEntity` và `ExtractedRelation` để graph có semantic node từ văn bản thô.
+- `graph_store.py`: Neo4j client, tạo constraints/indexes, upsert `Restaurant`, `Review`, `TextUnit`, `Attribute`, `MenuItem`, `DishFamily`, `ExtractedEntity`, `ExtractedRelation`.
 - `vector_store.py`: embedding service có cache, Qdrant collection management, index/search restaurant summary và text units.
 - `retriever.py`: hybrid retriever: graph filtering, graph neighbor expansion, vector search, text evidence search, trace hook.
 - `cross_encoder.py`: optional cross-encoder reranker cho API/module; lazy-load `FlagReranker`, build passage giàu context và normalize CE score theo từng query.
@@ -73,6 +80,8 @@ restaurant-kg-recommender/
 ### Tests
 
 - `tests/test_ingest.py`: test canonicalize data, Haversine distance, price band, district inference, explode comments, prepare data.
+- `tests/test_aspect_sentiment.py`: test sanitize/clamp schema output cho LLM aspect sentiment.
+- `tests/test_llm_graph_extraction.py`: test normalize entity/relation extraction thành dataframe upsert được.
 - `tests/test_ranker.py`: test `safe_float`, distance-aware reranking và merge evidence từ text units.
 - `tests/test_retriever.py`: test graph query builder có sinh đúng filter district, dish, rating, distance và attribute.
 
@@ -86,17 +95,18 @@ Luồng chính:
    - Comments -> `feedback`
    - Menu -> `menu_items`
    - Menu item names -> `dish_families`
-3. Chấm aspect sentiment cho review/comment.
+3. Chấm aspect sentiment cho review/comment bằng PhoBERT hoặc LLM backend.
 4. Chunk review thành `TextUnit`.
-5. Upsert Neo4j graph.
-6. Build restaurant summary docs và text unit docs.
-7. Embed docs và index vào Qdrant.
-8. Tạo `SIMILAR_TO` edges từ cosine similarity embedding.
-9. Detect community bằng Leiden (`python-igraph`).
-10. Parse user query thành intent.
-11. Retrieve bằng graph + vector + text evidence.
-12. Rerank bằng RRF + rating + geo-aware distance, validate constraints sau fusion, rồi optional cross-encoder.
-13. Sinh câu trả lời bằng LLM.
+5. Optional LLM GraphRAG extraction từ `TextUnit`: entity/relation như `chỗ để xe`, `gần Hồ Tây`, `phù hợp nhóm bạn`, `món bị khô/cứng`.
+6. Upsert Neo4j graph.
+7. Build restaurant summary docs và text unit docs.
+8. Embed docs và index vào Qdrant.
+9. Tạo `SIMILAR_TO` edges từ cosine similarity embedding.
+10. Detect community bằng Leiden (`python-igraph`).
+11. Parse user query thành intent, gồm `entity_terms` cho semantic entity từ review.
+12. Retrieve bằng graph + extracted entities + vector + text evidence.
+13. Rerank bằng RRF + rating + geo-aware distance, validate constraints sau fusion, rồi optional cross-encoder.
+14. Sinh câu trả lời bằng LLM.
 
 ## Graph Schema
 
@@ -109,6 +119,8 @@ Node chính:
 - `MenuItem`
 - `MenuCategory`
 - `DishFamily`
+- `ExtractedEntity`
+- `ExtractedRelation`
 - `Area`
 - `Category`
 - `Cuisine`
@@ -126,12 +138,35 @@ Quan hệ chính:
 - `(Restaurant)-[:HAS_MENU_ITEM]->(MenuItem)`
 - `(MenuItem)-[:IN_MENU_CATEGORY]->(MenuCategory)`
 - `(Restaurant)-[:SERVES_FAMILY]->(DishFamily)`
+- `(TextUnit)-[:MENTIONS_ENTITY]->(ExtractedEntity)`
+- `(Restaurant)-[:HAS_EXTRACTED_ENTITY]->(ExtractedEntity)`
+- `(ExtractedEntity)-[:SOURCE_OF]->(ExtractedRelation)-[:TARGETS]->(ExtractedEntity)`
+- `(TextUnit)-[:SUPPORTS_RELATION]->(ExtractedRelation)`
 - `(Restaurant)-[:IN_AREA]->(Area)`
 - `(Restaurant)-[:HAS_CATEGORY]->(Category)`
 - `(Restaurant)-[:HAS_PRICE_BAND]->(PriceBand)`
 - `(Restaurant)-[:SIMILAR_TO]->(Restaurant)`
 - `(Restaurant)-[:IN_COMMUNITY]->(Community)`
 - `(Community)-[:HAS_REPORT]->(CommunityReport)`
+
+### Optional LLM Extraction
+
+LLM extraction là bước offline/indexing, không chạy trong mỗi API request. Ví dụ:
+
+```python
+from llm_graph_extraction import LLMGraphExtractor
+
+extractor = LLMGraphExtractor(config)
+entity_df, relation_df = extractor.extract_text_units(text_units)
+neo4j.upsert_extracted_entities(entity_df, relation_df)
+```
+
+Nếu muốn dùng LLM cho aspect sentiment thay PhoBERT:
+
+```env
+ASPECT_SENTIMENT_BACKEND=llm
+LLM_ASPECT_MODEL_ID=gpt-4o-mini
+```
 
 ## Setup
 
@@ -166,6 +201,11 @@ NEO4J_PASSWORD=password123
 QDRANT_HOST=localhost
 QDRANT_PORT=6333
 RECREATE_QDRANT=true
+
+ASPECT_SENTIMENT_BACKEND=llm
+LLM_ASPECT_MODEL_ID=gpt-4o-mini
+USE_LLM_GRAPH_EXTRACTION=false
+LLM_GRAPH_EXTRACTION_MODEL_ID=gpt-4o-mini
 
 LLM_PROVIDER=openai
 OPENAI_API_KEY=your_key
@@ -297,15 +337,19 @@ python -m pytest tests -q
 Kết quả hiện tại:
 
 ```text
-10 passed
+20 passed
 ```
 
 Chạy từng nhóm:
 
 ```powershell
 python -m pytest tests/test_ingest.py -q
+python -m pytest tests/test_aspect_sentiment.py -q
+python -m pytest tests/test_llm_graph_extraction.py -q
+python -m pytest tests/test_cross_encoder.py -q
 python -m pytest tests/test_ranker.py -q
 python -m pytest tests/test_retriever.py -q
+python -m pytest tests/test_vector_store.py -q
 ```
 
 ## Test Cases Explained
@@ -353,6 +397,8 @@ Cache files:
 
 - `embeddings.json`: cache embedding theo `{model, prefix, text}`.
 - `aspect_sentiment.json`: cache sentiment theo `{model, review}`.
+- `llm_aspect_sentiment.json`: cache LLM aspect scoring theo `{model, prompt_version, review}`.
+- `llm_graph_extraction.json`: cache LLM entity/relation extraction theo `{model, prompt_version, review}`.
 
 Xóa cache khi đổi model hoặc muốn rebuild:
 

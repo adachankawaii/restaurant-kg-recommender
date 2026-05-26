@@ -47,6 +47,10 @@ class AppConfig:
     embed_prefix_query: str
     embed_prefix_passage: str
     aspect_sentiment_model: str
+    aspect_sentiment_backend: str
+    llm_aspect_model_id: str
+    use_llm_graph_extraction: bool
+    llm_graph_extraction_model_id: str
     cross_encoder_model: str
     use_cross_encoder: bool
     cross_encoder_weight: float
@@ -94,6 +98,10 @@ def load_config(repo_root: Optional[Path] = None) -> AppConfig:
         embed_prefix_query=os.getenv("EMBED_PREFIX_QUERY", ""),
         embed_prefix_passage=os.getenv("EMBED_PREFIX_PASSAGE", ""),
         aspect_sentiment_model=os.getenv("ASPECT_SENTIMENT_MODEL", "wonrax/phobert-base-vietnamese-sentiment"),
+        aspect_sentiment_backend=os.getenv("ASPECT_SENTIMENT_BACKEND", "llm").lower(),
+        llm_aspect_model_id=os.getenv("LLM_ASPECT_MODEL_ID", os.getenv("OPENAI_MODEL", "gpt-4o-mini")),
+        use_llm_graph_extraction=_env_bool("USE_LLM_GRAPH_EXTRACTION", False),
+        llm_graph_extraction_model_id=os.getenv("LLM_GRAPH_EXTRACTION_MODEL_ID", os.getenv("OPENAI_MODEL", "gpt-4o-mini")),
         cross_encoder_model=os.getenv("CROSS_ENCODER_MODEL", "BAAI/bge-reranker-base"),
         use_cross_encoder=_env_bool("USE_CROSS_ENCODER", True),
         cross_encoder_weight=float(os.getenv("CROSS_ENCODER_WEIGHT", "0.30")),

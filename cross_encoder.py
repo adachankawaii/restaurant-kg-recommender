@@ -26,6 +26,11 @@ def build_cross_encoder_passage(candidate: dict) -> str:
         for a in (candidate.get("attributes") or [])
         if a and a.get("score") is not None
     )
+    extracted = ", ".join(
+        f"{e.get('type')}:{e.get('name')}"
+        for e in (candidate.get("extracted_entities") or [])
+        if isinstance(e, dict) and e.get("name")
+    )
     parts = [
         f"Name: {candidate.get('name')}",
         f"Address: {candidate.get('address')}",
@@ -39,6 +44,7 @@ def build_cross_encoder_passage(candidate: dict) -> str:
         f"Dish_families: {', '.join(candidate.get('dish_families') or [])}",
         f"Top_menu_items: {', '.join(candidate.get('top_menu_items') or [])}",
         f"Attributes: {attrs}",
+        f"Extracted_entities: {extracted}",
         f"Community_report: {candidate.get('community_report') or ''}",
         f"Evidence: {evidence}",
     ]

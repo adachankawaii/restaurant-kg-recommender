@@ -36,6 +36,12 @@ def fallback_intent_parser(query: str) -> dict:
         intent["dish_name"] = "phở"
     elif "bun" in q:
         intent["dish_name"] = "bún"
+    entity_terms = []
+    for term in ["cho-de-xe", "wifi", "dieu-hoa", "ho-tay", "hen-ho", "tu-tap", "sinh-vien", "takeaway"]:
+        if term in q:
+            entity_terms.append(term.replace("-", " "))
+    if entity_terms:
+        intent["entity_terms"] = entity_terms
     if any(x in q for x in ["gan-nhat", "closest", "nearest"]):
         intent["geo_intent"] = "nearest"
         intent["max_distance_km"] = 3.0
@@ -62,6 +68,7 @@ def create_intent_parser(config: AppConfig, use_llm: bool = True) -> Callable[[s
             ("system", """Bạn là bộ phân tích intent cho hệ gợi ý quán ăn GraphRAG.
 Trích xuất truy vấn thành schema RestaurantIntent.
 Chỉ chọn district/cuisine/category nếu người dùng thật sự nêu hoặc suy ra rõ.
+Nếu query nhắc tiện ích/ngữ cảnh/mốc địa lý/chất lượng món cụ thể ngoài schema cứng, đưa cụm đó vào entity_terms để match ExtractedEntity từ review.
 Nếu người dùng nói "gần nhất", set geo_intent=\"nearest\". Nếu nói "gần đây", "quanh tôi", "trong bán kính X km", set geo_intent=\"nearby\" và set max_distance_km nếu có số km rõ ràng; nếu không có số rõ ràng thì để null."""),
             ("human", "Query: {query}"),
         ])

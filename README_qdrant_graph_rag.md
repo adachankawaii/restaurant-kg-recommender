@@ -50,11 +50,7 @@ Write-Host "Docker is ready"
 ### 2.2. Chạy Qdrant container
 
 ```powershell
-docker run -d --name qdrant-graphrag `
-  -p 6333:6333 `
-  -p 6334:6334 `
-  -v qdrant_storage:/qdrant/storage `
-  qdrant/qdrant:latest
+docker run -d --name qdrant-graphrag -p 6333:6333 -p 6334:6334 -v qdrant_storage:/qdrant/storage qdrant/qdrant:latest
 ```
 
 Trong đó:

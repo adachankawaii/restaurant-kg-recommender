@@ -159,6 +159,7 @@ def rerank_candidates(
                 "categories": rec.get("categories") or meta.get("categories"),
                 "cuisines": rec.get("cuisines") or meta.get("cuisines"),
                 "attributes": rec.get("attributes") or meta.get("attributes") or [],
+                "extracted_entities": rec.get("extracted_entities") or meta.get("extracted_entities") or [],
                 "menu_price_min": rec.get("menu_price_min") or meta.get("menu_price_min"),
                 "menu_price_max": rec.get("menu_price_max") or meta.get("menu_price_max"),
                 "menu_price_median": rec.get("menu_price_median") or meta.get("menu_price_median"),

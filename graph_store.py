@@ -38,6 +38,8 @@ class Neo4jClient:
             "CREATE CONSTRAINT priceband_name IF NOT EXISTS FOR (p:PriceBand) REQUIRE p.name IS UNIQUE",
             "CREATE CONSTRAINT atmos_name IF NOT EXISTS FOR (a:AtmosphereTag) REQUIRE a.name IS UNIQUE",
             "CREATE CONSTRAINT dish_family_name IF NOT EXISTS FOR (d:DishFamily) REQUIRE d.name IS UNIQUE",
+            "CREATE CONSTRAINT extracted_entity_key IF NOT EXISTS FOR (e:ExtractedEntity) REQUIRE e.entity_key IS UNIQUE",
+            "CREATE CONSTRAINT extracted_relation_key IF NOT EXISTS FOR (r:ExtractedRelation) REQUIRE r.relation_key IS UNIQUE",
             "CREATE CONSTRAINT menu_item_key IF NOT EXISTS FOR (m:MenuItem) REQUIRE m.menu_item_id IS UNIQUE",
             "CREATE CONSTRAINT menu_category_name IF NOT EXISTS FOR (m:MenuCategory) REQUIRE m.name IS UNIQUE",
             "CREATE CONSTRAINT community_key IF NOT EXISTS FOR (c:Community) REQUIRE c.community_id IS UNIQUE",
@@ -47,6 +49,7 @@ class Neo4jClient:
             "CREATE INDEX text_unit_store IF NOT EXISTS FOR (t:TextUnit) ON (t.store_key)",
             "CREATE INDEX menu_item_price IF NOT EXISTS FOR (m:MenuItem) ON (m.price)",
             "CREATE INDEX attr_type IF NOT EXISTS FOR (a:Attribute) ON (a.type)",
+            "CREATE INDEX extracted_entity_type IF NOT EXISTS FOR (e:ExtractedEntity) ON (e.type)",
             "CREATE INDEX community_level IF NOT EXISTS FOR (c:Community) ON (c.level)",
         ]
         for stmt in stmts:
@@ -163,3 +166,43 @@ class Neo4jClient:
             s.example_items = row.example_items,
             s.updated_at = datetime()
         """, {"rows": rows})
+
+    def upsert_extracted_entities(self, entities: pd.DataFrame, relations: Optional[pd.DataFrame] = None) -> None:
+        if not entities.empty:
+            self.run("""
+            UNWIND $rows AS row
+            MATCH (r:Restaurant {store_key: row.store_key})
+            MATCH (tu:TextUnit {text_unit_id: row.text_unit_id})
+            MERGE (e:ExtractedEntity {entity_key: row.entity_key})
+            SET e.name = row.name,
+                e.type = row.entity_type,
+                e.updated_at = datetime()
+            MERGE (tu)-[m:MENTIONS_ENTITY]->(e)
+            SET m.sentiment = row.sentiment,
+                m.confidence = row.confidence,
+                m.evidence = row.evidence,
+                m.review_id = row.review_id,
+                m.updated_at = datetime()
+            MERGE (r)-[re:HAS_EXTRACTED_ENTITY]->(e)
+            SET re.last_seen_at = datetime()
+            """, {"rows": entities.to_dict("records")})
+
+        if relations is not None and not relations.empty:
+            self.run("""
+            UNWIND $rows AS row
+            MATCH (source:ExtractedEntity {entity_key: row.source_entity_key})
+            MATCH (target:ExtractedEntity {entity_key: row.target_entity_key})
+            MATCH (tu:TextUnit {text_unit_id: row.text_unit_id})
+            MERGE (rel:ExtractedRelation {relation_key: row.relation_key})
+            SET rel.type = row.relation_type,
+                rel.sentiment = row.sentiment,
+                rel.confidence = row.confidence,
+                rel.evidence = row.evidence,
+                rel.store_key = row.store_key,
+                rel.review_id = row.review_id,
+                rel.text_unit_id = row.text_unit_id,
+                rel.updated_at = datetime()
+            MERGE (source)-[:SOURCE_OF]->(rel)
+            MERGE (rel)-[:TARGETS]->(target)
+            MERGE (tu)-[:SUPPORTS_RELATION]->(rel)
+            """, {"rows": relations.to_dict("records")})

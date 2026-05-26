@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from typing import Optional
+from typing import Any, Optional
 
 import numpy as np
 import pandas as pd
@@ -25,6 +25,25 @@ LABEL_TO_SCORE = {
     "neutral": 0.0, "neu": 0.0, "1": 0.0,
     "positive": 1.0, "pos": 1.0, "2": 1.0,
 }
+
+ASPECT_SCORE_KEYS = list(ASPECTS.keys())
+
+
+def sanitize_aspect_scores(raw: Any) -> dict[str, float]:
+    if hasattr(raw, "model_dump"):
+        raw = raw.model_dump()
+    if not isinstance(raw, dict):
+        return {key: 0.0 for key in ASPECT_SCORE_KEYS}
+    if "scores" in raw and isinstance(raw["scores"], dict):
+        raw = raw["scores"]
+    scores: dict[str, float] = {}
+    for key in ASPECT_SCORE_KEYS:
+        try:
+            value = float(raw.get(key, 0.0))
+        except Exception:
+            value = 0.0
+        scores[key] = round(max(-1.0, min(1.0, value)), 4)
+    return scores
 
 
 class AspectSentimentService:
@@ -106,6 +125,72 @@ class AspectSentimentService:
         return stable_hash({"model": self.config.aspect_sentiment_model, "review": review})
 
 
+class LLMAspectSentimentService:
+    """Food-domain aspect sentiment using an LLM with cache.
+
+    Scores are in [-1, 1]. Negative food-specific descriptors like "khô",
+    "cứng", "ngấy", "bở", "tanh" are handled in-context by the LLM instead
+    of relying on a generic sentiment classifier.
+    """
+
+    prompt_version = "llm_food_aspect_v1"
+
+    def __init__(self, config: AppConfig, llm=None):
+        from langchain.prompts import ChatPromptTemplate
+        from pydantic import BaseModel, Field
+        from llm import get_llm
+
+        class AspectResult(BaseModel):
+            scores: dict[str, float] = Field(default_factory=dict)
+
+        self.config = config
+        self.cache = JsonDiskCache(config.cache_dir, "llm_aspect_sentiment")
+        llm = llm or get_llm(config)
+        self.chain = ChatPromptTemplate.from_messages([
+            ("system", """Bạn chấm aspect sentiment cho review quán ăn Việt Nam.
+Trả điểm từng aspect trong [-1, 1], chỉ dựa trên text.
+Aspect hợp lệ:
+- food_quality: hương vị, độ tươi, texture; các từ như khô/cứng/ngấy/tanh/bở là tiêu cực nếu nói về món ăn.
+- service: thái độ phục vụ.
+- cleanliness: vệ sinh, mùi, an toàn.
+- packaging: đóng gói/giao hàng.
+- price: giá, đáng tiền.
+- space: không gian, chỗ ngồi.
+- speed: tốc độ phục vụ/giao.
+Nếu aspect không được nhắc, trả 0. Không bịa thông tin."""),
+            ("human", "Review: {review}"),
+        ]) | llm.with_structured_output(AspectResult)
+
+    def score_review(self, review: str) -> dict[str, float]:
+        normalized = normalize_text(review)
+        payload = {
+            "model": self.config.llm_aspect_model_id,
+            "prompt_version": self.prompt_version,
+            "review": normalized,
+        }
+        cached = self.cache.get_or_compute(payload, lambda: None)
+        if cached is not None:
+            return sanitize_aspect_scores(cached)
+        result = sanitize_aspect_scores(self.chain.invoke({"review": normalized}))
+        from cache import stable_hash
+
+        self.cache.set(stable_hash(payload), result)
+        return result
+
+    def score_reviews_batch(self, reviews: list[str]) -> list[dict[str, float]]:
+        results = [self.score_review(review) for review in reviews]
+        self.cache.save()
+        return results
+
+
+def create_aspect_sentiment_service(config: AppConfig):
+    if config.aspect_sentiment_backend == "llm":
+        return LLMAspectSentimentService(config)
+    if config.aspect_sentiment_backend != "phobert":
+        raise ValueError("ASPECT_SENTIMENT_BACKEND must be 'phobert' or 'llm'")
+    return AspectSentimentService(config)
+
+
 def classify_sentiment_from_aspects(aspect_scores: dict[str, float]) -> str:
     avg = float(np.mean(list(aspect_scores.values()))) if aspect_scores else 0.0
     if avg >= 0.20:
@@ -121,4 +206,3 @@ def score_feedback_dataframe(feedback: pd.DataFrame, service: AspectSentimentSer
     out["aspect_scores"] = service.score_reviews_batch(out["feedback_norm"].tolist())
     out["sentiment"] = out["aspect_scores"].apply(classify_sentiment_from_aspects)
     return out
-
