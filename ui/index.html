@@ -1,0 +1,123 @@
+﻿<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FindEat - Restaurant Recommender</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#" aria-label="FindEat">
+        <span class="brand-mark">FE</span>
+        <span>
+          <strong>FindEat</strong>
+          <small>Restaurant KG Recommender</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Điều hướng">
+        <a href="#search">Tìm quán</a>
+        <a href="#results">Gợi ý</a>
+      </nav>
+
+      <div class="top-actions">
+        <div class="location-search" id="locationSearch">
+          <div class="location-control">
+            <strong>GIAO TỚI</strong>
+            <span class="location-pin">●</span>
+            <input id="locationSearchInput" type="text" value="Đại học Bách Khoa, Hà Nội" aria-label="Nhập địa chỉ hoặc khu vực" />
+            <button id="locationClearButton" class="location-icon-button" type="button" aria-label="Xóa địa chỉ">×</button>
+            <button id="locationLocateButton" class="location-icon-button" type="button" aria-label="Định vị hiện tại">⌖</button>
+          </div>
+          <div id="locationSuggestions" class="location-suggestions hidden"></div>
+        </div>
+        <button class="outline-button" type="button">Tài khoản</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="search" class="hero">
+        <section class="search-panel" aria-label="Tìm kiếm nhà hàng">
+          <div class="panel-head">
+            <div>
+              <h2>Nhập nhu cầu của bạn</h2>
+            </div>
+            <span class="live-badge">Mock API</span>
+          </div>
+
+          <form id="searchForm" class="search-form">
+            <label class="field wide">
+              <span>Món ăn</span>
+              <input id="foodInput" name="food" placeholder="Ví dụ: cơm gà, bún phở, trà sữa..." autocomplete="off" />
+            </label>
+
+            <label class="field price-range-field">
+              <span>Khoảng giá</span>
+              <div class="price-range-inputs">
+                <input id="priceMinInput" name="priceMin" type="number" min="0" step="1000" value="30000" aria-label="Giá bắt đầu" />
+                <span class="price-separator">→</span>
+                <input id="priceMaxInput" name="priceMax" type="number" min="0" step="1000" value="50000" aria-label="Giá kết thúc" />
+              </div>
+            </label>
+
+            <button class="primary-button search-icon-button" type="submit" aria-label="Tìm quán">⌕</button>
+          </form>
+
+          <div class="quick-tags" aria-label="Gợi ý nhanh">
+            <span>Gợi ý nhanh</span>
+            <button type="button" data-food="cơm gà xối mỡ">Cơm</button>
+            <button type="button" data-food="bún phở">Bún/Phở</button>
+            <button type="button" data-food="bánh mì">Bánh mì</button>
+            <button type="button" data-food="trà sữa">Đồ uống</button>
+            <button type="button" data-food="ăn vặt">Ăn vặt</button>
+            <button type="button" data-food="mì cay">Mì cay</button>
+          </div>
+        </section>
+      </section>
+
+      <section id="results" class="page-shell">
+        <section class="results-panel">
+          <div class="results-head">
+            <div>
+              <span class="section-kicker">Personalized ranking</span>
+              <h2>Kết quả đề xuất</h2>
+              <p id="resultMeta">Đang tải dữ liệu...</p>
+            </div>
+
+            <label class="sort-field">
+              <span>Sắp xếp</span>
+              <select id="sortInput">
+                <option value="match">Độ phù hợp cao nhất</option>
+                <option value="rating">Đánh giá cao nhất</option>
+                <option value="distance">Gần nhất</option>
+                <option value="price">Giá thấp nhất</option>
+              </select>
+            </label>
+          </div>
+
+          <div id="statusBox" class="status-box hidden"></div>
+          <div id="restaurantGrid" class="restaurant-grid" aria-live="polite"></div>
+        </section>
+
+      </section>
+    </main>
+
+    <div id="restaurantModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-backdrop" data-close-modal></div>
+      <article class="modal-card">
+        <button class="modal-close" type="button" data-close-modal aria-label="Đóng chi tiết">×</button>
+        <div id="modalContent"></div>
+      </article>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
+

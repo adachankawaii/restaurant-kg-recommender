@@ -1,0 +1,13 @@
+{
+  "name": "findeat-ui-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Node server for the FindEat restaurant recommender UI demo.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

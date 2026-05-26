@@ -1,0 +1,3455 @@
+[
+  {
+    "user_id": "u001",
+    "area_id": "hust_tran_dai_nghia",
+    "query_lat": 21.0055371,
+    "query_lng": 105.843332,
+    "time_slot_id": "lunch",
+    "term": "mi|mi_cay|mi_han_quoc",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|staff_service",
+    "distance_tolerance_m": 800.0,
+    "candidate_count": 12,
+    "top_restaurants": [
+      {
+        "restaurant_id": "32441",
+        "restaurant_name": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "latitude": 21.004289627075195,
+        "longitude": 105.8455581665039,
+        "distance_m": 269.5246196995356,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Seoul - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2537029854563492,
+        "restaurant_name_final": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.004289627075195,
+        "restaurant_longitude": 105.8455581665039,
+        "restaurant_distance_km": 0.27,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "120708",
+        "restaurant_name": "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu",
+        "latitude": 21.003049850463867,
+        "longitude": 105.84574890136719,
+        "distance_m": 373.4118860811083,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25360041887125967,
+        "restaurant_name_final": "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu",
+        "restaurant_latitude": 21.003049850463867,
+        "restaurant_longitude": 105.84574890136719,
+        "restaurant_distance_km": 0.373,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "31947",
+        "restaurant_name": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "latitude": 21.005510330200195,
+        "longitude": 105.84844207763672,
+        "distance_m": 530.4628473313834,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng"
+        ],
+        "term_hits": 1,
+        "score": 0.2535214932404691,
+        "restaurant_name_final": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "restaurant_latitude": 21.005510330200195,
+        "restaurant_longitude": 105.84844207763672,
+        "restaurant_distance_km": 0.53,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 540.7812723563393,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2535179096653373,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.541,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "126679",
+        "restaurant_name": "Mì Cay Sassin 7 Cấp Độ Hàn Quốc - Bách Khoa",
+        "latitude": 21.001110076904297,
+        "longitude": 105.84723663330078,
+        "distance_m": 637.6626729776301,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Sassin 7 Cấp Độ Hàn Quốc - Bách Khoa"
+        ],
+        "term_hits": 1,
+        "score": 0.253489910512854,
+        "restaurant_name_final": "Mì Cay Sassin 7 Cấp Độ Hàn Quốc - Bách Khoa",
+        "restaurant_latitude": 21.001110076904297,
+        "restaurant_longitude": 105.84723663330078,
+        "restaurant_distance_km": 0.638,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u002",
+    "area_id": "hust_tran_dai_nghia",
+    "query_lat": 21.0057377,
+    "query_lng": 105.8442233,
+    "time_slot_id": "lunch",
+    "term": "bun|pho|chao|mi",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|taste",
+    "distance_tolerance_m": 900.0,
+    "candidate_count": 42,
+    "top_restaurants": [
+      {
+        "restaurant_id": "80180",
+        "restaurant_name": "Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng",
+        "latitude": 20.998409271240234,
+        "longitude": 105.8421630859375,
+        "distance_m": 842.4814708313834,
+        "matched_terms": [
+          "mi",
+          "pho"
+        ],
+        "menu": [
+          "Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng"
+        ],
+        "term_hits": 2,
+        "score": 0.3901185562498503,
+        "restaurant_name_final": "Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng",
+        "restaurant_latitude": 20.998409271240234,
+        "restaurant_longitude": 105.8421630859375,
+        "restaurant_distance_km": 0.842,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "47053",
+        "restaurant_name": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "latitude": 21.001419067382812,
+        "longitude": 105.85121154785156,
+        "distance_m": 869.9701994141143,
+        "matched_terms": [
+          "bun",
+          "chao"
+        ],
+        "menu": [
+          "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi"
+        ],
+        "term_hits": 2,
+        "score": 0.39011481449086005,
+        "restaurant_name_final": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "restaurant_latitude": 21.001419067382812,
+        "restaurant_longitude": 105.85121154785156,
+        "restaurant_distance_km": 0.87,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "32441",
+        "restaurant_name": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "latitude": 21.004289627075195,
+        "longitude": 105.8455581665039,
+        "distance_m": 212.43290492660964,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Seoul - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.19546853131682945,
+        "restaurant_name_final": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.004289627075195,
+        "restaurant_longitude": 105.8455581665039,
+        "restaurant_distance_km": 0.212,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "130783",
+        "restaurant_name": "Bún Bò Huế Cố Đô 1 - Tạ Quang Bửu",
+        "latitude": 21.005460739135742,
+        "longitude": 105.84712219238281,
+        "distance_m": 302.49278814858667,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Bò Huế Cố Đô 1 - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.19532949712120026,
+        "restaurant_name_final": "Bún Bò Huế Cố Đô 1 - Tạ Quang Bửu",
+        "restaurant_latitude": 21.005460739135742,
+        "restaurant_longitude": 105.84712219238281,
+        "restaurant_distance_km": 0.302,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "86930",
+        "restaurant_name": "Bún Cá Cô Minh - Tạ Quang Bửu",
+        "latitude": 21.003820419311523,
+        "longitude": 105.84668731689453,
+        "distance_m": 332.9777151136833,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Cá Cô Minh - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.19529942117534987,
+        "restaurant_name_final": "Bún Cá Cô Minh - Tạ Quang Bửu",
+        "restaurant_latitude": 21.003820419311523,
+        "restaurant_longitude": 105.84668731689453,
+        "restaurant_distance_km": 0.333,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u003",
+    "area_id": "hust_tran_dai_nghia",
+    "query_lat": 21.004522,
+    "query_lng": 105.843214,
+    "time_slot_id": "lunch",
+    "term": "com|com_trua|an_trua",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "staff_service|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 10,
+    "top_restaurants": [
+      {
+        "restaurant_id": "6930",
+        "restaurant_name": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "latitude": 21.002059936523438,
+        "longitude": 105.8447265625,
+        "distance_m": 315.59955737783736,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa"
+        ],
+        "term_hits": 2,
+        "score": 0.506982523077927,
+        "restaurant_name_final": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002059936523438,
+        "restaurant_longitude": 105.8447265625,
+        "restaurant_distance_km": 0.316,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "7635",
+        "restaurant_name": "Happy Food Cơm Gà Ba Vì",
+        "latitude": 20.99850082397461,
+        "longitude": 105.84265899658203,
+        "distance_m": 671.9985579730449,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Happy Food Cơm Gà Ba Vì"
+        ],
+        "term_hits": 2,
+        "score": 0.5068152553951495,
+        "restaurant_name_final": "Happy Food Cơm Gà Ba Vì",
+        "restaurant_latitude": 20.99850082397461,
+        "restaurant_longitude": 105.84265899658203,
+        "restaurant_distance_km": 0.672,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "31215",
+        "restaurant_name": "Cơm Rang Hải Sơn - Giải Phóng",
+        "latitude": 21.002859115600586,
+        "longitude": 105.84229278564453,
+        "distance_m": 208.169125913314,
+        "matched_terms": [
+          "com"
+        ],
+        "menu": [
+          "Cơm Rang Hải Sơn - Giải Phóng"
+        ],
+        "term_hits": 1,
+        "score": 0.25381141536175583,
+        "restaurant_name_final": "Cơm Rang Hải Sơn - Giải Phóng",
+        "restaurant_latitude": 21.002859115600586,
+        "restaurant_longitude": 105.84229278564453,
+        "restaurant_distance_km": 0.208,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "11471",
+        "restaurant_name": "Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng",
+        "latitude": 21.002830505371094,
+        "longitude": 105.84198760986328,
+        "distance_m": 227.11990359280736,
+        "matched_terms": [
+          "com"
+        ],
+        "menu": [
+          "Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng"
+        ],
+        "term_hits": 1,
+        "score": 0.2537716992909943,
+        "restaurant_name_final": "Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng",
+        "restaurant_latitude": 21.002830505371094,
+        "restaurant_longitude": 105.84198760986328,
+        "restaurant_distance_km": 0.227,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 304.25987704253953,
+        "matched_terms": [
+          "com_trua"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25366092306103954,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.304,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u004",
+    "area_id": "hust_tran_dai_nghia",
+    "query_lat": 21.0054575,
+    "query_lng": 105.8436577,
+    "time_slot_id": "afternoon",
+    "term": "ca_phe|coffee|cafe",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "work_friendly|space|cleanliness",
+    "distance_tolerance_m": 1200.0,
+    "candidate_count": 44,
+    "top_restaurants": [
+      {
+        "restaurant_id": "99491",
+        "restaurant_name": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "latitude": 21.00157928466797,
+        "longitude": 105.84927368164062,
+        "distance_m": 725.1409694778492,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa"
+        ],
+        "term_hits": 2,
+        "score": 0.5068043809731213,
+        "restaurant_name_final": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "restaurant_latitude": 21.00157928466797,
+        "restaurant_longitude": 105.84927368164062,
+        "restaurant_distance_km": 0.725,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "55021",
+        "restaurant_name": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "latitude": 21.013429641723633,
+        "longitude": 105.85002136230469,
+        "distance_m": 1105.5143967450242,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành"
+        ],
+        "term_hits": 2,
+        "score": 0.5067570405472904,
+        "restaurant_name_final": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "restaurant_latitude": 21.013429641723633,
+        "restaurant_longitude": 105.85002136230469,
+        "restaurant_distance_km": 1.106,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "28819",
+        "restaurant_name": "Highlands Coffee -  Trần Đại Nghĩa",
+        "latitude": 21.00411033630371,
+        "longitude": 105.84559631347656,
+        "distance_m": 250.87218767338786,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Highlands Coffee -  Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25373036009886757,
+        "restaurant_name_final": "Highlands Coffee -  Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00411033630371,
+        "restaurant_longitude": 105.84559631347656,
+        "restaurant_distance_km": 0.251,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "132692",
+        "restaurant_name": "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu",
+        "latitude": 21.00555992126465,
+        "longitude": 105.84696960449219,
+        "distance_m": 343.98273419595114,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25362320291255464,
+        "restaurant_name_final": "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00555992126465,
+        "restaurant_longitude": 105.84696960449219,
+        "restaurant_distance_km": 0.344,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "103976",
+        "restaurant_name": "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị",
+        "latitude": 21.002689361572266,
+        "longitude": 105.8458023071289,
+        "distance_m": 379.87398259665713,
+        "matched_terms": [
+          "cafe"
+        ],
+        "menu": [
+          "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.25359588736581995,
+        "restaurant_name_final": "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị",
+        "restaurant_latitude": 21.002689361572266,
+        "restaurant_longitude": 105.8458023071289,
+        "restaurant_distance_km": 0.38,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u005",
+    "area_id": "hust_tran_dai_nghia",
+    "query_lat": 21.0053924,
+    "query_lng": 105.8434161,
+    "time_slot_id": "afternoon",
+    "term": "tra_sua|tea|drink",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "taste|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 8,
+    "top_restaurants": [
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 257.12641084586386,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25372074041683285,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.257,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "82559",
+        "restaurant_name": "Oet O Oet - Drink & Food - Giải Phóng",
+        "latitude": 21.005590438842773,
+        "longitude": 105.84042358398438,
+        "distance_m": 311.4194235098303,
+        "matched_terms": [
+          "drink"
+        ],
+        "menu": [
+          "Oet O Oet - Drink & Food - Giải Phóng"
+        ],
+        "term_hits": 1,
+        "score": 0.25365341586493956,
+        "restaurant_name_final": "Oet O Oet - Drink & Food - Giải Phóng",
+        "restaurant_latitude": 21.005590438842773,
+        "restaurant_longitude": 105.84042358398438,
+        "restaurant_distance_km": 0.311,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "64917",
+        "restaurant_name": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "latitude": 21.002470016479492,
+        "longitude": 105.84488677978516,
+        "distance_m": 359.02961986316825,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25361108825815865,
+        "restaurant_name_final": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002470016479492,
+        "restaurant_longitude": 105.84488677978516,
+        "restaurant_distance_km": 0.359,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 369.49538917625046,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2536032422253774,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.369,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "129518",
+        "restaurant_name": "Rosier Fresh Tea & Coffee - Lê Thanh Nghị",
+        "latitude": 21.001720428466797,
+        "longitude": 105.8433609008789,
+        "distance_m": 408.34481039838323,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Rosier Fresh Tea & Coffee - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.2535776261580125,
+        "restaurant_name_final": "Rosier Fresh Tea & Coffee - Lê Thanh Nghị",
+        "restaurant_latitude": 21.001720428466797,
+        "restaurant_longitude": 105.8433609008789,
+        "restaurant_distance_km": 0.408,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u006",
+    "area_id": "hust_tran_dai_nghia",
+    "query_lat": 21.0057957,
+    "query_lng": 105.84415,
+    "time_slot_id": "dinner",
+    "term": "ca_phe|tea|noi_chuyen|hen_gap",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "space|staff_service|taste",
+    "distance_tolerance_m": 1000.0,
+    "candidate_count": 28,
+    "top_restaurants": [
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 175.0665650723882,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.19556796700701742,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.175,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "64917",
+        "restaurant_name": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "latitude": 21.002470016479492,
+        "longitude": 105.84488677978516,
+        "distance_m": 377.62545132380666,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.19526411325400964,
+        "restaurant_name_final": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002470016479492,
+        "restaurant_longitude": 105.84488677978516,
+        "restaurant_distance_km": 0.378,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 379.90299106330474,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.1952625340371333,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.38,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "6930",
+        "restaurant_name": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "latitude": 21.002059936523438,
+        "longitude": 105.8447265625,
+        "distance_m": 419.6875026023623,
+        "matched_terms": [
+          "hen_gap"
+        ],
+        "menu": [
+          "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.1952377061343192,
+        "restaurant_name_final": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002059936523438,
+        "restaurant_longitude": 105.8447265625,
+        "restaurant_distance_km": 0.42,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "129518",
+        "restaurant_name": "Rosier Fresh Tea & Coffee - Lê Thanh Nghị",
+        "latitude": 21.001720428466797,
+        "longitude": 105.8433609008789,
+        "distance_m": 460.4936106310296,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Rosier Fresh Tea & Coffee - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.19521668772372225,
+        "restaurant_name_final": "Rosier Fresh Tea & Coffee - Lê Thanh Nghị",
+        "restaurant_latitude": 21.001720428466797,
+        "restaurant_longitude": 105.8433609008789,
+        "restaurant_distance_km": 0.46,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u007",
+    "area_id": "hust_ta_quang_buu",
+    "query_lat": 21.0062297,
+    "query_lng": 105.8456073,
+    "time_slot_id": "lunch",
+    "term": "mi|mi_cay|mi_han_quoc",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|staff_service",
+    "distance_tolerance_m": 800.0,
+    "candidate_count": 12,
+    "top_restaurants": [
+      {
+        "restaurant_id": "32441",
+        "restaurant_name": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "latitude": 21.004289627075195,
+        "longitude": 105.8455581665039,
+        "distance_m": 215.7865508893048,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Seoul - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25379461656142,
+        "restaurant_name_final": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.004289627075195,
+        "restaurant_longitude": 105.8455581665039,
+        "restaurant_distance_km": 0.216,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "31947",
+        "restaurant_name": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "latitude": 21.005510330200195,
+        "longitude": 105.84844207763672,
+        "distance_m": 304.9431754929387,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng"
+        ],
+        "term_hits": 1,
+        "score": 0.25366019141682833,
+        "restaurant_name_final": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "restaurant_latitude": 21.005510330200195,
+        "restaurant_longitude": 105.84844207763672,
+        "restaurant_distance_km": 0.305,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "120708",
+        "restaurant_name": "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu",
+        "latitude": 21.003049850463867,
+        "longitude": 105.84574890136719,
+        "distance_m": 353.88853817621714,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.253615111946173,
+        "restaurant_name_final": "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu",
+        "restaurant_latitude": 21.003049850463867,
+        "restaurant_longitude": 105.84574890136719,
+        "restaurant_distance_km": 0.354,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 356.50102034979363,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25361305281469915,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.357,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "113989",
+        "restaurant_name": "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái",
+        "latitude": 21.00493049621582,
+        "longitude": 105.8494873046875,
+        "distance_m": 427.89074505388845,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái"
+        ],
+        "term_hits": 1,
+        "score": 0.2535664929460161,
+        "restaurant_name_final": "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái",
+        "restaurant_latitude": 21.00493049621582,
+        "restaurant_longitude": 105.8494873046875,
+        "restaurant_distance_km": 0.428,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u008",
+    "area_id": "hust_ta_quang_buu",
+    "query_lat": 21.0064104,
+    "query_lng": 105.8447133,
+    "time_slot_id": "lunch",
+    "term": "bun|pho|chao|mi",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|taste",
+    "distance_tolerance_m": 900.0,
+    "candidate_count": 39,
+    "top_restaurants": [
+      {
+        "restaurant_id": "47053",
+        "restaurant_name": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "latitude": 21.001419067382812,
+        "longitude": 105.85121154785156,
+        "distance_m": 873.538986016262,
+        "matched_terms": [
+          "bun",
+          "chao"
+        ],
+        "menu": [
+          "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi"
+        ],
+        "term_hits": 2,
+        "score": 0.390114345960099,
+        "restaurant_name_final": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "restaurant_latitude": 21.001419067382812,
+        "restaurant_longitude": 105.85121154785156,
+        "restaurant_distance_km": 0.874,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "32441",
+        "restaurant_name": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "latitude": 21.004289627075195,
+        "longitude": 105.8455581665039,
+        "distance_m": 251.59952651927404,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Seoul - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.19539588356074125,
+        "restaurant_name_final": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.004289627075195,
+        "restaurant_longitude": 105.8455581665039,
+        "restaurant_distance_km": 0.252,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "130783",
+        "restaurant_name": "Bún Bò Huế Cố Đô 1 - Tạ Quang Bửu",
+        "latitude": 21.005460739135742,
+        "longitude": 105.84712219238281,
+        "distance_m": 271.43820836315757,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Bò Huế Cố Đô 1 - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.19536705570999316,
+        "restaurant_name_final": "Bún Bò Huế Cố Đô 1 - Tạ Quang Bửu",
+        "restaurant_latitude": 21.005460739135742,
+        "restaurant_longitude": 105.84712219238281,
+        "restaurant_distance_km": 0.271,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "9934",
+        "restaurant_name": "Bún Bò Huế Lan Chi - Đại Cồ Việt",
+        "latitude": 21.007829666137695,
+        "longitude": 105.84684753417969,
+        "distance_m": 272.0054093423743,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Bò Huế Lan Chi - Đại Cồ Việt"
+        ],
+        "term_hits": 1,
+        "score": 0.19536629310840722,
+        "restaurant_name_final": "Bún Bò Huế Lan Chi - Đại Cồ Việt",
+        "restaurant_latitude": 21.007829666137695,
+        "restaurant_longitude": 105.84684753417969,
+        "restaurant_distance_km": 0.272,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "7160",
+        "restaurant_name": "Bún Chả Mẹ Nga - Vân Hồ 3",
+        "latitude": 21.00921058654785,
+        "longitude": 105.84625244140625,
+        "distance_m": 349.9646445359652,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Chả Mẹ Nga - Vân Hồ 3"
+        ],
+        "term_hits": 1,
+        "score": 0.1952849289851752,
+        "restaurant_name_final": "Bún Chả Mẹ Nga - Vân Hồ 3",
+        "restaurant_latitude": 21.00921058654785,
+        "restaurant_longitude": 105.84625244140625,
+        "restaurant_distance_km": 0.35,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u009",
+    "area_id": "hust_ta_quang_buu",
+    "query_lat": 21.0063659,
+    "query_lng": 105.8446685,
+    "time_slot_id": "lunch",
+    "term": "com|com_trua|an_trua",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "staff_service|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 11,
+    "top_restaurants": [
+      {
+        "restaurant_id": "6930",
+        "restaurant_name": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "latitude": 21.002059936523438,
+        "longitude": 105.8447265625,
+        "distance_m": 478.8392277148712,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa"
+        ],
+        "term_hits": 2,
+        "score": 0.5068750698030176,
+        "restaurant_name_final": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002059936523438,
+        "restaurant_longitude": 105.8447265625,
+        "restaurant_distance_km": 0.479,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "8919",
+        "restaurant_name": "Cơm Sạch Mẹ Shin - Tô Hoàng",
+        "latitude": 21.006669998168945,
+        "longitude": 105.84989166259766,
+        "distance_m": 543.2431341910913,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Cơm Sạch Mẹ Shin - Tô Hoàng"
+        ],
+        "term_hits": 2,
+        "score": 0.5068504080750881,
+        "restaurant_name_final": "Cơm Sạch Mẹ Shin - Tô Hoàng",
+        "restaurant_latitude": 21.006669998168945,
+        "restaurant_longitude": 105.84989166259766,
+        "restaurant_distance_km": 0.543,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 430.4859856604855,
+        "matched_terms": [
+          "com_trua"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25356509057070203,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.43,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 446.43669875898314,
+        "matched_terms": [
+          "com_trua"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2535568286350762,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.446,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "31215",
+        "restaurant_name": "Cơm Rang Hải Sơn - Giải Phóng",
+        "latitude": 21.002859115600586,
+        "longitude": 105.84229278564453,
+        "distance_m": 461.3772671616737,
+        "matched_terms": [
+          "com"
+        ],
+        "menu": [
+          "Cơm Rang Hải Sơn - Giải Phóng"
+        ],
+        "term_hits": 1,
+        "score": 0.2535496069417091,
+        "restaurant_name_final": "Cơm Rang Hải Sơn - Giải Phóng",
+        "restaurant_latitude": 21.002859115600586,
+        "restaurant_longitude": 105.84229278564453,
+        "restaurant_distance_km": 0.461,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u010",
+    "area_id": "hust_ta_quang_buu",
+    "query_lat": 21.0065953,
+    "query_lng": 105.8450775,
+    "time_slot_id": "afternoon",
+    "term": "ca_phe|coffee|cafe",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "work_friendly|space|cleanliness",
+    "distance_tolerance_m": 1200.0,
+    "candidate_count": 44,
+    "top_restaurants": [
+      {
+        "restaurant_id": "99491",
+        "restaurant_name": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "latitude": 21.00157928466797,
+        "longitude": 105.84927368164062,
+        "distance_m": 707.6940311218094,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa"
+        ],
+        "term_hits": 2,
+        "score": 0.5068077712839042,
+        "restaurant_name_final": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "restaurant_latitude": 21.00157928466797,
+        "restaurant_longitude": 105.84927368164062,
+        "restaurant_distance_km": 0.708,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "55021",
+        "restaurant_name": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "latitude": 21.013429641723633,
+        "longitude": 105.85002136230469,
+        "distance_m": 916.9917656730722,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành"
+        ],
+        "term_hits": 2,
+        "score": 0.5067756001056574,
+        "restaurant_name_final": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "restaurant_latitude": 21.013429641723633,
+        "restaurant_longitude": 105.85002136230469,
+        "restaurant_distance_km": 0.917,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "132692",
+        "restaurant_name": "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu",
+        "latitude": 21.00555992126465,
+        "longitude": 105.84696960449219,
+        "distance_m": 227.66563183332954,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2537706530966849,
+        "restaurant_name_final": "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00555992126465,
+        "restaurant_longitude": 105.84696960449219,
+        "restaurant_distance_km": 0.228,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "28819",
+        "restaurant_name": "Highlands Coffee -  Trần Đại Nghĩa",
+        "latitude": 21.00411033630371,
+        "longitude": 105.84559631347656,
+        "distance_m": 281.5148695617079,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Highlands Coffee -  Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2536872970031222,
+        "restaurant_name_final": "Highlands Coffee -  Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00411033630371,
+        "restaurant_longitude": 105.84559631347656,
+        "restaurant_distance_km": 0.282,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "103976",
+        "restaurant_name": "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị",
+        "latitude": 21.002689361572266,
+        "longitude": 105.8458023071289,
+        "distance_m": 440.7894109770617,
+        "matched_terms": [
+          "cafe"
+        ],
+        "menu": [
+          "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.2535596855217636,
+        "restaurant_name_final": "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị",
+        "restaurant_latitude": 21.002689361572266,
+        "restaurant_longitude": 105.8458023071289,
+        "restaurant_distance_km": 0.441,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u011",
+    "area_id": "hust_ta_quang_buu",
+    "query_lat": 21.0061168,
+    "query_lng": 105.8447936,
+    "time_slot_id": "afternoon",
+    "term": "tra_sua|tea|drink",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "taste|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 11,
+    "top_restaurants": [
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 110.55158000998047,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2542297796229426,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.111,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 401.40559091781404,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2535818388269372,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.401,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "64917",
+        "restaurant_name": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "latitude": 21.002470016479492,
+        "longitude": 105.84488677978516,
+        "distance_m": 405.61917273903924,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2535792636944778,
+        "restaurant_name_final": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002470016479492,
+        "restaurant_longitude": 105.84488677978516,
+        "restaurant_distance_km": 0.406,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "67067",
+        "restaurant_name": "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt",
+        "latitude": 21.0085506439209,
+        "longitude": 105.84781646728516,
+        "distance_m": 414.3709032193405,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt"
+        ],
+        "term_hits": 1,
+        "score": 0.2535740820213732,
+        "restaurant_name_final": "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt",
+        "restaurant_latitude": 21.0085506439209,
+        "restaurant_longitude": 105.84781646728516,
+        "restaurant_distance_km": 0.414,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "82559",
+        "restaurant_name": "Oet O Oet - Drink & Food - Giải Phóng",
+        "latitude": 21.005590438842773,
+        "longitude": 105.84042358398438,
+        "distance_m": 457.39115841709224,
+        "matched_terms": [
+          "drink"
+        ],
+        "menu": [
+          "Oet O Oet - Drink & Food - Giải Phóng"
+        ],
+        "term_hits": 1,
+        "score": 0.2535514876283361,
+        "restaurant_name_final": "Oet O Oet - Drink & Food - Giải Phóng",
+        "restaurant_latitude": 21.005590438842773,
+        "restaurant_longitude": 105.84042358398438,
+        "restaurant_distance_km": 0.457,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u012",
+    "area_id": "hust_ta_quang_buu",
+    "query_lat": 21.0067501,
+    "query_lng": 105.8450305,
+    "time_slot_id": "dinner",
+    "term": "ca_phe|tea|noi_chuyen|hen_gap",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "space|staff_service|taste",
+    "distance_tolerance_m": 1000.0,
+    "candidate_count": 22,
+    "top_restaurants": [
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 126.03080140011902,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.1957872106520451,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.126,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "67067",
+        "restaurant_name": "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt",
+        "latitude": 21.0085506439209,
+        "longitude": 105.84781646728516,
+        "distance_m": 351.7359926188949,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt"
+        ],
+        "term_hits": 1,
+        "score": 0.19528349814618448,
+        "restaurant_name_final": "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt",
+        "restaurant_latitude": 21.0085506439209,
+        "restaurant_longitude": 105.84781646728516,
+        "restaurant_distance_km": 0.352,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "22758",
+        "restaurant_name": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "latitude": 21.004640579223633,
+        "longitude": 105.8488998413086,
+        "distance_m": 465.13638880415783,
+        "matched_terms": [
+          "hen_gap"
+        ],
+        "menu": [
+          "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai"
+        ],
+        "term_hits": 1,
+        "score": 0.195214529486223,
+        "restaurant_name_final": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "restaurant_latitude": 21.004640579223633,
+        "restaurant_longitude": 105.8488998413086,
+        "restaurant_distance_km": 0.465,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 469.77173002444516,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.1952124171729573,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.47,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "64917",
+        "restaurant_name": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "latitude": 21.002470016479492,
+        "longitude": 105.84488677978516,
+        "distance_m": 476.1573536803185,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.19520957447103918,
+        "restaurant_name_final": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002470016479492,
+        "restaurant_longitude": 105.84488677978516,
+        "restaurant_distance_km": 0.476,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u013",
+    "area_id": "hust_le_thanh_nghi",
+    "query_lat": 21.0070073,
+    "query_lng": 105.8461415,
+    "time_slot_id": "lunch",
+    "term": "mi|mi_cay|mi_han_quoc",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|staff_service",
+    "distance_tolerance_m": 800.0,
+    "candidate_count": 14,
+    "top_restaurants": [
+      {
+        "restaurant_id": "31947",
+        "restaurant_name": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "latitude": 21.005510330200195,
+        "longitude": 105.84844207763672,
+        "distance_m": 291.0985894745135,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng"
+        ],
+        "term_hits": 1,
+        "score": 0.2536756834972964,
+        "restaurant_name_final": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "restaurant_latitude": 21.005510330200195,
+        "restaurant_longitude": 105.84844207763672,
+        "restaurant_distance_km": 0.291,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "32441",
+        "restaurant_name": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "latitude": 21.004289627075195,
+        "longitude": 105.8455581665039,
+        "distance_m": 308.198570507283,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Seoul - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25365675009375344,
+        "restaurant_name_final": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.004289627075195,
+        "restaurant_longitude": 105.8455581665039,
+        "restaurant_distance_km": 0.308,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 376.9121589155888,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25359794508937455,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.377,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "113989",
+        "restaurant_name": "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái",
+        "latitude": 21.00493049621582,
+        "longitude": 105.8494873046875,
+        "distance_m": 417.078393919775,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái"
+        ],
+        "term_hits": 1,
+        "score": 0.25357252292421945,
+        "restaurant_name_final": "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái",
+        "restaurant_latitude": 21.00493049621582,
+        "restaurant_longitude": 105.8494873046875,
+        "restaurant_distance_km": 0.417,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "72995",
+        "restaurant_name": "2Mlem - Đồ Ăn Vặt & Mì - Đê Tô Hoàng",
+        "latitude": 21.007020950317383,
+        "longitude": 105.850341796875,
+        "distance_m": 436.0124765368573,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "2Mlem - Đồ Ăn Vặt & Mì - Đê Tô Hoàng"
+        ],
+        "term_hits": 1,
+        "score": 0.25356215975218627,
+        "restaurant_name_final": "2Mlem - Đồ Ăn Vặt & Mì - Đê Tô Hoàng",
+        "restaurant_latitude": 21.007020950317383,
+        "restaurant_longitude": 105.850341796875,
+        "restaurant_distance_km": 0.436,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u014",
+    "area_id": "hust_le_thanh_nghi",
+    "query_lat": 21.0074395,
+    "query_lng": 105.8464644,
+    "time_slot_id": "lunch",
+    "term": "bun|pho|chao|mi",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|taste",
+    "distance_tolerance_m": 900.0,
+    "candidate_count": 42,
+    "top_restaurants": [
+      {
+        "restaurant_id": "47053",
+        "restaurant_name": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "latitude": 21.001419067382812,
+        "longitude": 105.85121154785156,
+        "distance_m": 831.2569131347932,
+        "matched_terms": [
+          "bun",
+          "chao"
+        ],
+        "menu": [
+          "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi"
+        ],
+        "term_hits": 2,
+        "score": 0.39012015520498755,
+        "restaurant_name_final": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "restaurant_latitude": 21.001419067382812,
+        "restaurant_longitude": 105.85121154785156,
+        "restaurant_distance_km": 0.831,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "11023",
+        "restaurant_name": "Tùng Hương - Bún Thịt Nướng Huế - Tô Hiến Thành",
+        "latitude": 21.013450622558594,
+        "longitude": 105.85135650634766,
+        "distance_m": 839.4278706127883,
+        "matched_terms": [
+          "bun",
+          "pho"
+        ],
+        "menu": [
+          "Tùng Hương - Bún Thịt Nướng Huế - Tô Hiến Thành"
+        ],
+        "term_hits": 2,
+        "score": 0.39011898701066056,
+        "restaurant_name_final": "Tùng Hương - Bún Thịt Nướng Huế - Tô Hiến Thành",
+        "restaurant_latitude": 21.013450622558594,
+        "restaurant_longitude": 105.85135650634766,
+        "restaurant_distance_km": 0.839,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "9934",
+        "restaurant_name": "Bún Bò Huế Lan Chi - Đại Cồ Việt",
+        "latitude": 21.007829666137695,
+        "longitude": 105.84684753417969,
+        "distance_m": 58.855234970886706,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Bò Huế Lan Chi - Đại Cồ Việt"
+        ],
+        "term_hits": 1,
+        "score": 0.196670697643216,
+        "restaurant_name_final": "Bún Bò Huế Lan Chi - Đại Cồ Việt",
+        "restaurant_latitude": 21.007829666137695,
+        "restaurant_longitude": 105.84684753417969,
+        "restaurant_distance_km": 0.059,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "113127",
+        "restaurant_name": "Bún Cá Hải Phòng - Đại Cồ Việt",
+        "latitude": 21.007810592651367,
+        "longitude": 105.84564971923828,
+        "distance_m": 94.09728276521452,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Cá Hải Phòng - Đại Cồ Việt"
+        ],
+        "term_hits": 1,
+        "score": 0.19605155475626881,
+        "restaurant_name_final": "Bún Cá Hải Phòng - Đại Cồ Việt",
+        "restaurant_latitude": 21.007810592651367,
+        "restaurant_longitude": 105.84564971923828,
+        "restaurant_distance_km": 0.094,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "7160",
+        "restaurant_name": "Bún Chả Mẹ Nga - Vân Hồ 3",
+        "latitude": 21.00921058654785,
+        "longitude": 105.84625244140625,
+        "distance_m": 198.16108500023515,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Chả Mẹ Nga - Vân Hồ 3"
+        ],
+        "term_hits": 1,
+        "score": 0.1955021061217852,
+        "restaurant_name_final": "Bún Chả Mẹ Nga - Vân Hồ 3",
+        "restaurant_latitude": 21.00921058654785,
+        "restaurant_longitude": 105.84625244140625,
+        "restaurant_distance_km": 0.198,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u015",
+    "area_id": "hust_le_thanh_nghi",
+    "query_lat": 21.0073857,
+    "query_lng": 105.8464939,
+    "time_slot_id": "lunch",
+    "term": "com|com_trua|an_trua",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "staff_service|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 12,
+    "top_restaurants": [
+      {
+        "restaurant_id": "8919",
+        "restaurant_name": "Cơm Sạch Mẹ Shin - Tô Hoàng",
+        "latitude": 21.006669998168945,
+        "longitude": 105.84989166259766,
+        "distance_m": 361.5699716305897,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Cơm Sạch Mẹ Shin - Tô Hoàng"
+        ],
+        "term_hits": 2,
+        "score": 0.5069424754975808,
+        "restaurant_name_final": "Cơm Sạch Mẹ Shin - Tô Hoàng",
+        "restaurant_latitude": 21.006669998168945,
+        "restaurant_longitude": 105.84989166259766,
+        "restaurant_distance_km": 0.362,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "6930",
+        "restaurant_name": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "latitude": 21.002059936523438,
+        "longitude": 105.8447265625,
+        "distance_m": 619.9645679270469,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa"
+        ],
+        "term_hits": 2,
+        "score": 0.5068277064508427,
+        "restaurant_name_final": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002059936523438,
+        "restaurant_longitude": 105.8447265625,
+        "restaurant_distance_km": 0.62,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "111026",
+        "restaurant_name": "Cơm Ngon Hà Nội - Bà Triệu",
+        "latitude": 21.008880615234375,
+        "longitude": 105.8490982055664,
+        "distance_m": 317.3536419490737,
+        "matched_terms": [
+          "com"
+        ],
+        "menu": [
+          "Cơm Ngon Hà Nội - Bà Triệu"
+        ],
+        "term_hits": 1,
+        "score": 0.25364744941941847,
+        "restaurant_name_final": "Cơm Ngon Hà Nội - Bà Triệu",
+        "restaurant_latitude": 21.008880615234375,
+        "restaurant_longitude": 105.8490982055664,
+        "restaurant_distance_km": 0.317,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 391.31680576115514,
+        "matched_terms": [
+          "com_trua"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2535882293727879,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.391,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "22758",
+        "restaurant_name": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "latitude": 21.004640579223633,
+        "longitude": 105.8488998413086,
+        "distance_m": 394.3961179881779,
+        "matched_terms": [
+          "com"
+        ],
+        "menu": [
+          "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai"
+        ],
+        "term_hits": 1,
+        "score": 0.2535862442635387,
+        "restaurant_name_final": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "restaurant_latitude": 21.004640579223633,
+        "restaurant_longitude": 105.8488998413086,
+        "restaurant_distance_km": 0.394,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u016",
+    "area_id": "hust_le_thanh_nghi",
+    "query_lat": 21.0081637,
+    "query_lng": 105.8461171,
+    "time_slot_id": "afternoon",
+    "term": "ca_phe|coffee|cafe",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "work_friendly|space|cleanliness",
+    "distance_tolerance_m": 1200.0,
+    "candidate_count": 40,
+    "top_restaurants": [
+      {
+        "restaurant_id": "55021",
+        "restaurant_name": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "latitude": 21.013429641723633,
+        "longitude": 105.85002136230469,
+        "distance_m": 712.1149891571483,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành"
+        ],
+        "term_hits": 2,
+        "score": 0.5068068965055011,
+        "restaurant_name_final": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "restaurant_latitude": 21.013429641723633,
+        "restaurant_longitude": 105.85002136230469,
+        "restaurant_distance_km": 0.712,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "99491",
+        "restaurant_name": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "latitude": 21.00157928466797,
+        "longitude": 105.84927368164062,
+        "distance_m": 802.1333535676634,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa"
+        ],
+        "term_hits": 2,
+        "score": 0.50679117899025,
+        "restaurant_name_final": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "restaurant_latitude": 21.00157928466797,
+        "restaurant_longitude": 105.84927368164062,
+        "restaurant_distance_km": 0.802,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "132692",
+        "restaurant_name": "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu",
+        "latitude": 21.00555992126465,
+        "longitude": 105.84696960449219,
+        "distance_m": 302.74915131508953,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25366255236017515,
+        "restaurant_name_final": "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00555992126465,
+        "restaurant_longitude": 105.84696960449219,
+        "restaurant_distance_km": 0.303,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "62366",
+        "restaurant_name": "The Tryst Coffee & Desserts - Đại Cồ Việt",
+        "latitude": 21.008779525756836,
+        "longitude": 105.84921264648438,
+        "distance_m": 328.5439534776927,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "The Tryst Coffee & Desserts - Đại Cồ Việt"
+        ],
+        "term_hits": 1,
+        "score": 0.2536367829913977,
+        "restaurant_name_final": "The Tryst Coffee & Desserts - Đại Cồ Việt",
+        "restaurant_latitude": 21.008779525756836,
+        "restaurant_longitude": 105.84921264648438,
+        "restaurant_distance_km": 0.329,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "28819",
+        "restaurant_name": "Highlands Coffee -  Trần Đại Nghĩa",
+        "latitude": 21.00411033630371,
+        "longitude": 105.84559631347656,
+        "distance_m": 453.9440030601649,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Highlands Coffee -  Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2535531406048378,
+        "restaurant_name_final": "Highlands Coffee -  Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00411033630371,
+        "restaurant_longitude": 105.84559631347656,
+        "restaurant_distance_km": 0.454,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u017",
+    "area_id": "hust_le_thanh_nghi",
+    "query_lat": 21.0069695,
+    "query_lng": 105.8459338,
+    "time_slot_id": "afternoon",
+    "term": "tra_sua|tea|drink",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "taste|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 13,
+    "top_restaurants": [
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 119.44721598487656,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25416357253132815,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.119,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "67067",
+        "restaurant_name": "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt",
+        "latitude": 21.0085506439209,
+        "longitude": 105.84781646728516,
+        "distance_m": 262.8749559919122,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt"
+        ],
+        "term_hits": 1,
+        "score": 0.25371230071060524,
+        "restaurant_name_final": "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt",
+        "restaurant_latitude": 21.0085506439209,
+        "restaurant_longitude": 105.84781646728516,
+        "restaurant_distance_km": 0.263,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "126162",
+        "restaurant_name": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "latitude": 21.003490447998047,
+        "longitude": 105.84834289550781,
+        "distance_m": 460.64542037580463,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.25354994980040146,
+        "restaurant_name_final": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "restaurant_latitude": 21.003490447998047,
+        "restaurant_longitude": 105.84834289550781,
+        "restaurant_distance_km": 0.461,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 499.2359244572491,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2535332390080577,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.499,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "103957",
+        "restaurant_name": "Rak Cha Tea - Nguyễn Đình Chiểu",
+        "latitude": 21.01152992248535,
+        "longitude": 105.84606170654297,
+        "distance_m": 507.26962806935825,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Rak Cha Tea - Nguyễn Đình Chiểu"
+        ],
+        "term_hits": 1,
+        "score": 0.2535300793013736,
+        "restaurant_name_final": "Rak Cha Tea - Nguyễn Đình Chiểu",
+        "restaurant_latitude": 21.01152992248535,
+        "restaurant_longitude": 105.84606170654297,
+        "restaurant_distance_km": 0.507,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u018",
+    "area_id": "hust_le_thanh_nghi",
+    "query_lat": 21.0074772,
+    "query_lng": 105.846808,
+    "time_slot_id": "dinner",
+    "term": "ca_phe|tea|noi_chuyen|hen_gap",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "space|staff_service|taste",
+    "distance_tolerance_m": 1000.0,
+    "candidate_count": 21,
+    "top_restaurants": [
+      {
+        "restaurant_id": "67067",
+        "restaurant_name": "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt",
+        "latitude": 21.0085506439209,
+        "longitude": 105.84781646728516,
+        "distance_m": 158.7628864935599,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt"
+        ],
+        "term_hits": 1,
+        "score": 0.19562592759929906,
+        "restaurant_name_final": "Ka Tea - Trà Trái Cây Nhiệt Đới - Đại Cồ Việt",
+        "restaurant_latitude": 21.0085506439209,
+        "restaurant_longitude": 105.84781646728516,
+        "restaurant_distance_km": 0.159,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 202.54950227551194,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.1954912809851269,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.203,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "22758",
+        "restaurant_name": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "latitude": 21.004640579223633,
+        "longitude": 105.8488998413086,
+        "distance_m": 382.93592879303776,
+        "matched_terms": [
+          "hen_gap"
+        ],
+        "menu": [
+          "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai"
+        ],
+        "term_hits": 1,
+        "score": 0.19526046012498588,
+        "restaurant_name_final": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "restaurant_latitude": 21.004640579223633,
+        "restaurant_longitude": 105.8488998413086,
+        "restaurant_distance_km": 0.383,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "4389",
+        "restaurant_name": "Ding Tea - Lê Đại Hành",
+        "latitude": 21.009939193725586,
+        "longitude": 105.84971618652344,
+        "distance_m": 407.52476560248397,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Ding Tea - Lê Đại Hành"
+        ],
+        "term_hits": 1,
+        "score": 0.19524478320146033,
+        "restaurant_name_final": "Ding Tea - Lê Đại Hành",
+        "restaurant_latitude": 21.009939193725586,
+        "restaurant_longitude": 105.84971618652344,
+        "restaurant_distance_km": 0.408,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "103957",
+        "restaurant_name": "Rak Cha Tea - Nguyễn Đình Chiểu",
+        "latitude": 21.01152992248535,
+        "longitude": 105.84606170654297,
+        "distance_m": 457.25218844202413,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Rak Cha Tea - Nguyễn Đình Chiểu"
+        ],
+        "term_hits": 1,
+        "score": 0.19521822045267254,
+        "restaurant_name_final": "Rak Cha Tea - Nguyễn Đình Chiểu",
+        "restaurant_latitude": 21.01152992248535,
+        "restaurant_longitude": 105.84606170654297,
+        "restaurant_distance_km": 0.457,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u019",
+    "area_id": "hust_giai_phong_gate",
+    "query_lat": 21.0037487,
+    "query_lng": 105.8464219,
+    "time_slot_id": "lunch",
+    "term": "mi|mi_cay|mi_han_quoc",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|staff_service",
+    "distance_tolerance_m": 800.0,
+    "candidate_count": 20,
+    "top_restaurants": [
+      {
+        "restaurant_id": "120708",
+        "restaurant_name": "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu",
+        "latitude": 21.003049850463867,
+        "longitude": 105.84574890136719,
+        "distance_m": 104.49551794159444,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25428124090278437,
+        "restaurant_name_final": "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu",
+        "restaurant_latitude": 21.003049850463867,
+        "restaurant_longitude": 105.84574890136719,
+        "restaurant_distance_km": 0.104,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "32441",
+        "restaurant_name": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "latitude": 21.004289627075195,
+        "longitude": 105.8455581665039,
+        "distance_m": 107.96741581009631,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Seoul - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25425103886261075,
+        "restaurant_name_final": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.004289627075195,
+        "restaurant_longitude": 105.8455581665039,
+        "restaurant_distance_km": 0.108,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 213.70941253854062,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.25379907910021743,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.214,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "31947",
+        "restaurant_name": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "latitude": 21.005510330200195,
+        "longitude": 105.84844207763672,
+        "distance_m": 286.96284528886565,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng"
+        ],
+        "term_hits": 1,
+        "score": 0.25368060035627055,
+        "restaurant_name_final": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "restaurant_latitude": 21.005510330200195,
+        "restaurant_longitude": 105.84844207763672,
+        "restaurant_distance_km": 0.287,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "126679",
+        "restaurant_name": "Mì Cay Sassin 7 Cấp Độ Hàn Quốc - Bách Khoa",
+        "latitude": 21.001110076904297,
+        "longitude": 105.84723663330078,
+        "distance_m": 305.34811927521207,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Sassin 7 Cấp Độ Hàn Quốc - Bách Khoa"
+        ],
+        "term_hits": 1,
+        "score": 0.2536597593621158,
+        "restaurant_name_final": "Mì Cay Sassin 7 Cấp Độ Hàn Quốc - Bách Khoa",
+        "restaurant_latitude": 21.001110076904297,
+        "restaurant_longitude": 105.84723663330078,
+        "restaurant_distance_km": 0.305,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u020",
+    "area_id": "hust_giai_phong_gate",
+    "query_lat": 21.003429,
+    "query_lng": 105.8470928,
+    "time_slot_id": "lunch",
+    "term": "bun|pho|chao|mi",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|taste",
+    "distance_tolerance_m": 900.0,
+    "candidate_count": 62,
+    "top_restaurants": [
+      {
+        "restaurant_id": "47053",
+        "restaurant_name": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "latitude": 21.001419067382812,
+        "longitude": 105.85121154785156,
+        "distance_m": 482.4473058034963,
+        "matched_terms": [
+          "bun",
+          "chao"
+        ],
+        "menu": [
+          "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi"
+        ],
+        "term_hits": 2,
+        "score": 0.39020684777596143,
+        "restaurant_name_final": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "restaurant_latitude": 21.001419067382812,
+        "restaurant_longitude": 105.85121154785156,
+        "restaurant_distance_km": 0.482,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "80180",
+        "restaurant_name": "Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng",
+        "latitude": 20.998409271240234,
+        "longitude": 105.8421630859375,
+        "distance_m": 757.2565466461347,
+        "matched_terms": [
+          "mi",
+          "pho"
+        ],
+        "menu": [
+          "Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng"
+        ],
+        "term_hits": 2,
+        "score": 0.3901318814858142,
+        "restaurant_name_final": "Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng",
+        "restaurant_latitude": 20.998409271240234,
+        "restaurant_longitude": 105.8421630859375,
+        "restaurant_distance_km": 0.757,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "93168",
+        "restaurant_name": "Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai",
+        "latitude": 20.997589111328125,
+        "longitude": 105.85108184814453,
+        "distance_m": 770.1651970200121,
+        "matched_terms": [
+          "bun",
+          "pho"
+        ],
+        "menu": [
+          "Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai"
+        ],
+        "term_hits": 2,
+        "score": 0.3901296739017612,
+        "restaurant_name_final": "Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai",
+        "restaurant_latitude": 20.997589111328125,
+        "restaurant_longitude": 105.85108184814453,
+        "restaurant_distance_km": 0.77,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "86930",
+        "restaurant_name": "Bún Cá Cô Minh - Tạ Quang Bửu",
+        "latitude": 21.003820419311523,
+        "longitude": 105.84668731689453,
+        "distance_m": 60.5479650637653,
+        "matched_terms": [
+          "bun"
+        ],
+        "menu": [
+          "Bún Cá Cô Minh - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.19662474908628413,
+        "restaurant_name_final": "Bún Cá Cô Minh - Tạ Quang Bửu",
+        "restaurant_latitude": 21.003820419311523,
+        "restaurant_longitude": 105.84668731689453,
+        "restaurant_distance_km": 0.061,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "120708",
+        "restaurant_name": "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu",
+        "latitude": 21.003049850463867,
+        "longitude": 105.84574890136719,
+        "distance_m": 145.7375360287004,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.195681488886255,
+        "restaurant_name_final": "Bánh Mì Que Hải Phòng, Mì Trộn & Trà Chanh - Ăn Vặt Nhà Thỏ Xinh - Tạ Quang Bửu",
+        "restaurant_latitude": 21.003049850463867,
+        "restaurant_longitude": 105.84574890136719,
+        "restaurant_distance_km": 0.146,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u021",
+    "area_id": "hust_giai_phong_gate",
+    "query_lat": 21.0041345,
+    "query_lng": 105.8470444,
+    "time_slot_id": "lunch",
+    "term": "com|com_trua|an_trua",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "staff_service|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 16,
+    "top_restaurants": [
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 260.06661783191197,
+        "matched_terms": [
+          "an_trua",
+          "com_trua"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 2,
+        "score": 0.507049710660688,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.26,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "6930",
+        "restaurant_name": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "latitude": 21.002059936523438,
+        "longitude": 105.8447265625,
+        "distance_m": 333.3257685630847,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa"
+        ],
+        "term_hits": 2,
+        "score": 0.5069657761263705,
+        "restaurant_name_final": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002059936523438,
+        "restaurant_longitude": 105.8447265625,
+        "restaurant_distance_km": 0.333,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "8919",
+        "restaurant_name": "Cơm Sạch Mẹ Shin - Tô Hoàng",
+        "latitude": 21.006669998168945,
+        "longitude": 105.84989166259766,
+        "distance_m": 408.4653509022986,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Cơm Sạch Mẹ Shin - Tô Hoàng"
+        ],
+        "term_hits": 2,
+        "score": 0.5069108875751748,
+        "restaurant_name_final": "Cơm Sạch Mẹ Shin - Tô Hoàng",
+        "restaurant_latitude": 21.006669998168945,
+        "restaurant_longitude": 105.84989166259766,
+        "restaurant_distance_km": 0.408,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 140.60702086163974,
+        "matched_terms": [
+          "com_trua"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2540395130085466,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.141,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "42458",
+        "restaurant_name": "Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị",
+        "latitude": 21.00358009338379,
+        "longitude": 105.84855651855469,
+        "distance_m": 168.63971587139307,
+        "matched_terms": [
+          "com"
+        ],
+        "menu": [
+          "Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.2539228179330117,
+        "restaurant_name_final": "Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị",
+        "restaurant_latitude": 21.00358009338379,
+        "restaurant_longitude": 105.84855651855469,
+        "restaurant_distance_km": 0.169,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u022",
+    "area_id": "hust_giai_phong_gate",
+    "query_lat": 21.0035005,
+    "query_lng": 105.8469045,
+    "time_slot_id": "afternoon",
+    "term": "ca_phe|coffee|cafe",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "work_friendly|space|cleanliness",
+    "distance_tolerance_m": 1200.0,
+    "candidate_count": 41,
+    "top_restaurants": [
+      {
+        "restaurant_id": "99491",
+        "restaurant_name": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "latitude": 21.00157928466797,
+        "longitude": 105.84927368164062,
+        "distance_m": 325.7661555070875,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa"
+        ],
+        "term_hits": 2,
+        "score": 0.5069726959120908,
+        "restaurant_name_final": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "restaurant_latitude": 21.00157928466797,
+        "restaurant_longitude": 105.84927368164062,
+        "restaurant_distance_km": 0.326,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "55021",
+        "restaurant_name": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "latitude": 21.013429641723633,
+        "longitude": 105.85002136230469,
+        "distance_m": 1150.4998610747214,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành"
+        ],
+        "term_hits": 2,
+        "score": 0.5067535099250815,
+        "restaurant_name_final": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "restaurant_latitude": 21.013429641723633,
+        "restaurant_longitude": 105.85002136230469,
+        "restaurant_distance_km": 1.15,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "25223",
+        "restaurant_name": "The Coffee House - Lê Thanh Nghị",
+        "latitude": 21.003480911254883,
+        "longitude": 105.84786987304688,
+        "distance_m": 100.2361287099729,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "The Coffee House - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.2543211229818933,
+        "restaurant_name_final": "The Coffee House - Lê Thanh Nghị",
+        "restaurant_latitude": 21.003480911254883,
+        "restaurant_longitude": 105.84786987304688,
+        "restaurant_distance_km": 0.1,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "103976",
+        "restaurant_name": "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị",
+        "latitude": 21.002689361572266,
+        "longitude": 105.8458023071289,
+        "distance_m": 145.69137581077288,
+        "matched_terms": [
+          "cafe"
+        ],
+        "menu": [
+          "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.2540150366676111,
+        "restaurant_name_final": "Thego Tagom Cafe - Matcha, Trà & Bánh - Lê Thanh Nghị",
+        "restaurant_latitude": 21.002689361572266,
+        "restaurant_longitude": 105.8458023071289,
+        "restaurant_distance_km": 0.146,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "28819",
+        "restaurant_name": "Highlands Coffee -  Trần Đại Nghĩa",
+        "latitude": 21.00411033630371,
+        "longitude": 105.84559631347656,
+        "distance_m": 151.78785356135066,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Highlands Coffee -  Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2539878356230709,
+        "restaurant_name_final": "Highlands Coffee -  Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00411033630371,
+        "restaurant_longitude": 105.84559631347656,
+        "restaurant_distance_km": 0.152,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u023",
+    "area_id": "hust_giai_phong_gate",
+    "query_lat": 21.0038525,
+    "query_lng": 105.8468984,
+    "time_slot_id": "afternoon",
+    "term": "tra_sua|tea|drink",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "taste|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 14,
+    "top_restaurants": [
+      {
+        "restaurant_id": "126162",
+        "restaurant_name": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "latitude": 21.003490447998047,
+        "longitude": 105.84834289550781,
+        "distance_m": 155.25880670248688,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.25397329726311296,
+        "restaurant_name_final": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "restaurant_latitude": 21.003490447998047,
+        "restaurant_longitude": 105.84834289550781,
+        "restaurant_distance_km": 0.155,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 227.85948606818638,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2537702826672587,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.228,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 253.06271169793726,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2537269369414019,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.253,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "64917",
+        "restaurant_name": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "latitude": 21.002470016479492,
+        "longitude": 105.84488677978516,
+        "distance_m": 259.30194496354,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25371750257192277,
+        "restaurant_name_final": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002470016479492,
+        "restaurant_longitude": 105.84488677978516,
+        "restaurant_distance_km": 0.259,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "78552",
+        "restaurant_name": "1920 Coffee And Tea - Nguyễn Hiền",
+        "latitude": 21.001720428466797,
+        "longitude": 105.84841918945312,
+        "distance_m": 284.828944661114,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "1920 Coffee And Tea - Nguyễn Hiền"
+        ],
+        "term_hits": 1,
+        "score": 0.2536831929324672,
+        "restaurant_name_final": "1920 Coffee And Tea - Nguyễn Hiền",
+        "restaurant_latitude": 21.001720428466797,
+        "restaurant_longitude": 105.84841918945312,
+        "restaurant_distance_km": 0.285,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u024",
+    "area_id": "hust_giai_phong_gate",
+    "query_lat": 21.0041921,
+    "query_lng": 105.8469006,
+    "time_slot_id": "dinner",
+    "term": "ca_phe|tea|noi_chuyen|hen_gap",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "space|staff_service|taste",
+    "distance_tolerance_m": 1000.0,
+    "candidate_count": 23,
+    "top_restaurants": [
+      {
+        "restaurant_id": "126162",
+        "restaurant_name": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "latitude": 21.003490447998047,
+        "longitude": 105.84834289550781,
+        "distance_m": 168.82895923415995,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.19558882772673725,
+        "restaurant_name_final": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "restaurant_latitude": 21.003490447998047,
+        "restaurant_longitude": 105.84834289550781,
+        "restaurant_distance_km": 0.169,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "22758",
+        "restaurant_name": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "latitude": 21.004640579223633,
+        "longitude": 105.8488998413086,
+        "distance_m": 213.44133603273875,
+        "matched_terms": [
+          "hen_gap"
+        ],
+        "menu": [
+          "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai"
+        ],
+        "term_hits": 1,
+        "score": 0.1954663280030336,
+        "restaurant_name_final": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "restaurant_latitude": 21.004640579223633,
+        "restaurant_longitude": 105.8488998413086,
+        "restaurant_distance_km": 0.213,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 219.83505119925508,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.1954528266661336,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.22,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 254.04463111079912,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.1953920882379075,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.254,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "64917",
+        "restaurant_name": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "latitude": 21.002470016479492,
+        "longitude": 105.84488677978516,
+        "distance_m": 283.4936683778305,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.1953515016716196,
+        "restaurant_name_final": "Bing Long - Ice Cream & Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002470016479492,
+        "restaurant_longitude": 105.84488677978516,
+        "restaurant_distance_km": 0.283,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u025",
+    "area_id": "hust_bach_mai_side",
+    "query_lat": 21.0049055,
+    "query_lng": 105.8482304,
+    "time_slot_id": "lunch",
+    "term": "mi|mi_cay|mi_han_quoc",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|staff_service",
+    "distance_tolerance_m": 800.0,
+    "candidate_count": 21,
+    "top_restaurants": [
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 64.88037210539396,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2548512361138462,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.065,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "31947",
+        "restaurant_name": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "latitude": 21.005510330200195,
+        "longitude": 105.84844207763672,
+        "distance_m": 70.75263878502687,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng"
+        ],
+        "term_hits": 1,
+        "score": 0.2547270103003868,
+        "restaurant_name_final": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "restaurant_latitude": 21.005510330200195,
+        "restaurant_longitude": 105.84844207763672,
+        "restaurant_distance_km": 0.071,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "113989",
+        "restaurant_name": "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái",
+        "latitude": 21.00493049621582,
+        "longitude": 105.8494873046875,
+        "distance_m": 130.5038322403862,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái"
+        ],
+        "term_hits": 1,
+        "score": 0.254093767446137,
+        "restaurant_name_final": "Đi Ăn Chay Đi - Cơm Chay, Bún & Bánh Mì Chay - 57 Chùa Liên Phái",
+        "restaurant_latitude": 21.00493049621582,
+        "restaurant_longitude": 105.8494873046875,
+        "restaurant_distance_km": 0.131,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "2188",
+        "restaurant_name": "Quán Ăn Quý - Mì Ý & Đồ Ăn Vặt Online - Lê Thanh Nghị",
+        "latitude": 21.00326919555664,
+        "longitude": 105.84954833984375,
+        "distance_m": 227.6456575794557,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Quán Ăn Quý - Mì Ý & Đồ Ăn Vặt Online - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.25377069130049806,
+        "restaurant_name_final": "Quán Ăn Quý - Mì Ý & Đồ Ăn Vặt Online - Lê Thanh Nghị",
+        "restaurant_latitude": 21.00326919555664,
+        "restaurant_longitude": 105.84954833984375,
+        "restaurant_distance_km": 0.228,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "32441",
+        "restaurant_name": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "latitude": 21.004289627075195,
+        "longitude": 105.8455581665039,
+        "distance_m": 285.72267338064256,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Mì Cay Seoul - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.25368210240283495,
+        "restaurant_name_final": "Mì Cay Seoul - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.004289627075195,
+        "restaurant_longitude": 105.8455581665039,
+        "restaurant_distance_km": 0.286,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u026",
+    "area_id": "hust_bach_mai_side",
+    "query_lat": 21.0047301,
+    "query_lng": 105.8484841,
+    "time_slot_id": "lunch",
+    "term": "bun|pho|chao|mi",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "value_for_money|taste",
+    "distance_tolerance_m": 900.0,
+    "candidate_count": 65,
+    "top_restaurants": [
+      {
+        "restaurant_id": "47053",
+        "restaurant_name": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "latitude": 21.001419067382812,
+        "longitude": 105.85121154785156,
+        "distance_m": 464.44714530138907,
+        "matched_terms": [
+          "bun",
+          "chao"
+        ],
+        "menu": [
+          "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi"
+        ],
+        "term_hits": 2,
+        "score": 0.39021484716580496,
+        "restaurant_name_final": "Bee Quán - Bún Sườn Chua Trộn & Cháo Sườn - Ngõ Thái Lợi",
+        "restaurant_latitude": 21.001419067382812,
+        "restaurant_longitude": 105.85121154785156,
+        "restaurant_distance_km": 0.464,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "86675",
+        "restaurant_name": "Bún Cá Chấm Minh Vân - Thịnh Yên",
+        "latitude": 21.009870529174805,
+        "longitude": 105.85231018066406,
+        "distance_m": 696.0271223378098,
+        "matched_terms": [
+          "bun",
+          "pho"
+        ],
+        "menu": [
+          "Bún Cá Chấm Minh Vân - Thịnh Yên"
+        ],
+        "term_hits": 2,
+        "score": 0.3901434664402507,
+        "restaurant_name_final": "Bún Cá Chấm Minh Vân - Thịnh Yên",
+        "restaurant_latitude": 21.009870529174805,
+        "restaurant_longitude": 105.85231018066406,
+        "restaurant_distance_km": 0.696,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "93168",
+        "restaurant_name": "Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai",
+        "latitude": 20.997589111328125,
+        "longitude": 105.85108184814453,
+        "distance_m": 838.5841597766545,
+        "matched_terms": [
+          "bun",
+          "pho"
+        ],
+        "menu": [
+          "Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai"
+        ],
+        "term_hits": 2,
+        "score": 0.39011910658250937,
+        "restaurant_name_final": "Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai",
+        "restaurant_latitude": 20.997589111328125,
+        "restaurant_longitude": 105.85108184814453,
+        "restaurant_distance_km": 0.839,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 44.76129751704192,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.1971852527228442,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.045,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "31947",
+        "restaurant_name": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "latitude": 21.005510330200195,
+        "longitude": 105.84844207763672,
+        "distance_m": 86.86723535073331,
+        "matched_terms": [
+          "mi"
+        ],
+        "menu": [
+          "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng"
+        ],
+        "term_hits": 1,
+        "score": 0.1961380806463392,
+        "restaurant_name_final": "Kufoodd - Mì Trộn Indomie & Đồ Ăn Nhanh - Đê Tô Hoàng",
+        "restaurant_latitude": 21.005510330200195,
+        "restaurant_longitude": 105.84844207763672,
+        "restaurant_distance_km": 0.087,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u027",
+    "area_id": "hust_bach_mai_side",
+    "query_lat": 21.0039443,
+    "query_lng": 105.8480561,
+    "time_slot_id": "lunch",
+    "term": "com|com_trua|an_trua",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "staff_service|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 16,
+    "top_restaurants": [
+      {
+        "restaurant_id": "131660",
+        "restaurant_name": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "latitude": 21.00252914428711,
+        "longitude": 105.84522247314453,
+        "distance_m": 333.5959281336216,
+        "matched_terms": [
+          "an_trua",
+          "com_trua"
+        ],
+        "menu": [
+          "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu"
+        ],
+        "term_hits": 2,
+        "score": 0.5069655346192977,
+        "restaurant_name_final": "Tiệm Thỏ - Fruit Juice, Tea & Coffee - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00252914428711,
+        "restaurant_longitude": 105.84522247314453,
+        "restaurant_distance_km": 0.334,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "8919",
+        "restaurant_name": "Cơm Sạch Mẹ Shin - Tô Hoàng",
+        "latitude": 21.006669998168945,
+        "longitude": 105.84989166259766,
+        "distance_m": 358.0028017105104,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Cơm Sạch Mẹ Shin - Tô Hoàng"
+        ],
+        "term_hits": 2,
+        "score": 0.506945216024843,
+        "restaurant_name_final": "Cơm Sạch Mẹ Shin - Tô Hoàng",
+        "restaurant_latitude": 21.006669998168945,
+        "restaurant_longitude": 105.84989166259766,
+        "restaurant_distance_km": 0.358,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "6930",
+        "restaurant_name": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "latitude": 21.002059936523438,
+        "longitude": 105.8447265625,
+        "distance_m": 404.1829567353831,
+        "matched_terms": [
+          "com",
+          "com_trua"
+        ],
+        "menu": [
+          "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa"
+        ],
+        "term_hits": 2,
+        "score": 0.5069134687552976,
+        "restaurant_name_final": "Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa",
+        "restaurant_latitude": 21.002059936523438,
+        "restaurant_longitude": 105.8447265625,
+        "restaurant_distance_km": 0.404,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "40268",
+        "restaurant_name": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "latitude": 21.00433921813965,
+        "longitude": 105.84838104248047,
+        "distance_m": 55.37267114576954,
+        "matched_terms": [
+          "com_trua"
+        ],
+        "menu": [
+          "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2551072425337935,
+        "restaurant_name_final": "Xuân Food - Mì Trộn Indomie - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00433921813965,
+        "restaurant_longitude": 105.84838104248047,
+        "restaurant_distance_km": 0.055,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "42458",
+        "restaurant_name": "Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị",
+        "latitude": 21.00358009338379,
+        "longitude": 105.84855651855469,
+        "distance_m": 65.86772172722112,
+        "matched_terms": [
+          "com"
+        ],
+        "menu": [
+          "Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.25482882319625905,
+        "restaurant_name_final": "Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị",
+        "restaurant_latitude": 21.00358009338379,
+        "restaurant_longitude": 105.84855651855469,
+        "restaurant_distance_km": 0.066,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u028",
+    "area_id": "hust_bach_mai_side",
+    "query_lat": 21.0043883,
+    "query_lng": 105.8479125,
+    "time_slot_id": "afternoon",
+    "term": "ca_phe|coffee|cafe",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "work_friendly|space|cleanliness",
+    "distance_tolerance_m": 1200.0,
+    "candidate_count": 42,
+    "top_restaurants": [
+      {
+        "restaurant_id": "99491",
+        "restaurant_name": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "latitude": 21.00157928466797,
+        "longitude": 105.84927368164062,
+        "distance_m": 342.82255005728325,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa"
+        ],
+        "term_hits": 2,
+        "score": 0.5069575143727968,
+        "restaurant_name_final": "Svn Coffee - Cafe Pha Máy - Khu Tập Thể Bách Khoa",
+        "restaurant_latitude": 21.00157928466797,
+        "restaurant_longitude": 105.84927368164062,
+        "restaurant_distance_km": 0.343,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "55021",
+        "restaurant_name": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "latitude": 21.013429641723633,
+        "longitude": 105.85002136230469,
+        "distance_m": 1028.9078816084639,
+        "matched_terms": [
+          "cafe",
+          "coffee"
+        ],
+        "menu": [
+          "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành"
+        ],
+        "term_hits": 2,
+        "score": 0.5067637627291259,
+        "restaurant_name_final": "Tan.Coffee - Cafe Ngon & Nước Ép - Tô Hiến Thành",
+        "restaurant_latitude": 21.013429641723633,
+        "restaurant_longitude": 105.85002136230469,
+        "restaurant_distance_km": 1.029,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "25223",
+        "restaurant_name": "The Coffee House - Lê Thanh Nghị",
+        "latitude": 21.003480911254883,
+        "longitude": 105.84786987304688,
+        "distance_m": 100.99400939331444,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "The Coffee House - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.25431378307341923,
+        "restaurant_name_final": "The Coffee House - Lê Thanh Nghị",
+        "restaurant_latitude": 21.003480911254883,
+        "restaurant_longitude": 105.84786987304688,
+        "restaurant_distance_km": 0.101,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "132692",
+        "restaurant_name": "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu",
+        "latitude": 21.00555992126465,
+        "longitude": 105.84696960449219,
+        "distance_m": 162.9496255989064,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.253943276781723,
+        "restaurant_name_final": "Ghé Coffee - Cà Phê Mang Đi - Tạ Quang Bửu",
+        "restaurant_latitude": 21.00555992126465,
+        "restaurant_longitude": 105.84696960449219,
+        "restaurant_distance_km": 0.163,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "28819",
+        "restaurant_name": "Highlands Coffee -  Trần Đại Nghĩa",
+        "latitude": 21.00411033630371,
+        "longitude": 105.84559631347656,
+        "distance_m": 242.41359910545094,
+        "matched_terms": [
+          "coffee"
+        ],
+        "menu": [
+          "Highlands Coffee -  Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2537441567235116,
+        "restaurant_name_final": "Highlands Coffee -  Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00411033630371,
+        "restaurant_longitude": 105.84559631347656,
+        "restaurant_distance_km": 0.242,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u029",
+    "area_id": "hust_bach_mai_side",
+    "query_lat": 21.0044762,
+    "query_lng": 105.8488727,
+    "time_slot_id": "afternoon",
+    "term": "tra_sua|tea|drink",
+    "desired_price_range_id": "under_50k",
+    "preferred_aspects": "taste|value_for_money",
+    "distance_tolerance_m": 700.0,
+    "candidate_count": 13,
+    "top_restaurants": [
+      {
+        "restaurant_id": "126162",
+        "restaurant_name": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "latitude": 21.003490447998047,
+        "longitude": 105.84834289550781,
+        "distance_m": 122.63434598884625,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.25414217006231976,
+        "restaurant_name_final": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "restaurant_latitude": 21.003490447998047,
+        "restaurant_longitude": 105.84834289550781,
+        "restaurant_distance_km": 0.123,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "78552",
+        "restaurant_name": "1920 Coffee And Tea - Nguyễn Hiền",
+        "latitude": 21.001720428466797,
+        "longitude": 105.84841918945312,
+        "distance_m": 310.0230849031048,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "1920 Coffee And Tea - Nguyễn Hiền"
+        ],
+        "term_hits": 1,
+        "score": 0.25365485287594586,
+        "restaurant_name_final": "1920 Coffee And Tea - Nguyễn Hiền",
+        "restaurant_latitude": 21.001720428466797,
+        "restaurant_longitude": 105.84841918945312,
+        "restaurant_distance_km": 0.31,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "103271",
+        "restaurant_name": "Gà Rán Orinchi - Quán Ăn Hàn Quốc - Tạ Quang Bửu",
+        "latitude": 21.001480102539062,
+        "longitude": 105.84932708740234,
+        "distance_m": 336.47343284654374,
+        "matched_terms": [
+          "drink"
+        ],
+        "menu": [
+          "Gà Rán Orinchi - Quán Ăn Hàn Quốc - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.253629652955167,
+        "restaurant_name_final": "Gà Rán Orinchi - Quán Ăn Hàn Quốc - Tạ Quang Bửu",
+        "restaurant_latitude": 21.001480102539062,
+        "restaurant_longitude": 105.84932708740234,
+        "restaurant_distance_km": 0.336,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 353.0169163713221,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.2536158057107129,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.353,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "62733",
+        "restaurant_name": "Ngược Nắng Coffee & Tea - Tạ Quang Bửu",
+        "latitude": 21.001100540161133,
+        "longitude": 105.84912109375,
+        "distance_m": 376.24086136876406,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Ngược Nắng Coffee & Tea - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.2535984159641946,
+        "restaurant_name_final": "Ngược Nắng Coffee & Tea - Tạ Quang Bửu",
+        "restaurant_latitude": 21.001100540161133,
+        "restaurant_longitude": 105.84912109375,
+        "restaurant_distance_km": 0.376,
+        "restaurant_raw": null
+      }
+    ]
+  },
+  {
+    "user_id": "u030",
+    "area_id": "hust_bach_mai_side",
+    "query_lat": 21.0042104,
+    "query_lng": 105.8486357,
+    "time_slot_id": "dinner",
+    "term": "ca_phe|tea|noi_chuyen|hen_gap",
+    "desired_price_range_id": "50k_100k",
+    "preferred_aspects": "space|staff_service|taste",
+    "distance_tolerance_m": 1000.0,
+    "candidate_count": 23,
+    "top_restaurants": [
+      {
+        "restaurant_id": "22758",
+        "restaurant_name": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "latitude": 21.004640579223633,
+        "longitude": 105.8488998413086,
+        "distance_m": 55.13527474597705,
+        "matched_terms": [
+          "hen_gap"
+        ],
+        "menu": [
+          "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai"
+        ],
+        "term_hits": 1,
+        "score": 0.19678141107267258,
+        "restaurant_name_final": "PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai",
+        "restaurant_latitude": 21.004640579223633,
+        "restaurant_longitude": 105.8488998413086,
+        "restaurant_distance_km": 0.055,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "126162",
+        "restaurant_name": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "latitude": 21.003490447998047,
+        "longitude": 105.84834289550781,
+        "distance_m": 85.63098335729796,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị"
+        ],
+        "term_hits": 1,
+        "score": 0.1961543214231745,
+        "restaurant_name_final": "Tiệm Trà Cô Chiêu - Milk Tea & Ăn Vặt - Lê Thanh Nghị",
+        "restaurant_latitude": 21.003490447998047,
+        "restaurant_longitude": 105.84834289550781,
+        "restaurant_distance_km": 0.086,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "78552",
+        "restaurant_name": "1920 Coffee And Tea - Nguyễn Hiền",
+        "latitude": 21.001720428466797,
+        "longitude": 105.84841918945312,
+        "distance_m": 277.78293532466006,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "1920 Coffee And Tea - Nguyễn Hiền"
+        ],
+        "term_hits": 1,
+        "score": 0.19535870201267358,
+        "restaurant_name_final": "1920 Coffee And Tea - Nguyễn Hiền",
+        "restaurant_latitude": 21.001720428466797,
+        "restaurant_longitude": 105.84841918945312,
+        "restaurant_distance_km": 0.278,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "129860",
+        "restaurant_name": "You Tea - Trần Đại Nghĩa",
+        "latitude": 21.00589942932129,
+        "longitude": 105.84583282470703,
+        "distance_m": 346.3061495453311,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "You Tea - Trần Đại Nghĩa"
+        ],
+        "term_hits": 1,
+        "score": 0.1952879304041432,
+        "restaurant_name_final": "You Tea - Trần Đại Nghĩa",
+        "restaurant_latitude": 21.00589942932129,
+        "restaurant_longitude": 105.84583282470703,
+        "restaurant_distance_km": 0.346,
+        "restaurant_raw": null
+      },
+      {
+        "restaurant_id": "62733",
+        "restaurant_name": "Ngược Nắng Coffee & Tea - Tạ Quang Bửu",
+        "latitude": 21.001100540161133,
+        "longitude": 105.84912109375,
+        "distance_m": 349.45240675413714,
+        "matched_terms": [
+          "tea"
+        ],
+        "menu": [
+          "Ngược Nắng Coffee & Tea - Tạ Quang Bửu"
+        ],
+        "term_hits": 1,
+        "score": 0.19528534545083082,
+        "restaurant_name_final": "Ngược Nắng Coffee & Tea - Tạ Quang Bửu",
+        "restaurant_latitude": 21.001100540161133,
+        "restaurant_longitude": 105.84912109375,
+        "restaurant_distance_km": 0.349,
+        "restaurant_raw": null
+      }
+    ]
+  }
+]
