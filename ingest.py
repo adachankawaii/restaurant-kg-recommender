@@ -21,10 +21,21 @@ def _is_nan(x: Any) -> bool:
         return False
 
 
+def repair_mojibake(x: str) -> str:
+    try:
+        repaired = x.encode("latin1").decode("utf-8")
+    except UnicodeError:
+        return x
+    markers = ("Ã", "Â", "Æ", "º", "»")
+    if sum(x.count(marker) for marker in markers) > sum(repaired.count(marker) for marker in markers):
+        return repaired
+    return x
+
+
 def normalize_text(x: Any) -> str:
     if x is None or _is_nan(x):
         return ""
-    x = str(x).strip().lower()
+    x = repair_mojibake(str(x).strip()).lower()
     x = unicodedata.normalize("NFKC", x)
     return re.sub(r"\s+", " ", x)
 
@@ -32,6 +43,7 @@ def normalize_text(x: Any) -> str:
 def slugify_vn(x: Any) -> str:
     x = normalize_text(x)
     x = "".join(c for c in unicodedata.normalize("NFD", x) if unicodedata.category(c) != "Mn")
+    x = x.replace("\u0111", "d").replace("\u0110", "D")
     x = x.replace("đ", "d")
     return re.sub(r"[^a-z0-9]+", "-", x).strip("-")
 
@@ -94,12 +106,17 @@ URBAN_DISTRICTS = {
     "Hoang Mai", "Thanh Xuan", "Nam Tu Liem", "Bac Tu Liem", "Ha Dong",
 }
 DISTRICT_ALIASES = {slugify_vn(x): (f"Quan {x}" if x in URBAN_DISTRICTS else x) for x in HANOI_DISTRICTS}
+URBAN_DISTRICT_KEYS = {slugify_vn(x) for x in URBAN_DISTRICTS}
 
 
 def infer_district(address: Any) -> Optional[str]:
     s = slugify_vn(address)
-    for key, label in DISTRICT_ALIASES.items():
-        if key and key in s:
+    aliases = sorted(DISTRICT_ALIASES.items(), key=lambda item: len(item[0]), reverse=True)
+    for key, label in aliases:
+        if key and re.search(rf"(^|-)(quan|q|huyen|thi-xa)-{re.escape(key)}($|-)", s):
+            return label
+    for key, label in aliases:
+        if key in URBAN_DISTRICT_KEYS and re.search(rf"(^|-){re.escape(key)}($|-)", s):
             return label
     return None
 
@@ -316,6 +333,12 @@ def merge_list_cols(*cols: Any) -> list[str]:
     return out
 
 
+def canonicalize_district_value(value: Any) -> Optional[str]:
+    if value is None or _is_nan(value) or str(value).strip() == "":
+        return None
+    return infer_district(value) or str(value).strip()
+
+
 @dataclass
 class PreparedData:
     summary: pd.DataFrame
@@ -356,7 +379,7 @@ def prepare_data(
     restaurants = restaurants_base.merge(foody.drop_duplicates("store_key"), on="store_key", how="left", suffixes=("", "_foody"))
     restaurants["name"] = restaurants["store_name"].fillna(restaurants["foody_name"]).fillna(restaurants["query_name"])
     restaurants["address_final"] = restaurants["address"].fillna(restaurants["foody_address"]).fillna(restaurants["query_address"])
-    restaurants["district_final"] = restaurants["district_foody"].fillna(restaurants["district"])
+    restaurants["district_final"] = restaurants["district_foody"].apply(canonicalize_district_value).fillna(restaurants["district"])
     restaurants["city_final"] = restaurants["city_foody"].fillna(restaurants["city"]).fillna("Ha Noi")
     restaurants["lat_final"] = restaurants["lat"].fillna(restaurants["foody_lat"])
     restaurants["lng_final"] = restaurants["lng"].fillna(restaurants["foody_lng"])

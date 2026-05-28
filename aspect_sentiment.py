@@ -200,6 +200,25 @@ def classify_sentiment_from_aspects(aspect_scores: dict[str, float]) -> str:
     return "neutral"
 
 
+def rating_to_sentiment_score(rating: object, neutral_rating: float = 3.0) -> float:
+    try:
+        value = float(rating)
+    except (TypeError, ValueError):
+        value = neutral_rating
+    value = max(1.0, min(5.0, value))
+    return round((value - neutral_rating) / max(5.0 - neutral_rating, 1e-9), 4)
+
+
+def score_feedback_dataframe_from_rating(feedback: pd.DataFrame) -> pd.DataFrame:
+    out = feedback.copy()
+    out["feedback_norm"] = out["rating"].apply(lambda rating: f"rating:{rating}")
+    out["aspect_scores"] = out["rating"].apply(
+        lambda rating: {aspect_name: rating_to_sentiment_score(rating) for aspect_name in ASPECTS}
+    )
+    out["sentiment"] = out["aspect_scores"].apply(classify_sentiment_from_aspects)
+    return out
+
+
 def score_feedback_dataframe(feedback: pd.DataFrame, service: AspectSentimentService) -> pd.DataFrame:
     out = feedback.copy()
     out["feedback_norm"] = out["feedback"].apply(normalize_text)

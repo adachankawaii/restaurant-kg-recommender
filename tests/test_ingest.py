@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import pandas as pd
 
+from aspect_sentiment import score_feedback_dataframe_from_rating
 from ingest import (
     canonicalize_feedback_from_befood,
     haversine_km,
@@ -43,6 +44,9 @@ def test_normalize_dish_family_groups_menu_items():
 
 def test_infer_district_from_vietnamese_address():
     assert infer_district("101A5 ngo 167 Tay Son, Quang Trung, Dong Da, Ha Noi") == "Quan Dong Da"
+    assert infer_district("101 X\u00e3 \u0110\u00e0n, Qu\u1eadn \u0110\u1ed1ng \u0110a, H\u00e0 N\u1ed9i") == "Quan Dong Da"
+    assert infer_district("64 Ng\u00f5 8 B\u00f9i Ng\u1ecdc D\u01b0\u01a1ng, Hai B\u00e0 Tr\u01b0ng, H\u00e0 N\u1ed9i") == "Quan Hai Ba Trung"
+    assert infer_district("154 X\u00e3 \u0110\u00e0n, H\u00e0 N\u1ed9i") is None
 
 
 def test_feedback_explodes_comments_list():
@@ -55,6 +59,17 @@ def test_feedback_explodes_comments_list():
     feedback = canonicalize_feedback_from_befood(raw)
     assert len(feedback) == 2
     assert set(feedback["feedback"]) == {"ngon", "sach"}
+
+
+def test_rating_based_feedback_sentiment_ignores_comment_text():
+    feedback = pd.DataFrame([
+        {"rating": 5.0, "feedback": "bad text"},
+        {"rating": 1.0, "feedback": "good text"},
+    ])
+    scored = score_feedback_dataframe_from_rating(feedback)
+    assert scored.loc[0, "sentiment"] == "positive"
+    assert scored.loc[1, "sentiment"] == "negative"
+    assert scored.loc[0, "aspect_scores"]["food_quality"] > 0
 
 
 def test_prepare_data_shapes_and_distance():
