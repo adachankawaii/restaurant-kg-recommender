@@ -1,0 +1,138 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+dist/
+build/
+*.egg-info/
+
+# ============================================================
+# Virtual environments
+# ============================================================
+.venv/
+venv/
+env/
+ENV/
+
+# ============================================================
+# Environment / secrets
+# ============================================================
+.env
+.env.*
+!.env.example
+!.env.template
+
+# API keys / local secrets
+*.key
+*.pem
+secrets/
+credentials/
+
+# ============================================================
+# Jupyter
+# ============================================================
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# ============================================================
+# Cache
+# ============================================================
+.cache/
+cache/
+.cache/graphrag/
+*.cache
+
+# Keep cache placeholder if needed
+!.cache/.gitkeep
+!cache/.gitkeep
+
+# ============================================================
+# Logs
+# ============================================================
+logs/
+*.log
+*.jsonl
+
+# ============================================================
+# Local databases / vector indexes
+# ============================================================
+qdrant_storage/
+qdrant_data/
+storage/
+vector_store/
+chroma/
+chromadb/
+faiss_index/
+*.sqlite
+*.sqlite3
+*.db
+
+# Neo4j local data if any
+neo4j/data/
+neo4j/logs/
+neo4j/import/
+neo4j/plugins/
+
+# ============================================================
+# Model files / downloaded ML artifacts
+# ============================================================
+models/
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+
+# HuggingFace / Torch cache if local
+.huggingface/
+hf_cache/
+torch_cache/
+
+# ============================================================
+# Generated outputs / evaluation results
+# ============================================================
+
+
+# ============================================================
+# Data files - uncomment if raw data should not be committed
+# ============================================================
+# data/
+# raw/
+# processed/
+# *.csv
+# *.json
+# *.jsonl
+# *.parquet
+# *.xlsx
+
+# Nếu có sample data muốn commit thì dùng:
+# !data/sample/
+# !data/*.sample.csv
+
+# ============================================================
+# OS / Editor
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ============================================================
+# Docker local
+# ============================================================
+docker-compose.override.yml
