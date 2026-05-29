@@ -1,0 +1,6 @@
+﻿variant,num_queries,mean_precision@5,mean_recall@5,mean_mrr@5,mean_ndcg@5,mean_graded_ndcg@5,mean_num_retrieved,mean_num_hits
+vector_only,50,0.308,0.308,0.670667,0.352056,0.640876,5.0,1.54
+graph_only,50,0.372,0.372,0.805,0.455753,0.741196,4.8,1.86
+text_unit_only,50,0.332,0.332,0.682333,0.380912,0.65325,5.0,1.66
+hybrid_no_ce,50,0.404,0.404,0.746333,0.442259,0.764814,5.0,2.02
+hybrid_with_ce,50,0.432,0.432,0.789,0.484171,0.791735,5.0,2.16

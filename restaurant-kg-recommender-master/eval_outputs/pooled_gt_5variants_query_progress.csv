@@ -1,0 +1,51 @@
+﻿test_id,query,status,num_judged_candidates,ground_truth_topk,latency_ms,error,saved_at
+T001,"Mình muốn ăn cơm gà ngon gần đây, rating ổn và có nhiều comment thật.",success,16,10307|123151|128372|68175|117708,217333.3,,2026-05-29 11:32:58
+T002,Tìm quán phở bò ăn sáng giá sinh viên dưới 50k càng tốt.,success,18,13942|80920|2282|130307|98870,259502.27,,2026-05-29 11:37:17
+T003,"Có quán bún chả nào gần tôi không, ưu tiên quán được khen ngon trong comment.",success,14,11020|97742|17700|49400|89400,177509.28,,2026-05-29 11:40:15
+T004,"Mình muốn ăn bánh cuốn nóng, quán nào sạch sẽ và giá vừa phải?",success,15,49400|20000|20601|78300|88436,179681.69,,2026-05-29 11:43:15
+T005,"Gợi ý gà rán hoặc cơm gà cho bữa tối, giá không quá 100k, giao nhanh thì tốt.",success,13,7635|116044|117760|117526|117708,166253.48,,2026-05-29 11:46:01
+T006,"Quán cơm văn phòng nào phù hợp ăn trưa, phần ăn đầy đặn và không quá đắt?",success,15,11305|81712|136086|87272|117526,185452.28,,2026-05-29 11:49:06
+T007,"Tôi muốn tìm phở gà gần đây, ưu tiên quán có rating từ 4.5 trở lên.",success,15,18796|33188|111500|32487|28837,169371.42,,2026-05-29 11:51:56
+T008,Có quán cơm rang hoặc phở xào nào ăn tối ổn không?,success,16,33188|128321|10307|1108|80920,221304.69,,2026-05-29 11:55:37
+T009,"Gợi ý quán bún hoặc phở giá rẻ, nhiều review thật, phù hợp sinh viên.",success,11,13942|59967|25452|25639|80180,159057.1,,2026-05-29 11:58:16
+T010,"Mình cần quán ăn gần nhất, món gì cũng được miễn rating ổn.",success,15,31215|65884|11471|62951|1279,229446.69,,2026-05-29 12:02:06
+T011,Tìm quán cơm tấm hoặc cơm gà có comment khen ngon và giá không quá đắt.,success,18,10307|11305|136086|7635|117708,227063.84,,2026-05-29 12:05:53
+T012,"Quán nào có món phở hoặc bún, phù hợp ăn tối một mình?",success,19,111500|73491|57665|130307|86219,252624.49,,2026-05-29 12:10:06
+T013,"Muốn đặt cơm trưa, ưu tiên quán giao nhanh và có nhiều comment tích cực.",success,20,8432|35452|1108|11326|7635,297957.01,,2026-05-29 12:15:04
+T014,"Gợi ý quán bún chả giá khoảng 50-100k, không quá xa.",success,14,50258|134353|25452|27416|16270,198387.36,,2026-05-29 12:18:22
+T015,"Tôi muốn ăn phở bò, quán nào có nhiều review và rating tốt?",success,17,21224|80920|8314|98870|60874,219489.54,,2026-05-29 12:22:02
+T016,"Có quán cơm nào phù hợp sinh viên, giá dưới 50k không?",success,16,114833|11326|77167|119112|116044,223107.17,,2026-05-29 12:25:45
+T017,"Gợi ý quán gà rán đang mở cửa buổi tối, rating ổn.",success,15,124125|136086|103124|31548|7240,213910.59,,2026-05-29 12:29:19
+T018,"Tìm quán bánh cuốn, quán nào sạch sẽ và comment ổn?",success,17,97742|36034|88436|10856|20472,214937.95,,2026-05-29 12:32:54
+T019,Mình muốn tìm quán cơm hoặc phở có giá hợp lý trong bán kính vài km.,success,14,130307|130463|57665|80180|59967,202805.34,,2026-05-29 12:36:17
+T020,"Quán nào có món bún hoặc phở, nhiều đánh giá, phù hợp ăn trưa?",success,15,35452|22455|80180|118507|57665,210484.17,,2026-05-29 12:39:48
+T021,"Tôi muốn tránh quán bị chê vệ sinh, tìm quán cơm gà có comment tốt.",success,15,8432|11305|10307|116044|7635,199407.42,,2026-05-29 12:43:07
+T022,"Tìm quán giao nhanh, món cơm hoặc bún đều được, rating trên 4.",success,16,117526|34875|109048|124125|10307,194132.15,,2026-05-29 12:46:22
+T023,"Có quán phở nào giá mềm, ăn sáng được không?",success,11,32784|128321|130307|81993|80180,151931.85,,2026-05-29 12:48:54
+T024,"Gợi ý quán cơm rang phần ăn nhiều, phù hợp ăn trưa.",success,18,1108|119112|128321|80920|116044,240693.2,,2026-05-29 12:52:54
+T025,"Mình muốn ăn bún chả, quán nào rating cao và có comment thật?",success,18,16270|97742|20472|118507|89400,219166.34,,2026-05-29 12:56:34
+T026,"Tìm quán cơm giá không quá 70k, đang mở cửa giờ tối.",success,10,8432|128372|11305|68175|55835,163227.26,,2026-05-29 12:59:17
+T027,"Có quán gà nào không quá xa, review ổn không?",success,19,133949|111500|20058|134203|10307,231105.2,,2026-05-29 13:03:08
+T028,Gợi ý quán phở hoặc cơm giá rẻ và giao nhanh.,success,17,13942|77167|128724|87272|80180,240722.86,,2026-05-29 13:07:09
+T029,Mình muốn tìm quán bún/phở/cơm có rating tốt quanh khu này.,success,17,117526|34875|111500|12952|20601,302628.92,,2026-05-29 13:12:12
+T030,"Tìm quán cơm hoặc gà rán giá tầm trung, comment không tệ.",success,16,136086|119112|111500|128724|76892,210801.12,,2026-05-29 13:15:43
+T031,"Quán nào có cơm/phở, nhiều món trong menu, hợp đi nhóm nhỏ?",success,17,126147|99617|32784|4486|124125,314173.03,,2026-05-29 13:20:57
+T032,"Tôi cần ăn nhanh, quán cơm hoặc phở nào gần và ổn nhất?",success,15,124125|128724|8314|117526|128372,200909.12,,2026-05-29 13:24:18
+T033,"Gợi ý quán bún chả hoặc bánh cuốn, ưu tiên quán không bị chê đồ nguội.",success,18,97742|20472|49400|78300|16270,268697.69,,2026-05-29 13:28:47
+T034,"Có quán cơm gà nào ăn tối, giá khoảng 50-100k không?",success,12,117708|4486|10307|53514|14318,155958.28,,2026-05-29 13:31:23
+T035,"Tìm quán phở xào hoặc cơm rang, quán nào comment khen nhiều?",success,15,98870|80920|1108|21224|33188,222371.52,,2026-05-29 13:35:05
+T036,"Tôi muốn quán ăn trưa gần đây, ưu tiên rẻ, rating ổn và không quá xa.",success,16,16270|1255|73467|88436|34875,312552.21,,2026-05-29 13:40:18
+T037,"Mình muốn đặt món lúc 22h, còn quán cơm/phở/gà nào mở cửa không?",success,21,124125|37364|117526|25639|14318,357430.96,,2026-05-29 13:46:17
+T038,"Tìm quán có comment nói đóng gói tốt, giao nhanh, món cơm hoặc gà.",success,18,123151|11326|10307|11305|128372,227501.97,,2026-05-29 13:50:05
+T039,"Gợi ý quán có rating cao nhất trong nhóm cơm, phở, bún chả.",success,17,117526|32283|124125|34875|16270,235200.2,,2026-05-29 13:54:00
+T040,"Quán nào có nhiều review nhất, món ăn chính là cơm hoặc bún?",success,15,10307|117526|8200|7240|25639,217007.42,,2026-05-29 13:57:37
+T041,"Tìm quán phở mở cửa sáng sớm, phù hợp ăn sáng.",success,16,111500|32784|22455|130307|13942,201853.95,,2026-05-29 14:00:59
+T042,Có quán cơm giá sinh viên và có comment về suất ăn nhiều không?,success,18,10307|8432|77167|116044|128678,261026.06,,2026-05-29 14:05:20
+T043,"Mình muốn bún hoặc phở rating tốt, không quá xa.",success,17,111500|33188|10307|35452|32283,237605.71,,2026-05-29 14:09:18
+T044,Tìm quán bánh cuốn hoặc bún chả đang mở cửa buổi trưa.,success,16,61570|35452|118507|65884|97742,193769.94,,2026-05-29 14:12:32
+T045,"Gợi ý quán cơm giá không quá đắt, có review thật để tin tưởng.",success,15,7635|116044|130509|11305|128372,221709.88,,2026-05-29 14:16:14
+T046,Mình cần quán gần nhất có món phở bò hoặc phở gà.,success,18,41433|11471|130307|118277|57665,245293.68,,2026-05-29 14:20:19
+T047,"Tìm quán cơm hoặc gà rán có ảnh, rating ổn.",success,17,117526|10307|88782|31215|136086,207590.57,,2026-05-29 14:23:47
+T048,"Quán nào phù hợp đặt cho nhóm 3 người, menu đa dạng, có cơm và bún/phở?",success,16,87272|25639|111500|98870|117526,227103.26,,2026-05-29 14:27:35
+T049,"Tìm quán có comment tốt về phục vụ, món cơm hoặc bánh cuốn.",success,15,1279|117526|11305|124125|31750,203279.36,,2026-05-29 14:30:58
+T050,"Mình muốn quán đáng tin nhất quanh đây: rating cao, nhiều review, có comment thật, món cơm/phở/bún đều được.",success,17,8314|11305|1279|57665|16270,240617.68,,2026-05-29 14:34:59

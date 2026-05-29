@@ -1,0 +1,2 @@
+﻿num_queries,score_based_k,hybrid_k,mean_precision@5,min_precision@5,max_precision@5,mean_recall@5,min_recall@5,max_recall@5,mean_mrr@5,min_mrr@5,max_mrr@5,mean_ndcg@5,min_ndcg@5,max_ndcg@5,mean_jaccard,min_jaccard,max_jaccard,mean_overlap_count,min_overlap_count,max_overlap_count
+50,5,5,0.1,0.0,0.4,0.1,0.0,0.4,0.234667,0.0,1.0,0.104199,0.0,0.485229,0.056667,0.0,0.25,0.5,0.0,2.0
