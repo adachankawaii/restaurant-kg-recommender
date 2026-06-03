@@ -1,0 +1,564 @@
+{
+  "session_id": "f29d7ecf-5207-49c4-a727-cc4133a6da67",
+  "raw_query": "tim quan com ga gan Bach Khoa duoi 50k, uu tien rating cao",
+  "rules": {
+    "food": "com ga",
+    "location": "bach khoa",
+    "max_price": 50000,
+    "priority": [
+      "rating",
+      "distance"
+    ],
+    "cuisine": null,
+    "time_constraint": null,
+    "confidence": 0.85
+  },
+  "results": [
+    {
+      "restaurant_id": "116156",
+      "name": "Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công",
+      "matched_items": [
+        {
+          "name": "Bánh cuốn Cao Bằng",
+          "price": 50000.0
+        },
+        {
+          "name": "Bánh cuốn chấm",
+          "price": 25000.0
+        },
+        {
+          "name": "Phở vịt quay măng",
+          "price": 55000.0
+        },
+        {
+          "name": "Bún vịt quay",
+          "price": 55000.0
+        },
+        {
+          "name": "Phở vịt ba chỉ",
+          "price": 50000.0
+        }
+      ],
+      "categories": [
+        "Bánh Cuốn Cao Bằng",
+        "Bánh Cuốn Chấm",
+        "Vịt Quay",
+        "Phở - Bún Vịt Quay",
+        "Đồ Ăn Vặt",
+        "bánh cuốn",
+        "phở"
+      ],
+      "dish_families": [],
+      "review_count": 10.0,
+      "rating": 4.0,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "9774862",
+          "field": "menu_items",
+          "value": "Bánh cuốn Cao Bằng"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "9774868",
+          "field": "menu_items",
+          "value": "Bánh cuốn chấm"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "9774875",
+          "field": "menu_items",
+          "value": "Phở vịt quay măng"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_69f1e84d1d3282f6",
+          "field": "text_units",
+          "value": "Tên quán: Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công\nNguồn: befood_comment\nRating người dùng: 4.0\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: mình đặt ở trên app là tào Phớ chứ mình không đặt nước "
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_fb41ef915d04e62b",
+          "field": "text_units",
+          "value": "Tên quán: Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công\nNguồn: befood_comment\nRating người dùng: 4.0\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Ngon xỉu, Sạch sẽ, Đáng đồng tiền, Đóng gói tốt"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_a097830609bf55e2",
+          "field": "text_units",
+          "value": "Tên quán: Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công\nNguồn: befood_comment\nRating người dùng: 4.0\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "tào phớ",
+          "type": "dish"
+        },
+        {
+          "name": "nước đậu",
+          "type": "dish"
+        },
+        {
+          "name": "không gọi xác nhận đổi món",
+          "type": "service_quality"
+        },
+        {
+          "name": "tự ý đổi món",
+          "type": "problem"
+        },
+        {
+          "name": "sai/thiếu món",
+          "type": "problem"
+        }
+      ],
+      "graphrag_score": 15.0,
+      "rule_score": 12.0,
+      "popularity_score": 0.01,
+      "scores": {
+        "final": 0.851592,
+        "graphrag": 1.0,
+        "rgcn": 0.0,
+        "rule": 1.0,
+        "popularity": 0.031847
+      }
+    },
+    {
+      "restaurant_id": "22815",
+      "name": "Bánh Cuốn Cao Bằng - Thể Giao",
+      "matched_items": [
+        {
+          "name": "Bánh Cuốn Trứng Giò Cao Bằng",
+          "price": 45000.0
+        },
+        {
+          "name": "Bánh Vàng",
+          "price": 15000.0
+        },
+        {
+          "name": "Bánh Cuốn Trứng",
+          "price": 13000.0
+        },
+        {
+          "name": "Giò",
+          "price": 13000.0
+        },
+        {
+          "name": "Thạch Đen Nhà Làm",
+          "price": 50000.0
+        }
+      ],
+      "categories": [
+        "COMBO VUI CÙNG COCA-COLA",
+        "ĐỒ UỐNG",
+        "ĐỒ ĂN",
+        "TẾT SUM VẦY",
+        "bánh cuốn"
+      ],
+      "dish_families": [],
+      "review_count": 314.0,
+      "rating": 4.8,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "744806",
+          "field": "menu_items",
+          "value": "Bánh Cuốn Trứng Giò Cao Bằng"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "744811",
+          "field": "menu_items",
+          "value": "Bánh Vàng"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "744814",
+          "field": "menu_items",
+          "value": "Bánh Cuốn Trứng"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_91c5da78638b0beb",
+          "field": "text_units",
+          "value": "Tên quán: Bánh Cuốn Cao Bằng - Thể Giao\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Sạch sẽ"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_e7fbc6566f39a878",
+          "field": "text_units",
+          "value": "Tên quán: Bánh Cuốn Cao Bằng - Thể Giao\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đáng đồng tiền, Đóng gói tốt"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_7cbfea26f614b4ca",
+          "field": "text_units",
+          "value": "Tên quán: Bánh Cuốn Cao Bằng - Thể Giao\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đáng đồng tiền, Sạch sẽ, Đóng gói tốt"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "sạch sẽ",
+          "type": "space_quality"
+        },
+        {
+          "name": "đáng đồng tiền",
+          "type": "price_value"
+        },
+        {
+          "name": "đóng gói",
+          "type": "delivery_packaging"
+        },
+        {
+          "name": "đáng đồng tiền",
+          "type": "price_value"
+        },
+        {
+          "name": "sạch sẽ",
+          "type": "space_quality"
+        }
+      ],
+      "graphrag_score": 13.0,
+      "rule_score": 10.5,
+      "popularity_score": 0.314,
+      "scores": {
+        "final": 0.787917,
+        "graphrag": 0.866667,
+        "rgcn": 0.0,
+        "rule": 0.875,
+        "popularity": 1.0
+      }
+    },
+    {
+      "restaurant_id": "40980",
+      "name": "Cơm Thố Bách Khoa - Lương Định Của",
+      "matched_items": [
+        {
+          "name": "Cơm thố Gà - Trứng",
+          "price": 85000.0
+        },
+        {
+          "name": "CƠM THỐ ĐẶC BIỆT",
+          "price": 95000.0
+        },
+        {
+          "name": "CƠM THỐ MIX 2 vị",
+          "price": 85000.0
+        },
+        {
+          "name": "CƠM CHIÊN RAU CỦ",
+          "price": 45000.0
+        },
+        {
+          "name": "CƠM CHIÊN DƯƠNG CHÂU",
+          "price": 60000.0
+        }
+      ],
+      "categories": [
+        "Mega Sale - Đồng Giá 67k",
+        "Món Chính",
+        "Đồ Uống",
+        "Topping Thịt",
+        "Rau Xào Cà Muối",
+        "cơm"
+      ],
+      "dish_families": [],
+      "review_count": 310.0,
+      "rating": 4.8,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "9219335",
+          "field": "menu_items",
+          "value": "Cơm thố Gà - Trứng"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "2965481",
+          "field": "menu_items",
+          "value": "CƠM THỐ ĐẶC BIỆT"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "6410385",
+          "field": "menu_items",
+          "value": "CƠM THỐ MIX 2 vị"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_c6fcefdfcd9d111c",
+          "field": "text_units",
+          "value": "Tên quán: Cơm Thố Bách Khoa - Lương Định Của\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_096764aa7a3db432",
+          "field": "text_units",
+          "value": "Tên quán: Cơm Thố Bách Khoa - Lương Định Của\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đóng gói tốt"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_019e45c157f84c81",
+          "field": "text_units",
+          "value": "Tên quán: Cơm Thố Bách Khoa - Lương Định Của\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "ngon xỉu",
+          "type": "food_descriptor"
+        },
+        {
+          "name": "đóng gói",
+          "type": "delivery_packaging"
+        },
+        {
+          "name": "đáng đồng tiền",
+          "type": "price_value"
+        },
+        {
+          "name": "sạch sẽ",
+          "type": "space_quality"
+        },
+        {
+          "name": "đóng gói",
+          "type": "delivery_packaging"
+        }
+      ],
+      "graphrag_score": 9.0,
+      "rule_score": 7.5,
+      "popularity_score": 0.31,
+      "scores": {
+        "final": 0.563113,
+        "graphrag": 0.6,
+        "rgcn": 0.0,
+        "rule": 0.625,
+        "popularity": 0.987261
+      }
+    },
+    {
+      "restaurant_id": "97742",
+      "name": "NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",
+      "matched_items": [
+        {
+          "name": "Cơm thịt lợn mường xào xả ớt",
+          "price": 66000.0
+        },
+        {
+          "name": "Cơm thịt kho tàu - trứng cút",
+          "price": 58000.0
+        },
+        {
+          "name": "Cơm chả lá lốt vị nhà làm",
+          "price": 58000.0
+        },
+        {
+          "name": "Cơm thịt nướng giềng mẻ",
+          "price": 66000.0
+        },
+        {
+          "name": "Cơm thịt quay giòn bì",
+          "price": 66000.0
+        }
+      ],
+      "categories": [
+        "cơm vị nhà nấu - thay đổi theo ngày",
+        "Bún Chả",
+        "Cơm Tấm Sài Gòn",
+        "Bánh Cuốn",
+        "cơm"
+      ],
+      "dish_families": [],
+      "review_count": 11.0,
+      "rating": 4.3,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "7670605",
+          "field": "menu_items",
+          "value": "Cơm thịt lợn mường xào xả ớt"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "9050411",
+          "field": "menu_items",
+          "value": "Cơm thịt kho tàu - trứng cút"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "9050419",
+          "field": "menu_items",
+          "value": "Cơm chả lá lốt vị nhà làm"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_037157be32ed104c",
+          "field": "text_units",
+          "value": "Tên quán: NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn\nNguồn: befood_comment\nRating người dùng: 4.3\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: cơm quá tệ, Không hợp khẩu vị, Đóng gói chưa tốt"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_0372b2ecb8c342a2",
+          "field": "text_units",
+          "value": "Tên quán: NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn\nNguồn: befood_comment\nRating người dùng: 4.3\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Ngon xỉu"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_7ae42d66486164bb",
+          "field": "text_units",
+          "value": "Tên quán: NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn\nNguồn: befood_comment\nRating người dùng: 4.3\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đáng đồng tiền, Ngon xỉu, Sạch sẽ, Đóng gói tốt"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "cơm",
+          "type": "dish"
+        },
+        {
+          "name": "quá tệ",
+          "type": "food_descriptor"
+        },
+        {
+          "name": "không hợp khẩu vị",
+          "type": "food_descriptor"
+        },
+        {
+          "name": "đóng gói",
+          "type": "delivery_packaging"
+        },
+        {
+          "name": "chưa tốt",
+          "type": "problem"
+        }
+      ],
+      "graphrag_score": 7.0,
+      "rule_score": 7.0,
+      "popularity_score": 0.011,
+      "scores": {
+        "final": 0.415918,
+        "graphrag": 0.466667,
+        "rgcn": 0.0,
+        "rule": 0.583333,
+        "popularity": 0.035032
+      }
+    },
+    {
+      "restaurant_id": "111742",
+      "name": "Fami Cháo - Cháo Dinh Dưỡng Cao Cấp - 404 Bạch Mai",
+      "matched_items": [
+        {
+          "name": "Cháo cao lớn Ghẹ hấp quinoa",
+          "price": 41000.0
+        },
+        {
+          "name": "Cháo tăng cân Sườn hầm sen dừa",
+          "price": 28000.0
+        },
+        {
+          "name": "Cháo tiêu hoá Gà tiềm sen táo đỏ",
+          "price": 28000.0
+        },
+        {
+          "name": "Cháo tăng cân Vai heo sốt đậu đỏ (Mới)",
+          "price": 36000.0
+        },
+        {
+          "name": "Set lạnh - Mỳ ý sốt bò bằm (Có gia vị)",
+          "price": 56000.0
+        }
+      ],
+      "categories": [
+        "01. CHÁO TƯƠI HÀNG NGÀY (CÓ SET NHÂN)",
+        "02. MỲ NUI SIÊU NGON (CÓ GIA VỊ)",
+        "02.1. BÚN PHỞ (KHÔNG GIA VỊ - CÓ NẤU NÓNG HỘ)",
+        "03. SÚP DINH DƯỠNG (CÓ NẤU NÓNG HỘ)",
+        "05. NHÂN CHÁO - HEO BÒ SƯỜN",
+        "04. MÓN THÔ ĂN CƠM (CÓ GIA VỊ)",
+        "06. NHÂN CHÁO - GIA CẦM",
+        "07. NHÂN CHÁO - THUỶ HẢI SẢN",
+        "MÓN GỌI THÊM",
+        "DỤNG CỤ BAO BÌ",
+        "MÓN TẠM DỪNG",
+        "phở"
+      ],
+      "dish_families": [],
+      "review_count": 26.0,
+      "rating": 5.0,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "9359634",
+          "field": "menu_items",
+          "value": "Cháo cao lớn Ghẹ hấp quinoa"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "9359641",
+          "field": "menu_items",
+          "value": "Cháo tăng cân Sườn hầm sen dừa"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "9359650",
+          "field": "menu_items",
+          "value": "Cháo tiêu hoá Gà tiềm sen táo đỏ"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_9fdbf090d288e2f7",
+          "field": "text_units",
+          "value": "Tên quán: Fami Cháo - Cháo Dinh Dưỡng Cao Cấp - 404 Bạch Mai\nNguồn: befood_comment\nRating người dùng: 5.0\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_593526869d275daa",
+          "field": "text_units",
+          "value": "Tên quán: Fami Cháo - Cháo Dinh Dưỡng Cao Cấp - 404 Bạch Mai\nNguồn: befood_comment\nRating người dùng: 5.0\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Sạch sẽ"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_dc0c9280e77f6db3",
+          "field": "text_units",
+          "value": "Tên quán: Fami Cháo - Cháo Dinh Dưỡng Cao Cấp - 404 Bạch Mai\nNguồn: befood_comment\nRating người dùng: 5.0\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: quán hỗ trợ nhiệt tình"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "ngon",
+          "type": "food_descriptor"
+        },
+        {
+          "name": "đóng gói",
+          "type": "delivery_packaging"
+        },
+        {
+          "name": "đáng đồng tiền",
+          "type": "price_value"
+        },
+        {
+          "name": "sạch sẽ",
+          "type": "space_quality"
+        },
+        {
+          "name": "sạch sẽ",
+          "type": "space_quality"
+        }
+      ],
+      "graphrag_score": 7.0,
+      "rule_score": 6.0,
+      "popularity_score": 0.026,
+      "scores": {
+        "final": 0.405807,
+        "graphrag": 0.466667,
+        "rgcn": 0.0,
+        "rule": 0.5,
+        "popularity": 0.082803
+      }
+    }
+  ],
+  "created_at": "2026-06-02T13:20:53+00:00"
+}

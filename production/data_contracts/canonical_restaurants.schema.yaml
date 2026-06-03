@@ -1,0 +1,6 @@
+required:
+  - restaurant_id
+  - name
+  - normalized_name
+  - address
+  - normalized_address

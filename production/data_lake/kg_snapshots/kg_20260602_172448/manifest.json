@@ -1,0 +1,10 @@
+{
+  "graph_version": "kg_20260602_172448",
+  "mode": "offline",
+  "source_processed_dir": "D:\\restaurant-kg-recommender\\production\\data_lake\\processed\\offline_20260602_172447",
+  "nodes_path": "D:\\restaurant-kg-recommender\\production\\data_lake\\kg_snapshots\\kg_20260602_172448\\nodes.csv",
+  "edges_path": "D:\\restaurant-kg-recommender\\production\\data_lake\\kg_snapshots\\kg_20260602_172448\\edges.csv",
+  "node_count": 3645,
+  "edge_count": 3445,
+  "created_at": "2026-06-02T10:24:48+00:00"
+}

@@ -1,0 +1,34 @@
+mode: online
+
+sources:
+  enable_crawlers: true
+  crawl_frequency: monthly
+
+storage:
+  use_minio: true
+  data_lake_root: ./data_lake
+  raw_bucket_prefix: raw
+  processed_bucket_prefix: processed
+
+neo4j:
+  required: true
+  fallback_to_local_snapshot: false
+
+kafka:
+  enabled: true
+  topics:
+    user_query_created: user.query.created
+    user_rule_parsed: user.rule.parsed
+    user_result_shown: user.result.shown
+    user_restaurant_clicked: user.restaurant.clicked
+    user_feedback_created: user.feedback.created
+    rgcn_model_updated: rgcn.model.updated
+
+spark:
+  enabled: true
+
+airflow:
+  enabled: true
+  monthly_ingestion_cron: "0 2 1 * *"
+  daily_log_processing_cron: "0 3 * * *"
+  weekly_rgcn_training_cron: "0 4 * * 0"

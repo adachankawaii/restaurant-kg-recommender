@@ -126,6 +126,8 @@ Node chính:
 - `Cuisine`
 - `PriceBand`
 - `AtmosphereTag`
+- `MenuItem`
+- `MenuCategory`
 - `Community`
 - `CommunityReport`
 

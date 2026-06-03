@@ -1,0 +1,5 @@
+required:
+  - restaurant_id
+  - restaurant_name
+  - latitude
+  - longitude

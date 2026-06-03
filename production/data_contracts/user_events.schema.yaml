@@ -1,0 +1,5 @@
+required:
+  - event_id
+  - session_id
+  - event_type
+  - timestamp

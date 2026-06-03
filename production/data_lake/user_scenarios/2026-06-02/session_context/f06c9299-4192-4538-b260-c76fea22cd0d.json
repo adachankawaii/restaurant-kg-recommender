@@ -1,0 +1,578 @@
+{
+  "session_id": "f06c9299-4192-4538-b260-c76fea22cd0d",
+  "raw_query": "tìm quán cơm gà gần Bách Khoa dưới 50k, ưu tiên rating cao",
+  "normalized_query": "tim quan com ga gan bach khoa duoi 50k uu tien rating cao",
+  "rules": {
+    "food": "com ga",
+    "location": "bach khoa",
+    "max_price": 50000,
+    "priority": [
+      "rating",
+      "distance"
+    ],
+    "cuisine": null,
+    "time_constraint": null,
+    "confidence": 0.85,
+    "normalized_query": "tim quan com ga gan bach khoa duoi 50k uu tien rating cao"
+  },
+  "results": [
+    {
+      "restaurant_id": "11471",
+      "name": "Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng",
+      "matched_items": [
+        {
+          "name": "Phở Chín",
+          "price": 48000.0
+        },
+        {
+          "name": "Phở Tái",
+          "price": 48000.0
+        },
+        {
+          "name": "Phở Tái Chín",
+          "price": 52000.0
+        },
+        {
+          "name": "Phở Tái Nạm",
+          "price": 58000.0
+        },
+        {
+          "name": "Phở Tái Bắp",
+          "price": 70000.0
+        }
+      ],
+      "categories": [
+        "Deal 1K",
+        "PHỞ",
+        "CƠM RANG (BÁN BUỔI TRƯA)",
+        "Nước ngọt",
+        "Combo cùng coca",
+        "Quán ăn",
+        "cơm"
+      ],
+      "dish_families": [],
+      "review_count": 39.0,
+      "rating": 4.5,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "394469",
+          "field": "menu_items",
+          "value": "Phở Chín"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "394470",
+          "field": "menu_items",
+          "value": "Phở Tái"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "394471",
+          "field": "menu_items",
+          "value": "Phở Tái Chín"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_244cbf6cab9d40b3",
+          "field": "text_units",
+          "value": "Tên quán: Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng\nNguồn: befood_comment\nRating người dùng: 4.5\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Quán đóng gói không cẩn thận.cả cơm và mì đều lèo"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_d3c0592d59330390",
+          "field": "text_units",
+          "value": "Tên quán: Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng\nNguồn: befood_comment\nRating người dùng: 4.5\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Sạch sẽ"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_3290b898adddc379",
+          "field": "text_units",
+          "value": "Tên quán: Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng\nNguồn: befood_comment\nRating người dùng: 4.5\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đóng gói tốt, Sạch sẽ"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "thiên trường - phở cồ & cơm gà xối mắm",
+          "type": "service_quality"
+        },
+        {
+          "name": "đóng gói",
+          "type": "delivery_packaging"
+        },
+        {
+          "name": "cơm",
+          "type": "dish"
+        },
+        {
+          "name": "mì",
+          "type": "dish"
+        },
+        {
+          "name": "lèo tèo",
+          "type": "food_descriptor"
+        }
+      ],
+      "graphrag_score": 32.0,
+      "rule_score": 5.0,
+      "popularity_score": 0.039,
+      "rgcn_score": 3.15,
+      "reason": "khớp term: com, com ga; cách query 327m; rating 4.5; price_min 10000; opening_status=open",
+      "scores": {
+        "final": 0.951319,
+        "graphrag": 1.0,
+        "rgcn": 0.993691,
+        "rule": 1.0,
+        "popularity": 0.039
+      }
+    },
+    {
+      "restaurant_id": "25639",
+      "name": "Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn",
+      "matched_items": [
+        {
+          "name": "Phở trộn bò và gà - 1 Coca cola",
+          "price": 49000.0
+        },
+        {
+          "name": "Miến trộn bò và gà - 1 coca cola",
+          "price": 49000.0
+        },
+        {
+          "name": "Bún trộn bò và gà - 1 Sprite",
+          "price": 49000.0
+        },
+        {
+          "name": "Miến Trộn Bò Gà",
+          "price": 45000.0
+        },
+        {
+          "name": "Phở Trộn Bò Gà",
+          "price": 45000.0
+        }
+      ],
+      "categories": [
+        "COMBO",
+        "BÚN MIẾN PHỞ",
+        "CƠM GÀ",
+        "ĐỒ UỐNG",
+        "Cơm Ngon",
+        "bún chả",
+        "cơm",
+        "phở"
+      ],
+      "dish_families": [],
+      "review_count": 562.0,
+      "rating": 4.6,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "867932",
+          "field": "menu_items",
+          "value": "Phở trộn bò và gà - 1 Coca cola"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "867933",
+          "field": "menu_items",
+          "value": "Miến trộn bò và gà - 1 coca cola"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "867935",
+          "field": "menu_items",
+          "value": "Bún trộn bò và gà - 1 Sprite"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_15034de1df0b4e9a",
+          "field": "text_units",
+          "value": "Tên quán: Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn\nNguồn: befood_comment\nRating người dùng: 4.6\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: ngon đấy, Ngon xỉu"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_8ea2b2b2c0447f44",
+          "field": "text_units",
+          "value": "Tên quán: Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn\nNguồn: befood_comment\nRating người dùng: 4.6\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: đặt phở cho bún?"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_d2292fdad09da78a",
+          "field": "text_units",
+          "value": "Tên quán: Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn\nNguồn: befood_comment\nRating người dùng: 4.6\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: bún ngan trộn của mình có cả gián ???"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "cơm gà",
+          "type": "dish"
+        },
+        {
+          "name": "bún miến trộn",
+          "type": "dish"
+        },
+        {
+          "name": "ngon",
+          "type": "food_descriptor"
+        },
+        {
+          "name": "phở",
+          "type": "dish"
+        },
+        {
+          "name": "bún",
+          "type": "dish"
+        }
+      ],
+      "graphrag_score": 19.0,
+      "rule_score": 2.5,
+      "popularity_score": 0.562,
+      "scores": {
+        "final": 0.518725,
+        "graphrag": 0.59375,
+        "rgcn": 0.0,
+        "rule": 0.5,
+        "popularity": 0.562
+      }
+    },
+    {
+      "restaurant_id": "40980",
+      "name": "Cơm Thố Bách Khoa - Lương Định Của",
+      "matched_items": [
+        {
+          "name": "Cơm thố Gà - Trứng",
+          "price": 85000.0
+        },
+        {
+          "name": "CƠM THỐ ĐẶC BIỆT",
+          "price": 95000.0
+        },
+        {
+          "name": "CƠM THỐ MIX 2 vị",
+          "price": 85000.0
+        },
+        {
+          "name": "CƠM CHIÊN RAU CỦ",
+          "price": 45000.0
+        },
+        {
+          "name": "CƠM CHIÊN DƯƠNG CHÂU",
+          "price": 60000.0
+        }
+      ],
+      "categories": [
+        "Mega Sale - Đồng Giá 67k",
+        "Món Chính",
+        "Đồ Uống",
+        "Topping Thịt",
+        "Rau Xào Cà Muối",
+        "cơm"
+      ],
+      "dish_families": [],
+      "review_count": 310.0,
+      "rating": 4.8,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "9219335",
+          "field": "menu_items",
+          "value": "Cơm thố Gà - Trứng"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "2965481",
+          "field": "menu_items",
+          "value": "CƠM THỐ ĐẶC BIỆT"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "6410385",
+          "field": "menu_items",
+          "value": "CƠM THỐ MIX 2 vị"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_c6fcefdfcd9d111c",
+          "field": "text_units",
+          "value": "Tên quán: Cơm Thố Bách Khoa - Lương Định Của\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_096764aa7a3db432",
+          "field": "text_units",
+          "value": "Tên quán: Cơm Thố Bách Khoa - Lương Định Của\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đóng gói tốt"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_019e45c157f84c81",
+          "field": "text_units",
+          "value": "Tên quán: Cơm Thố Bách Khoa - Lương Định Của\nNguồn: befood_comment\nRating người dùng: 4.8\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "ngon xỉu",
+          "type": "food_descriptor"
+        },
+        {
+          "name": "đóng gói",
+          "type": "delivery_packaging"
+        },
+        {
+          "name": "đáng đồng tiền",
+          "type": "price_value"
+        },
+        {
+          "name": "sạch sẽ",
+          "type": "space_quality"
+        },
+        {
+          "name": "đóng gói",
+          "type": "delivery_packaging"
+        }
+      ],
+      "graphrag_score": 19.0,
+      "rule_score": 2.5,
+      "popularity_score": 0.31,
+      "scores": {
+        "final": 0.506125,
+        "graphrag": 0.59375,
+        "rgcn": 0.0,
+        "rule": 0.5,
+        "popularity": 0.31
+      }
+    },
+    {
+      "restaurant_id": "4486",
+      "name": "Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",
+      "matched_items": [
+        {
+          "name": "Cơm Gà Xối Mỡ (Đùi Tỏi/Má Đùi) + Canh Cải Ngọt",
+          "price": 69000.0
+        },
+        {
+          "name": "Cơm Gà Xối Mỡ (Đùi Tỏi/Má Đùi) + Canh Cải Ngọt",
+          "price": 49700.0
+        },
+        {
+          "name": "Cơm Gà Sốt Lá Chanh (Lớn)",
+          "price": 75000.0
+        },
+        {
+          "name": "Cơm Gà Xối Mắm Tỏi (Lớn)",
+          "price": 75000.0
+        },
+        {
+          "name": "Cơm Gà Sốt Cay (Lớn)",
+          "price": 75000.0
+        }
+      ],
+      "categories": [
+        "ƯU ĐÃI HOT",
+        "CƠM GÀ LỚN",
+        "CƠM GÀ VỪA",
+        "CƠM GÀ NHỎ",
+        "MÓN ĂN KÈM THÊM",
+        "CƠM TẤM SƯỜN DELICHI",
+        "MÓN CANH",
+        "NƯỚC UỐNG",
+        "Món Mới",
+        "Cơm Văn Phòng Delichi",
+        "cơm"
+      ],
+      "dish_families": [],
+      "review_count": 2748.0,
+      "rating": 4.7,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "10360352",
+          "field": "menu_items",
+          "value": "Cơm Gà Xối Mỡ (Đùi Tỏi/Má Đùi) + Canh Cải Ngọt"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "11780637",
+          "field": "menu_items",
+          "value": "Cơm Gà Xối Mỡ (Đùi Tỏi/Má Đùi) + Canh Cải Ngọt"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "94965",
+          "field": "menu_items",
+          "value": "Cơm Gà Sốt Lá Chanh (Lớn)"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_69c93035b9e76a1c",
+          "field": "text_units",
+          "value": "Tên quán: Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn\nNguồn: befood_comment\nRating người dùng: 4.7\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: bán về được 4 miếng gà toàn xương., Không "
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_a1b7f792f77935b7",
+          "field": "text_units",
+          "value": "Tên quán: Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn\nNguồn: befood_comment\nRating người dùng: 4.7\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: dc miếng gà bé tí, Sai/Thiếu món"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_7780e3b47c84449d",
+          "field": "text_units",
+          "value": "Tên quán: Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn\nNguồn: befood_comment\nRating người dùng: 4.7\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đáng đồng tiền"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "gà",
+          "type": "dish"
+        },
+        {
+          "name": "toàn xương",
+          "type": "food_descriptor"
+        },
+        {
+          "name": "không làm đúng ghi chú",
+          "type": "problem"
+        },
+        {
+          "name": "sai/thiếu món",
+          "type": "problem"
+        },
+        {
+          "name": "miếng gà",
+          "type": "dish"
+        }
+      ],
+      "graphrag_score": 12.0,
+      "rule_score": 1.5,
+      "popularity_score": 1.0,
+      "rgcn_score": 3.17,
+      "reason": "khớp term: com, com ga, com van phong; cách query 595m; rating 4.7; price_min 8000; opening_status=open",
+      "scores": {
+        "final": 0.4575,
+        "graphrag": 0.375,
+        "rgcn": 1.0,
+        "rule": 0.3,
+        "popularity": 1.0
+      }
+    },
+    {
+      "restaurant_id": "28837",
+      "name": "Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai",
+      "matched_items": [
+        {
+          "name": "Phở xào mềm bò",
+          "price": 64000.0
+        },
+        {
+          "name": "Phở xào giòn bò",
+          "price": 73000.0
+        },
+        {
+          "name": "Phở xào giòn tim",
+          "price": 73000.0
+        },
+        {
+          "name": "Phở xào mềm tim",
+          "price": 64000.0
+        },
+        {
+          "name": "Mỳ xào thịt bò",
+          "price": 64000.0
+        }
+      ],
+      "categories": [
+        "các món xào",
+        "cơm rang",
+        "các món tần ngải cứu",
+        "các món chan",
+        "cháo",
+        "các món trộn",
+        "các món ăn thêm",
+        "Món Đang Giảm",
+        "đồ uống",
+        "cơm",
+        "phở"
+      ],
+      "dish_families": [],
+      "review_count": 173.0,
+      "rating": 4.7,
+      "distance_km": 999.0,
+      "evidence": [
+        {
+          "source": "menu",
+          "source_record_id": "1005079",
+          "field": "menu_items",
+          "value": "Phở xào mềm bò"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "1005080",
+          "field": "menu_items",
+          "value": "Phở xào giòn bò"
+        },
+        {
+          "source": "menu",
+          "source_record_id": "1005081",
+          "field": "menu_items",
+          "value": "Phở xào giòn tim"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_ed697290ea2a7085",
+          "field": "text_units",
+          "value": "Tên quán: Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai\nNguồn: befood_comment\nRating người dùng: 4.7\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đáng đồng tiền, Ngon xỉu"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_b2e2e3f598d35aae",
+          "field": "text_units",
+          "value": "Tên quán: Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai\nNguồn: befood_comment\nRating người dùng: 4.7\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Sạch sẽ"
+        },
+        {
+          "source": "review",
+          "source_record_id": "tu_5bf5f62cf749dd3b",
+          "field": "text_units",
+          "value": "Tên quán: Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai\nNguồn: befood_comment\nRating người dùng: 4.7\nSentiment tổng hợp: neutral\nAspect sentiment: \nNội dung review: Đáng đồng tiền, Đóng gói tốt, Sạch sẽ, Ngon xỉu"
+        }
+      ],
+      "extracted_entities": [
+        {
+          "name": "gà tần",
+          "type": "dish"
+        },
+        {
+          "name": "phở xào",
+          "type": "dish"
+        },
+        {
+          "name": "cơm rang",
+          "type": "dish"
+        },
+        {
+          "name": "đáng đồng tiền",
+          "type": "price_value"
+        },
+        {
+          "name": "ngon xỉu",
+          "type": "food_descriptor"
+        }
+      ],
+      "graphrag_score": 12.0,
+      "rule_score": 0.0,
+      "popularity_score": 0.173,
+      "scores": {
+        "final": 0.27115,
+        "graphrag": 0.375,
+        "rgcn": 0.0,
+        "rule": 0.0,
+        "popularity": 0.173
+      }
+    }
+  ],
+  "created_at": "2026-06-02T15:47:58+00:00"
+}

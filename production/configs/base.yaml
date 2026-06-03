@@ -1,0 +1,28 @@
+app:
+  name: restaurant-graphrag-rgcn-production
+  default_mode: offline
+
+ranking:
+  default_strategy: hybrid
+  weights:
+    graphrag: 0.70
+    rgcn: 0.10
+    rule: 0.15
+    popularity: 0.05
+  evaluation_gate:
+    min_top5_recall_gain: 0.05
+    max_latency_ms: 3000
+    require_non_decreasing_ctr: true
+
+kg:
+  version_prefix: kg
+  use_versioned_graph: true
+  active_version_file: ./data_lake/kg_snapshots/ACTIVE_VERSION
+
+logging:
+  save_raw_query: true
+  save_inferred_rules: true
+  save_manual_rules: true
+  save_results_shown: true
+  save_clicks: true
+  save_feedback: true

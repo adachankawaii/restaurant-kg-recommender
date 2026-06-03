@@ -1,0 +1,880 @@
+﻿store_id,store_key,store_name,rated_at,rating,feedback,source,review_id,name_norm,aspect_scores,sentiment,confidence
+25639,25639,Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn,,4.6,"ngon đấy, Ngon xỉu",befood_comment,15034de1df0b4e9a,quan-mua-com-ga-bun-mien-tron-tay-son,{},neutral,0.0
+25639,25639,Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn,,4.6,đặt phở cho bún?,befood_comment,8ea2b2b2c0447f44,quan-mua-com-ga-bun-mien-tron-tay-son,{},neutral,0.0
+25639,25639,Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn,,4.6,bún ngan trộn của mình có cả gián ???,befood_comment,d2292fdad09da78a,quan-mua-com-ga-bun-mien-tron-tay-son,{},neutral,0.0
+25639,25639,Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn,,4.6,bán đồ ăn ko có tâm. bán bún gà mà ko cho tương ớt chanh. rau sống. ăn 1 lần sợ vl,befood_comment,d7985d984f2378be,quan-mua-com-ga-bun-mien-tron-tay-son,{},neutral,0.0
+97742,97742,"NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",,4.3,"cơm quá tệ, Không hợp khẩu vị, Đóng gói chưa tốt",befood_comment,037157be32ed104c,nabi-bun-cha-quat-com-tam-com-van-phong-tay-son,{},neutral,0.0
+97742,97742,"NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",,4.3,Ngon xỉu,befood_comment,0372b2ecb8c342a2,nabi-bun-cha-quat-com-tam-com-van-phong-tay-son,{},neutral,0.0
+97742,97742,"NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",,4.3,"Đáng đồng tiền, Ngon xỉu, Sạch sẽ, Đóng gói tốt",befood_comment,7ae42d66486164bb,nabi-bun-cha-quat-com-tam-com-van-phong-tay-son,{},neutral,0.0
+97742,97742,"NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",,4.3,Đáng đồng tiền,befood_comment,feeb28ca8361cf2c,nabi-bun-cha-quat-com-tam-com-van-phong-tay-son,{},neutral,0.0
+97742,97742,"NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",,4.3,"Ăn bún chả là chỉ nghĩ đến nhà Nabi, vị đậm đà ngon và rất yên tâm về thực phẩm 🥰, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,7c4646359cd75afd,nabi-bun-cha-quat-com-tam-com-van-phong-tay-son,{},neutral,0.0
+97742,97742,"NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",,4.3,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,e30ba8949ea2d587,nabi-bun-cha-quat-com-tam-com-van-phong-tay-son,{},neutral,0.0
+97742,97742,"NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",,4.3,cơm sườn chả trứng mà k có chả trứng,befood_comment,aacd67ada15eea36,nabi-bun-cha-quat-com-tam-com-van-phong-tay-son,{},neutral,0.0
+130307,130307,"Phở Bò Nội - Bún Chả, Cháo & Cơm - Trần Hưng Đạo",,4.8,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền",befood_comment,bc9541e1fead26dd,pho-bo-noi-bun-cha-chao-com-tran-hung-dao,{},neutral,0.0
+130307,130307,"Phở Bò Nội - Bún Chả, Cháo & Cơm - Trần Hưng Đạo",,4.8,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,4fa57277909c072f,pho-bo-noi-bun-cha-chao-com-tran-hung-dao,{},neutral,0.0
+130307,130307,"Phở Bò Nội - Bún Chả, Cháo & Cơm - Trần Hưng Đạo",,4.8,"ghi chú phần bò tái ko trần thì lại trần kỹ cứng hết cả, thịt chín nạm thì ko thấy đâu, Sai/Thiếu món, Không làm đúng ghi chú",befood_comment,ca0d927e46b103bd,pho-bo-noi-bun-cha-chao-com-tran-hung-dao,{},neutral,0.0
+22758,22758,PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai,,4.7,Đáng đồng tiền,befood_comment,5fa5fb7203c1385f,phuongkitchen-com-do-an-vat-ngo-chua-lien-phai-bach-mai,{},neutral,0.0
+22758,22758,PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai,,4.7,"Ngon xỉu, Sạch sẽ, Đóng gói tốt",befood_comment,8a694549684838e9,phuongkitchen-com-do-an-vat-ngo-chua-lien-phai-bach-mai,{},neutral,0.0
+22758,22758,PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai,,4.7,"Không hợp khẩu vị, Đóng gói chưa tốt",befood_comment,7959f3533c185ec2,phuongkitchen-com-do-an-vat-ngo-chua-lien-phai-bach-mai,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,"Quán đóng gói không cẩn thận.cả cơm và mì đều lèo tèo quá ít so với các chi nhánh khác., Đóng gói chưa tốt",befood_comment,244cbf6cab9d40b3,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,Sạch sẽ,befood_comment,d3c0592d59330390,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,"Đóng gói tốt, Sạch sẽ",befood_comment,3290b898adddc379,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,Đóng gói tốt,befood_comment,d94674e82246cc30,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,50199678ae31aa77,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,"Ngon xỉu, Sạch sẽ, Đóng gói tốt, Khác",befood_comment,b31bafef6a6c5f4f,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,"Ngon xỉu, Đóng gói tốt",befood_comment,58884e5ebe3ac1c9,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,Sai/Thiếu món,befood_comment,2e8f091631a99785,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,Khá ngon,befood_comment,851efab10ca73713,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,,4.5,"quán làm ăn cực kỳ tệ mình mua gửi bác đang nằm ở viện ung bướu( bác bị u.thu) dặn không hành rất to rồi nhưng vẫn cho 1 đống. bác ốm và không ăn được chút nào cả. cực kỳ bực bội, Không hợp khẩu vị, Sai/Thiếu món, Không làm đúng ghi chú",befood_comment,db76f1976fb4e848,thien-truong-pho-co-com-ga-xoi-mam-giai-phong,{},neutral,0.0
+11326,11326,Huỳnh Duyên - Cơm Văn Phòng & Nước Ép - Giải Phóng,,4.8,Đáng đồng tiền,befood_comment,38ef02ba212b466a,huynh-duyen-com-van-phong-nuoc-ep-giai-phong,{},neutral,0.0
+11326,11326,Huỳnh Duyên - Cơm Văn Phòng & Nước Ép - Giải Phóng,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,bc445469771870b9,huynh-duyen-com-van-phong-nuoc-ep-giai-phong,{},neutral,0.0
+11326,11326,Huỳnh Duyên - Cơm Văn Phòng & Nước Ép - Giải Phóng,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,e90946fe5e330b0d,huynh-duyen-com-van-phong-nuoc-ep-giai-phong,{},neutral,0.0
+11326,11326,Huỳnh Duyên - Cơm Văn Phòng & Nước Ép - Giải Phóng,,4.8,"siêu ngon luôn ya ✧(σ๑˃̶̀ꇴ˂̶́)σ siêu recommend mn mua nha (◍˃̶ᗜ˂̶◍)ﾉ” ăn siêu no \(ϋ)/♩, Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,ea92d4a304b91d71,huynh-duyen-com-van-phong-nuoc-ep-giai-phong,{},neutral,0.0
+11326,11326,Huỳnh Duyên - Cơm Văn Phòng & Nước Ép - Giải Phóng,,4.8,ko giống cơm vp,befood_comment,12cf45f29ea20b39,huynh-duyen-com-van-phong-nuoc-ep-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,"cơm giòn ngon, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ, Ngon xỉu",befood_comment,4f5984817280af3b,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,"để đây và không nói gì , đặt nhiều lần r nhưng lần đầu bị như này chắc không có lần sau, Không đảm bảo vệ sinh",befood_comment,dbb8e7f078a878fe,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,Sạch sẽ,befood_comment,2af46641d7006282,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,Đáng đồng tiền,befood_comment,a57e2ff5f83d9ca4,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,Đóng gói tốt,befood_comment,0b6e54fb55a62d8d,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,"Đáng đồng tiền, Ngon xỉu, Sạch sẽ, Đóng gói tốt",befood_comment,3f00b8f79cdd65ed,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,fde5e6063834b72d,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,Khá ngon,befood_comment,0f92bffdac0e0729,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,Đóng gói chưa tốt,befood_comment,067f0442bf3588bd,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,,4.6,"phở xào hơi nhạt, hình như thiếu magie, cơm cũm hơi nhạt, mỗi nc canh là đậm",befood_comment,c245f9e52651f9a3,pho-bo-com-rang-duy-nhat-giai-phong,{},neutral,0.0
+126147,126147,"Nhà Hàng Bin Bo - Bún Riêu Cua, Cơm Rang & Phở Xào - Phương Mai",,4.3,không giống trên ảnh,befood_comment,c052075a94117be3,nha-hang-bin-bo-bun-rieu-cua-com-rang-pho-xao-phuong-mai,{},neutral,0.0
+59967,59967,Quán Hà Nội Xưa - Bún Chả - Trường Chinh,,3.9,"đũa mốc , chả có 5 miếng , trải nhiệm rất tệ, Không đảm bảo vệ sinh",befood_comment,856653aa94c915f9,quan-ha-noi-xua-bun-cha-truong-chinh,{},neutral,0.0
+59967,59967,Quán Hà Nội Xưa - Bún Chả - Trường Chinh,,3.9,"Đóng gói tốt, Đáng đồng tiền",befood_comment,ab33fb4f749c77ea,quan-ha-noi-xua-bun-cha-truong-chinh,{},neutral,0.0
+59967,59967,Quán Hà Nội Xưa - Bún Chả - Trường Chinh,,3.9,Normal,befood_comment,3fdd14b71dc3bd0a,quan-ha-noi-xua-bun-cha-truong-chinh,{},neutral,0.0
+59967,59967,Quán Hà Nội Xưa - Bún Chả - Trường Chinh,,3.9,không có nước chấm,befood_comment,6171cc4bcedb39e0,quan-ha-noi-xua-bun-cha-truong-chinh,{},neutral,0.0
+59967,59967,Quán Hà Nội Xưa - Bún Chả - Trường Chinh,,3.9,50k mà được có mấy miếng ????,befood_comment,df3e9851b3929fb9,quan-ha-noi-xua-bun-cha-truong-chinh,{},neutral,0.0
+59967,59967,Quán Hà Nội Xưa - Bún Chả - Trường Chinh,,3.9,"chả băm ok chả miếng thì hơi chán, giá không rẻ nhưng thịt dai và có phần hơi bèo nhèo, ai fan thịt ba chỉ thì không ưng nổi ?",befood_comment,f74c9edfc07b7cd2,quan-ha-noi-xua-bun-cha-truong-chinh,{},neutral,0.0
+59967,59967,Quán Hà Nội Xưa - Bún Chả - Trường Chinh,,3.9,cơm dở,befood_comment,17ed891e32f351a4,quan-ha-noi-xua-bun-cha-truong-chinh,{},neutral,0.0
+128724,128724,Phở - Cơm Hằng - Nguyễn Đình Chiểu,,4.9,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,f5c514fa5ee0b2d6,pho-com-hang-nguyen-dinh-chieu,{},neutral,0.0
+128724,128724,Phở - Cơm Hằng - Nguyễn Đình Chiểu,,4.9,ăn cũng ok nhiều topping nhưng phần đặc biệt lại ko có trứng non?,befood_comment,a0b6632d19436c51,pho-com-hang-nguyen-dinh-chieu,{},neutral,0.0
+128724,128724,Phở - Cơm Hằng - Nguyễn Đình Chiểu,,4.9,thiếu trứng cút nhà shop,befood_comment,82bb612a157093f3,pho-com-hang-nguyen-dinh-chieu,{},neutral,0.0
+94161,94161,Bánh Cuốn Nóng & Gà Ác Tần - Minh Khai,,4.7,"Sạch sẽ, Đóng gói tốt, Ngon xỉu, Đáng đồng tiền",befood_comment,90bf4b4256ce762d,banh-cuon-nong-ga-ac-tan-minh-khai,{},neutral,0.0
+94161,94161,Bánh Cuốn Nóng & Gà Ác Tần - Minh Khai,,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,108180174b27fc7a,banh-cuon-nong-ga-ac-tan-minh-khai,{},neutral,0.0
+94161,94161,Bánh Cuốn Nóng & Gà Ác Tần - Minh Khai,,4.7,Ngon xỉu,befood_comment,c6ba2bab4389fd23,banh-cuon-nong-ga-ac-tan-minh-khai,{},neutral,0.0
+94161,94161,Bánh Cuốn Nóng & Gà Ác Tần - Minh Khai,,4.7,Đáng đồng tiền,befood_comment,a1e04e46c162547c,banh-cuon-nong-ga-ac-tan-minh-khai,{},neutral,0.0
+94161,94161,Bánh Cuốn Nóng & Gà Ác Tần - Minh Khai,,4.7,Không đảm bảo vệ sinh,befood_comment,d2c3670085f4ff00,banh-cuon-nong-ga-ac-tan-minh-khai,{},neutral,0.0
+28837,28837,Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai,,4.7,"Đáng đồng tiền, Ngon xỉu",befood_comment,ed697290ea2a7085,ga-tan-huyen-anh-pho-xao-com-rang-quynh-mai,{},neutral,0.0
+28837,28837,Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai,,4.7,Sạch sẽ,befood_comment,b2e2e3f598d35aae,ga-tan-huyen-anh-pho-xao-com-rang-quynh-mai,{},neutral,0.0
+28837,28837,Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai,,4.7,"Đáng đồng tiền, Đóng gói tốt, Sạch sẽ, Ngon xỉu",befood_comment,5bf5f62cf749dd3b,ga-tan-huyen-anh-pho-xao-com-rang-quynh-mai,{},neutral,0.0
+28837,28837,Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai,,4.7,"Óc hầm lá ngải quá mặn, cháo tim dai và lá thơm nên để bên ngoài lúc ăn khách tự cho vào sau, Không hợp khẩu vị",befood_comment,7f79d6b012d4205b,ga-tan-huyen-anh-pho-xao-com-rang-quynh-mai,{},neutral,0.0
+28837,28837,Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai,,4.7,"nấu thế này thực sự khó ăn!, Không hợp khẩu vị",befood_comment,9683b9776379a0e9,ga-tan-huyen-anh-pho-xao-com-rang-quynh-mai,{},neutral,0.0
+117760,117760,OK Cơm Gà - Trương Định,,4.7,Không hợp khẩu vị,befood_comment,e6c19832c1bd3767,ok-com-ga-truong-dinh,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,"❤️, Đóng gói tốt",befood_comment,78cf6b2b913bc687,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,"Đáng đồng tiền, Ngon xỉu, Sạch sẽ, Đóng gói tốt",befood_comment,a8b67f73cc613c9e,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,Đóng gói tốt,befood_comment,1f5d783f5d3a507e,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,Khá ngon,befood_comment,fc3f5e5069707f9f,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,"phở xào quá nhiều mỡ, nếu ít mỡ hoặc ko có mỡ thì sẽ ngon hơn rất nhiều, mình mong quán sẽ giúp kinh nghiệm cho lần sau để những món ăn của quán làm có thể ngon hơn nữa, Khá ngon",befood_comment,97d0e75e928cf661,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,"mình đã ghi chú cho quán cho ít mỡ thôi nhưng khi ăn phở xào quá nhiều mỡ, Không làm đúng ghi chú",befood_comment,cdfc9b9ef0376557,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,"Nấu như cám lợn, k có lần thứ 2, phở xào toàn nước nát bét",befood_comment,9f8864aa4b489e36,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,"em ko sao, shop 1 sao :))) note ko hành ko rau, ko những ko làm theo note mà còn rất nhiều hành 🙂",befood_comment,095834879f75f67f,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,,4.5,đóng gói cẩu thả đến nơi là đổ hết ra túi nilong nếu ko ấn nắp chặt thì đừng để hộp nữa bực mình,befood_comment,02eaa7112958cf39,hai-dung-com-rang-pho-xao-quynh-mai,{},neutral,0.0
+33749,33749,Phở Bò 288 - Phở Bò & Cơm Rang - Minh Khai,,4.6,Ngon xỉu,befood_comment,aa81e068436db6eb,pho-bo-288-pho-bo-com-rang-minh-khai,{},neutral,0.0
+33749,33749,Phở Bò 288 - Phở Bò & Cơm Rang - Minh Khai,,4.6,Đáng đồng tiền,befood_comment,924169b553160c9d,pho-bo-288-pho-bo-com-rang-minh-khai,{},neutral,0.0
+33749,33749,Phở Bò 288 - Phở Bò & Cơm Rang - Minh Khai,,4.6,"phở ăn ok mà làm sai hết món, Sai/Thiếu món",befood_comment,54b9acd8f5a31dd2,pho-bo-288-pho-bo-com-rang-minh-khai,{},neutral,0.0
+33749,33749,Phở Bò 288 - Phở Bò & Cơm Rang - Minh Khai,,4.6,mình bỏ thêm tiền để cho thêm cái túi zip quán lại cho vào túi bóng,befood_comment,636b71425e0a2b9e,pho-bo-288-pho-bo-com-rang-minh-khai,{},neutral,0.0
+33749,33749,Phở Bò 288 - Phở Bò & Cơm Rang - Minh Khai,,4.6,đặt 2 phở 1 cơm giao 1 phở 1 cơm,befood_comment,2fd1d4191ec259a3,pho-bo-288-pho-bo-com-rang-minh-khai,{},neutral,0.0
+22455,22455,Phở Cuốn Hoa Lan - Trần Hưng Đạo,,4.8,"giao phở mà để nước chung như này quả là thằng bán đại ngu!😩, Đóng gói chưa tốt",befood_comment,df2bf85f008c128c,pho-cuon-hoa-lan-tran-hung-dao,{},neutral,0.0
+22455,22455,Phở Cuốn Hoa Lan - Trần Hưng Đạo,,4.8,Ngon xỉu,befood_comment,972aa14caeb09cb2,pho-cuon-hoa-lan-tran-hung-dao,{},neutral,0.0
+22455,22455,Phở Cuốn Hoa Lan - Trần Hưng Đạo,,4.8,"Sạch sẽ, Đáng đồng tiền, Ngon xỉu, Đóng gói tốt",befood_comment,a0c66728340d293a,pho-cuon-hoa-lan-tran-hung-dao,{},neutral,0.0
+22455,22455,Phở Cuốn Hoa Lan - Trần Hưng Đạo,,4.8,"80k 1 suất cơm sườn ntn, coi có giống ảnh mô tả chút nào không? hỏi thật bán như thế này có thấy cắn rứt lương tâm không ạ????",befood_comment,e9eb2557d4ad64af,pho-cuon-hoa-lan-tran-hung-dao,{},neutral,0.0
+22455,22455,Phở Cuốn Hoa Lan - Trần Hưng Đạo,,4.8,nay ăn thấy thịt bò dai và nhiều gân mỡ quá. phở chiên trứng hơi ngấm dầu,befood_comment,8c781e7c90c675af,pho-cuon-hoa-lan-tran-hung-dao,{},neutral,0.0
+14976,14976,Cơm Sườn Cay HiMC - Hà Kế Tấn,,4.9,"Đáng đồng tiền, Đóng gói tốt, Sạch sẽ, Ngon xỉu",befood_comment,cfbe21c057cd6d88,com-suon-cay-himc-ha-ke-tan,{},neutral,0.0
+14976,14976,Cơm Sườn Cay HiMC - Hà Kế Tấn,,4.9,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,c6ce8cd5f4d49254,com-suon-cay-himc-ha-ke-tan,{},neutral,0.0
+14976,14976,Cơm Sườn Cay HiMC - Hà Kế Tấn,,4.9,"Đóng gói tốt, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,c4a3ecf19f8fe8ae,com-suon-cay-himc-ha-ke-tan,{},neutral,0.0
+14976,14976,Cơm Sườn Cay HiMC - Hà Kế Tấn,,4.9,"ăn nhiều lần r nhma vẫn cứ có vài lần bị kh đúng ý, nước thì kh có ống hút, gọi thêm rong biển thì giao thiếu rong biển?, Sai/Thiếu món",befood_comment,38b56ac64679d1ce,com-suon-cay-himc-ha-ke-tan,{},neutral,0.0
+14976,14976,Cơm Sườn Cay HiMC - Hà Kế Tấn,,4.9,quán quá ok có thạch dai tặng đúng cơm thì 10đ,befood_comment,3cc9d4210bbfcd8f,com-suon-cay-himc-ha-ke-tan,{},neutral,0.0
+118507,118507,"Bánh Cuốn, Bún Trộn Đức Anh - Trần Hữu Tước",,4.7,"4 miếng chả, 5-6 thanh bánh cuốn, hành phi được đóng riêng vào túi zip, có rau ăn kèm nhưng mình không ăn được loại đó nên không bỏ vô bát, nước mắm để vào ly nhựa nhỏ riêng. Bánh cuốn nhân nhiều, Ngon xỉu, Đóng gói tốt, Sạch sẽ",befood_comment,0518770f0d6dbabf,banh-cuon-bun-tron-duc-anh-tran-huu-tuoc,{},neutral,0.0
+118507,118507,"Bánh Cuốn, Bún Trộn Đức Anh - Trần Hữu Tước",,4.7,"rất ngon, bánh nóng, nước chấm vừa vị, Ngon xỉu, Đáng đồng tiền",befood_comment,49383b0941231112,banh-cuon-bun-tron-duc-anh-tran-huu-tuoc,{},neutral,0.0
+118507,118507,"Bánh Cuốn, Bún Trộn Đức Anh - Trần Hữu Tước",,4.7,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,0690b4f513a1009b,banh-cuon-bun-tron-duc-anh-tran-huu-tuoc,{},neutral,0.0
+118507,118507,"Bánh Cuốn, Bún Trộn Đức Anh - Trần Hữu Tước",,4.7,"Sạch sẽ, Đóng gói tốt",befood_comment,58240b758d2a6229,banh-cuon-bun-tron-duc-anh-tran-huu-tuoc,{},neutral,0.0
+118507,118507,"Bánh Cuốn, Bún Trộn Đức Anh - Trần Hữu Tước",,4.7,Giá hơi đắt,befood_comment,00062a63fdf0af06,banh-cuon-bun-tron-duc-anh-tran-huu-tuoc,{},neutral,0.0
+118507,118507,"Bánh Cuốn, Bún Trộn Đức Anh - Trần Hữu Tước",,4.7,kh thích có hạt tiêu,befood_comment,cff58d2c4ad26ba5,banh-cuon-bun-tron-duc-anh-tran-huu-tuoc,{},neutral,0.0
+128321,128321,"Cơm, Phở Xào & Miến Xào - Cù Chính Lan",,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,578412fd0c97a27b,com-pho-xao-mien-xao-cu-chinh-lan,{},neutral,0.0
+116156,116156,Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công,,4.0,"mình đặt ở trên app là tào Phớ chứ mình không đặt nước đậu. kể cả quán có hết như thế nào cũng phải gọi xác nhận đổi món chứ k dc tự ý như thế ạ., Sai/Thiếu món",befood_comment,69f1e84d1d3282f6,pho-vit-quay-banh-cuon-cao-bang-dinh-cong,{},neutral,0.0
+116156,116156,Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công,,4.0,"Ngon xỉu, Sạch sẽ, Đáng đồng tiền, Đóng gói tốt",befood_comment,fb41ef915d04e62b,pho-vit-quay-banh-cuon-cao-bang-dinh-cong,{},neutral,0.0
+116156,116156,Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công,,4.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,a097830609bf55e2,pho-vit-quay-banh-cuon-cao-bang-dinh-cong,{},neutral,0.0
+116156,116156,Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công,,4.0,"Đáng đồng tiền, Ngon xỉu, Đóng gói tốt, Sạch sẽ",befood_comment,305704b027977324,pho-vit-quay-banh-cuon-cao-bang-dinh-cong,{},neutral,0.0
+116156,116156,Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công,,4.0,20k mà ít nc đường quá. gọi bánh trứng vàng lòng đào mà thấy k giống ảnh,befood_comment,28b7f72bf6ffea00,pho-vit-quay-banh-cuon-cao-bang-dinh-cong,{},neutral,0.0
+116156,116156,Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công,,4.0,lần đầu đặt đc 1 cái quán vừa sạch sẽ vưad ngon lại cẩn thận như này chúc nhà hàng làm ăn phá đạt ạ,befood_comment,123bc47d81b24eb4,pho-vit-quay-banh-cuon-cao-bang-dinh-cong,{},neutral,0.0
+116156,116156,Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công,,4.0,"hình ảnh ko như món, quá tệ",befood_comment,4edb2c06a6cdbdf4,pho-vit-quay-banh-cuon-cao-bang-dinh-cong,{},neutral,0.0
+41570,41570,Bánh Cuốn Nóng Hương Thơm - Tràng Tiền,,4.2,"50k một xuất mà ít, Sai/Thiếu món",befood_comment,5f337291ce14521e,banh-cuon-nong-huong-thom-trang-tien,{},neutral,0.0
+41570,41570,Bánh Cuốn Nóng Hương Thơm - Tràng Tiền,,4.2,Ngon xỉu,befood_comment,fae9911eb6b9b3eb,banh-cuon-nong-huong-thom-trang-tien,{},neutral,0.0
+41570,41570,Bánh Cuốn Nóng Hương Thơm - Tràng Tiền,,4.2,Sạch sẽ,befood_comment,7ca95072c9c8a096,banh-cuon-nong-huong-thom-trang-tien,{},neutral,0.0
+41570,41570,Bánh Cuốn Nóng Hương Thơm - Tràng Tiền,,4.2,Giá hơi đắt,befood_comment,24e217c0f397d60b,banh-cuon-nong-huong-thom-trang-tien,{},neutral,0.0
+41570,41570,Bánh Cuốn Nóng Hương Thơm - Tràng Tiền,,4.2,Khá ngon,befood_comment,c7e128865323f362,banh-cuon-nong-huong-thom-trang-tien,{},neutral,0.0
+41570,41570,Bánh Cuốn Nóng Hương Thơm - Tràng Tiền,,4.2,đồ ăn lèo tèo đ đáng tiền bỏ ra cho 50k 1 xuất lèo tèo,befood_comment,b46e5a8805ceede1,banh-cuon-nong-huong-thom-trang-tien,{},neutral,0.0
+20226,20226,Phở Lưu - Phở Bò & Cơm Rang - Tam Trinh,,4.5,Sạch sẽ,befood_comment,8ba7323f91f07f7f,pho-luu-pho-bo-com-rang-tam-trinh,{},neutral,0.0
+20226,20226,Phở Lưu - Phở Bò & Cơm Rang - Tam Trinh,,4.5,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,4139c6353d2233cd,pho-luu-pho-bo-com-rang-tam-trinh,{},neutral,0.0
+20226,20226,Phở Lưu - Phở Bò & Cơm Rang - Tam Trinh,,4.5,Ngon xỉu,befood_comment,e073f91d3c94dac0,pho-luu-pho-bo-com-rang-tam-trinh,{},neutral,0.0
+20226,20226,Phở Lưu - Phở Bò & Cơm Rang - Tam Trinh,,4.5,Khá ngon,befood_comment,15ce37a3fc210405,pho-luu-pho-bo-com-rang-tam-trinh,{},neutral,0.0
+20226,20226,Phở Lưu - Phở Bò & Cơm Rang - Tam Trinh,,4.5,Không hợp khẩu vị,befood_comment,63aef39458e813f3,pho-luu-pho-bo-com-rang-tam-trinh,{},neutral,0.0
+20226,20226,Phở Lưu - Phở Bò & Cơm Rang - Tam Trinh,,4.5,"cơm rang dưa bò nhưng đc vài lát dưa,vài miếng thịt bò,quá tệ còn phở xào thì về con m ăn hết rồi nên k biết có như vậy k",befood_comment,ab4fd7bac4f304d9,pho-luu-pho-bo-com-rang-tam-trinh,{},neutral,0.0
+20226,20226,Phở Lưu - Phở Bò & Cơm Rang - Tam Trinh,,4.5,"thịt vụn, ít nước dùng nhìn mất khẩu vị",befood_comment,c670adc635105e01,pho-luu-pho-bo-com-rang-tam-trinh,{},neutral,0.0
+21224,21224,Phở Cồ Gia Truyền - Phở Bò & Cơm Rang,,4.7,"Sạch sẽ, Đáng đồng tiền, Ngon xỉu, Đóng gói tốt",befood_comment,81e6dee6d74d0104,pho-co-gia-truyen-pho-bo-com-rang,{},neutral,0.0
+21224,21224,Phở Cồ Gia Truyền - Phở Bò & Cơm Rang,,4.7,"Ngon xỉu, Đáng đồng tiền",befood_comment,803240130b3f53fc,pho-co-gia-truyen-pho-bo-com-rang,{},neutral,0.0
+21224,21224,Phở Cồ Gia Truyền - Phở Bò & Cơm Rang,,4.7,Đóng gói chưa tốt,befood_comment,72edfcf1086c8f8f,pho-co-gia-truyen-pho-bo-com-rang,{},neutral,0.0
+21224,21224,Phở Cồ Gia Truyền - Phở Bò & Cơm Rang,,4.7,đồ ăn ko hợp vs tôi,befood_comment,885efe17b42fb6b4,pho-co-gia-truyen-pho-bo-com-rang,{},neutral,0.0
+21224,21224,Phở Cồ Gia Truyền - Phở Bò & Cơm Rang,,4.7,ít thịt lắm í sốp😞,befood_comment,9de274b5ebfc4142,pho-co-gia-truyen-pho-bo-com-rang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,"đùi gà còn sống luôn , ăn tanh dai lắm shop ạ, Không đảm bảo vệ sinh",befood_comment,dcb3005ac6b82138,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,Ngon xỉu,befood_comment,fade3a499de6bcea,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,f27682e94a3a259e,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,"Ngon xỉu, Sạch sẽ",befood_comment,0df4d3250026da58,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,Giá hơi đắt,befood_comment,9899451e4d6327e2,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,Không hợp khẩu vị,befood_comment,b6ab95447dcc8608,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,"ăn ổn, cho nhiều cháy quá",befood_comment,cd1a06d0425f588d,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,ít!,befood_comment,a4427c39f814186a,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,"không ngon , như ăn mì tôm thường 😤",befood_comment,2a45f3e816bc0b7f,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",,4.7,"mì cay 65k mà lèo tèo vài miếng toàn viên thả lẩu, tok mặn nch chán",befood_comment,70c36e1765f93ba0,com-ga-mi-cay-mi-tron-bep-nha-cam-ton-duc-thang,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,"1 suất đầy đặn, nước mắm tới nơi còn nóng. Tuy nhiên quán không cho quất với ớt nên nước chấm ăn bị hơi ngọt và mặn, Đóng gói tốt, Sạch sẽ",befood_comment,22ad1ca3b4b083d7,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,"lần đầu tiên order của quán mà bất ngờ vì quán cho nhiều hành phi với chu đáo cho cả mình bát xốp đựng nước chấm >< mình ăn hết kh bỏ cái gì 🫶🏻 nước chấm hơi mặn tẹo nếu quán cho nhạt đi xíu thì quá tuyệt ạ, Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,397d9bd437576690,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,"Đáng đồng tiền, Ngon xỉu, Đóng gói tốt, Sạch sẽ",befood_comment,e32e548e17bf2087,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,"Sạch sẽ, Ngon xỉu, Đóng gói tốt, Đáng đồng tiền",befood_comment,234ae85c38421956,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,Ngon xỉu,befood_comment,dae7119178429e30,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,Đóng gói tốt,befood_comment,395872300db4c8e6,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,"quán cả 2 lần đều không đọc note. thiếu quất. note trứng chảy mà làm trứng chín ăn làm sao được ?, Không làm đúng ghi chú",befood_comment,85d24aa19395ebaa,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,hơi ngấy,befood_comment,068e2e65c4ae67f3,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",,4.7,nước chấm chua,befood_comment,91a32c56f5568835,banh-cuon-bun-cha-ga-tan-den-lu-2,{},neutral,0.0
+21413,21413,Phở Bò Hải Phòng - Phở Bò & Cơm Rang - Hoàng Mai,,4.6,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,3f47a3ad0d1d27ab,pho-bo-hai-phong-pho-bo-com-rang-hoang-mai,{},neutral,0.0
+21413,21413,Phở Bò Hải Phòng - Phở Bò & Cơm Rang - Hoàng Mai,,4.6,"Ngon xỉu, Đóng gói tốt, Sạch sẽ",befood_comment,db04336f57c67dda,pho-bo-hai-phong-pho-bo-com-rang-hoang-mai,{},neutral,0.0
+21413,21413,Phở Bò Hải Phòng - Phở Bò & Cơm Rang - Hoàng Mai,,4.6,Ngon xỉu,befood_comment,0199f89f7896a446,pho-bo-hai-phong-pho-bo-com-rang-hoang-mai,{},neutral,0.0
+21413,21413,Phở Bò Hải Phòng - Phở Bò & Cơm Rang - Hoàng Mai,,4.6,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu, Sạch sẽ",befood_comment,1eab72c2728e7f82,pho-bo-hai-phong-pho-bo-com-rang-hoang-mai,{},neutral,0.0
+21413,21413,Phở Bò Hải Phòng - Phở Bò & Cơm Rang - Hoàng Mai,,4.6,"shop đóng gói bằng túi nilon nhìn ko đảm bảo lắm. vị thì cũng ok, Đóng gói chưa tốt",befood_comment,5111a7b13a8b7101,pho-bo-hai-phong-pho-bo-com-rang-hoang-mai,{},neutral,0.0
+21413,21413,Phở Bò Hải Phòng - Phở Bò & Cơm Rang - Hoàng Mai,,4.6,"cơm khô không ăn được, cơm như giang, thì rang cháy cạnh thì toàn mỡ nạc ở đâu?? gà thì đỏ, mình vứt nguyên 3 suất cơm",befood_comment,c1698194bf6166a6,pho-bo-hai-phong-pho-bo-com-rang-hoang-mai,{},neutral,0.0
+86219,86219,Phở Bò Thiên Trường - Bún Bò & Cơm Rang - Trương Định,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,d3f1283bd64e0ed1,pho-bo-thien-truong-bun-bo-com-rang-truong-dinh,{},neutral,0.0
+86219,86219,Phở Bò Thiên Trường - Bún Bò & Cơm Rang - Trương Định,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,188c7c7e9f6c979c,pho-bo-thien-truong-bun-bo-com-rang-truong-dinh,{},neutral,0.0
+86219,86219,Phở Bò Thiên Trường - Bún Bò & Cơm Rang - Trương Định,,4.8,"Đóng gói tốt, Sạch sẽ, Đáng đồng tiền, Ngon xỉu",befood_comment,6392c083f9c8470f,pho-bo-thien-truong-bun-bo-com-rang-truong-dinh,{},neutral,0.0
+86219,86219,Phở Bò Thiên Trường - Bún Bò & Cơm Rang - Trương Định,,4.8,Không làm đúng ghi chú,befood_comment,d5cc3d52d27224fb,pho-bo-thien-truong-bun-bo-com-rang-truong-dinh,{},neutral,0.0
+86219,86219,Phở Bò Thiên Trường - Bún Bò & Cơm Rang - Trương Định,,4.8,Đóng gói chưa tốt,befood_comment,30070b4c02bb927a,pho-bo-thien-truong-bun-bo-com-rang-truong-dinh,{},neutral,0.0
+86219,86219,Phở Bò Thiên Trường - Bún Bò & Cơm Rang - Trương Định,,4.8,Sai/Thiếu món,befood_comment,7f14515452c126d3,pho-bo-thien-truong-bun-bo-com-rang-truong-dinh,{},neutral,0.0
+36034,36034,Bảo An Quán - Bánh Cuốn Phủ Lý - Trương Định,,4.6,"đặt bánh cuốn mà ship về bún chả là s ạ, Sai/Thiếu món",befood_comment,0c96fee6026f690f,bao-an-quan-banh-cuon-phu-ly-truong-dinh,{},neutral,0.0
+36034,36034,Bảo An Quán - Bánh Cuốn Phủ Lý - Trương Định,,4.6,Đáng đồng tiền,befood_comment,1f361a3a2dd868dd,bao-an-quan-banh-cuon-phu-ly-truong-dinh,{},neutral,0.0
+36034,36034,Bảo An Quán - Bánh Cuốn Phủ Lý - Trương Định,,4.6,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,ddd7e15630f912fc,bao-an-quan-banh-cuon-phu-ly-truong-dinh,{},neutral,0.0
+36034,36034,Bảo An Quán - Bánh Cuốn Phủ Lý - Trương Định,,4.6,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,71f32c5dfa1f85ad,bao-an-quan-banh-cuon-phu-ly-truong-dinh,{},neutral,0.0
+36034,36034,Bảo An Quán - Bánh Cuốn Phủ Lý - Trương Định,,4.6,ngon quấ. nếu lần sau mua thêm option thêm bún thì mong quán thêm ít nước dùng nữa nha!,befood_comment,2f5c4aa7bd5d1aa6,bao-an-quan-banh-cuon-phu-ly-truong-dinh,{},neutral,0.0
+36034,36034,Bảo An Quán - Bánh Cuốn Phủ Lý - Trương Định,,4.6,ko cho bát thì đựng nước chấm vào đâu? chả nướng cháy nước chấm ko ngon,befood_comment,dfc1dc5533351556,bao-an-quan-banh-cuon-phu-ly-truong-dinh,{},neutral,0.0
+20129,20129,Dũng Thủy - Phở & Cơm Rang - Tân Mai,,4.4,"Đáng đồng tiền, Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,046b26a5537ab24d,dung-thuy-pho-com-rang-tan-mai,{},neutral,0.0
+20129,20129,Dũng Thủy - Phở & Cơm Rang - Tân Mai,,4.4,Khá ngon,befood_comment,7b13184838e62490,dung-thuy-pho-com-rang-tan-mai,{},neutral,0.0
+16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,,4.9,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,41b13bf35107e52f,phuong-dung-com-dao-ga-rang-chim-quay-tong-duy-tan,{},neutral,0.0
+16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,,4.9,Đáng đồng tiền,befood_comment,fb8da8c350574082,phuong-dung-com-dao-ga-rang-chim-quay-tong-duy-tan,{},neutral,0.0
+16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,,4.9,Ngon xỉu,befood_comment,17fb0c7005a0ffb4,phuong-dung-com-dao-ga-rang-chim-quay-tong-duy-tan,{},neutral,0.0
+16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,,4.9,"thiếu cà phái vs dưa chua của mình, Sai/Thiếu món",befood_comment,4a88180c78a90aaa,phuong-dung-com-dao-ga-rang-chim-quay-tong-duy-tan,{},neutral,0.0
+16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,,4.9,đưa nhầm 1 suất gà tần,befood_comment,a14f241036959c2e,phuong-dung-com-dao-ga-rang-chim-quay-tong-duy-tan,{},neutral,0.0
+16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,,4.9,mọi thứ đểu ok điểm trừ hơi mặn nha giảm gia vị lại là ok,befood_comment,a05ffd2cd0606bab,phuong-dung-com-dao-ga-rang-chim-quay-tong-duy-tan,{},neutral,0.0
+16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,,4.9,chờ 1 phút nhé,befood_comment,ab057446832c7360,phuong-dung-com-dao-ga-rang-chim-quay-tong-duy-tan,{},neutral,0.0
+16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,,4.9,ngon,befood_comment,1369cee094850331,phuong-dung-com-dao-ga-rang-chim-quay-tong-duy-tan,{},neutral,0.0
+60874,60874,Hoàng Văn - Cơm Rang & Phở Bò - Định Công,,4.7,Đáng đồng tiền,befood_comment,059f74e0e70f7fec,hoang-van-com-rang-pho-bo-dinh-cong,{},neutral,0.0
+60874,60874,Hoàng Văn - Cơm Rang & Phở Bò - Định Công,,4.7,Không làm đúng ghi chú,befood_comment,a6554ac6cd48dd02,hoang-van-com-rang-pho-bo-dinh-cong,{},neutral,0.0
+60874,60874,Hoàng Văn - Cơm Rang & Phở Bò - Định Công,,4.7,Đóng gói chưa tốt,befood_comment,537f354a5a80f539,hoang-van-com-rang-pho-bo-dinh-cong,{},neutral,0.0
+60874,60874,Hoàng Văn - Cơm Rang & Phở Bò - Định Công,,4.7,"Thiếu pepsi nhỏ (đặt Sting + Pepsi nhỏ nhưng chỉ giao 1 Sting), Sai/Thiếu món",befood_comment,c9293c852e0135d1,hoang-van-com-rang-pho-bo-dinh-cong,{},neutral,0.0
+60874,60874,Hoàng Văn - Cơm Rang & Phở Bò - Định Công,,4.7,"mặn chát, quán thừa muối hay sao mà nêm bò đẫm muối thế,",befood_comment,574c8f222aaa3e40,hoang-van-com-rang-pho-bo-dinh-cong,{},neutral,0.0
+13942,13942,Phở Bò & Cơm Rang - Nguyễn Trãi,,4.3,"Sạch sẽ, Đóng gói tốt, Đáng đồng tiền, Ngon xỉu",befood_comment,fc515ecedd1eac43,pho-bo-com-rang-nguyen-trai,{},neutral,0.0
+13942,13942,Phở Bò & Cơm Rang - Nguyễn Trãi,,4.3,Không hợp khẩu vị,befood_comment,cce75a14940d7749,pho-bo-com-rang-nguyen-trai,{},neutral,0.0
+13942,13942,Phở Bò & Cơm Rang - Nguyễn Trãi,,4.3,"giao nhanh , sốt vang ăn ổn , phở trộn nhìn có vẻ ngon hơn . Nhưng sao shop để cho khách ăn cốc kì vậy shop 😑",befood_comment,c2473daa4268eaa2,pho-bo-com-rang-nguyen-trai,{},neutral,0.0
+13942,13942,Phở Bò & Cơm Rang - Nguyễn Trãi,,4.3,đã note không hành rồi,befood_comment,298b93db9bda1fc0,pho-bo-com-rang-nguyen-trai,{},neutral,0.0
+13942,13942,Phở Bò & Cơm Rang - Nguyễn Trãi,,4.3,hơi khô,befood_comment,ae3e899e09307fb9,pho-bo-com-rang-nguyen-trai,{},neutral,0.0
+13942,13942,Phở Bò & Cơm Rang - Nguyễn Trãi,,4.3,thịt có mùi hôi,befood_comment,ddc36e455a12ed39,pho-bo-com-rang-nguyen-trai,{},neutral,0.0
+13942,13942,Phở Bò & Cơm Rang - Nguyễn Trãi,,4.3,đồ ăn phở với cơm đều mặn,befood_comment,ca11348f1a36fc0a,pho-bo-com-rang-nguyen-trai,{},neutral,0.0
+29659,29659,Bánh Cuốn Phủ Lý - Dương Văn Bé,,4.5,"đã ghi chú là ko cho tỏi ớt vào nước mắm, để riêng ra mà vẫn cho vào, Không làm đúng ghi chú",befood_comment,97462b35d7c7edb7,banh-cuon-phu-ly-duong-van-be,{},neutral,0.0
+29659,29659,Bánh Cuốn Phủ Lý - Dương Văn Bé,,4.5,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,a89971733b87e6c8,banh-cuon-phu-ly-duong-van-be,{},neutral,0.0
+29659,29659,Bánh Cuốn Phủ Lý - Dương Văn Bé,,4.5,"Sạch sẽ, Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,d2b346211c00c498,banh-cuon-phu-ly-duong-van-be,{},neutral,0.0
+29659,29659,Bánh Cuốn Phủ Lý - Dương Văn Bé,,4.5,"chả nóng ngon, có thêm quất nữa thì tuyệt vời, Ngon xỉu, Sạch sẽ, Đóng gói tốt, Đáng đồng tiền",befood_comment,7fc5b86d74ec835f,banh-cuon-phu-ly-duong-van-be,{},neutral,0.0
+29659,29659,Bánh Cuốn Phủ Lý - Dương Văn Bé,,4.5,"Đáng đồng tiền, Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,f601d4442a02ed0f,banh-cuon-phu-ly-duong-van-be,{},neutral,0.0
+29659,29659,Bánh Cuốn Phủ Lý - Dương Văn Bé,,4.5,"không có bát đưng nước chấm. túi bọc nước mắm rách., Đóng gói chưa tốt, Sai/Thiếu món, Không đảm bảo vệ sinh",befood_comment,57d542c3957acbae,banh-cuon-phu-ly-duong-van-be,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,"Khá ngon, Đóng gói chưa tốt",befood_comment,7cbf74f6dae87e9c,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,Khá ngon,befood_comment,88086a0c31e9e0d3,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,khá là ổn,befood_comment,53238337de508ea9,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,đặt suất lớn mà có tí như này ko có lần 2,befood_comment,0bd9307cc45523a8,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,ngon nhé,befood_comment,0624ad7481aa585b,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,Món ăn chưa được đẹp mắt.,befood_comment,63784876d4c92834,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,bún bị chua đậu chua,befood_comment,e929c1f9bb53d24c,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,Đặt thêm Chả lá lốt mà quán không cho????,befood_comment,c6d18c1383a895ef,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,,4.1,shop kh thấy note em để là nước mắm ạ?,befood_comment,6dbb54d972cabc07,ut-beo-bun-dau-met-com-ngo-thai-thinh-1,{},neutral,0.0
+81993,81993,Thành Tâm Quán - Phở & Cơm Rang - Định Công Hạ,,4.7,Không hợp khẩu vị,befood_comment,104c0403dd16d90a,thanh-tam-quan-pho-com-rang-dinh-cong-ha,{},neutral,0.0
+21980,21980,H&A Quán - Bún Đậu & Nem Nướng - Vĩnh Tuy,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,c23e39c7f566ac96,h-a-quan-bun-dau-nem-nuong-vinh-tuy,{},neutral,0.0
+21980,21980,H&A Quán - Bún Đậu & Nem Nướng - Vĩnh Tuy,,4.8,"Sạch sẽ, Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,a9fea56e79885606,h-a-quan-bun-dau-nem-nuong-vinh-tuy,{},neutral,0.0
+21980,21980,H&A Quán - Bún Đậu & Nem Nướng - Vĩnh Tuy,,4.8,"Đồ ăn no căng. Không như mấy quán khác, ít lèo tèo. Lần sau sẽ mua tiếp., Đáng đồng tiền, Sạch sẽ, Ngon xỉu, Đóng gói tốt",befood_comment,24d891750fd49a55,h-a-quan-bun-dau-nem-nuong-vinh-tuy,{},neutral,0.0
+21980,21980,H&A Quán - Bún Đậu & Nem Nướng - Vĩnh Tuy,,4.8,"Sạch sẽ, Đóng gói tốt, Đáng đồng tiền, Ngon xỉu",befood_comment,fd87b30256ececc6,h-a-quan-bun-dau-nem-nuong-vinh-tuy,{},neutral,0.0
+21980,21980,H&A Quán - Bún Đậu & Nem Nướng - Vĩnh Tuy,,4.8,Đáng đồng tiền,befood_comment,7a85d1617fe089a9,h-a-quan-bun-dau-nem-nuong-vinh-tuy,{},neutral,0.0
+21980,21980,H&A Quán - Bún Đậu & Nem Nướng - Vĩnh Tuy,,4.8,Đóng gói chưa tốt,befood_comment,2595021d13d7e811,h-a-quan-bun-dau-nem-nuong-vinh-tuy,{},neutral,0.0
+114833,114833,Cơm Ngon Xuân Trường - Giáp Nhị,,4.6,"đã đặt nhiều lần, cơm ngon chất lượng, Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,e156a9e6e3152cbc,com-ngon-xuan-truong-giap-nhi,{},neutral,0.0
+114833,114833,Cơm Ngon Xuân Trường - Giáp Nhị,,4.6,Ngon xỉu,befood_comment,8b87f8295eaf52ee,com-ngon-xuan-truong-giap-nhi,{},neutral,0.0
+114833,114833,Cơm Ngon Xuân Trường - Giáp Nhị,,4.6,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,fe5e7e8c47420cea,com-ngon-xuan-truong-giap-nhi,{},neutral,0.0
+114833,114833,Cơm Ngon Xuân Trường - Giáp Nhị,,4.6,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền",befood_comment,7d3047fcf0338041,com-ngon-xuan-truong-giap-nhi,{},neutral,0.0
+114833,114833,Cơm Ngon Xuân Trường - Giáp Nhị,,4.6,"gửi nhầm món, Sai/Thiếu món",befood_comment,a5d83ace86ef130c,com-ngon-xuan-truong-giap-nhi,{},neutral,0.0
+114833,114833,Cơm Ngon Xuân Trường - Giáp Nhị,,4.6,Không hợp khẩu vị,befood_comment,18392d34aa8656bd,com-ngon-xuan-truong-giap-nhi,{},neutral,0.0
+114833,114833,Cơm Ngon Xuân Trường - Giáp Nhị,,4.6,sai món ăn . Minhg đặt sườn ko đặt gà,befood_comment,5f0830e52c6e3195,com-ngon-xuan-truong-giap-nhi,{},neutral,0.0
+87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",,4.4,"Đáng đồng tiền, Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,c4aa9ae36dcca43f,thanh-tam-quan-com-rang-pho-bo-bun-bo-hue-dinh-cong-thuong,{},neutral,0.0
+87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",,4.4,"Đóng gói cẩu thả, Đóng gói chưa tốt",befood_comment,bbc3e2631d058d9f,thanh-tam-quan-com-rang-pho-bo-bun-bo-hue-dinh-cong-thuong,{},neutral,0.0
+87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",,4.4,Đáng đồng tiền,befood_comment,d0e569897c20b7fe,thanh-tam-quan-com-rang-pho-bo-bun-bo-hue-dinh-cong-thuong,{},neutral,0.0
+87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",,4.4,Normal,befood_comment,a5afab79cf4ec0ca,thanh-tam-quan-com-rang-pho-bo-bun-bo-hue-dinh-cong-thuong,{},neutral,0.0
+87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",,4.4,"Mình đặt với suy nghĩ tên quán là Thành Tâm thì sẽ làm đồ ăn mà đặt tâm vào. Hôm qua sau khi ăn cả bún bò và phở thì mình bị say mì chính, đầy bụng đến hôm nay chưa hết. Bỏ tiền ra ăn mà vừa mất thêm tiền mua thuốc vừa rước bực vào người, Không đảm bảo vệ sinh",befood_comment,fbe5ae3a90d2f6d2,thanh-tam-quan-com-rang-pho-bo-bun-bo-hue-dinh-cong-thuong,{},neutral,0.0
+87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",,4.4,ok ngon,befood_comment,2917d9b3657e5de8,thanh-tam-quan-com-rang-pho-bo-bun-bo-hue-dinh-cong-thuong,{},neutral,0.0
+87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",,4.4,giờ,befood_comment,5845c437315818c6,thanh-tam-quan-com-rang-pho-bo-bun-bo-hue-dinh-cong-thuong,{},neutral,0.0
+87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",,4.4,"chán, k có vị gì, k tương ớt ăn nhạt nhẽo",befood_comment,afe588f844e62a06,thanh-tam-quan-com-rang-pho-bo-bun-bo-hue-dinh-cong-thuong,{},neutral,0.0
+130463,130463,Thanh Hà Food - Phở Cuốn & Bún Trộn - Đại Từ,,4.9,"ngon,sạch sẽ,hợp khẩu vị,1 suất khá đầy đặn. lần sau sẽ mua lại, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,7f14cd5086745a9d,thanh-ha-food-pho-cuon-bun-tron-dai-tu,{},neutral,0.0
+130463,130463,Thanh Hà Food - Phở Cuốn & Bún Trộn - Đại Từ,,4.9,Sạch sẽ,befood_comment,6e9356cefe3fde38,thanh-ha-food-pho-cuon-bun-tron-dai-tu,{},neutral,0.0
+130463,130463,Thanh Hà Food - Phở Cuốn & Bún Trộn - Đại Từ,,4.9,ít thịt toàn rau,befood_comment,1dde4ef5dc76e1a3,thanh-ha-food-pho-cuon-bun-tron-dai-tu,{},neutral,0.0
+68548,68548,Bánh Cuốn Nóng - Bún Chả & Mỳ Gà Tần - Chính Kinh,,4.7,Good packaging,befood_comment,e795aebe8b84944b,banh-cuon-nong-bun-cha-my-ga-tan-chinh-kinh,{},neutral,0.0
+68548,68548,Bánh Cuốn Nóng - Bún Chả & Mỳ Gà Tần - Chính Kinh,,4.7,Khá ngon,befood_comment,d241a1086d105edb,banh-cuon-nong-bun-cha-my-ga-tan-chinh-kinh,{},neutral,0.0
+68548,68548,Bánh Cuốn Nóng - Bún Chả & Mỳ Gà Tần - Chính Kinh,,4.7,Không hợp khẩu vị,befood_comment,72d6621963178d63,banh-cuon-nong-bun-cha-my-ga-tan-chinh-kinh,{},neutral,0.0
+68548,68548,Bánh Cuốn Nóng - Bún Chả & Mỳ Gà Tần - Chính Kinh,,4.7,Đóng gói chưa tốt,befood_comment,b7e45720f408f719,banh-cuon-nong-bun-cha-my-ga-tan-chinh-kinh,{},neutral,0.0
+68548,68548,Bánh Cuốn Nóng - Bún Chả & Mỳ Gà Tần - Chính Kinh,,4.7,Sai/Thiếu món,befood_comment,27c2afbc79aa79a6,banh-cuon-nong-bun-cha-my-ga-tan-chinh-kinh,{},neutral,0.0
+68548,68548,Bánh Cuốn Nóng - Bún Chả & Mỳ Gà Tần - Chính Kinh,,4.7,"Ít thịt, nhiều bún quá",befood_comment,850b3b249f3be759,banh-cuon-nong-bun-cha-my-ga-tan-chinh-kinh,{},neutral,0.0
+80920,80920,Cồ Cử Phở Bò - Cơm Rang - Kim Giang,,4.6,Đáng đồng tiền,befood_comment,956caf8243ced744,co-cu-pho-bo-com-rang-kim-giang,{},neutral,0.0
+80920,80920,Cồ Cử Phở Bò - Cơm Rang - Kim Giang,,4.6,"Đáng đồng tiền, Đóng gói tốt, Sạch sẽ, Ngon xỉu",befood_comment,ba39aa43e5f5b0de,co-cu-pho-bo-com-rang-kim-giang,{},neutral,0.0
+80920,80920,Cồ Cử Phở Bò - Cơm Rang - Kim Giang,,4.6,"ăn cũng được oke, Khá ngon",befood_comment,954e18470e7fde6e,co-cu-pho-bo-com-rang-kim-giang,{},neutral,0.0
+80920,80920,Cồ Cử Phở Bò - Cơm Rang - Kim Giang,,4.6,Quán 10đ nhé rất mong sắp tới quán mình làm ăn phát đạt nhé,befood_comment,7692900adb97e17e,co-cu-pho-bo-com-rang-kim-giang,{},neutral,0.0
+80920,80920,Cồ Cử Phở Bò - Cơm Rang - Kim Giang,,4.6,cơm hơi hôi,befood_comment,ee98051a7bc60a72,co-cu-pho-bo-com-rang-kim-giang,{},neutral,0.0
+80920,80920,Cồ Cử Phở Bò - Cơm Rang - Kim Giang,,4.6,ko phải thịt bò,befood_comment,698bbaa1c4b80c54,co-cu-pho-bo-com-rang-kim-giang,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,bc8f3c43ce564f70,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"Ăn chân gà hợp khẩu vị lắm ạ, Ngon xỉu, Đáng đồng tiền",befood_comment,f9e17c4085bf62f6,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"nước dùng khi giao bị đổ tí nhưng không sao ((= ngon., Ngon xỉu, Sạch sẽ",befood_comment,ed446678d7809fae,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"ngonnnn, đúng vị cay mình thích, Đáng đồng tiền, Đóng gói tốt",befood_comment,6dc495f80f07a9c0,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"Đóng gói tốt, Đáng đồng tiền, Ngon xỉu, Sạch sẽ",befood_comment,1633fed734e7e2eb,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"Đóng gói tốt, Sạch sẽ",befood_comment,455ab49bc7327761,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"ngonnnnnnnnnn, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,ee1dc390a5311868,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"Sạch sẽ, Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,210ec2ca83717462,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,e720b053a81bc04d,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,,4.8,Ngon xỉu,befood_comment,b8a76f619eb44b9d,ling-ling-foody-ga-ran-my-cay-vinh-hung,{},neutral,0.0
+81712,81712,Nhà Hàng Văn Đô - Cơm Văn Phòng - Ngọc Khánh,,4.8,Đáng đồng tiền,befood_comment,9210a697fa0e8c5d,nha-hang-van-do-com-van-phong-ngoc-khanh,{},neutral,0.0
+81712,81712,Nhà Hàng Văn Đô - Cơm Văn Phòng - Ngọc Khánh,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,eb5389e048f4f7c1,nha-hang-van-do-com-van-phong-ngoc-khanh,{},neutral,0.0
+81712,81712,Nhà Hàng Văn Đô - Cơm Văn Phòng - Ngọc Khánh,,4.8,"đóng gói chỉn chu, cá kho riềng k hợp khẩu vị, còn vảy cá., Không hợp khẩu vị",befood_comment,2c55a9380d884b36,nha-hang-van-do-com-van-phong-ngoc-khanh,{},neutral,0.0
+119113,119113,Phở Cuốn Ngũ Xã Hải Yến - Vũ Tông Phan,,4.7,ngon nma sốp quên cho em đũa oy,befood_comment,46eee99f79148f37,pho-cuon-ngu-xa-hai-yen-vu-tong-phan,{},neutral,0.0
+119113,119113,Phở Cuốn Ngũ Xã Hải Yến - Vũ Tông Phan,,4.7,với giá này thì quá ít :))))) thịt bò được đúng 5 miếng,befood_comment,fcb7b96b626108ac,pho-cuon-ngu-xa-hai-yen-vu-tong-phan,{},neutral,0.0
+123573,123573,"Minh Huy - Bánh Cuốn, Bún Chả & Bún Miến Ngan - Vũ Tông Phan",,3.3,Đóng gói tốt,befood_comment,588fd63cff6d8649,minh-huy-banh-cuon-bun-cha-bun-mien-ngan-vu-tong-phan,{},neutral,0.0
+123573,123573,"Minh Huy - Bánh Cuốn, Bún Chả & Bún Miến Ngan - Vũ Tông Phan",,3.3,"ngan ít không ngon, Không hợp khẩu vị",befood_comment,bc9536babf95c601,minh-huy-banh-cuon-bun-cha-bun-mien-ngan-vu-tong-phan,{},neutral,0.0
+123573,123573,"Minh Huy - Bánh Cuốn, Bún Chả & Bún Miến Ngan - Vũ Tông Phan",,3.3,"Bánh cuốn thịt nướng, nhưng chỉ có bánh không có thịt, Sai/Thiếu món",befood_comment,1b8e2bc01dd97dd8,minh-huy-banh-cuon-bun-cha-bun-mien-ngan-vu-tong-phan,{},neutral,0.0
+123573,123573,"Minh Huy - Bánh Cuốn, Bún Chả & Bún Miến Ngan - Vũ Tông Phan",,3.3,bánh cuốn nhân bị thiu rồi bạn ạ . hôi thiu mùi ôi mở ra là biết ngay. mình phải bỏ đi miến ngan ngon,befood_comment,c1f6af88413e331d,minh-huy-banh-cuon-bun-cha-bun-mien-ngan-vu-tong-phan,{},neutral,0.0
+8200,8200,Phở bò - Cơm rang Duy Nhất - Huỳnh Thúc Kháng,,4.7,Ngon xỉu,befood_comment,80b5feae51481460,pho-bo-com-rang-duy-nhat-huynh-thuc-khang,{},neutral,0.0
+8200,8200,Phở bò - Cơm rang Duy Nhất - Huỳnh Thúc Kháng,,4.7,Khá ngon,befood_comment,0701dcca5937a133,pho-bo-com-rang-duy-nhat-huynh-thuc-khang,{},neutral,0.0
+8200,8200,Phở bò - Cơm rang Duy Nhất - Huỳnh Thúc Kháng,,4.7,không có dụng cụ ăn uống,befood_comment,2f9ecd9670068271,pho-bo-com-rang-duy-nhat-huynh-thuc-khang,{},neutral,0.0
+8200,8200,Phở bò - Cơm rang Duy Nhất - Huỳnh Thúc Kháng,,4.7,có ghi chú nhma k để ý,befood_comment,5df4b148513e1de9,pho-bo-com-rang-duy-nhat-huynh-thuc-khang,{},neutral,0.0
+78300,78300,Bánh Cuốn Nóng & Bún Chả - Ngọc Hà,,4.9,"nước chấm nhạt. còn lại tuyệt vời. thịt nướng rất ngon, Sạch sẽ, Đóng gói tốt",befood_comment,83a3a20195c197a3,banh-cuon-nong-bun-cha-ngoc-ha,{},neutral,0.0
+78300,78300,Bánh Cuốn Nóng & Bún Chả - Ngọc Hà,,4.9,Sạch sẽ,befood_comment,011c0492833432a7,banh-cuon-nong-bun-cha-ngoc-ha,{},neutral,0.0
+78300,78300,Bánh Cuốn Nóng & Bún Chả - Ngọc Hà,,4.9,Đóng gói tốt,befood_comment,5959dd8ebb0246a6,banh-cuon-nong-bun-cha-ngoc-ha,{},neutral,0.0
+78300,78300,Bánh Cuốn Nóng & Bún Chả - Ngọc Hà,,4.9,"ổn lắm nha, thịt nướng thơm đầy đặn. ủng hộ quán 5* nhé, Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,451e4ba26f1b7357,banh-cuon-nong-bun-cha-ngoc-ha,{},neutral,0.0
+78300,78300,Bánh Cuốn Nóng & Bún Chả - Ngọc Hà,,4.9,"Bánh cuốn ngon nhưng nước chấm hơi nhạt. shop giao đúng đơn cho đầy đủ dụng cụ ăn uống, Khá ngon",befood_comment,74b16fbb6370a515,banh-cuon-nong-bun-cha-ngoc-ha,{},neutral,0.0
+78300,78300,Bánh Cuốn Nóng & Bún Chả - Ngọc Hà,,4.9,Khá ngon,befood_comment,d386170fcb321f69,banh-cuon-nong-bun-cha-ngoc-ha,{},neutral,0.0
+20601,20601,"Bánh Cuốn Nóng, Bún Chả & Gà Tần - 156 Kim Giang",,4.6,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,2edec273963cb0fc,banh-cuon-nong-bun-cha-ga-tan-156-kim-giang,{},neutral,0.0
+20601,20601,"Bánh Cuốn Nóng, Bún Chả & Gà Tần - 156 Kim Giang",,4.6,Ngon xỉu,befood_comment,763aa8c7f7f80c9d,banh-cuon-nong-bun-cha-ga-tan-156-kim-giang,{},neutral,0.0
+20601,20601,"Bánh Cuốn Nóng, Bún Chả & Gà Tần - 156 Kim Giang",,4.6,Đáng đồng tiền,befood_comment,2cb923c8782cd8f1,banh-cuon-nong-bun-cha-ga-tan-156-kim-giang,{},neutral,0.0
+20601,20601,"Bánh Cuốn Nóng, Bún Chả & Gà Tần - 156 Kim Giang",,4.6,Khá ngon,befood_comment,977df368a2f45535,banh-cuon-nong-bun-cha-ga-tan-156-kim-giang,{},neutral,0.0
+20601,20601,"Bánh Cuốn Nóng, Bún Chả & Gà Tần - 156 Kim Giang",,4.6,Không hợp khẩu vị,befood_comment,ba9210ac19fd695a,banh-cuon-nong-bun-cha-ga-tan-156-kim-giang,{},neutral,0.0
+20601,20601,"Bánh Cuốn Nóng, Bún Chả & Gà Tần - 156 Kim Giang",,4.6,"đéo cho đũa ăn bốc à ?, Sai/Thiếu món",befood_comment,fb91e2f432c34cab,banh-cuon-nong-bun-cha-ga-tan-156-kim-giang,{},neutral,0.0
+20601,20601,"Bánh Cuốn Nóng, Bún Chả & Gà Tần - 156 Kim Giang",,4.6,Sai/Thiếu món,befood_comment,5a67ce29836c8ba1,banh-cuon-nong-bun-cha-ga-tan-156-kim-giang,{},neutral,0.0
+9568,9568,"Bún Chả, Bánh Cuốn Nóng, Gà Tần - Ba Duy - Kim Giang",,4.8,Worth the price,befood_comment,a8c2eb8f9d2b8639,bun-cha-banh-cuon-nong-ga-tan-ba-duy-kim-giang,{},neutral,0.0
+9568,9568,"Bún Chả, Bánh Cuốn Nóng, Gà Tần - Ba Duy - Kim Giang",,4.8,Khá ngon,befood_comment,927f65954261571a,bun-cha-banh-cuon-nong-ga-tan-ba-duy-kim-giang,{},neutral,0.0
+9568,9568,"Bún Chả, Bánh Cuốn Nóng, Gà Tần - Ba Duy - Kim Giang",,4.8,Vị chưa đậm đà lắm,befood_comment,bdf31b85e91d8ea6,bun-cha-banh-cuon-nong-ga-tan-ba-duy-kim-giang,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,5468e970485d8102,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,Đóng gói chưa tốt,befood_comment,64b2a3030b1c7b32,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,"mình bảo không hành mà quán cho hành củ là s vậy quán, Không làm đúng ghi chú",befood_comment,72c184f6564a2425,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,Sai/Thiếu món,befood_comment,bd2f5d7bacae733c,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,"thịt và cơm khô, nguội, cứng. mô tả có trứng và canh nhưng giao k thấy có",befood_comment,5b2eb4486969f6fc,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,cơm như bị thiu,befood_comment,3c096928813d087e,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,thiếu 1 hộp đùi gà chiên mắm nhưng lại thừa 1 hộp cơm híc,befood_comment,46e534350433ce38,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,cơm mềm ngon,befood_comment,274862d85964fadf,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,"cơm khô, cứng, gà thì rán quá khô.",befood_comment,36506a63a09386c6,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,,4.5,thịt bò được đúng 5 miếng,befood_comment,70218d6909357f0a,kcc-pho-com-rang-nguyen-hong,{},neutral,0.0
+69613,69613,Bánh Cuốn Nóng Gia Truyền - Đội Cấn,,4.5,"Đặt 2 bánh cuốn chả quế với trứng cho có 1 suất gà tần thì dai, Sai/Thiếu món",befood_comment,099f7ca257ea665d,banh-cuon-nong-gia-truyen-doi-can,{},neutral,0.0
+69613,69613,Bánh Cuốn Nóng Gia Truyền - Đội Cấn,,4.5,Đáng đồng tiền,befood_comment,9ea474a1a0e1cee4,banh-cuon-nong-gia-truyen-doi-can,{},neutral,0.0
+69613,69613,Bánh Cuốn Nóng Gia Truyền - Đội Cấn,,4.5,Bánh cuốn không đạt,befood_comment,ea8a0b253ea205d3,banh-cuon-nong-gia-truyen-doi-can,{},neutral,0.0
+69613,69613,Bánh Cuốn Nóng Gia Truyền - Đội Cấn,,4.5,ngon,befood_comment,9a35b3927a648427,banh-cuon-nong-gia-truyen-doi-can,{},neutral,0.0
+69613,69613,Bánh Cuốn Nóng Gia Truyền - Đội Cấn,,4.5,Quá ít,befood_comment,cde14991730fe239,banh-cuon-nong-gia-truyen-doi-can,{},neutral,0.0
+14120,14120,KCC - Phở & Cơm Gà Xối Mắm - Đội Cấn,,4.7,Đáng đồng tiền,befood_comment,67559aa3112ab200,kcc-pho-com-ga-xoi-mam-doi-can,{},neutral,0.0
+14120,14120,KCC - Phở & Cơm Gà Xối Mắm - Đội Cấn,,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,9ecc9a47456e4102,kcc-pho-com-ga-xoi-mam-doi-can,{},neutral,0.0
+14120,14120,KCC - Phở & Cơm Gà Xối Mắm - Đội Cấn,,4.7,Normal,befood_comment,cfdcb1df0f46d306,kcc-pho-com-ga-xoi-mam-doi-can,{},neutral,0.0
+14120,14120,KCC - Phở & Cơm Gà Xối Mắm - Đội Cấn,,4.7,"gà chiên trong vẫn bị đỏ, đóng gói túi thủng chảy hết ra",befood_comment,aa4385041d14cb1d,kcc-pho-com-ga-xoi-mam-doi-can,{},neutral,0.0
+14120,14120,KCC - Phở & Cơm Gà Xối Mắm - Đội Cấn,,4.7,giao thiếu sốt r,befood_comment,4b11884cd63e838f,kcc-pho-com-ga-xoi-mam-doi-can,{},neutral,0.0
+2282,2282,Phở Bò Cơm Rang Nhân Hòa - Nguyễn Huy Tưởng,,4.7,Ngon xỉu,befood_comment,91c2470b50c3fd7f,pho-bo-com-rang-nhan-hoa-nguyen-huy-tuong,{},neutral,0.0
+2282,2282,Phở Bò Cơm Rang Nhân Hòa - Nguyễn Huy Tưởng,,4.7,Đáng đồng tiền,befood_comment,0ef5ee59f9b7fe94,pho-bo-com-rang-nhan-hoa-nguyen-huy-tuong,{},neutral,0.0
+2282,2282,Phở Bò Cơm Rang Nhân Hòa - Nguyễn Huy Tưởng,,4.7,"note không hành vẫn cố nhét hành vào, Sai/Thiếu món",befood_comment,1c2947421976e706,pho-bo-com-rang-nhan-hoa-nguyen-huy-tuong,{},neutral,0.0
+76776,76776,Bánh Cuốn Nóng & Bún Chả - Nguyễn Ngọc Vũ,,4.7,"thiếu lon coca, Sai/Thiếu món",befood_comment,effafa86aabee0dd,banh-cuon-nong-bun-cha-nguyen-ngoc-vu,{},neutral,0.0
+76776,76776,Bánh Cuốn Nóng & Bún Chả - Nguyễn Ngọc Vũ,,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,7fb45d001809c9f1,banh-cuon-nong-bun-cha-nguyen-ngoc-vu,{},neutral,0.0
+76776,76776,Bánh Cuốn Nóng & Bún Chả - Nguyễn Ngọc Vũ,,4.7,"quán tiếc cái bát nhựa hay sao vậy ?, Đóng gói chưa tốt",befood_comment,772f7c0800cd85ec,banh-cuon-nong-bun-cha-nguyen-ngoc-vu,{},neutral,0.0
+76776,76776,Bánh Cuốn Nóng & Bún Chả - Nguyễn Ngọc Vũ,,4.7,k có hộp đựng mắm k có rau sống,befood_comment,911b23d0362863ea,banh-cuon-nong-bun-cha-nguyen-ngoc-vu,{},neutral,0.0
+76776,76776,Bánh Cuốn Nóng & Bún Chả - Nguyễn Ngọc Vũ,,4.7,5 cục chả luôn á,befood_comment,ab33d56f408132ad,banh-cuon-nong-bun-cha-nguyen-ngoc-vu,{},neutral,0.0
+102812,102812,Bánh Cuốn Bà Hy - Khu Đô Thị Bắc Linh Đàm,,5.0,Sạch sẽ,befood_comment,ba3e0535a7e09804,banh-cuon-ba-hy-khu-do-thi-bac-linh-dam,{},neutral,0.0
+102812,102812,Bánh Cuốn Bà Hy - Khu Đô Thị Bắc Linh Đàm,,5.0,Khá ngon,befood_comment,83813775663af8ad,banh-cuon-ba-hy-khu-do-thi-bac-linh-dam,{},neutral,0.0
+130643,130643,Guu Chicken - Cơm Gà & Gà Rán - Ngõ Tự Do,,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,46ff9af71716ad02,guu-chicken-com-ga-ga-ran-ngo-tu-do,{},neutral,0.0
+8432,8432,Quán Cơm 78 - Ngõ Tự Do,,4.7,"mình đặt 4 món mà giao 3 món. muốn liên hệ cho shop cũng không đc, liên hệ ship thì ship cũng ko có số của quán để giải quyết, Sai/Thiếu món",befood_comment,900ff3d026031335,quan-com-78-ngo-tu-do,{},neutral,0.0
+8432,8432,Quán Cơm 78 - Ngõ Tự Do,,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,b6be7747b22ec98d,quan-com-78-ngo-tu-do,{},neutral,0.0
+102294,102294,Bếp Cô Thảo - Cơm Văn Phòng Tự Chọn - Lò Đúc,,4.6,tôi đặt thịt rang cháy cạnh đưa tôi thịt kho,befood_comment,a96512072ba211e8,bep-co-thao-com-van-phong-tu-chon-lo-duc,{},neutral,0.0
+15897,15897,Vịt 29 - 29 Food - Cơm Phở -Nguyễn Thượng Hiền,,4.9,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,fa8a4d949b2c05fa,vit-29-29-food-com-pho-nguyen-thuong-hien,{},neutral,0.0
+130509,130509,Guu Chicken - Cơm Gà & Gà Rán - Tam Khương,,5.0,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,d8964f2eb4603782,guu-chicken-com-ga-ga-ran-tam-khuong,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,"ngon, Đáng đồng tiền",befood_comment,98ee63663e98aa54,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,Khá ngon,befood_comment,d574330250ce6b6d,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,"đặt thêm thịt nướng mà k thấy đâu, Sai/Thiếu món",befood_comment,92ec1861a815aabb,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,Không hợp khẩu vị,befood_comment,3bc572a8245e2bfa,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,"rau thối , giao còn thiếu chả, Sai/Thiếu món",befood_comment,47109f789717089b,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,"ăn xong bị đau bụng ỉa chảy, không đảm bảo vệ sinh, Không đảm bảo vệ sinh",befood_comment,ed68889f9cb98025,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,bún bị chua với lại bún dính màu đỏ như hình,befood_comment,e7151638e10b8a47,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,quán k phân biệt được bún chả thịt viên🙂,befood_comment,a2a2d0d8e87867b5,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,thịt hơi có mùi một chút,befood_comment,7858f1c21124259a,bun-cha-xua-linh-nam,{},neutral,0.0
+17700,17700,Bún Chả Xưa - Lĩnh Nam,,4.2,thịt siêu mỡ,befood_comment,b7fcd8e5f847dd90,bun-cha-xua-linh-nam,{},neutral,0.0
+98870,98870,Tứ Quý - Phở Bò & Cơm Rang - Trịnh Đình Cửu,,4.8,"Đóng gói tốt, Đáng đồng tiền",befood_comment,096e9f0f6a50790a,tu-quy-pho-bo-com-rang-trinh-dinh-cuu,{},neutral,0.0
+98870,98870,Tứ Quý - Phở Bò & Cơm Rang - Trịnh Đình Cửu,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,8049448448e5ee67,tu-quy-pho-bo-com-rang-trinh-dinh-cuu,{},neutral,0.0
+98870,98870,Tứ Quý - Phở Bò & Cơm Rang - Trịnh Đình Cửu,,4.8,"Sạch sẽ, Đóng gói tốt",befood_comment,16fdbe53407df7b0,tu-quy-pho-bo-com-rang-trinh-dinh-cuu,{},neutral,0.0
+98870,98870,Tứ Quý - Phở Bò & Cơm Rang - Trịnh Đình Cửu,,4.8,"Đóng gói tốt, Sạch sẽ",befood_comment,aee99f8ac6e78bab,tu-quy-pho-bo-com-rang-trinh-dinh-cuu,{},neutral,0.0
+98870,98870,Tứ Quý - Phở Bò & Cơm Rang - Trịnh Đình Cửu,,4.8,Ngon xỉu,befood_comment,e0855c48a9bd6577,tu-quy-pho-bo-com-rang-trinh-dinh-cuu,{},neutral,0.0
+98870,98870,Tứ Quý - Phở Bò & Cơm Rang - Trịnh Đình Cửu,,4.8,"chỉ được cái đóng gói đẹp, ăn như đấm vào mồm vậy, nhạt toẹt",befood_comment,84d3f49eb6225bd3,tu-quy-pho-bo-com-rang-trinh-dinh-cuu,{},neutral,0.0
+55835,55835,Tiệm Cơm Gà - Trung Liệt,,4.2,Khá ngon,befood_comment,761c58de755a634d,tiem-com-ga-trung-liet,{},neutral,0.0
+55835,55835,Tiệm Cơm Gà - Trung Liệt,,4.2,"cơm là cơm trắng và thiếu nước sốt như trong ảnh., Sai/Thiếu món",befood_comment,91bb22aa1962a164,tiem-com-ga-trung-liet,{},neutral,0.0
+55835,55835,Tiệm Cơm Gà - Trung Liệt,,4.2,"lần đầu ăn của quán hình như cuối ngày ship cho mình cơm cháy vàng ăn bị cứng gà nướng bị cháy đen 1 mảng ăn rất đắng, nướng mật ong có thể cháy nhẹ cx nhưng đằng này 1 mảng đen ăn đắng. Rất thất vọng từ cơm đến gà",befood_comment,486348330a0d0b79,tiem-com-ga-trung-liet,{},neutral,0.0
+55835,55835,Tiệm Cơm Gà - Trung Liệt,,4.2,không đáng với giá tiền bỏ ra !,befood_comment,77c539c7cd8b72fc,tiem-com-ga-trung-liet,{},neutral,0.0
+55835,55835,Tiệm Cơm Gà - Trung Liệt,,4.2,đùi gà còn sống,befood_comment,bb2b308efa0f3d6c,tiem-com-ga-trung-liet,{},neutral,0.0
+55835,55835,Tiệm Cơm Gà - Trung Liệt,,4.2,không có nước canh nước chấm,befood_comment,4d89347e5e937587,tiem-com-ga-trung-liet,{},neutral,0.0
+88436,88436,Bún Chả Phúc Tha - Hoàng Mai,,5.0,"Sạch sẽ, Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,b72ffe17a2e11a43,bun-cha-phuc-tha-hoang-mai,{},neutral,0.0
+88436,88436,Bún Chả Phúc Tha - Hoàng Mai,,5.0,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,34a773c84cf66e72,bun-cha-phuc-tha-hoang-mai,{},neutral,0.0
+88436,88436,Bún Chả Phúc Tha - Hoàng Mai,,5.0,Ngon xỉu,befood_comment,97276e125c57cdf8,bun-cha-phuc-tha-hoang-mai,{},neutral,0.0
+88436,88436,Bún Chả Phúc Tha - Hoàng Mai,,5.0,"Worth the price, Delicious, Clean, Good packaging",befood_comment,6e0e9b6c5c95ec7b,bun-cha-phuc-tha-hoang-mai,{},neutral,0.0
+69293,69293,Cơm & Phở Hương Lan - Nguyễn Thái Học,,4.0,Ngon xỉu,befood_comment,0970170911b6d95e,com-pho-huong-lan-nguyen-thai-hoc,{},neutral,0.0
+69293,69293,Cơm & Phở Hương Lan - Nguyễn Thái Học,,4.0,Giá hơi đắt,befood_comment,ed59a7b8319aced8,com-pho-huong-lan-nguyen-thai-hoc,{},neutral,0.0
+69293,69293,Cơm & Phở Hương Lan - Nguyễn Thái Học,,4.0,"eqfyfac., Sai/Thiếu món",befood_comment,c6e70127478be47a,com-pho-huong-lan-nguyen-thai-hoc,{},neutral,0.0
+69293,69293,Cơm & Phở Hương Lan - Nguyễn Thái Học,,4.0,"cho mỗi nc canh k biết ăn phở kiểu gì luôn ?, Sai/Thiếu món",befood_comment,9ba5d6a60f859020,com-pho-huong-lan-nguyen-thai-hoc,{},neutral,0.0
+69293,69293,Cơm & Phở Hương Lan - Nguyễn Thái Học,,4.0,mình đã note rõ là nước dùng để riêng r vẫn cho vào là sao ạ ?,befood_comment,41e3d7388ca3414f,com-pho-huong-lan-nguyen-thai-hoc,{},neutral,0.0
+69293,69293,Cơm & Phở Hương Lan - Nguyễn Thái Học,,4.0,k ngon,befood_comment,58e382f425fbb4cd,com-pho-huong-lan-nguyen-thai-hoc,{},neutral,0.0
+10307,10307,Cơm Gà Xối Mắm Còn - Dương Văn Bé,,4.7,"Đáng đồng tiền, Ngon xỉu, Đóng gói tốt, Sạch sẽ",befood_comment,9e19a55c838d72de,com-ga-xoi-mam-con-duong-van-be,{},neutral,0.0
+10307,10307,Cơm Gà Xối Mắm Còn - Dương Văn Bé,,4.7,"Ngon xỉu, Đóng gói tốt, Sạch sẽ, Đáng đồng tiền",befood_comment,7ace4ad0db01bcdf,com-ga-xoi-mam-con-duong-van-be,{},neutral,0.0
+10307,10307,Cơm Gà Xối Mắm Còn - Dương Văn Bé,,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,6f5e6fa7bf450151,com-ga-xoi-mam-con-duong-van-be,{},neutral,0.0
+10307,10307,Cơm Gà Xối Mắm Còn - Dương Văn Bé,,4.7,Đáng đồng tiền,befood_comment,c1a57bf1808057c1,com-ga-xoi-mam-con-duong-van-be,{},neutral,0.0
+10307,10307,Cơm Gà Xối Mắm Còn - Dương Văn Bé,,4.7,Normal,befood_comment,b46bf4d0da9cbad8,com-ga-xoi-mam-con-duong-van-be,{},neutral,0.0
+10307,10307,Cơm Gà Xối Mắm Còn - Dương Văn Bé,,4.7,Không hợp khẩu vị,befood_comment,a02114798e96e7c4,com-ga-xoi-mam-con-duong-van-be,{},neutral,0.0
+10307,10307,Cơm Gà Xối Mắm Còn - Dương Văn Bé,,4.7,no quá ko ăn được ko biết ngon hay ko nên 3 sao thôi,befood_comment,8fdb75f417275a48,com-ga-xoi-mam-con-duong-van-be,{},neutral,0.0
+49400,49400,Tùng Linh Quán - Bún Chả & Bánh Cuốn Nóng - Bùi Xương Trạch,,5.0,"Đáng đồng tiền, Đóng gói tốt, Khác, Sạch sẽ, Ngon xỉu",befood_comment,917fefcabca8aa10,tung-linh-quan-bun-cha-banh-cuon-nong-bui-xuong-trach,{},neutral,0.0
+88782,88782,Guu Chicken - Cơm Gà & Gà Rán - Khương Hạ,,4.7,"đặt có đồ uống mà đơn thì không có đồ uống, Sai/Thiếu món",befood_comment,8fa979394c7e0749,guu-chicken-com-ga-ga-ran-khuong-ha,{},neutral,0.0
+88782,88782,Guu Chicken - Cơm Gà & Gà Rán - Khương Hạ,,4.7,em có note thêm sốt mà ko thấy shop cho thêm,befood_comment,b06905bf3e41829e,guu-chicken-com-ga-ga-ran-khuong-ha,{},neutral,0.0
+88782,88782,Guu Chicken - Cơm Gà & Gà Rán - Khương Hạ,,4.7,ổn,befood_comment,c5bdcde28b7e7ce1,guu-chicken-com-ga-ga-ran-khuong-ha,{},neutral,0.0
+61570,61570,Bún Chả Quý Anh - Vĩnh Hưng,,4.9,Ngon xỉu,befood_comment,b60b6f3454c67a2b,bun-cha-quy-anh-vinh-hung,{},neutral,0.0
+61570,61570,Bún Chả Quý Anh - Vĩnh Hưng,,4.9,"Chả quán này peak thực sự, tổng quan là ngonnn!, Ngon xỉu, Đáng đồng tiền",befood_comment,1ed00c792401d9d3,bun-cha-quy-anh-vinh-hung,{},neutral,0.0
+61570,61570,Bún Chả Quý Anh - Vĩnh Hưng,,4.9,Sai/Thiếu món,befood_comment,96cecfba41e18a5c,bun-cha-quy-anh-vinh-hung,{},neutral,0.0
+61570,61570,Bún Chả Quý Anh - Vĩnh Hưng,,4.9,nem cháy nửa cái,befood_comment,ff0d13b206bbfea6,bun-cha-quy-anh-vinh-hung,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,"đồ shop đầy đặn, đóng gói sạch sẽ cbi đồ nhanh lắm a, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,83e919a453278642,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,7ad0df8f1a959d64,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,"Delicious, Clean, Good packaging",befood_comment,7acc12499c232ce0,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,"Delicious, Worth the price, Clean, Good packaging",befood_comment,247cd476dd2274d3,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,"Đáng đồng tiền, Ngon xỉu, Đóng gói tốt, Sạch sẽ",befood_comment,a7ffb5e10e0ab1de,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,"Đáng đồng tiền, Sạch sẽ, Ngon xỉu, Đóng gói tốt",befood_comment,8e5b706bd4b0b9e0,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,"Đồ ăn ngon ạ, phần ăn được chuẩn bị rất chu đáp luôn ạ, Đóng gói tốt, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,60b50c9766aedd34,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,Khá ngon,befood_comment,18b68499c55941a8,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,Không hợp khẩu vị,befood_comment,a1c72c455533abe9,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",,4.7,đồ ăn ngon lắm ạ. đặt lần t2 ở shop rồi cơm hay mỳ đều ngon :))))),befood_comment,0bd0eb3deb677e20,foodhub-my-quang-com-ga-roti-hoang-ngoc-phach,{},neutral,0.0
+89400,89400,"Bún Chả Linh Anh - Bún Ngan Mọc, Bánh Giò Nóng & Trứng Vịt Lộn - Khương Đình",,4.7,Không đảm bảo vệ sinh,befood_comment,b30f5340d84913e6,bun-cha-linh-anh-bun-ngan-moc-banh-gio-nong-trung-vit-lon-khuong-dinh,{},neutral,0.0
+89400,89400,"Bún Chả Linh Anh - Bún Ngan Mọc, Bánh Giò Nóng & Trứng Vịt Lộn - Khương Đình",,4.7,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,3759bae0445fc67f,bun-cha-linh-anh-bun-ngan-moc-banh-gio-nong-trung-vit-lon-khuong-dinh,{},neutral,0.0
+89400,89400,"Bún Chả Linh Anh - Bún Ngan Mọc, Bánh Giò Nóng & Trứng Vịt Lộn - Khương Đình",,4.7,"Đóng gói tốt, Sạch sẽ, Ngon xỉu",befood_comment,224ea7b7f54b3e5c,bun-cha-linh-anh-bun-ngan-moc-banh-gio-nong-trung-vit-lon-khuong-dinh,{},neutral,0.0
+89400,89400,"Bún Chả Linh Anh - Bún Ngan Mọc, Bánh Giò Nóng & Trứng Vịt Lộn - Khương Đình",,4.7,Khá ngon,befood_comment,1950bf6f35e1fe9f,bun-cha-linh-anh-bun-ngan-moc-banh-gio-nong-trung-vit-lon-khuong-dinh,{},neutral,0.0
+89681,89681,Phở Cuốn Diệu Minh - La Thành,,4.4,"gà tần bên trong còn lạnh ngắt, đúng kiểu đồ để tủ lạnh lấy ra hâm lại còn ko ra hồn. đang ốm đặt đợi nhận dc mà ức chế., Không đảm bảo vệ sinh",befood_comment,903e4a9536d1bba1,pho-cuon-dieu-minh-la-thanh,{},neutral,0.0
+89681,89681,Phở Cuốn Diệu Minh - La Thành,,4.4,"Ngon xỉu, Đóng gói tốt",befood_comment,a781a51e23b724dd,pho-cuon-dieu-minh-la-thanh,{},neutral,0.0
+89681,89681,Phở Cuốn Diệu Minh - La Thành,,4.4,"nước dùng ít, bị chua, Không hợp khẩu vị",befood_comment,69c212a6c4463525,pho-cuon-dieu-minh-la-thanh,{},neutral,0.0
+89681,89681,Phở Cuốn Diệu Minh - La Thành,,4.4,"Không làm đúng ghi chú, Đóng gói chưa tốt",befood_comment,8d66dd048ea74409,pho-cuon-dieu-minh-la-thanh,{},neutral,0.0
+25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",,4.4,"mình note quán để riêng rau nhưng quán nhét chung vào túi, mắm đóng ẩu đổ hết ra túi lẫn hết vào cả bún đậu và rau :) không có đũa thìa. chả thì khô, nhỏ, quắt. Bún đậu mức bình thường. Không dám mua lại lần 2, Đóng gói chưa tốt, Không làm đúng ghi chú",befood_comment,3b37ed666df6b6d7,banh-cuon-nong-bun-dau-met-bun-cha-vinh-hung,{},neutral,0.0
+25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",,4.4,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,a0adb969bd827201,banh-cuon-nong-bun-dau-met-bun-cha-vinh-hung,{},neutral,0.0
+25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",,4.4,"Đóng gói tốt, Ngon xỉu",befood_comment,ae73f4d7c9283775,banh-cuon-nong-bun-dau-met-bun-cha-vinh-hung,{},neutral,0.0
+25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",,4.4,Không hợp khẩu vị,befood_comment,da46b386a8c9d1f3,banh-cuon-nong-bun-dau-met-bun-cha-vinh-hung,{},neutral,0.0
+25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",,4.4,"nhiều hàn the quá, ăn từ tối qua đến sáng vẫn khó tiêu",befood_comment,baac68493cb0fd92,banh-cuon-nong-bun-dau-met-bun-cha-vinh-hung,{},neutral,0.0
+25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",,4.4,đặt hẳn 2 suất mỗi suất 3 miếng chả,befood_comment,2c72d4f8babb34e5,banh-cuon-nong-bun-dau-met-bun-cha-vinh-hung,{},neutral,0.0
+25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",,4.4,"uầy, 55k 1 phần bánh cuốn, ít nước chấm xong đã thế có đúng 3 viên chả bé tí. sốc luôn ấy.",befood_comment,549480671ff43341,banh-cuon-nong-bun-dau-met-bun-cha-vinh-hung,{},neutral,0.0
+25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",,4.4,đồ ăn ít k đảm bảo,befood_comment,6a940be03d9c02b0,banh-cuon-nong-bun-dau-met-bun-cha-vinh-hung,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,"Cuốn lạnh ngắt như bỏ tủ lạnh ra. Ăn vị không thơm như đồ cũ, Không hợp khẩu vị",befood_comment,8e25cdb00214755d,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,Ngon xỉu,befood_comment,91eb1636ea67708c,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,Đóng gói chưa tốt,befood_comment,09538b39f53d0fd9,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,"đã ok cho đổi hàng giao r mà đồ ăn như mới bỏ từ tủ lạnh ra vỏ cuốn ăn cứng ngách thấy sợ, ăn muốn nôn, Không hợp khẩu vị, Không đảm bảo vệ sinh",befood_comment,02c14a98bce4c09a,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,"Gỏi cuốn quán gói sẵn, xong để tủ lạnh, bún khô cứng lại luôn, vỏ bánh tráng cũng cứng, thịt lạnh ngắt, nhai như nhau rơm 🙏🏻 Sao thế mà vẫn kinh doanh được vậy ạ, thật sự hả quán??, Không đảm bảo vệ sinh",befood_comment,e84f5e32f60af4dc,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,"đồ ăn shop được gói sẵn xong để tủ lạnh, ăn lạnh không hợp với tôi",befood_comment,b8475d035066796c,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,cuốn để tủ lạnh. vỏ cứng. bún cứng. cảm giác giống nhai rơm. rau héo,befood_comment,edded15a88972a1d,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,mua mắm nêm nhưng k giao mắm nêm ? cuốn sẵn xong để tủ ngăn đá hay sao mà như nhai đá thế sốp? mua gỏi cuốn bì chạo cũng k có? đơn 165k mà muốn ném mẹ ra thùng rác. sốp mang cái gỏi cuốn ra nhai dùm xem có nuốt được không mà dám bán.,befood_comment,ad05ebfce273c231,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,"ê bún thì cứng ,đồ ăn lạnh ngắt, cảm thấy không xứng đáng đồng tiền bỏ ra",befood_comment,1e6515ff2a837e72,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,,4.6,"gỏi cuốn mới rã đông ra hay j lạh ngắt toàn là nước, nước mắm thì như nc lạnh.😌",befood_comment,9cae6c72cd441aaa,goi-cuon-nem-nuong-huong-beo-bui-xuong-trach,{},neutral,0.0
+18796,18796,Phở Dung - Bún Chả - Tân Mai,,5.0,Ngon xỉu,befood_comment,d0bbb111e9e9a7e3,pho-dung-bun-cha-tan-mai,{},neutral,0.0
+36147,36147,Phở Vịt Quay Tứ Xuyên - Láng Hạ,,4.3,thịt dai lắm,befood_comment,ac9e68b30fa1e507,pho-vit-quay-tu-xuyen-lang-ha,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,"mắm tôm cho thế này thì chams 2 miếng thị là hết hả shop ? nộm bò khô thì lèo tèo 5 miếng bé tẹo :) tệ kinh khủng, Sai/Thiếu món, Đóng gói chưa tốt, Không làm đúng ghi chú",befood_comment,88bedb6022c43043,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,Đóng gói tốt,befood_comment,8b33907c37ce96e4,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,Không hợp khẩu vị,befood_comment,fa5ea18d83e3ce1c,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,Không đảm bảo vệ sinh,befood_comment,f7c92b9682c29491,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,"đồ ăn thì nguội , thịt chưa chín , Lạp xưởng luộc , mắm tôm không ngon, Không đảm bảo vệ sinh",befood_comment,e53ce367e02f8236,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,"đồ ăn lèo tèo, không ngon, mùi hôi",befood_comment,38cae2b60e2321c3,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,cái deo gì thế này:))) đ bán đc thì huỷ đơn đi chứ bán thế này cũng mở bán à,befood_comment,bac9a552a4f47f34,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,cho nhiều mắm tôm qa trời,befood_comment,29018a9f5aeada2f,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,dở,befood_comment,911a861cb233631a,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,,2.4,không như trong ảnh. bán lừa đảo. bé tí tẹo bằng cái ngón tay. ko thấy tôm đau,befood_comment,252abfac4775dc9e,bun-dau-chi-hai-nem-nuong-nha-trang-pho-cuon-nguyen-ngoc-vu,{},neutral,0.0
+6930,6930,Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa,,4.7,"quán giao cơm mà không cho đũa thìa, cốc nước ép thì không có ống hút. có thể làm việc trách nhiệm hơn được không.?, Đóng gói chưa tốt",befood_comment,40e0b9e7ecd6a914,kombo-com-nieu-singapore-46-tran-dai-nghia,{},neutral,0.0
+6930,6930,Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa,,4.7,"k giống hình ảnh, Đóng gói chưa tốt",befood_comment,1c09e999d2644564,kombo-com-nieu-singapore-46-tran-dai-nghia,{},neutral,0.0
+42458,42458,Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị,,4.6,"được 3 miếng chết rét, Sai/Thiếu món, Không đảm bảo vệ sinh",befood_comment,cf9b4b3a97a559bf,com-ga-xoi-mo-mai-phuong-le-thanh-nghi,{},neutral,0.0
+42458,42458,Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị,,4.6,Đóng gói tốt,befood_comment,800831365464dcaa,com-ga-xoi-mo-mai-phuong-le-thanh-nghi,{},neutral,0.0
+42458,42458,Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị,,4.6,"Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,dc9f6493a67a24e0,com-ga-xoi-mo-mai-phuong-le-thanh-nghi,{},neutral,0.0
+42458,42458,Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị,,4.6,Đáng đồng tiền,befood_comment,72d70031971d322e,com-ga-xoi-mo-mai-phuong-le-thanh-nghi,{},neutral,0.0
+42458,42458,Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị,,4.6,"Đóng gói tốt, Đáng đồng tiền, Ngon xỉu, Sạch sẽ",befood_comment,d4088243f18a96f8,com-ga-xoi-mo-mai-phuong-le-thanh-nghi,{},neutral,0.0
+42458,42458,Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị,,4.6,Khá ngon,befood_comment,50f7099402d925c6,com-ga-xoi-mo-mai-phuong-le-thanh-nghi,{},neutral,0.0
+56543,56543,Gà Rán KFC - Lê Thanh Nghị,,4.7,Đáng đồng tiền,befood_comment,893525ad10299b1e,ga-ran-kfc-le-thanh-nghi,{},neutral,0.0
+56543,56543,Gà Rán KFC - Lê Thanh Nghị,,4.7,"Đóng gói tốt, Sạch sẽ",befood_comment,900878ba4ef77287,ga-ran-kfc-le-thanh-nghi,{},neutral,0.0
+56543,56543,Gà Rán KFC - Lê Thanh Nghị,,4.7,Giá hơi đắt,befood_comment,cc2d2ea85edde47d,ga-ran-kfc-le-thanh-nghi,{},neutral,0.0
+56543,56543,Gà Rán KFC - Lê Thanh Nghị,,4.7,"Thiếu khoai tây chiên rồi, Sai/Thiếu món",befood_comment,5b213efa90740564,ga-ran-kfc-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,"măng hơi cay , quán đóng bún trong hộp, nước trong túi zip đảm bảo, Đáng đồng tiền",befood_comment,2de599b03a754faf,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,"Ngon xỉu, Sạch sẽ, Đóng gói tốt, Đáng đồng tiền",befood_comment,eef0724c614fbd74,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,d1dd79589df34f20,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,"Đóng gói tốt, Sạch sẽ, Đáng đồng tiền",befood_comment,bf9eb44070b3bede,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,"Đồ ăn về cơ bản là ngon nhưng shop nên để măng riêng và cho thêm quất. chứ bát bún mình thấy vừa cay vừa mặn, Lại không có quất nữa. Mình phải cho thêm nước thì mới vừa miệng, Khá ngon",befood_comment,99cffbcc762d9c5e,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,Không hợp khẩu vị,befood_comment,3243aea3fb160dd8,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,Không làm đúng ghi chú,befood_comment,c411e8692ce138f5,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,"ngon nha, hợp miệng ạ, măng ngon",befood_comment,74581fa841e8de98,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,,4.4,mình đặt 3 suất 3 người mà ăn ăn xong ai cũng đau bụng trước đó không ăn gì,befood_comment,35e21401053e4d88,bun-ca-mang-cay-bun-hai-san-cat-ba-le-thanh-nghi,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,"Ít cơm chả có thêm gia vị gì, đóng gói kém, Đóng gói chưa tốt",befood_comment,97e3ce40102959d1,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,Sai/Thiếu món,befood_comment,2217e401e1a6cac9,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,"đặt 2 được 1, Sai/Thiếu món",befood_comment,fe6fc00d83dcb4d3,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,"Ngon xỉu, Đáng đồng tiền",befood_comment,1349f4acd7b73a75,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,"Khá ngon, Đóng gói chưa tốt",befood_comment,15f24fd824b20ae3,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,"thiếu hẳn 1 xuất cơm của mình, Sai/Thiếu món",befood_comment,d065c03c4ffea6ed,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,"bẩn mở ra thấy 2 cậng tóc, Không đảm bảo vệ sinh",befood_comment,89d075a0aa6814c3,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,cơm rang ngập thịt thế này thì có lèo tèo quá không,befood_comment,93a402f56e2d457a,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,cải bò với hati sản gì k có rau vơia tôm mà toàn hành là hành quâ tệ k bgio quay lại mua nữa,befood_comment,25b9ca016135aca1,com-rang-hai-son-giai-phong,{},neutral,0.0
+31215,31215,Cơm Rang Hải Sơn - Giải Phóng,,4.0,cơm rang vừa ít vừa đắt. thiếu canh xuất bên phải là xuất thêm 20k chắc được 3 xúc,befood_comment,15d59bfb7f2d1e46,com-rang-hai-son-giai-phong,{},neutral,0.0
+67574,67574,Bánh Tráng Mập - Lê Thanh Nghị,,4.9,"Sạch sẽ, Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,ab54ab4aec3693d2,banh-trang-map-le-thanh-nghi,{},neutral,0.0
+67574,67574,Bánh Tráng Mập - Lê Thanh Nghị,,4.9,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,4079fa8cfcaa640c,banh-trang-map-le-thanh-nghi,{},neutral,0.0
+67574,67574,Bánh Tráng Mập - Lê Thanh Nghị,,4.9,Không hợp khẩu vị,befood_comment,9f85cdb72dc5125e,banh-trang-map-le-thanh-nghi,{},neutral,0.0
+67574,67574,Bánh Tráng Mập - Lê Thanh Nghị,,4.9,"vị cũng ok, bánh tráng hợp khẩu vị mình",befood_comment,4302bb1a72071919,banh-trang-map-le-thanh-nghi,{},neutral,0.0
+7160,7160,Bún Chả Mẹ Nga - Vân Hồ 3,,4.3,"oder bún + nem 3 xuất thiếu cả 3 xuất dêud k có nem, Sai/Thiếu món",befood_comment,25b1e6eb67492c5d,bun-cha-me-nga-van-ho-3,{},neutral,0.0
+7160,7160,Bún Chả Mẹ Nga - Vân Hồ 3,,4.3,Khá ngon,befood_comment,8679f22357aed085,bun-cha-me-nga-van-ho-3,{},neutral,0.0
+7160,7160,Bún Chả Mẹ Nga - Vân Hồ 3,,4.3,"Đóng gói chưa tốt, Sai/Thiếu món, Không đảm bảo vệ sinh",befood_comment,7816a82a55175fd2,bun-cha-me-nga-van-ho-3,{},neutral,0.0
+7160,7160,Bún Chả Mẹ Nga - Vân Hồ 3,,4.3,"không có dụng cụ ăn, chỉ mình túi nilong",befood_comment,34ca550bc9873ce6,bun-cha-me-nga-van-ho-3,{},neutral,0.0
+7160,7160,Bún Chả Mẹ Nga - Vân Hồ 3,,4.3,"tệ rau bẩn , nguội nói chung rất tệ lần đầu gặp phải quán như vậy",befood_comment,9932f5dfc00d95ea,bun-cha-me-nga-van-ho-3,{},neutral,0.0
+7160,7160,Bún Chả Mẹ Nga - Vân Hồ 3,,4.3,"k có đồ đựng, quá ít",befood_comment,aabf932f9f57891b,bun-cha-me-nga-van-ho-3,{},neutral,0.0
+117526,117526,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Lê Thanh Nghị,,5.0,Ngon xỉu,befood_comment,1bdf4b1bba8d72f2,bep-be-beu-com-banh-mi-nuong-trung-hoa-le-thanh-nghi,{},neutral,0.0
+8919,8919,Cơm Sạch Mẹ Shin - Tô Hoàng,,4.5,"được đúng 3 miếng sườn nhỏ, cơm thì nhão, Không hợp khẩu vị",befood_comment,b1a7cdf91b9deb5a,com-sach-me-shin-to-hoang,{},neutral,0.0
+8919,8919,Cơm Sạch Mẹ Shin - Tô Hoàng,,4.5,"ok, Đóng gói tốt",befood_comment,2ec03c52b38cb0de,com-sach-me-shin-to-hoang,{},neutral,0.0
+8919,8919,Cơm Sạch Mẹ Shin - Tô Hoàng,,4.5,Khá ngon,befood_comment,56e3849f555a59df,com-sach-me-shin-to-hoang,{},neutral,0.0
+8919,8919,Cơm Sạch Mẹ Shin - Tô Hoàng,,4.5,"Cơm sườn ổn, hơi mặn, ăn với cơm ok. Cơm ba chỉ ghi có tôm chua nhưng về không có. Mình đặt cho ng nhà ăn, chưa kịp gọi nhà hàng hỏi thì ng nhà ăn rồi nên thôi. cơm thịt cx ok nhưng mìh đặt vì thấy có tôm chua, về k có nên hơi thất vọng",befood_comment,18b48fefad4016c1,com-sach-me-shin-to-hoang,{},neutral,0.0
+8919,8919,Cơm Sạch Mẹ Shin - Tô Hoàng,,4.5,"cơm ngon, nhìn sạch sẽ. giá 70k phần cơm này là cao nhưng có vocher nên mình thấy cũng hợp lí",befood_comment,575dfd1b034f4fb2,com-sach-me-shin-to-hoang,{},neutral,0.0
+8919,8919,Cơm Sạch Mẹ Shin - Tô Hoàng,,4.5,"chất lượng gạo so với trước đây mình từng đặtbị giảm đi, ăn gạo rất chán",befood_comment,80099ccb265ac9e4,com-sach-me-shin-to-hoang,{},neutral,0.0
+8919,8919,Cơm Sạch Mẹ Shin - Tô Hoàng,,4.5,Tệ ko bao giờ có lần sau,befood_comment,0d86425edc92b055,com-sach-me-shin-to-hoang,{},neutral,0.0
+123211,123211,Phạm Gia Food - Cơm Tấm & Lẩu Ly - Trần Đại Nghĩa,,4.8,Ngon xỉu,befood_comment,f43d051aa8af858b,pham-gia-food-com-tam-lau-ly-tran-dai-nghia,{},neutral,0.0
+123211,123211,Phạm Gia Food - Cơm Tấm & Lẩu Ly - Trần Đại Nghĩa,,4.8,"Đóng gói tốt, Đáng đồng tiền, Ngon xỉu, Sạch sẽ",befood_comment,1bab8c1b14db1949,pham-gia-food-com-tam-lau-ly-tran-dai-nghia,{},neutral,0.0
+123211,123211,Phạm Gia Food - Cơm Tấm & Lẩu Ly - Trần Đại Nghĩa,,4.8,shop quên bì thêm của em,befood_comment,91e92ec5c322768d,pham-gia-food-com-tam-lau-ly-tran-dai-nghia,{},neutral,0.0
+123211,123211,Phạm Gia Food - Cơm Tấm & Lẩu Ly - Trần Đại Nghĩa,,4.8,quá dở cơm làm như vậy mất khách ăn chả ra gì lần sau đừng làm vậy thà bán đắt mà ăn còn ngon như cơm săp đổ đi bán cho khách hàng,befood_comment,50ef4362f8f8134e,pham-gia-food-com-tam-lau-ly-tran-dai-nghia,{},neutral,0.0
+111026,111026,Cơm Ngon Hà Nội - Bà Triệu,,4.4,"Sạch sẽ, Đóng gói tốt, Đáng đồng tiền, Ngon xỉu",befood_comment,af52380f16d3d3e2,com-ngon-ha-noi-ba-trieu,{},neutral,0.0
+111026,111026,Cơm Ngon Hà Nội - Bà Triệu,,4.4,"đồ ăn như hình ăn ngon, Sạch sẽ, Đóng gói tốt",befood_comment,b68a6b5bb2a419db,com-ngon-ha-noi-ba-trieu,{},neutral,0.0
+111026,111026,Cơm Ngon Hà Nội - Bà Triệu,,4.4,Đóng gói tốt,befood_comment,6f1b616bf2f06240,com-ngon-ha-noi-ba-trieu,{},neutral,0.0
+111026,111026,Cơm Ngon Hà Nội - Bà Triệu,,4.4,Giá hơi đắt,befood_comment,b7afc5d461371004,com-ngon-ha-noi-ba-trieu,{},neutral,0.0
+111026,111026,Cơm Ngon Hà Nội - Bà Triệu,,4.4,"Giá hơi đắt, Khá ngon",befood_comment,e8bca208b6a3c6a6,com-ngon-ha-noi-ba-trieu,{},neutral,0.0
+111026,111026,Cơm Ngon Hà Nội - Bà Triệu,,4.4,"mình đặt thêm canh và trứng ốp mà quán không giao, Sai/Thiếu món",befood_comment,b8af31a85447ad32,com-ngon-ha-noi-ba-trieu,{},neutral,0.0
+111026,111026,Cơm Ngon Hà Nội - Bà Triệu,,4.4,Sai/Thiếu món,befood_comment,b5c1c207e884a049,com-ngon-ha-noi-ba-trieu,{},neutral,0.0
+111026,111026,Cơm Ngon Hà Nội - Bà Triệu,,4.4,cơm đầy đặn nhưng có hơi ít sốt đi kèm,befood_comment,e09cb6ab3c43bd07,com-ngon-ha-noi-ba-trieu,{},neutral,0.0
+27416,27416,Bún Chả Minh Béo - Vân Hồ,,4.3,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Khác, Đóng gói tốt",befood_comment,edd5aca45f90c75f,bun-cha-minh-beo-van-ho,{},neutral,0.0
+27416,27416,Bún Chả Minh Béo - Vân Hồ,,4.3,Khác,befood_comment,762d3870683ed6ab,bun-cha-minh-beo-van-ho,{},neutral,0.0
+27416,27416,Bún Chả Minh Béo - Vân Hồ,,4.3,Không hợp khẩu vị,befood_comment,869708d277976469,bun-cha-minh-beo-van-ho,{},neutral,0.0
+136086,136086,Cơm Gà Rán Đài Loan - OMEGA - Tạ Quang Bửu,,5.0,"Chụp ảnh review hơi xấu, nhưng mà đồ ăn thực tế cũng đầy đủ, ngon lắm nha, lần sau ăn gà thì chắc chắn sẽ đặt của quán, Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,bb540ac59dcc1da9,com-ga-ran-dai-loan-omega-ta-quang-buu,{},neutral,0.0
+117708,117708,Cơm Gà Cô Tấm - Tạ Quang Bửu,,5.0,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,1ae9e217f941b937,com-ga-co-tam-ta-quang-buu,{},neutral,0.0
+73491,73491,U Lìu - Bún Bò Nam Bộ & Các Món Cuốn - Vân Hồ 2,,4.8,"Đóng gói tốt, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,c944ee5966dead06,u-liu-bun-bo-nam-bo-cac-mon-cuon-van-ho-2,{},neutral,0.0
+73491,73491,U Lìu - Bún Bò Nam Bộ & Các Món Cuốn - Vân Hồ 2,,4.8,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,eab440cd5c5ab42e,u-liu-bun-bo-nam-bo-cac-mon-cuon-van-ho-2,{},neutral,0.0
+73491,73491,U Lìu - Bún Bò Nam Bộ & Các Món Cuốn - Vân Hồ 2,,4.8,"Sạch sẽ, Đáng đồng tiền, Ngon xỉu, Đóng gói tốt",befood_comment,bc9cf70d4d583419,u-liu-bun-bo-nam-bo-cac-mon-cuon-van-ho-2,{},neutral,0.0
+73491,73491,U Lìu - Bún Bò Nam Bộ & Các Món Cuốn - Vân Hồ 2,,4.8,"Sạch sẽ, Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,1cb1796668216a5e,u-liu-bun-bo-nam-bo-cac-mon-cuon-van-ho-2,{},neutral,0.0
+73491,73491,U Lìu - Bún Bò Nam Bộ & Các Món Cuốn - Vân Hồ 2,,4.8,"vị rất ngon nha ^^, Ngon xỉu, Sạch sẽ",befood_comment,76d151fdd76b78ff,u-liu-bun-bo-nam-bo-cac-mon-cuon-van-ho-2,{},neutral,0.0
+73491,73491,U Lìu - Bún Bò Nam Bộ & Các Món Cuốn - Vân Hồ 2,,4.8,"Sạch sẽ, Đóng gói tốt, Đáng đồng tiền, Ngon xỉu",befood_comment,a98f4265ea9ddaf0,u-liu-bun-bo-nam-bo-cac-mon-cuon-van-ho-2,{},neutral,0.0
+73491,73491,U Lìu - Bún Bò Nam Bộ & Các Món Cuốn - Vân Hồ 2,,4.8,hơi ít rau trộn,befood_comment,38bb5de08c284f65,u-liu-bun-bo-nam-bo-cac-mon-cuon-van-ho-2,{},neutral,0.0
+8805,8805,Gà Rán Texas Chicken - Bạch Mai,,4.8,"Delicious, Worth the price, Clean, Good packaging",befood_comment,c636d1538cccf67b,ga-ran-texas-chicken-bach-mai,{},neutral,0.0
+8805,8805,Gà Rán Texas Chicken - Bạch Mai,,4.8,"thiếu bánh cuộn gà 😡, Sai/Thiếu món",befood_comment,0fd89e41c077e801,ga-ran-texas-chicken-bach-mai,{},neutral,0.0
+8805,8805,Gà Rán Texas Chicken - Bạch Mai,,4.8,Giao thiếu phần khoai tây chiên của mình rồi ạ,befood_comment,95fa46bbec89ae15,ga-ran-texas-chicken-bach-mai,{},neutral,0.0
+8805,8805,Gà Rán Texas Chicken - Bạch Mai,,4.8,tôi đặt khoai tây chiên cơ mà?,befood_comment,e3ff81c0a8ab0034,ga-ran-texas-chicken-bach-mai,{},neutral,0.0
+81353,81353,Cơm Tấm Xưa - Phong Vị Sài Thành - Lê Đại Hành,,4.6,"Đóng gói tốt, Sạch sẽ, Đáng đồng tiền, Ngon xỉu",befood_comment,78ba0e4e05577c0f,com-tam-xua-phong-vi-sai-thanh-le-dai-hanh,{},neutral,0.0
+81353,81353,Cơm Tấm Xưa - Phong Vị Sài Thành - Lê Đại Hành,,4.6,Ngon xỉu,befood_comment,f5f8bb345d03b1a6,com-tam-xua-phong-vi-sai-thanh-le-dai-hanh,{},neutral,0.0
+81353,81353,Cơm Tấm Xưa - Phong Vị Sài Thành - Lê Đại Hành,,4.6,"Đóng gói tốt, Sạch sẽ",befood_comment,9a1e100ca66475c6,com-tam-xua-phong-vi-sai-thanh-le-dai-hanh,{},neutral,0.0
+81353,81353,Cơm Tấm Xưa - Phong Vị Sài Thành - Lê Đại Hành,,4.6,"gọi thêm 3 phần cơm mà ko có luôn, Sai/Thiếu món",befood_comment,7399db057c6af863,com-tam-xua-phong-vi-sai-thanh-le-dai-hanh,{},neutral,0.0
+81353,81353,Cơm Tấm Xưa - Phong Vị Sài Thành - Lê Đại Hành,,4.6,cơm thêm ko có,befood_comment,c05118b708144394,com-tam-xua-phong-vi-sai-thanh-le-dai-hanh,{},neutral,0.0
+81353,81353,Cơm Tấm Xưa - Phong Vị Sài Thành - Lê Đại Hành,,4.6,hơi ít,befood_comment,e1ecc169314d8f9c,com-tam-xua-phong-vi-sai-thanh-le-dai-hanh,{},neutral,0.0
+81353,81353,Cơm Tấm Xưa - Phong Vị Sài Thành - Lê Đại Hành,,4.6,cá kho bỏ tủ lạnh ra chưa hâm nóng cho khách hàng.,befood_comment,7234737a63a66801,com-tam-xua-phong-vi-sai-thanh-le-dai-hanh,{},neutral,0.0
+77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,,4.2,"ôi chưa bh ăn bát bún dở ntn :)) nước nhạt toẹt chả thì hôi làm ăn k dc thì đừng làm tởm, Không hợp khẩu vị, Đóng gói chưa tốt, Sai/Thiếu món, Không đảm bảo vệ sinh",befood_comment,637001e949170ee7,my-ga-tan-bun-cha-khu-tap-the-kinh-te-quoc-dan,{},neutral,0.0
+77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,,4.2,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,42015e402861f25e,my-ga-tan-bun-cha-khu-tap-the-kinh-te-quoc-dan,{},neutral,0.0
+77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,,4.2,Khá ngon,befood_comment,037524472026eec6,my-ga-tan-bun-cha-khu-tap-the-kinh-te-quoc-dan,{},neutral,0.0
+77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,,4.2,Không làm đúng ghi chú,befood_comment,37dc594557b05e4d,my-ga-tan-bun-cha-khu-tap-the-kinh-te-quoc-dan,{},neutral,0.0
+77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,,4.2,gọi thêm bún nhưng không có thêm,befood_comment,df3146b29c947b8c,my-ga-tan-bun-cha-khu-tap-the-kinh-te-quoc-dan,{},neutral,0.0
+77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,,4.2,dở đ thể chịu được,befood_comment,1cd3cd847de23872,my-ga-tan-bun-cha-khu-tap-the-kinh-te-quoc-dan,{},neutral,0.0
+77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,,4.2,gọi 2 xuất viên lại cho thành lẫn,befood_comment,8f06f7380fc78aef,my-ga-tan-bun-cha-khu-tap-the-kinh-te-quoc-dan,{},neutral,0.0
+77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,,4.2,mik đặt pepsi mà k có,befood_comment,6ec891d1b3d24f34,my-ga-tan-bun-cha-khu-tap-the-kinh-te-quoc-dan,{},neutral,0.0
+32462,32462,Phở Liên - Phở Gà & Phở Trộn - Bạch Mai,,4.9,Ngon xỉu,befood_comment,cb4db1067d0ce76a,pho-lien-pho-ga-pho-tron-bach-mai,{},neutral,0.0
+32462,32462,Phở Liên - Phở Gà & Phở Trộn - Bạch Mai,,4.9,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,d81395a588c6ff06,pho-lien-pho-ga-pho-tron-bach-mai,{},neutral,0.0
+32462,32462,Phở Liên - Phở Gà & Phở Trộn - Bạch Mai,,4.9,"ớt đỉnh của chóp, Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,e80a0562b0175f9c,pho-lien-pho-ga-pho-tron-bach-mai,{},neutral,0.0
+32462,32462,Phở Liên - Phở Gà & Phở Trộn - Bạch Mai,,4.9,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,4015fbfec5ebc09e,pho-lien-pho-ga-pho-tron-bach-mai,{},neutral,0.0
+32462,32462,Phở Liên - Phở Gà & Phở Trộn - Bạch Mai,,4.9,"Đáng đồng tiền, Đóng gói tốt",befood_comment,ee61a20cef33c981,pho-lien-pho-ga-pho-tron-bach-mai,{},neutral,0.0
+32462,32462,Phở Liên - Phở Gà & Phở Trộn - Bạch Mai,,4.9,"Ngon xỉu, Đáng đồng tiền",befood_comment,3e3e1f3a2945417a,pho-lien-pho-ga-pho-tron-bach-mai,{},neutral,0.0
+32462,32462,Phở Liên - Phở Gà & Phở Trộn - Bạch Mai,,4.9,phở hôm nay bị chua Cô nhé!,befood_comment,948acd1ca53c415d,pho-lien-pho-ga-pho-tron-bach-mai,{},neutral,0.0
+77657,77657,BBQ Chicken - Gà Rán Hàn Quốc - Bà Triệu,,4.9,"Đóng gói chưa tốt, Khá ngon, Giá hơi đắt",befood_comment,39d9bcb2cfdb725d,bbq-chicken-ga-ran-han-quoc-ba-trieu,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,"đặt cả quẩy 4 cái mà quán thiếu, Sai/Thiếu món",befood_comment,91e919312e5cfb1e,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,a9f3815e52090b32,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,Sai/Thiếu món,befood_comment,f79b1790f6fab7d4,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,Đóng gói chưa tốt,befood_comment,f15967662327b478,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,"Mình đặt cả quẩy và ko có,2 lần rồi mình đặt thêm quẩy đều ko hề có, Sai/Thiếu món",befood_comment,9463de47ed7f9ebf,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,"đã note là không hành .quán thừa hành à . cho vào làm gì ???, Không làm đúng ghi chú",befood_comment,4cfd426c76abc347,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,"thiếu quẩy, Sai/Thiếu món",befood_comment,4df1cae78aeb785c,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,quán thiếu quẩy,befood_comment,335bec64fefb0700,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,thịt có mùi,befood_comment,cd86b9238f201e09,pho-bo-33-le-dai-hanh,{},neutral,0.0
+23407,23407,Phở Bò 33 - Lê Đại Hành,,4.2,đặt quẩy kèm hết 13k nhà hàng báo hết quẩy giả lại mỗi 10k thế xong shipper bảo k liên quan? thế khác j ăn cướp k?,befood_comment,a876bce69614436e,pho-bo-33-le-dai-hanh,{},neutral,0.0
+15964,15964,Quán Rôm - Bánh Tráng Cuốn Thịt Heo - Thái Phiên,,4.5,"Mắm nêm ngon, nhiều rau, quán làm sạch sẽ trước giờ mình chỉ gọi bánh tráng của quán Rôm. Tuy nhiên 2-3 lần gần đây quán cho ít đồ ăn kèm quá (dứa, dưa chuột…), đồ mà quán cho chỉ đủ 1 phần ăn. Mình gọi 2 suất mà ăn được cái thứ 4 đã hết đồ cuốn cùng. Mong là quán đọc được đánh giá và lần sau cho thêm để đủ ăn., Ngon xỉu, Sạch sẽ",befood_comment,6dc72c6bf9e9e045,quan-rom-banh-trang-cuon-thit-heo-thai-phien,{},neutral,0.0
+15964,15964,Quán Rôm - Bánh Tráng Cuốn Thịt Heo - Thái Phiên,,4.5,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,827e034eede73f5b,quan-rom-banh-trang-cuon-thit-heo-thai-phien,{},neutral,0.0
+15964,15964,Quán Rôm - Bánh Tráng Cuốn Thịt Heo - Thái Phiên,,4.5,Ngon xỉu,befood_comment,1f27a091fdcab498,quan-rom-banh-trang-cuon-thit-heo-thai-phien,{},neutral,0.0
+15964,15964,Quán Rôm - Bánh Tráng Cuốn Thịt Heo - Thái Phiên,,4.5,"không có bánh tráng cuốn kiểu j, Sai/Thiếu món",befood_comment,4dd6a9042d7d7883,quan-rom-banh-trang-cuon-thit-heo-thai-phien,{},neutral,0.0
+15964,15964,Quán Rôm - Bánh Tráng Cuốn Thịt Heo - Thái Phiên,,4.5,Sai/Thiếu món,befood_comment,8b336bb7133e59c8,quan-rom-banh-trang-cuon-thit-heo-thai-phien,{},neutral,0.0
+15964,15964,Quán Rôm - Bánh Tráng Cuốn Thịt Heo - Thái Phiên,,4.5,"thiếu đồ cuốn, mình đặt 2 xuất mà chỉ có 1 bộ cuốn",befood_comment,096b671d83d69b9a,quan-rom-banh-trang-cuon-thit-heo-thai-phien,{},neutral,0.0
+13998,13998,Quán Thiên Đức - Tự Do,,4.2,Khá ngon,befood_comment,c412ccb7388264b5,quan-thien-duc-tu-do,{},neutral,0.0
+13998,13998,Quán Thiên Đức - Tự Do,,4.2,Không hợp khẩu vị,befood_comment,be7107606db6540e,quan-thien-duc-tu-do,{},neutral,0.0
+13998,13998,Quán Thiên Đức - Tự Do,,4.2,"Tại vì không có sao nào thấp hơn, Không hợp khẩu vị",befood_comment,5f2a3bf34ea8ba70,quan-thien-duc-tu-do,{},neutral,0.0
+13998,13998,Quán Thiên Đức - Tự Do,,4.2,Sai/Thiếu món,befood_comment,f1b6d3eb8de589bd,quan-thien-duc-tu-do,{},neutral,0.0
+13998,13998,Quán Thiên Đức - Tự Do,,4.2,nhiều đầy đặn,befood_comment,7e2428f5331ef228,quan-thien-duc-tu-do,{},neutral,0.0
+13998,13998,Quán Thiên Đức - Tự Do,,4.2,"bún chả quá ít thịt,không có chả băm",befood_comment,b56375770fe88ae4,quan-thien-duc-tu-do,{},neutral,0.0
+13998,13998,Quán Thiên Đức - Tự Do,,4.2,Ghi chú không măng những vẫn có 1 hộp có măng,befood_comment,7ebca2e266bd8501,quan-thien-duc-tu-do,{},neutral,0.0
+9606,9606,Cơm Ngon Quang Thắng,,4.8,"Sai/Thiếu món, Đóng gói chưa tốt",befood_comment,81e72321f383db2d,com-ngon-quang-thang,{},neutral,0.0
+9606,9606,Cơm Ngon Quang Thắng,,4.8,tài xế rất ok,befood_comment,9665ce42ec7c38eb,com-ngon-quang-thang,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,Delicious,befood_comment,415e50fd226b34db,happy-food-com-ga-ba-vi,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,"Sạch sẽ, Đáng đồng tiền, Đóng gói tốt",befood_comment,39d741319b689d59,happy-food-com-ga-ba-vi,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,"Sạch sẽ, Đóng gói tốt",befood_comment,fe85c1995f538d58,happy-food-com-ga-ba-vi,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,Ngon xỉu,befood_comment,0e9c918d8876af67,happy-food-com-ga-ba-vi,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,"cơm ngon mẹ mình ốm rất khó ăn vậy mà hôm nay bà ăn hết suất cứ khen ngon, Sạch sẽ",befood_comment,a811b728dc6ea522,happy-food-com-ga-ba-vi,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,"Sạch sẽ, Đóng gói tốt, Đáng đồng tiền, Ngon xỉu",befood_comment,c3be30418387e824,happy-food-com-ga-ba-vi,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,Khá ngon,befood_comment,5984248e9c90aed5,happy-food-com-ga-ba-vi,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,"ăn chối tỉ thế mà cũng có người khen ngon. đúng là. Lạp xưởng chua vãi ra., Không hợp khẩu vị",befood_comment,c99e28227425366f,happy-food-com-ga-ba-vi,{},neutral,0.0
+7635,7635,Happy Food Cơm Gà Ba Vì,,4.8,huhu nhiều sốt mà mặn nữa,befood_comment,63153c03d578ca3e,happy-food-com-ga-ba-vi,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,"Chuẩn gà sốt cay ngọt, đóng gói cẩn thận, Good packaging, Delicious, Clean",befood_comment,e677fb99ac180115,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,Delicious,befood_comment,fd332592484abb85,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,"Đáng đồng tiền, Ngon xỉu",befood_comment,95356e861b70888b,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,Ngon xỉu,befood_comment,9cce74a531836ebc,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,Khá ngon,befood_comment,52843430239b837f,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,"1 suất 55k đc 3 miếng gà tí tí dính 1 tí sốt, bộ quán hết sốt rồi hả? và một ít cơm(có note xin thêm cơm nhưng ko cho thì thoi) ăn nhạt nhẽo",befood_comment,d250e63d6b111aab,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,lâu rồi mới quay lại quán nhưng đồ ăn khum được như trước nữa,befood_comment,efc1f53272ae19ea,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,"55k mà hơi ít thức ăn ( 3 miếng thịt gà nhỏ, 1 bát cơm, 1 đũa dưa muối, 1 hộp canh)",befood_comment,b4a007f67f95144b,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,,4.8,gà như liểu chỉ có da gà tẩm bột,befood_comment,d5c47f173b01c665,thuy-hung-com-ga-ba-vi-pho-vong,{},neutral,0.0
+111742,111742,Fami Cháo - Cháo Dinh Dưỡng Cao Cấp - 404 Bạch Mai,,5.0,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,9fdbf090d288e2f7,fami-chao-chao-dinh-duong-cao-cap-404-bach-mai,{},neutral,0.0
+111742,111742,Fami Cháo - Cháo Dinh Dưỡng Cao Cấp - 404 Bạch Mai,,5.0,Sạch sẽ,befood_comment,593526869d275daa,fami-chao-chao-dinh-duong-cao-cap-404-bach-mai,{},neutral,0.0
+111742,111742,Fami Cháo - Cháo Dinh Dưỡng Cao Cấp - 404 Bạch Mai,,5.0,quán hỗ trợ nhiệt tình,befood_comment,dc0c9280e77f6db3,fami-chao-chao-dinh-duong-cao-cap-404-bach-mai,{},neutral,0.0
+22847,22847,Cơm Ngon 67 - Bạch Mai,,4.4,Ngon xỉu,befood_comment,b63b4509f581e012,com-ngon-67-bach-mai,{},neutral,0.0
+22847,22847,Cơm Ngon 67 - Bạch Mai,,4.4,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,6d243149dddb27e1,com-ngon-67-bach-mai,{},neutral,0.0
+22847,22847,Cơm Ngon 67 - Bạch Mai,,4.4,"Ngon xỉu, Sạch sẽ, Đóng gói tốt, Đáng đồng tiền",befood_comment,f751e4062a20767b,com-ngon-67-bach-mai,{},neutral,0.0
+22847,22847,Cơm Ngon 67 - Bạch Mai,,4.4,"ghi kèm nước nhưng ko có, Khá ngon",befood_comment,957d4a6cffefce74,com-ngon-67-bach-mai,{},neutral,0.0
+22847,22847,Cơm Ngon 67 - Bạch Mai,,4.4,"o, Khá ngon",befood_comment,86899308597503b9,com-ngon-67-bach-mai,{},neutral,0.0
+22847,22847,Cơm Ngon 67 - Bạch Mai,,4.4,"Sai/Thiếu món, Không làm đúng ghi chú",befood_comment,14744ad4fbee2cd3,com-ngon-67-bach-mai,{},neutral,0.0
+22847,22847,Cơm Ngon 67 - Bạch Mai,,4.4,ko ngon,befood_comment,2201f96067052bf0,com-ngon-67-bach-mai,{},neutral,0.0
+22847,22847,Cơm Ngon 67 - Bạch Mai,,4.4,cơm ko bằg xuất cơm bụi 30k. ăn chán,befood_comment,3cb75749f81c10c9,com-ngon-67-bach-mai,{},neutral,0.0
+80180,80180,"Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng",,4.8,"Đóng gói tốt, Ngon xỉu, Đáng đồng tiền",befood_comment,798f136b8ceeecb0,quyen-pho-ga-pho-mi-mien-tron-pho-vong,{},neutral,0.0
+80180,80180,"Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng",,4.8,Ngon xỉu,befood_comment,c1f057706fd752df,quyen-pho-ga-pho-mi-mien-tron-pho-vong,{},neutral,0.0
+80180,80180,"Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng",,4.8,trà chanh leo như nước lọc pha đường (15k),befood_comment,815313be539a24b7,quyen-pho-ga-pho-mi-mien-tron-pho-vong,{},neutral,0.0
+15387,15387,BBQ Cơm Sườn Phố Cổ - Trần Đại Nghĩa,,4.8,"Ngon xỉu, Sạch sẽ",befood_comment,4df5a23e845e1d7a,bbq-com-suon-pho-co-tran-dai-nghia,{},neutral,0.0
+15387,15387,BBQ Cơm Sườn Phố Cổ - Trần Đại Nghĩa,,4.8,"Ngon xỉu, Đóng gói tốt",befood_comment,1f6625b5e097c715,bbq-com-suon-pho-co-tran-dai-nghia,{},neutral,0.0
+15387,15387,BBQ Cơm Sườn Phố Cổ - Trần Đại Nghĩa,,4.8,Ngon xỉu,befood_comment,0bede782d2801541,bbq-com-suon-pho-co-tran-dai-nghia,{},neutral,0.0
+15387,15387,BBQ Cơm Sườn Phố Cổ - Trần Đại Nghĩa,,4.8,Đóng gói chưa tốt,befood_comment,ce1ead78f61aabe1,bbq-com-suon-pho-co-tran-dai-nghia,{},neutral,0.0
+15387,15387,BBQ Cơm Sườn Phố Cổ - Trần Đại Nghĩa,,4.8,đặt 4 suất không có đũa thì ăn bốc à shop?,befood_comment,07d0f17ea5c9ebfb,bbq-com-suon-pho-co-tran-dai-nghia,{},neutral,0.0
+128678,128678,Quán Cô Ba - Cơm Tấm - Phố Vọng,,2.0,"Giao sai, và bán đắt. Đặt cá giao thịt, mà giao thịt thì nhìn cái xuất cơm cũng ko thấy muốn ăn, Sai/Thiếu món",befood_comment,286ea2b8637e1dcf,quan-co-ba-com-tam-pho-vong,{},neutral,0.0
+128678,128678,Quán Cô Ba - Cơm Tấm - Phố Vọng,,2.0,Không hợp khẩu vị,befood_comment,6af65a302ee9fc79,quan-co-ba-com-tam-pho-vong,{},neutral,0.0
+7207,7207,Cơm Tấm Anh Ba Sài Gòn - Ngõ Tự Do,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,be71aeab48d252c9,com-tam-anh-ba-sai-gon-ngo-tu-do,{},neutral,0.0
+7207,7207,Cơm Tấm Anh Ba Sài Gòn - Ngõ Tự Do,,4.8,Sạch sẽ,befood_comment,80fe969e57e93123,com-tam-anh-ba-sai-gon-ngo-tu-do,{},neutral,0.0
+7207,7207,Cơm Tấm Anh Ba Sài Gòn - Ngõ Tự Do,,4.8,"Khá ngon, Giá hơi đắt",befood_comment,640b576f86418d3c,com-tam-anh-ba-sai-gon-ngo-tu-do,{},neutral,0.0
+7207,7207,Cơm Tấm Anh Ba Sài Gòn - Ngõ Tự Do,,4.8,Khá ngon,befood_comment,bec48216d549c86c,com-tam-anh-ba-sai-gon-ngo-tu-do,{},neutral,0.0
+32487,32487,Phở Gà Ngon 69 - Ngõ Tự Do,,4.6,Không làm đúng ghi chú,befood_comment,71a084cf74ca88a8,pho-ga-ngon-69-ngo-tu-do,{},neutral,0.0
+32487,32487,Phở Gà Ngon 69 - Ngõ Tự Do,,4.6,"nguội ngơ nguội ngắt., Đóng gói chưa tốt",befood_comment,20f5937903ef28cb,pho-ga-ngon-69-ngo-tu-do,{},neutral,0.0
+32487,32487,Phở Gà Ngon 69 - Ngõ Tự Do,,4.6,"Ngon xỉu, Đáng đồng tiền",befood_comment,4ce5bc6cbe59c016,pho-ga-ngon-69-ngo-tu-do,{},neutral,0.0
+32487,32487,Phở Gà Ngon 69 - Ngõ Tự Do,,4.6,Đóng gói chưa tốt,befood_comment,0cd0726e36c372be,pho-ga-ngon-69-ngo-tu-do,{},neutral,0.0
+32487,32487,Phở Gà Ngon 69 - Ngõ Tự Do,,4.6,không có giấy ăn tăm phở ăn cũng đc,befood_comment,808865eb595f078b,pho-ga-ngon-69-ngo-tu-do,{},neutral,0.0
+32487,32487,Phở Gà Ngon 69 - Ngõ Tự Do,,4.6,note k lạc lại cho lạc,befood_comment,c7774e52f460b1d2,pho-ga-ngon-69-ngo-tu-do,{},neutral,0.0
+11305,11305,Quán Cơm 76,,4.9,"Ngon xỉu, Đóng gói tốt, Sạch sẽ, Đáng đồng tiền",befood_comment,f74a72e4013eed14,quan-com-76,{},neutral,0.0
+11305,11305,Quán Cơm 76,,4.9,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,9c327797f3ff4c53,quan-com-76,{},neutral,0.0
+11305,11305,Quán Cơm 76,,4.9,"Cơm ngon, đầy đặn. Các món nêm nếm rất vừa vị.",befood_comment,e953a4dafeb929aa,quan-com-76,{},neutral,0.0
+133169,133169,Gà Rán Dakgalbi - Trần Đại Nghĩa,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,d467af80565ae273,ga-ran-dakgalbi-tran-dai-nghia,{},neutral,0.0
+133169,133169,Gà Rán Dakgalbi - Trần Đại Nghĩa,,4.8,Pretty delicious,befood_comment,3df0515e8651851d,ga-ran-dakgalbi-tran-dai-nghia,{},neutral,0.0
+13003,13003,Lotteria - Bạch Mai,,4.8,"thiếu nước, Sai/Thiếu món",befood_comment,bed47c8e2a47b78a,lotteria-bach-mai,{},neutral,0.0
+13003,13003,Lotteria - Bạch Mai,,4.8,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu, Sạch sẽ",befood_comment,efdcec3d6ca3fda4,lotteria-bach-mai,{},neutral,0.0
+31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,,4.9,"Đáng đồng tiền, Ngon xỉu, Sạch sẽ, Đóng gói tốt",befood_comment,6fba1b17bd2ee5ef,han-chicken-ga-ran-han-quoc-bui-ngoc-duong,{},neutral,0.0
+31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,,4.9,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,040c391009b86a35,han-chicken-ga-ran-han-quoc-bui-ngoc-duong,{},neutral,0.0
+31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,,4.9,"Đóng gói tốt, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,93d3781eb79f5480,han-chicken-ga-ran-han-quoc-bui-ngoc-duong,{},neutral,0.0
+31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,,4.9,"ăn 2 hôm ngon nha cả rau nữa nhưng củ cải đường hơi bị gắt quá tiết chế sẽ ngon hơn, Đáng đồng tiền, Ngon xỉu",befood_comment,0817c1308f1aca43,han-chicken-ga-ran-han-quoc-bui-ngoc-duong,{},neutral,0.0
+31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,,4.9,Ngon xỉu,befood_comment,e3df0658b97464ca,han-chicken-ga-ran-han-quoc-bui-ngoc-duong,{},neutral,0.0
+31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,,4.9,"Ngon, ấn tượng vị kèm hành. Đóng gói cẩn thận, ship đến vẫn nóng hổi",befood_comment,3054eb3663d89239,han-chicken-ga-ran-han-quoc-bui-ngoc-duong,{},neutral,0.0
+31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,,4.9,"Gà juicy thơm kiểu tươi chứ kp gà đông lạnh để lâu, xong vỏ vẫn giòn kiểu vị ướp ngon í, sốt kem đỉnh chốp ăn ra rõ vị kem hành làm khéo luôn ngon vcc xin quán luôn giữ phong độ thế này để mình còn ủng hộ tiếp nha 😋 huhu quán guột mãi đỉnk",befood_comment,1b7373debcc5b15d,han-chicken-ga-ran-han-quoc-bui-ngoc-duong,{},neutral,0.0
+31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,,4.9,ngon,befood_comment,80d30b372b6d6b27,han-chicken-ga-ran-han-quoc-bui-ngoc-duong,{},neutral,0.0
+111500,111500,Tiệm Gà A Bệu - Trần Khát Chân,,5.0,"Đáng đồng tiền, Ngon xỉu, Đóng gói tốt, Sạch sẽ",befood_comment,e5b83d0297c29d3f,tiem-ga-a-beu-tran-khat-chan,{},neutral,0.0
+29781,29781,Chú Tiểu - Bánh Mì Nướng Sốt & Muối Ớt - Ngõ Tự Do,,4.8,"em gọi thêm xúc xích mà không thấy có ạ?, Sai/Thiếu món",befood_comment,e4ea3bbd095039bd,chu-tieu-banh-mi-nuong-sot-muoi-ot-ngo-tu-do,{},neutral,0.0
+29781,29781,Chú Tiểu - Bánh Mì Nướng Sốt & Muối Ớt - Ngõ Tự Do,,4.8,"banha mì ỉu chẳng hợp miệng lắm😭ăn hoài ở đây r mà lần này chán, Đóng gói chưa tốt",befood_comment,80f442c8174d8bdf,chu-tieu-banh-mi-nuong-sot-muoi-ot-ngo-tu-do,{},neutral,0.0
+76300,76300,Phở Gà & Thịt Xiên - Bùi Ngọc Dương,,4.4,"đặt trộn giao đồ nước ? note kĩ k hành nma đầy hành ? phở đặc biệt 70k nma toàn thịt trắng ? quán có bị làm sao k thế ?, Sai/Thiếu món",befood_comment,ebff7c8ab618eac8,pho-ga-thit-xien-bui-ngoc-duong,{},neutral,0.0
+76300,76300,Phở Gà & Thịt Xiên - Bùi Ngọc Dương,,4.4,Đáng đồng tiền,befood_comment,65fd2429a0f98e14,pho-ga-thit-xien-bui-ngoc-duong,{},neutral,0.0
+76300,76300,Phở Gà & Thịt Xiên - Bùi Ngọc Dương,,4.4,"Đóng gói tốt, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,7cd4470cec98270c,pho-ga-thit-xien-bui-ngoc-duong,{},neutral,0.0
+76300,76300,Phở Gà & Thịt Xiên - Bùi Ngọc Dương,,4.4,Sạch sẽ,befood_comment,985e5cc241b8f2aa,pho-ga-thit-xien-bui-ngoc-duong,{},neutral,0.0
+76300,76300,Phở Gà & Thịt Xiên - Bùi Ngọc Dương,,4.4,Đóng gói tốt,befood_comment,ea9bfe4bb1a445a9,pho-ga-thit-xien-bui-ngoc-duong,{},neutral,0.0
+76300,76300,Phở Gà & Thịt Xiên - Bùi Ngọc Dương,,4.4,Khá ngon,befood_comment,fac2d9e2cddf5d2e,pho-ga-thit-xien-bui-ngoc-duong,{},neutral,0.0
+76300,76300,Phở Gà & Thịt Xiên - Bùi Ngọc Dương,,4.4,"săn flash sale nên rẻ, có 30k 1 bát, đầy, nước dùng ok, có kèm chanh gói tương ớt và dụng cụ ăn",befood_comment,c0fb5ede907e36cb,pho-ga-thit-xien-bui-ngoc-duong,{},neutral,0.0
+119112,119112,Cơm Rang A Lú - Lương Định Của,,5.0,Ngon xỉu,befood_comment,68c4b97f3a832d10,com-rang-a-lu-luong-dinh-cua,{},neutral,0.0
+119112,119112,Cơm Rang A Lú - Lương Định Của,,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,50204db71358b3e4,com-rang-a-lu-luong-dinh-cua,{},neutral,0.0
+119112,119112,Cơm Rang A Lú - Lương Định Của,,5.0,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,6fa16a1e37902ac3,com-rang-a-lu-luong-dinh-cua,{},neutral,0.0
+119112,119112,Cơm Rang A Lú - Lương Định Của,,5.0,Giá hơi đắt,befood_comment,12b79296380f2b58,com-rang-a-lu-luong-dinh-cua,{},neutral,0.0
+119112,119112,Cơm Rang A Lú - Lương Định Của,,5.0,"cơm ngon, nhưng so với giá thì khá đắt, trứng, lạp xưởng, ngô… khá là ít",befood_comment,82c1697c6d48e083,com-rang-a-lu-luong-dinh-cua,{},neutral,0.0
+114792,114792,Bún Chả - Nem Rán Long Vũ - Bạch Mai,,4.8,"Đáng đồng tiền, Ngon xỉu",befood_comment,8b07145453db095c,bun-cha-nem-ran-long-vu-bach-mai,{},neutral,0.0
+114792,114792,Bún Chả - Nem Rán Long Vũ - Bạch Mai,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,d0944df2b028f422,bun-cha-nem-ran-long-vu-bach-mai,{},neutral,0.0
+114792,114792,Bún Chả - Nem Rán Long Vũ - Bạch Mai,,4.8,Đáng đồng tiền,befood_comment,fde9fd6e180c5a12,bun-cha-nem-ran-long-vu-bach-mai,{},neutral,0.0
+114792,114792,Bún Chả - Nem Rán Long Vũ - Bạch Mai,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,b8d53c6e0c5f6c25,bun-cha-nem-ran-long-vu-bach-mai,{},neutral,0.0
+114792,114792,Bún Chả - Nem Rán Long Vũ - Bạch Mai,,4.8,thịt với nem bị cháy.không ngon như mọi lần đặt,befood_comment,dcc9212997c4958d,bun-cha-nem-ran-long-vu-bach-mai,{},neutral,0.0
+17056,17056,Chảnh Quán - Gỏi Cuốn Mắm Nêm - Phố Vọng,,4.6,Ngon xỉu,befood_comment,8cfc82905de43983,chanh-quan-goi-cuon-mam-nem-pho-vong,{},neutral,0.0
+17056,17056,Chảnh Quán - Gỏi Cuốn Mắm Nêm - Phố Vọng,,4.6,"Đáng đồng tiền, Ngon xỉu, Sạch sẽ",befood_comment,34eb0d07f58f023e,chanh-quan-goi-cuon-mam-nem-pho-vong,{},neutral,0.0
+17056,17056,Chảnh Quán - Gỏi Cuốn Mắm Nêm - Phố Vọng,,4.6,"Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,e905093099292f01,chanh-quan-goi-cuon-mam-nem-pho-vong,{},neutral,0.0
+17056,17056,Chảnh Quán - Gỏi Cuốn Mắm Nêm - Phố Vọng,,4.6,"Đóng gói tốt, Sạch sẽ, Đáng đồng tiền",befood_comment,289cbe10daa8c0de,chanh-quan-goi-cuon-mam-nem-pho-vong,{},neutral,0.0
+17056,17056,Chảnh Quán - Gỏi Cuốn Mắm Nêm - Phố Vọng,,4.6,nước chấm mùi hôi thiu mik với bạn ăn song giờ 2 đứa đau bụng,befood_comment,449b0f0343ef7f0d,chanh-quan-goi-cuon-mam-nem-pho-vong,{},neutral,0.0
+17056,17056,Chảnh Quán - Gỏi Cuốn Mắm Nêm - Phố Vọng,,4.6,thịt bở kinh,befood_comment,b9ad44944de91aea,chanh-quan-goi-cuon-mam-nem-pho-vong,{},neutral,0.0
+17056,17056,Chảnh Quán - Gỏi Cuốn Mắm Nêm - Phố Vọng,,4.6,dở và cứng,befood_comment,8eddc26981af745e,chanh-quan-goi-cuon-mam-nem-pho-vong,{},neutral,0.0
+105958,105958,Bánh Cuốn Nóng 101 Bà Triệu - Triệu Việt Vương,,4.9,"giao sai. thiếu món, 1suất thiếu thịt, 1suất chả có gì, Sai/Thiếu món",befood_comment,5e4a893a4370d0d4,banh-cuon-nong-101-ba-trieu-trieu-viet-vuong,{},neutral,0.0
+14305,14305,Phở Bò Long Bích - Võ Thị Sáu,,4.5,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,19262dec2b3f454d,pho-bo-long-bich-vo-thi-sau,{},neutral,0.0
+14305,14305,Phở Bò Long Bích - Võ Thị Sáu,,4.5,lên đơn nhanh,befood_comment,2df77405aa47975d,pho-bo-long-bich-vo-thi-sau,{},neutral,0.0
+14305,14305,Phở Bò Long Bích - Võ Thị Sáu,,4.5,Khá ngon và nhiều thịt tuy nhiên nước rất mặn và bánh phở bở,befood_comment,2b57ee8f177cfb5e,pho-bo-long-bich-vo-thi-sau,{},neutral,0.0
+14305,14305,Phở Bò Long Bích - Võ Thị Sáu,,4.5,"phở như cho VỰA MUỐI vào túi nước , MẶN CHÁTTTTTTT",befood_comment,10a883c754d2ab5a,pho-bo-long-bich-vo-thi-sau,{},neutral,0.0
+91853,91853,Bánh Tráng Cuốn Thịt Heo Bốn Ba - Đại La,,4.7,Sạch sẽ,befood_comment,ca94cebb760bd3d6,banh-trang-cuon-thit-heo-bon-ba-dai-la,{},neutral,0.0
+91853,91853,Bánh Tráng Cuốn Thịt Heo Bốn Ba - Đại La,,4.7,Ngon xỉu,befood_comment,6405c32936343112,banh-trang-cuon-thit-heo-bon-ba-dai-la,{},neutral,0.0
+91853,91853,Bánh Tráng Cuốn Thịt Heo Bốn Ba - Đại La,,4.7,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,a1e8281f5aaa97ed,banh-trang-cuon-thit-heo-bon-ba-dai-la,{},neutral,0.0
+91853,91853,Bánh Tráng Cuốn Thịt Heo Bốn Ba - Đại La,,4.7,"trình bày đẹp mắt, sạch sẽ. thịt hơi mỡ, không có độ ngọt của thịt tươi mới, mắm nêm rất loãng, pha mắm không ngon.",befood_comment,045f615420bac780,banh-trang-cuon-thit-heo-bon-ba-dai-la,{},neutral,0.0
+11493,11493,Tun Tun - Bún Hải Sản Hoa Quả - Bùi Ngọc Dương,,4.9,"Đáng đồng tiền, Sạch sẽ, Đóng gói tốt, Ngon xỉu",befood_comment,2719112ef67de634,tun-tun-bun-hai-san-hoa-qua-bui-ngoc-duong,{},neutral,0.0
+11493,11493,Tun Tun - Bún Hải Sản Hoa Quả - Bùi Ngọc Dương,,4.9,"thíu nước :)), Sai/Thiếu món",befood_comment,67b7799b9ea6e6f7,tun-tun-bun-hai-san-hoa-qua-bui-ngoc-duong,{},neutral,0.0
+22815,22815,Bánh Cuốn Cao Bằng - Thể Giao,,4.8,Sạch sẽ,befood_comment,91c5da78638b0beb,banh-cuon-cao-bang-the-giao,{},neutral,0.0
+22815,22815,Bánh Cuốn Cao Bằng - Thể Giao,,4.8,"Đáng đồng tiền, Đóng gói tốt",befood_comment,e7fbc6566f39a878,banh-cuon-cao-bang-the-giao,{},neutral,0.0
+22815,22815,Bánh Cuốn Cao Bằng - Thể Giao,,4.8,"Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,7cbfea26f614b4ca,banh-cuon-cao-bang-the-giao,{},neutral,0.0
+22815,22815,Bánh Cuốn Cao Bằng - Thể Giao,,4.8,"siêu ngon siêu nhiều ý, giò cũng ok",befood_comment,24e235e08b825131,banh-cuon-cao-bang-the-giao,{},neutral,0.0
+22815,22815,Bánh Cuốn Cao Bằng - Thể Giao,,4.8,hnay thiếu măng mặc dù đã not rồi,befood_comment,9e67f534850ecefc,banh-cuon-cao-bang-the-giao,{},neutral,0.0
+22815,22815,Bánh Cuốn Cao Bằng - Thể Giao,,4.8,thêm măng mà k cho măng,befood_comment,560dd55b98168ba6,banh-cuon-cao-bang-the-giao,{},neutral,0.0
+93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,,4.8,"gà xào hành, thơm mềm, suất ăn đầy đủ, Đáng đồng tiền, Ngon xỉu, Đóng gói tốt, Sạch sẽ",befood_comment,9fcd7b75b0c5208e,minh-son-bun-tron-pho-chien-phong-bach-mai,{},neutral,0.0
+93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,,4.8,"quán làm ngon vãi chưởng ạ, mở nắp ra thơm lừng, nem nướng với xúc xích chiên rất chỉn chu, thịt bò thơm mềm, Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,4928e3f9df2812fe,minh-son-bun-tron-pho-chien-phong-bach-mai,{},neutral,0.0
+93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,,4.8,"uy tín, sốt phở trộn ngon, suất ăn đầy đặn, nhiều hành khô lạc rang không như các quán khác mình đặt, thịt bò ấn tượng (mềm, thơm tỏi), sốt me bún chưa ấn tượng lắm, cực kì đáng tiền, Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,743309834b7f665f,minh-son-bun-tron-pho-chien-phong-bach-mai,{},neutral,0.0
+93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,,4.8,"Ngon xỉu, Sạch sẽ, Đóng gói tốt, Đáng đồng tiền",befood_comment,1b084a17959afee3,minh-son-bun-tron-pho-chien-phong-bach-mai,{},neutral,0.0
+93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,,4.8,Ngon xỉu,befood_comment,ea5752fcd41df6d1,minh-son-bun-tron-pho-chien-phong-bach-mai,{},neutral,0.0
+93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,,4.8,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu, Sạch sẽ",befood_comment,3fcfd1161ac35011,minh-son-bun-tron-pho-chien-phong-bach-mai,{},neutral,0.0
+93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,,4.8,"Ngon xỉu, Đáng đồng tiền",befood_comment,a71ba6e1e355bf80,minh-son-bun-tron-pho-chien-phong-bach-mai,{},neutral,0.0
+93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,,4.8,Không hợp khẩu vị,befood_comment,f38ffd1f7d115b72,minh-son-bun-tron-pho-chien-phong-bach-mai,{},neutral,0.0
+1108,1108,Cô Tám - Cơm Rang & Cơm Tấm - 126 Hồng Mai,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,78cbdd1e296ef4b5,co-tam-com-rang-com-tam-126-hong-mai,{},neutral,0.0
+1108,1108,Cô Tám - Cơm Rang & Cơm Tấm - 126 Hồng Mai,,4.8,"Đáng đồng tiền, Đóng gói tốt",befood_comment,c0b07165f7a17a59,co-tam-com-rang-com-tam-126-hong-mai,{},neutral,0.0
+1108,1108,Cô Tám - Cơm Rang & Cơm Tấm - 126 Hồng Mai,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,9b48ffe6d05729df,co-tam-com-rang-com-tam-126-hong-mai,{},neutral,0.0
+1108,1108,Cô Tám - Cơm Rang & Cơm Tấm - 126 Hồng Mai,,4.8,vẫn oke nhe mọi lần đặt nhé,befood_comment,dddc84967b3886d4,co-tam-com-rang-com-tam-126-hong-mai,{},neutral,0.0
+1108,1108,Cô Tám - Cơm Rang & Cơm Tấm - 126 Hồng Mai,,4.8,ok,befood_comment,c38b7c432796ec79,co-tam-com-rang-com-tam-126-hong-mai,{},neutral,0.0
+1108,1108,Cô Tám - Cơm Rang & Cơm Tấm - 126 Hồng Mai,,4.8,Cơm rang dưa bò nhưng kp thịt bò mà là thịt lợn,befood_comment,f9d0b0a37de54f5a,co-tam-com-rang-com-tam-126-hong-mai,{},neutral,0.0
+40980,40980,Cơm Thố Bách Khoa - Lương Định Của,,4.8,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,c6fcefdfcd9d111c,com-tho-bach-khoa-luong-dinh-cua,{},neutral,0.0
+40980,40980,Cơm Thố Bách Khoa - Lương Định Của,,4.8,Đóng gói tốt,befood_comment,096764aa7a3db432,com-tho-bach-khoa-luong-dinh-cua,{},neutral,0.0
+40980,40980,Cơm Thố Bách Khoa - Lương Định Của,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,019e45c157f84c81,com-tho-bach-khoa-luong-dinh-cua,{},neutral,0.0
+40980,40980,Cơm Thố Bách Khoa - Lương Định Của,,4.8,Khá ngon,befood_comment,5db222148d00f77e,com-tho-bach-khoa-luong-dinh-cua,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,"Delicious, Worth the price, Good packaging, Clean",befood_comment,0b8fd60cb39380e9,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,Giá hơi đắt,befood_comment,3054167caa439035,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,"đắt - ko ngon, Đóng gói chưa tốt",befood_comment,f3c7ef511236dec6,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,Không hợp khẩu vị,befood_comment,09f4ed786b0be7ee,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,"85k suất cơm thua bát phở 3-40k. k yêu cầu giống hình nhưng cần có khẩu phần hợp lý với giá tiền, thịt đùi bở, cánh là da cánh chứ k có thịt",befood_comment,313c895f3529ed77,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,"Treo đầu dê bán thịt chó à? Trên ảnh là gà cuộn nấm nma lại ship thịt rang khô quắt ăn chả ra làm sao. Lượng đồ ăn quá lèo tèo mà để mức giá 100k, chưa kể ship và phụ phí. giá cả cao thì ko phải vấn đề nma đồ cực ít như vậy và ko ngon. Ko có nước chấm hay gì. Nước mạ thì ko có gan băm, nguyên nước ko. Cơm này cũng ko được nấu với nước luộc gà hay gì nhé vì mùi ko thơm.",befood_comment,65f082001ead798f,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,có con sâu,befood_comment,0e9630a5f334f35c,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,"cơm rất là tệ, gà thì toàn mỡ + phần như tật của gà, gà thì mùi chua",befood_comment,6c224467fe2ea299,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,,4.0,"đồ quá ít so với mức giá, chán",befood_comment,29f508a254a68f3d,huong-hoi-an-com-ga-hoi-an-thanh-nhan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,"bán về được 4 miếng gà toàn xương., Không làm đúng ghi chú, Sai/Thiếu món",befood_comment,69c93035b9e76a1c,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,"dc miếng gà bé tí, Sai/Thiếu món",befood_comment,a1b7f792f77935b7,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,Đáng đồng tiền,befood_comment,7780e3b47c84449d,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,a645ccc9c1c4594d,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,af8b540557ae89bc,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,"đặt 2 suất thì chỉ có 1 đũa 1 thìa, Đóng gói chưa tốt",befood_comment,c9376e4822d3ec19,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,chọn mua hộp giấy mà lại giao hộp nhựa đây không phải là lần đầu. cũng không thấy thông báo lại cho khách hàng,befood_comment,29e2055673015b85,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,"ăn cũng đc, mong shop cho thêm tí rau dưa ăn đỡ ngán",befood_comment,034280269b2e6df5,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,"Khẩu phần ít so với các quán cùng phân khúc và cùng món. Hi vọng sốp sẽ tối ưu chi phí để cho khẩu phần nhiều hơn và giá rẻ hơn. Phần canh hơi mặn. Dù chưa ưng ý nhưng mình vẫn ủng hộ sốp 5 sao, chúc sốp nấu nhiều món ngon hơn",befood_comment,66066d8238815a2c,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",,4.7,"Cơm vẫn vón cục trắng nhão, xốt mắm tỏi nhạt chưa xứng đáng 55k. Mong quán cải thiện",befood_comment,c52cb87240e836b4,bento-delichi-by-cooky-com-ga-mam-toi-xoi-mo-xa-dan,{},neutral,0.0
+31187,31187,Đáng Vũ - Bánh Cuốn Nóng Gia Truyền - Lương Định Của,,4.8,"Đặt 3 xuất nhưng quán giao 2 xuất, Sai/Thiếu món",befood_comment,90de69102837cbe1,dang-vu-banh-cuon-nong-gia-truyen-luong-dinh-cua,{},neutral,0.0
+31187,31187,Đáng Vũ - Bánh Cuốn Nóng Gia Truyền - Lương Định Của,,4.8,"Sạch sẽ, Đóng gói tốt",befood_comment,9b9fd31a34a2ad09,dang-vu-banh-cuon-nong-gia-truyen-luong-dinh-cua,{},neutral,0.0
+31187,31187,Đáng Vũ - Bánh Cuốn Nóng Gia Truyền - Lương Định Của,,4.8,"đầy đặn, mà shop nên thêm bánh cuốn chả mỡ + chả quế để chọn",befood_comment,3ffdb9a69bbc2c7b,dang-vu-banh-cuon-nong-gia-truyen-luong-dinh-cua,{},neutral,0.0
+65884,65884,Kaoya Hotpot - Mì Vịt Quay & Cơm Xá Xíu - Lương Định Của,,4.7,"vịt hôi, không rõ ràng định lượng, miêu tả đồ ăn, Không hợp khẩu vị",befood_comment,77758152fa33495b,kaoya-hotpot-mi-vit-quay-com-xa-xiu-luong-dinh-cua,{},neutral,0.0
+65884,65884,Kaoya Hotpot - Mì Vịt Quay & Cơm Xá Xíu - Lương Định Của,,4.7,"ngon nhưng định lượng hơi ít cho 1 xuất mì 75k, với đóng gói sao mà đổ hết nước sốt ra ngoài",befood_comment,c5192f7ad7fb9a6d,kaoya-hotpot-mi-vit-quay-com-xa-xiu-luong-dinh-cua,{},neutral,0.0
+58523,58523,Tiệm Bánh Cô Bống - Trường Chinh,,4.8,Ngon xỉu,befood_comment,205a7524851c5a72,tiem-banh-co-bong-truong-chinh,{},neutral,0.0
+58523,58523,Tiệm Bánh Cô Bống - Trường Chinh,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,b0e78a060973878c,tiem-banh-co-bong-truong-chinh,{},neutral,0.0
+58523,58523,Tiệm Bánh Cô Bống - Trường Chinh,,4.8,"bánh su kem ăn tạm thui, kem bị chảy bltm ngon",befood_comment,3eab18ccdf29f819,tiem-banh-co-bong-truong-chinh,{},neutral,0.0
+58523,58523,Tiệm Bánh Cô Bống - Trường Chinh,,4.8,"cốt chưa thấm, kem loại làm bánh sn không phải mascarpone :)",befood_comment,431293df19d4f6f8,tiem-banh-co-bong-truong-chinh,{},neutral,0.0
+62280,62280,Bếp Mẹ Bơ 15A - Bánh Xèo Cốt Dừa - Hồng Mai,,4.8,"Ngon xỉu, Đáng đồng tiền",befood_comment,94335f8dd4987957,bep-me-bo-15a-banh-xeo-cot-dua-hong-mai,{},neutral,0.0
+62280,62280,Bếp Mẹ Bơ 15A - Bánh Xèo Cốt Dừa - Hồng Mai,,4.8,"Delicious, Worth the price",befood_comment,82e5a513f3837cad,bep-me-bo-15a-banh-xeo-cot-dua-hong-mai,{},neutral,0.0
+1279,1279,Gạch Quán - Bánh Tráng Cuốn Thịt Heo,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,c379e628cf82ce84,gach-quan-banh-trang-cuon-thit-heo,{},neutral,0.0
+1279,1279,Gạch Quán - Bánh Tráng Cuốn Thịt Heo,,4.8,Đóng gói tốt,befood_comment,8d4b95ac40886114,gach-quan-banh-trang-cuon-thit-heo,{},neutral,0.0
+1279,1279,Gạch Quán - Bánh Tráng Cuốn Thịt Heo,,4.8,"shop làm đúng theo yêu cầu của khách mình rất ít khi đánh giá nhưng shop quá có tâm nên cho 5 seo nha, Đáng đồng tiền, Ngon xỉu, Sạch sẽ",befood_comment,0d5e9ea504314cd2,gach-quan-banh-trang-cuon-thit-heo,{},neutral,0.0
+1279,1279,Gạch Quán - Bánh Tráng Cuốn Thịt Heo,,4.8,Thịt heo 40k được 3 miếng thịt =))),befood_comment,7c47f72f3f9273c5,gach-quan-banh-trang-cuon-thit-heo,{},neutral,0.0
+1279,1279,Gạch Quán - Bánh Tráng Cuốn Thịt Heo,,4.8,"không có giấy ăn, trừ 3 điểm thanh lịch",befood_comment,0f426a6213dbb7c6,gach-quan-banh-trang-cuon-thit-heo,{},neutral,0.0
+32416,32416,Ngọc Lợi - Miến & Bánh Đa Cua Trộn - Kim Liên,,4.8,"đặt bò nhưng không có thịt bò đâu, Đóng gói chưa tốt, Sai/Thiếu món",befood_comment,82cbc814aa284ffa,ngoc-loi-mien-banh-da-cua-tron-kim-lien,{},neutral,0.0
+32416,32416,Ngọc Lợi - Miến & Bánh Đa Cua Trộn - Kim Liên,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,979ee9b19b87c6fa,ngoc-loi-mien-banh-da-cua-tron-kim-lien,{},neutral,0.0
+32416,32416,Ngọc Lợi - Miến & Bánh Đa Cua Trộn - Kim Liên,,4.8,Ngon xỉu,befood_comment,1579876d313ac8c6,ngoc-loi-mien-banh-da-cua-tron-kim-lien,{},neutral,0.0
+32416,32416,Ngọc Lợi - Miến & Bánh Đa Cua Trộn - Kim Liên,,4.8,vị ngon,befood_comment,36eed4f18cba741a,ngoc-loi-mien-banh-da-cua-tron-kim-lien,{},neutral,0.0
+32416,32416,Ngọc Lợi - Miến & Bánh Đa Cua Trộn - Kim Liên,,4.8,bánh đa cua trộn mà 0 thấy gạch cua đâuu luôn,befood_comment,7a4a9530836bc97f,ngoc-loi-mien-banh-da-cua-tron-kim-lien,{},neutral,0.0
+32416,32416,Ngọc Lợi - Miến & Bánh Đa Cua Trộn - Kim Liên,,4.8,"ăn ok nhưng topping siêu ít, miến nhiều",befood_comment,ad9f3a8f3842f56c,ngoc-loi-mien-banh-da-cua-tron-kim-lien,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,"Miếng sườn trắng nhất từng ăn. Và khô., Normal",befood_comment,02382f5203ef619d,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,Không hợp khẩu vị,befood_comment,e6b84c9f67a66fbe,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,"quán làm như buồi đầu thịt thì hôi ăn chán ko nói chung là quán như cđb ko lên thử dù chỉ 1 lần, Không hợp khẩu vị, Đóng gói chưa tốt, Sai/Thiếu món, Không đảm bảo vệ sinh",befood_comment,36d2cded0b35e0a0,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,"đồ ăn ít, thịt khô, đắt không đáng tiền, Không hợp khẩu vị, Không làm đúng ghi chú",befood_comment,c03e9ff006cbe7e2,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,cơm sống,befood_comment,b575e1e7ac61a950,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,gì đây?,befood_comment,6ded4fe4cd243547,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,"chưa bao giờ ăn 1 quán cơm khô như thế này, cơm khô, thịt khô, mà cũng k có nước dùng luôn @@ thêm quả ship thiếu đồ nữa chứ",befood_comment,8efc2e492f29298d,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,k đúng,befood_comment,75218e129ade0f39,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,cơm khô + ko có canh chưa nói đến tiền nma trải nghiệm lần đầu quá kém,befood_comment,49671bd4a0ffc122,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",,4.2,có đặt canh cải thịt nhưng ko thấy giao,befood_comment,ca00a76b098ccf00,com-suon-cooky-com-tam-com-suon-xot-tran-dai-nghia,{},neutral,0.0
+32283,32283,Hương Phệ - Bún Chả Ngon - Hồng Mai,,4.9,"Đáng đồng tiền, Sạch sẽ",befood_comment,3154598df9c4d1c5,huong-phe-bun-cha-ngon-hong-mai,{},neutral,0.0
+32283,32283,Hương Phệ - Bún Chả Ngon - Hồng Mai,,4.9,Ngon xỉu,befood_comment,2255c050759655f9,huong-phe-bun-cha-ngon-hong-mai,{},neutral,0.0
+32283,32283,Hương Phệ - Bún Chả Ngon - Hồng Mai,,4.9,"Ngon xỉu, Đáng đồng tiền",befood_comment,1f3fd4e8333d22d2,huong-phe-bun-cha-ngon-hong-mai,{},neutral,0.0
+32283,32283,Hương Phệ - Bún Chả Ngon - Hồng Mai,,4.9,Chán shop làm thủng 1 túi nước chấm Chảy hết rả ra nhìn khó chịu thật,befood_comment,1b2adc5f41705e96,huong-phe-bun-cha-ngon-hong-mai,{},neutral,0.0
+4397,4397,Mokchang - Đồ Ăn Hàn Quốc & Gà Rán - Xã Đàn,,4.8,"Đây là lần thứ 2 mình đặt đồ ăn của quán, lần trc mình đặt (combo busan và cơm trộn) ăn khá ngon, nma lần này hơi thất vọng 2 món mình đặt đều ko hợp khẩu vị, gà lần này lớp bột siêu dày nên cảm giác phần thịt hơi ít, tuy nhiên thì sốt vẫn ngon ạ. set one-deful cảm giác gà của mình ko tươi, sốt kem hành ko hợp khẩu vị, mình ăn thấy nhạt ko có vị gì phần miến và salad ít hơn mình nghĩ. Tuy nhiên quán đóng gói rất chỉnh chu, mình nhận khi còn nóng luôn ạ., Không hợp khẩu vị",befood_comment,147535990f9b276f,mokchang-do-an-han-quoc-ga-ran-xa-dan,{},neutral,0.0
+4397,4397,Mokchang - Đồ Ăn Hàn Quốc & Gà Rán - Xã Đàn,,4.8,"Ngon xỉu, Sạch sẽ, Đáng đồng tiền, Đóng gói tốt",befood_comment,9012e72fd7ad0cb8,mokchang-do-an-han-quoc-ga-ran-xa-dan,{},neutral,0.0
+4397,4397,Mokchang - Đồ Ăn Hàn Quốc & Gà Rán - Xã Đàn,,4.8,Không hợp khẩu vị,befood_comment,6afe78c30cfa63d6,mokchang-do-an-han-quoc-ga-ran-xa-dan,{},neutral,0.0
+4397,4397,Mokchang - Đồ Ăn Hàn Quốc & Gà Rán - Xã Đàn,,4.8,"đề nghị quán sau mà có chế biến món ăn phải rửa lại đồ bếp nhé, ăn cơm toàn mùi hôi của gián ko ăn nổi, Không đảm bảo vệ sinh",befood_comment,783db0490a19afc5,mokchang-do-an-han-quoc-ga-ran-xa-dan,{},neutral,0.0
+4397,4397,Mokchang - Đồ Ăn Hàn Quốc & Gà Rán - Xã Đàn,,4.8,"cơm trộn chất lượng lắm ạ, em cứ nghĩ là phần này mình em ăn thôi nhưng nó ê hề luôn, chưa kể gà nữa nên mn mua thì nên 2 bạn ăn ạ (em là con gái ạ, còn bạn nam chắc ăn được hết phần cơm)",befood_comment,0cbfedbdc85dbd51,mokchang-do-an-han-quoc-ga-ran-xa-dan,{},neutral,0.0
+4397,4397,Mokchang - Đồ Ăn Hàn Quốc & Gà Rán - Xã Đàn,,4.8,giao lâu,befood_comment,560233c592de631f,mokchang-do-an-han-quoc-ga-ran-xa-dan,{},neutral,0.0
+7920,7920,Cơm Gà Q35 - Hồng Mai,,4.8,Ngon xỉu,befood_comment,f5ce29ffbddb11d3,com-ga-q35-hong-mai,{},neutral,0.0
+7920,7920,Cơm Gà Q35 - Hồng Mai,,4.8,"hợp gu nha, Sạch sẽ, Đáng đồng tiền, Ngon xỉu, Đóng gói tốt",befood_comment,9a945a15e2461200,com-ga-q35-hong-mai,{},neutral,0.0
+7920,7920,Cơm Gà Q35 - Hồng Mai,,4.8,xối mắm mà lại để ớt,befood_comment,9eca35673de2093f,com-ga-q35-hong-mai,{},neutral,0.0
+61209,61209,Bánh Tráng Cô Chin - Bánh Tráng Cuốn Phomai - Lương Định Của,,2.0,kh ngon,befood_comment,6270e6d249ec9fd4,banh-trang-co-chin-banh-trang-cuon-phomai-luong-dinh-cua,{},neutral,0.0
+76124,76124,Cơm Osechi - Cơm Gà & Cơm Thịt Heo - Phương Liệt,,4.8,Sạch sẽ,befood_comment,9439f4157bc134d6,com-osechi-com-ga-com-thit-heo-phuong-liet,{},neutral,0.0
+76124,76124,Cơm Osechi - Cơm Gà & Cơm Thịt Heo - Phương Liệt,,4.8,"Đóng gói tốt, Đáng đồng tiền, Sạch sẽ, Ngon xỉu",befood_comment,f45009027903624d,com-osechi-com-ga-com-thit-heo-phuong-liet,{},neutral,0.0
+76124,76124,Cơm Osechi - Cơm Gà & Cơm Thịt Heo - Phương Liệt,,4.8,Ngon xỉu,befood_comment,ba5131af8340472a,com-osechi-com-ga-com-thit-heo-phuong-liet,{},neutral,0.0
+76124,76124,Cơm Osechi - Cơm Gà & Cơm Thịt Heo - Phương Liệt,,4.8,"siêuu no lun. đóng gói đẹp mà siêu nhìu thịt. sốt cx ngon nx, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ, Ngon xỉu",befood_comment,05fd48ad37a243dc,com-osechi-com-ga-com-thit-heo-phuong-liet,{},neutral,0.0
+10227,10227,Bánh Cuốn Đức Hạnh - Phạm Ngọc Thạch,,4.6,"Không có bát đổ nước mắm, Đóng gói chưa tốt, Không đảm bảo vệ sinh",befood_comment,83d2c0ddfd22eda2,banh-cuon-duc-hanh-pham-ngoc-thach,{},neutral,0.0
+10227,10227,Bánh Cuốn Đức Hạnh - Phạm Ngọc Thạch,,4.6,"bánh cuốn thịt k có thịt ?, Sai/Thiếu món",befood_comment,d883587135e58cc4,banh-cuon-duc-hanh-pham-ngoc-thach,{},neutral,0.0
+10227,10227,Bánh Cuốn Đức Hạnh - Phạm Ngọc Thạch,,4.6,"Sạch sẽ, Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,c1e23c906c161745,banh-cuon-duc-hanh-pham-ngoc-thach,{},neutral,0.0
+10227,10227,Bánh Cuốn Đức Hạnh - Phạm Ngọc Thạch,,4.6,"Chả cũ từ hqua, miếng thịt bị đen ,miếng thì rời Nát.Nói chung là k bao h quay lại.Làm ăn quá bát nháo",befood_comment,f7deb270deda0e5f,banh-cuon-duc-hanh-pham-ngoc-thach,{},neutral,0.0
+10227,10227,Bánh Cuốn Đức Hạnh - Phạm Ngọc Thạch,,4.6,"ít rau , với gọi 2 xuất có 1 túi nó chấm .",befood_comment,a9e81ff16565bd76,banh-cuon-duc-hanh-pham-ngoc-thach,{},neutral,0.0
+10227,10227,Bánh Cuốn Đức Hạnh - Phạm Ngọc Thạch,,4.6,mở ra k thấy chả,befood_comment,b11af4e072bc5575,banh-cuon-duc-hanh-pham-ngoc-thach,{},neutral,0.0
+10227,10227,Bánh Cuốn Đức Hạnh - Phạm Ngọc Thạch,,4.6,tự đổi nước quất không thông báo,befood_comment,432d9c5866a965a4,banh-cuon-duc-hanh-pham-ngoc-thach,{},neutral,0.0
+2443,2443,Bánh Giò Nóng Xuân Thủy - Lương Định Của,,4.0,Bit pricey,befood_comment,bb6db8bb8af68fac,banh-gio-nong-xuan-thuy-luong-dinh-cua,{},neutral,0.0
+2443,2443,Bánh Giò Nóng Xuân Thủy - Lương Định Của,,4.0,Sai/Thiếu món,befood_comment,d29c4e15f8d815ab,banh-gio-nong-xuan-thuy-luong-dinh-cua,{},neutral,0.0
+2443,2443,Bánh Giò Nóng Xuân Thủy - Lương Định Của,,4.0,"bánh bị hỏng vữa hết cả ra lần sau bán hàng mới cho người ta ăn nhé bực mình ??, Không đảm bảo vệ sinh",befood_comment,8169a5598d9678f4,banh-gio-nong-xuan-thuy-luong-dinh-cua,{},neutral,0.0
+2443,2443,Bánh Giò Nóng Xuân Thủy - Lương Định Của,,4.0,shop bán hàng giao thế nào mà 97k được 2 bánh giò không có giò chả ăn kèm. cái giò bên cạnh mình nua thêm mất 13k. thế 70k là 2 cái bánh giò không không có giò chả ăn kèm à??????,befood_comment,38dc7da1da3d8bc6,banh-gio-nong-xuan-thuy-luong-dinh-cua,{},neutral,0.0
+2443,2443,Bánh Giò Nóng Xuân Thủy - Lương Định Của,,4.0,1 nghìn tiền bánh 19 nghìn tiền lá. ko có tương ớt chinsu. ko có thìa xứng đáng 1 sao,befood_comment,883b18a78dd50111,banh-gio-nong-xuan-thuy-luong-dinh-cua,{},neutral,0.0
+116044,116044,Cơm Bình Dân - Lạc Nghiệp,,4.0,"Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,9bd379781fdc3306,com-binh-dan-lac-nghiep,{},neutral,0.0
+116044,116044,Cơm Bình Dân - Lạc Nghiệp,,4.0,"Nhà hàng không ghim nắp hộp cơm, canh bị đổ, Đóng gói chưa tốt",befood_comment,bae14e6251d76402,com-binh-dan-lac-nghiep,{},neutral,0.0
+116044,116044,Cơm Bình Dân - Lạc Nghiệp,,4.0,"Thấy quán mới thử đặt nhưng thất vọng quá, với giá này thì cũng biết là chỉ đc vậy nhưng này ko giống cơm cà ri, đũa thì gãy. Mong quán cải thiện hơn",befood_comment,bf65047c37a5e011,com-binh-dan-lac-nghiep,{},neutral,0.0
+116044,116044,Cơm Bình Dân - Lạc Nghiệp,,4.0,ngon lắm,befood_comment,395df67ad691a2e3,com-binh-dan-lac-nghiep,{},neutral,0.0
+16270,16270,"Bún Chả, Bún Thịt Nướng & Thịt Xiên Cây Dâu - Nguyễn Công Trứ",,5.0,Ngon xỉu,befood_comment,6be3a8d708c9cac3,bun-cha-bun-thit-nuong-thit-xien-cay-dau-nguyen-cong-tru,{},neutral,0.0
+16270,16270,"Bún Chả, Bún Thịt Nướng & Thịt Xiên Cây Dâu - Nguyễn Công Trứ",,5.0,"Đóng gói tốt, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,4d0e9b75b856a653,bun-cha-bun-thit-nuong-thit-xien-cay-dau-nguyen-cong-tru,{},neutral,0.0
+16270,16270,"Bún Chả, Bún Thịt Nướng & Thịt Xiên Cây Dâu - Nguyễn Công Trứ",,5.0,"Sạch sẽ, Ngon xỉu",befood_comment,b0e5561b679b896f,bun-cha-bun-thit-nuong-thit-xien-cay-dau-nguyen-cong-tru,{},neutral,0.0
+16270,16270,"Bún Chả, Bún Thịt Nướng & Thịt Xiên Cây Dâu - Nguyễn Công Trứ",,5.0,"Đóng gói tốt, Đáng đồng tiền, Sạch sẽ, Ngon xỉu",befood_comment,9cc3cf6e7036424d,bun-cha-bun-thit-nuong-thit-xien-cay-dau-nguyen-cong-tru,{},neutral,0.0
+16270,16270,"Bún Chả, Bún Thịt Nướng & Thịt Xiên Cây Dâu - Nguyễn Công Trứ",,5.0,"fan quán lâu năm siêu ngon, Đáng đồng tiền, Ngon xỉu, Sạch sẽ, Đóng gói tốt",befood_comment,c43d42e69981d647,bun-cha-bun-thit-nuong-thit-xien-cay-dau-nguyen-cong-tru,{},neutral,0.0
+16270,16270,"Bún Chả, Bún Thịt Nướng & Thịt Xiên Cây Dâu - Nguyễn Công Trứ",,5.0,"tận 3 suất mà có tí nước mắm, cả 3 suất đều ko đủ mắm để ăn",befood_comment,74153ecda60c5cee,bun-cha-bun-thit-nuong-thit-xien-cay-dau-nguyen-cong-tru,{},neutral,0.0
+128372,128372,Cơm BomPi - Gà & Xá Xíu - Trường Chinh,,4.3,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,9a81d1a4bf13121f,com-bompi-ga-xa-xiu-truong-chinh,{},neutral,0.0
+128372,128372,Cơm BomPi - Gà & Xá Xíu - Trường Chinh,,4.3,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,e908b117906922b3,com-bompi-ga-xa-xiu-truong-chinh,{},neutral,0.0
+128372,128372,Cơm BomPi - Gà & Xá Xíu - Trường Chinh,,4.3,"thịt có mùi lạ giống để lâu bị thiu đồ ăn không giống trên ảnh quá tệ, Không đảm bảo vệ sinh",befood_comment,ce613c0f6b23f5c0,com-bompi-ga-xa-xiu-truong-chinh,{},neutral,0.0
+128372,128372,Cơm BomPi - Gà & Xá Xíu - Trường Chinh,,4.3,"Góp ý cho quán mới: - Phần cơm: Ngon, hạt tơi, ăn thơm - Phần package: Đẹp, gọn gàng, chỉn chu, trình bày món ăn đẹp - Phần rau: Tươi, sạch, tuy nhiên có thể đổi rau thơm thành rau theo ngày (rau cải, rau muống, cà rốt,...) thì hợp lý hơn - Phần thức ăn: Xá xíu vị ok, gà thì hơi nhạt, không rõ vị - Định lượng: Đủ ăn, con trai ăn có thể sẽ hơi đói - Nước chấm: Chê nhất phần này, nước chấm hơi chua, nhạt nhẽo, có thể làm giống nước chấm của cơm tấm ấy Nói chung là góp ý để quán mới hoàn thiện hơn",befood_comment,702bd59b759a1c68,com-bompi-ga-xa-xiu-truong-chinh,{},neutral,0.0
+128372,128372,Cơm BomPi - Gà & Xá Xíu - Trường Chinh,,4.3,"cơm hơi nhão , khẩu phần ăn ít…. thịt nhạt",befood_comment,36c277b5cd85166f,com-bompi-ga-xa-xiu-truong-chinh,{},neutral,0.0
+128372,128372,Cơm BomPi - Gà & Xá Xíu - Trường Chinh,,4.3,"shop lên cải thiện thành rau xào , Hoặc ít nhất là có chút rau luộc thì sẽ hợp lý hơn. Ăn như thế này em là nữ cũng chưa thấy no bụng, Mà thịt lợn thì lại cho hơi nhiều, gà thì bình thường không nhiều.",befood_comment,e5a891feaf3d2e38,com-bompi-ga-xa-xiu-truong-chinh,{},neutral,0.0
+10856,10856,Hồng Hạnh - Bánh Cuốn Tôm Thịt,,4.7,"shop ko đọc ghi chú xin 2 đôi đũa mà cho có 1 🥹, Không làm đúng ghi chú",befood_comment,f74d60fd78f328c5,hong-hanh-banh-cuon-tom-thit,{},neutral,0.0
+10856,10856,Hồng Hạnh - Bánh Cuốn Tôm Thịt,,4.7,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,b7ca8832ffca4c0c,hong-hanh-banh-cuon-tom-thit,{},neutral,0.0
+10856,10856,Hồng Hạnh - Bánh Cuốn Tôm Thịt,,4.7,"Ngon xỉu, Đáng đồng tiền",befood_comment,184ca7cec98d2d70,hong-hanh-banh-cuon-tom-thit,{},neutral,0.0
+10856,10856,Hồng Hạnh - Bánh Cuốn Tôm Thịt,,4.7,3 xuất sao cho e có 1 túi nước bé tẹo vậy quán,befood_comment,3580c4a6532c92d7,hong-hanh-banh-cuon-tom-thit,{},neutral,0.0
+10856,10856,Hồng Hạnh - Bánh Cuốn Tôm Thịt,,4.7,"ảnh thì nguyên quả, bánh giao đến thì lại kiểu đánh tan quả trứng ra, kiểu lười để trứng chín cho nhanh.",befood_comment,a0b546510b6cf10e,hong-hanh-banh-cuon-tom-thit,{},neutral,0.0
+10856,10856,Hồng Hạnh - Bánh Cuốn Tôm Thịt,,4.7,tôi đặt bánh cuốn hành có chả nhưng khi giao đến lại không có chả?,befood_comment,9361330c914759b6,hong-hanh-banh-cuon-tom-thit,{},neutral,0.0
+32784,32784,Nhà Hàng Đức Mai - Các Món Nhậu - Giải Phóng,,4.1,Ngon xỉu,befood_comment,56980ce2bef18ea8,nha-hang-duc-mai-cac-mon-nhau-giai-phong,{},neutral,0.0
+32784,32784,Nhà Hàng Đức Mai - Các Món Nhậu - Giải Phóng,,4.1,Khá ngon,befood_comment,aedcbac70528ea09,nha-hang-duc-mai-cac-mon-nhau-giai-phong,{},neutral,0.0
+32784,32784,Nhà Hàng Đức Mai - Các Món Nhậu - Giải Phóng,,4.1,bún hôi quá,befood_comment,668bc2d03d7c6ac9,nha-hang-duc-mai-cac-mon-nhau-giai-phong,{},neutral,0.0
+32784,32784,Nhà Hàng Đức Mai - Các Món Nhậu - Giải Phóng,,4.1,"bún vụn , thịt bò nhưng là thịt lợn , bún gà nhưng lèo bèo vài miếng gà ,",befood_comment,b41597aaa3223477,nha-hang-duc-mai-cac-mon-nhau-giai-phong,{},neutral,0.0
+32784,32784,Nhà Hàng Đức Mai - Các Món Nhậu - Giải Phóng,,4.1,mua bún gà lại đưa phở gà,befood_comment,8daa976614695624,nha-hang-duc-mai-cac-mon-nhau-giai-phong,{},neutral,0.0
+95249,95249,Cơm Tấm Sườn Đông Dương - Trương Định,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,a1500bcea2364e07,com-tam-suon-dong-duong-truong-dinh,{},neutral,0.0
+95249,95249,Cơm Tấm Sườn Đông Dương - Trương Định,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,b5a3ab4d33d7b2e6,com-tam-suon-dong-duong-truong-dinh,{},neutral,0.0
+95249,95249,Cơm Tấm Sườn Đông Dương - Trương Định,,4.8,Đáng đồng tiền,befood_comment,0a8455696d83968f,com-tam-suon-dong-duong-truong-dinh,{},neutral,0.0
+95249,95249,Cơm Tấm Sườn Đông Dương - Trương Định,,4.8,"Đáng đồng tiền, Đóng gói tốt",befood_comment,1c88f7a69fcc4aa7,com-tam-suon-dong-duong-truong-dinh,{},neutral,0.0
+95249,95249,Cơm Tấm Sườn Đông Dương - Trương Định,,4.8,Khá ngon,befood_comment,c2c98e92d448158e,com-tam-suon-dong-duong-truong-dinh,{},neutral,0.0
+95249,95249,Cơm Tấm Sườn Đông Dương - Trương Định,,4.8,đồ ăn ngon nhưng lần sau shop chú ý đậy chắc phần canh để shiper vận chuyển không bị rớt phần canh ra ngoài túi bóng ạ,befood_comment,a46e7b46557be716,com-tam-suon-dong-duong-truong-dinh,{},neutral,0.0
+95249,95249,Cơm Tấm Sườn Đông Dương - Trương Định,,4.8,shop gửi thiếu nước mắm,befood_comment,2a1e019c187bf675,com-tam-suon-dong-duong-truong-dinh,{},neutral,0.0
+116631,116631,Bà Tuyết - Bún Thái Hải Sản & Mì Chua Cay - Lương Định Của,,4.8,"quán còn tặng thêm cả cốc nước quá chu đáo, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,66ea5cf40f4216fc,ba-tuyet-bun-thai-hai-san-mi-chua-cay-luong-dinh-cua,{},neutral,0.0
+116631,116631,Bà Tuyết - Bún Thái Hải Sản & Mì Chua Cay - Lương Định Của,,4.8,"Shop hỏi chấm nhưng vẫn cho đá :))) há há, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,eae567348b722449,ba-tuyet-bun-thai-hai-san-mi-chua-cay-luong-dinh-cua,{},neutral,0.0
+116631,116631,Bà Tuyết - Bún Thái Hải Sản & Mì Chua Cay - Lương Định Của,,4.8,Ngon xỉu,befood_comment,9575c282742122d7,ba-tuyet-bun-thai-hai-san-mi-chua-cay-luong-dinh-cua,{},neutral,0.0
+116631,116631,Bà Tuyết - Bún Thái Hải Sản & Mì Chua Cay - Lương Định Của,,4.8,"Khá ngon, Không làm đúng ghi chú",befood_comment,075ad26004e99b50,ba-tuyet-bun-thai-hai-san-mi-chua-cay-luong-dinh-cua,{},neutral,0.0
+116631,116631,Bà Tuyết - Bún Thái Hải Sản & Mì Chua Cay - Lương Định Của,,4.8,cho quá nhiều mỳ chính làm khách bị choáng,befood_comment,e0aaa1b4ce5d9c69,ba-tuyet-bun-thai-hai-san-mi-chua-cay-luong-dinh-cua,{},neutral,0.0
+26075,26075,Chi Nấm - Cơm Văn Phòng,,4.6,"Đóng gói tốt, Sạch sẽ",befood_comment,14fe32171f53a5f3,chi-nam-com-van-phong,{},neutral,0.0
+26075,26075,Chi Nấm - Cơm Văn Phòng,,4.6,Ngon xỉu,befood_comment,fe4b04f9942496cb,chi-nam-com-van-phong,{},neutral,0.0
+26075,26075,Chi Nấm - Cơm Văn Phòng,,4.6,Đóng gói tốt,befood_comment,d4acf90420dd4896,chi-nam-com-van-phong,{},neutral,0.0
+26075,26075,Chi Nấm - Cơm Văn Phòng,,4.6,bảo ko lấy canh rồi shop. toàn đổ ra ngoài thôi,befood_comment,baa33aafad427bfd,chi-nam-com-van-phong,{},neutral,0.0
+119585,119585,Cơm Tấm Nàng Bơ - Phạm Ngọc Thạch,,4.6,"Đóng gói tốt, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,c1d0ee0a6ebf4d1c,com-tam-nang-bo-pham-ngoc-thach,{},neutral,0.0
+119585,119585,Cơm Tấm Nàng Bơ - Phạm Ngọc Thạch,,4.6,"Sạch sẽ, Ngon xỉu, Đóng gói tốt, Đáng đồng tiền",befood_comment,559441d2e290903f,com-tam-nang-bo-pham-ngoc-thach,{},neutral,0.0
+119585,119585,Cơm Tấm Nàng Bơ - Phạm Ngọc Thạch,,4.6,"Sạch sẽ, Đóng gói tốt, Ngon xỉu, Đáng đồng tiền",befood_comment,11375a813ed4904c,com-tam-nang-bo-pham-ngoc-thach,{},neutral,0.0
+119585,119585,Cơm Tấm Nàng Bơ - Phạm Ngọc Thạch,,4.6,Khá ngon,befood_comment,b4ba6ace7a9230e7,com-tam-nang-bo-pham-ngoc-thach,{},neutral,0.0
+119585,119585,Cơm Tấm Nàng Bơ - Phạm Ngọc Thạch,,4.6,cửa hàng giao thiếu mất 1 phần chả trứng,befood_comment,452ab6c8cbc01278,com-tam-nang-bo-pham-ngoc-thach,{},neutral,0.0
+119585,119585,Cơm Tấm Nàng Bơ - Phạm Ngọc Thạch,,4.6,"đồ ăn ở mức ổn thôi, nhưng đóng gói rất chỉn chu và sạch sẽ",befood_comment,2ea9c81799779dc4,com-tam-nang-bo-pham-ngoc-thach,{},neutral,0.0
+20058,20058,TIỆM GÀ RÁN SỐ 19,,4.6,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu",befood_comment,1bc2fbfd3f3d87a6,tiem-ga-ran-so-19,{},neutral,0.0
+20058,20058,TIỆM GÀ RÁN SỐ 19,,4.6,"gà rán nhạt, khô, hộp gói còn có vệt đen đáng ngờ như bị mốc Tokbokki bị ngọt quá, Không hợp khẩu vị",befood_comment,21ebf86891f2c626,tiem-ga-ran-so-19,{},neutral,0.0
+20058,20058,TIỆM GÀ RÁN SỐ 19,,4.6,"Sai món rồi???, Sai/Thiếu món",befood_comment,62a7fa31814d58da,tiem-ga-ran-so-19,{},neutral,0.0
+20058,20058,TIỆM GÀ RÁN SỐ 19,,4.6,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,c4fc9929e624bb32,tiem-ga-ran-so-19,{},neutral,0.0
+20058,20058,TIỆM GÀ RÁN SỐ 19,,4.6,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,6d6271a0ffde48ba,tiem-ga-ran-so-19,{},neutral,0.0
+20058,20058,TIỆM GÀ RÁN SỐ 19,,4.6,Không hợp khẩu vị,befood_comment,bb677070abc67bdb,tiem-ga-ran-so-19,{},neutral,0.0
+20058,20058,TIỆM GÀ RÁN SỐ 19,,4.6,Giá thành quá cao. Nên note là nửa con hoặc 1/3. Chứ suất này chỉ đủ 1 người ăn.,befood_comment,92bace2c5a8c1274,tiem-ga-ran-so-19,{},neutral,0.0
+20058,20058,TIỆM GÀ RÁN SỐ 19,,4.6,gà cũ k giòn ỉu ăn rất khô,befood_comment,46ba44d9bd53bc87,tiem-ga-ran-so-19,{},neutral,0.0
+20000,20000,Bánh Cuốn Nóng - Nguyễn Bỉnh Khiêm,,4.5,"đặt 3 set chân gà lại giao 3 cai, Sai/Thiếu món",befood_comment,3bc9c374dea2c0f8,banh-cuon-nong-nguyen-binh-khiem,{},neutral,0.0
+20000,20000,Bánh Cuốn Nóng - Nguyễn Bỉnh Khiêm,,4.5,Sạch sẽ,befood_comment,f825b3c97028ece2,banh-cuon-nong-nguyen-binh-khiem,{},neutral,0.0
+20000,20000,Bánh Cuốn Nóng - Nguyễn Bỉnh Khiêm,,4.5,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,37e38e7f7f47e901,banh-cuon-nong-nguyen-binh-khiem,{},neutral,0.0
+20000,20000,Bánh Cuốn Nóng - Nguyễn Bỉnh Khiêm,,4.5,Không làm đúng ghi chú,befood_comment,4edb3179250cacb8,banh-cuon-nong-nguyen-binh-khiem,{},neutral,0.0
+20000,20000,Bánh Cuốn Nóng - Nguyễn Bỉnh Khiêm,,4.5,đặt 5 suất k mà k có đũa hay bát dùng tạm đựng nước mắm,befood_comment,cf714285e0b3cbad,banh-cuon-nong-nguyen-binh-khiem,{},neutral,0.0
+76892,76892,GONGFU CHICKEN - Trương Định,,4.7,"giao lần đầu thì sai món, gọi lại giao lần 2 thì nhầm địa chỉ. 1 tiếng chưa được ăn, chịu quán, Sai/Thiếu món",befood_comment,4c248315cbd99fbd,gongfu-chicken-truong-dinh,{},neutral,0.0
+76892,76892,GONGFU CHICKEN - Trương Định,,4.7,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,01f828c78dbbdf9b,gongfu-chicken-truong-dinh,{},neutral,0.0
+76892,76892,GONGFU CHICKEN - Trương Định,,4.7,Ngon xỉu,befood_comment,d8c3d6037a5532d6,gongfu-chicken-truong-dinh,{},neutral,0.0
+76892,76892,GONGFU CHICKEN - Trương Định,,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,27161b13737ef73b,gongfu-chicken-truong-dinh,{},neutral,0.0
+76892,76892,GONGFU CHICKEN - Trương Định,,4.7,"Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,ddcce94a89caf6c9,gongfu-chicken-truong-dinh,{},neutral,0.0
+76892,76892,GONGFU CHICKEN - Trương Định,,4.7,"thiếu đũa thìa, tương chấm",befood_comment,d6dc2e6bb681d776,gongfu-chicken-truong-dinh,{},neutral,0.0
+76892,76892,GONGFU CHICKEN - Trương Định,,4.7,đặt combo nửa con gà mà giao chỉ có nửa con gà còn nước với khoai tây chiên đâu ??,befood_comment,bf1bdcb4321bae2e,gongfu-chicken-truong-dinh,{},neutral,0.0
+76892,76892,GONGFU CHICKEN - Trương Định,,4.7,"Bình thường hay đặt quán đều ok, nay gà rán khô quắt, thiếu đũa thìa 2 lần r dù đặt cơm với mì",befood_comment,414b9e07a855adfa,gongfu-chicken-truong-dinh,{},neutral,0.0
+68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,,4.6,Ngon xỉu,befood_comment,1db3df20f257e939,com-que-ngo-nho-dong-nhan,{},neutral,0.0
+68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,,4.6,"Đáng đồng tiền, Sạch sẽ",befood_comment,23d2a20dbd94caf5,com-que-ngo-nho-dong-nhan,{},neutral,0.0
+68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,,4.6,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,25496d3ac9c8d948,com-que-ngo-nho-dong-nhan,{},neutral,0.0
+68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,,4.6,"Sạch sẽ, Ngon xỉu",befood_comment,b141e7dac4821851,com-que-ngo-nho-dong-nhan,{},neutral,0.0
+68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,,4.6,"giao sai món, đặt gà xào nhưng giao sườn :)), Sai/Thiếu món",befood_comment,ef8faf116e4c2b67,com-que-ngo-nho-dong-nhan,{},neutral,0.0
+68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,,4.6,đậu sốt k có nc sốt à quán ơi,befood_comment,749eb938267df596,com-que-ngo-nho-dong-nhan,{},neutral,0.0
+68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,,4.6,"đậu rán hơi kỹ, nên rán sơ sơ thì ăn đỡ khô",befood_comment,05aa067cdcd9cf3f,com-que-ngo-nho-dong-nhan,{},neutral,0.0
+68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,,4.6,đầu bếp bị rụng tóc thì mua dầu gội chống rụng bên mình nhé,befood_comment,3f3845d792e00e6d,com-que-ngo-nho-dong-nhan,{},neutral,0.0
+8868,8868,Cơm Rang 10 Cẩm - Ngõ Trại Cá,,4.6,"cơm có mùi kỳ lắm như mùi dầu mỡ cũ ko thơm., Không hợp khẩu vị",befood_comment,28b90248ff2037ab,com-rang-10-cam-ngo-trai-ca,{},neutral,0.0
+8868,8868,Cơm Rang 10 Cẩm - Ngõ Trại Cá,,4.6,Sạch sẽ,befood_comment,ea80df815e15954e,com-rang-10-cam-ngo-trai-ca,{},neutral,0.0
+8868,8868,Cơm Rang 10 Cẩm - Ngõ Trại Cá,,4.6,Ngon xỉu,befood_comment,0f803a7f9028386a,com-rang-10-cam-ngo-trai-ca,{},neutral,0.0
+8868,8868,Cơm Rang 10 Cẩm - Ngõ Trại Cá,,4.6,"Đóng gói tốt, Đáng đồng tiền, Ngon xỉu",befood_comment,fa68db1f0b70d704,com-rang-10-cam-ngo-trai-ca,{},neutral,0.0
+8868,8868,Cơm Rang 10 Cẩm - Ngõ Trại Cá,,4.6,4 xuất cơm cho 1 đôi đũa. không canh 4 ly coca không 1 cái ống hút quán xá như cái l vậy dẹp mẹ đi,befood_comment,d89db4921273192b,com-rang-10-cam-ngo-trai-ca,{},neutral,0.0
+24720,24720,Gà Rán Tok Tok - Khâm Thiên,,4.9,"Đóng gói tốt, Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,1bf973f0e67b6f8b,ga-ran-tok-tok-kham-thien,{},neutral,0.0
+24720,24720,Gà Rán Tok Tok - Khâm Thiên,,4.9,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,5b00261bf5d59adc,ga-ran-tok-tok-kham-thien,{},neutral,0.0
+24720,24720,Gà Rán Tok Tok - Khâm Thiên,,4.9,"Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,de31cea0bf83ca54,ga-ran-tok-tok-kham-thien,{},neutral,0.0
+24720,24720,Gà Rán Tok Tok - Khâm Thiên,,4.9,Delicious,befood_comment,90584d9c2400cd2c,ga-ran-tok-tok-kham-thien,{},neutral,0.0
+57665,57665,Phở Bò Gà & Bún Miến Ngan 343 - Phố Vọng,,4.8,"Sạch sẽ, Đóng gói tốt, Đáng đồng tiền",befood_comment,ed10fb83982cb564,pho-bo-ga-bun-mien-ngan-343-pho-vong,{},neutral,0.0
+57665,57665,Phở Bò Gà & Bún Miến Ngan 343 - Phố Vọng,,4.8,"Ngon xỉu, Đáng đồng tiền",befood_comment,5b0c5c60603e2be6,pho-bo-ga-bun-mien-ngan-343-pho-vong,{},neutral,0.0
+57665,57665,Phở Bò Gà & Bún Miến Ngan 343 - Phố Vọng,,4.8,Đáng đồng tiền,befood_comment,ecf8f1e6eb76ce7a,pho-bo-ga-bun-mien-ngan-343-pho-vong,{},neutral,0.0
+57665,57665,Phở Bò Gà & Bún Miến Ngan 343 - Phố Vọng,,4.8,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu, Sạch sẽ",befood_comment,20a3fbfde373b491,pho-bo-ga-bun-mien-ngan-343-pho-vong,{},neutral,0.0
+57665,57665,Phở Bò Gà & Bún Miến Ngan 343 - Phố Vọng,,4.8,mặn,befood_comment,cf0899d9e1fd6a55,pho-bo-ga-bun-mien-ngan-343-pho-vong,{},neutral,0.0
+57665,57665,Phở Bò Gà & Bún Miến Ngan 343 - Phố Vọng,,4.8,"be lại giống grap à , lại cùng nhau sập 1 lúc",befood_comment,ce70dc099a4b08c4,pho-bo-ga-bun-mien-ngan-343-pho-vong,{},neutral,0.0
+57665,57665,Phở Bò Gà & Bún Miến Ngan 343 - Phố Vọng,,4.8,Cảm nhận khá tệ :),befood_comment,cc652353c237a8f9,pho-bo-ga-bun-mien-ngan-343-pho-vong,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,"bình thường thêm bún ngta cho miễn phí mà đây mất 6k bún thêm r mà vẫn ko đc thêm :) chán, Sai/Thiếu món",befood_comment,61874fc7dacab8cd,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,48fb88923c7abc3d,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,"Đóng gói tốt, Sạch sẽ",befood_comment,6b9e92bc734010c2,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,"Lúc nào cx ngon hết nma bth mình ăn rau sống ko sao tự nhin nay bị đi ẻ ko tiêu hóa đc rau ? mong sốp rửa kĩ hơn ạ huhu, Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,78c86377ba689d25,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,Ngon xỉu,befood_comment,2e2e627db8001824,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,Không hợp khẩu vị,befood_comment,73bb02a1d9cc1fbc,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,"thường xuyên làm thiếu món, gọi báo thì kêu là ""cô mệt mỏi lắm rồi, gọi cho ship đi, tại ship đọc sai đơn chứ, bảo ship qua lấy đi"". Nếu cảm thấy mệt quá thì đóng cửa hàng đi. Bán hàng mà không coi khách ra gì., Sai/Thiếu món",befood_comment,ccf9f4d2a1b76fe3,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,quán ko cho đũa thì mình ăn kiểu gì ạ,befood_comment,f3b46719064fb704,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,hơi nguội,befood_comment,083baa63f3257c94,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,,4.6,ăn cũng ngon mà kh hợp khẩu vị mình,befood_comment,f846ae48e4339c4a,bun-cha-co-an-hanoi-grilled-pork-noodles-kham-thien,{},neutral,0.0
+103124,103124,Habon Chicken - Tiệm Gà Rán Hàn Quốc - Ngõ Trại Cá,,4.7,"gà ngon mang về còn nóng hổi mọng nước nhiều sốt nữa ạ, tok sốt rose béo ngậy ngon rất vừa miệng lần sau sẽ đặt tiếp ạ, Ngon xỉu, Đóng gói tốt, Đáng đồng tiền, Sạch sẽ",befood_comment,daa98ba7813840c7,habon-chicken-tiem-ga-ran-han-quoc-ngo-trai-ca,{},neutral,0.0
+103124,103124,Habon Chicken - Tiệm Gà Rán Hàn Quốc - Ngõ Trại Cá,,4.7,"Đáng đồng tiền, Đóng gói tốt, Ngon xỉu, Sạch sẽ",befood_comment,a9f0bce3fbb206d4,habon-chicken-tiem-ga-ran-han-quoc-ngo-trai-ca,{},neutral,0.0
+103124,103124,Habon Chicken - Tiệm Gà Rán Hàn Quốc - Ngõ Trại Cá,,4.7,"đồ đến tay vẫn thơm vs nóng ngon nha đã ăn mấy lần r ship cx nhanh nx sẽ ủng hộ shop tiếp, Ngon xỉu",befood_comment,3cd55ad14661c839,habon-chicken-tiem-ga-ran-han-quoc-ngo-trai-ca,{},neutral,0.0
+103124,103124,Habon Chicken - Tiệm Gà Rán Hàn Quốc - Ngõ Trại Cá,,4.7,mua gà sốt phomai lại ship gà sốt hành,befood_comment,26b0ffd92ad46de1,habon-chicken-tiem-ga-ran-han-quoc-ngo-trai-ca,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,"ngon lắm ý mng ơi, còn rẻ nữaaaa, áp mã vào hnhu còn có 40k 1 hộp ú nu nnay ýy, Đáng đồng tiền, Ngon xỉu",befood_comment,0020e07e008bfae7,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,"Bình thường quán làm cũng đủ mà nay suất của mình kem hành chỉ có hành ko kem 🥲, Sai/Thiếu món",befood_comment,1775324af4f0c23a,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,659de155310c1186,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,1df4016c7236dc7b,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,"đặt 1 gà mix 1 cơm trộn giao 2 hộp cơm, Sai/Thiếu món",befood_comment,32483fbfe2eff256,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,"Mình tưởng gà không, hoá ra có cả cơm luôn hả😆",befood_comment,c127849eda8e7b8b,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,mình tưởng suất này chỉ có gà không thôi chứ đâu phải cơm gà nhỉ :)),befood_comment,a86494c333178116,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,vãi pịa 75k đổi lại 4 - 5 miếng gà nhỡ trong khi trên món ghi rõ “ khoảng 12 - 15 miếng gà” là như nào ấy :))) ăn cũng dc nhưng tên món k có cơm nên mới gọi thêm cơm. gọi xong lại có cả cơm trong món???? hỏi thật quán làm thực đơn với món khách nhận thực tế khác z k thấy ngại à :D ăn gà oke ổn nhưng cảm giác quán làm ăn cứ gian dối thế nào ấy,befood_comment,97f66366c70b5fc4,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,không đáng tiền.,befood_comment,d728b43cb8dee92f,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",,4.2,gà ít mà tự nhiên thêm cơm 10k xúc xích có vài lát,befood_comment,8861ac8ef016b97f,happy-food-do-an-han-ga-ran-sot-com-bo-hq-phung-khac-khoan,{},neutral,0.0
+9929,9929,Gà Rán và Mỳ Ý Jollibee - Vincom Phạm Ngọc Thạch,,4.8,"Quán thiếu ống hút cho khách nhé, Ngon xỉu, Đáng đồng tiền, Đóng gói tốt, Sạch sẽ",befood_comment,76594cb49a3cdafd,ga-ran-va-my-y-jollibee-vincom-pham-ngoc-thach,{},neutral,0.0
+9929,9929,Gà Rán và Mỳ Ý Jollibee - Vincom Phạm Ngọc Thạch,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,850fced06b96c543,ga-ran-va-my-y-jollibee-vincom-pham-ngoc-thach,{},neutral,0.0
+9929,9929,Gà Rán và Mỳ Ý Jollibee - Vincom Phạm Ngọc Thạch,,4.8,Ngon xỉu,befood_comment,a7e5641426ca9cf4,ga-ran-va-my-y-jollibee-vincom-pham-ngoc-thach,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,"ngol, Sạch sẽ, Ngon xỉu, Đóng gói tốt, Đáng đồng tiền",befood_comment,173ba1029bbd4ed5,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,"ngon, Đáng đồng tiền, Ngon xỉu",befood_comment,daf2e650da4ca1c5,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,"Ngon bổ rẻ. Cảm ơn shop, Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,7d4b54b2629f08af,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,"ngon bổ rẻ, sạch sẽ, Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,871e5ac84e3a2c0a,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,"da ung ho nhieu lan, quan lam an sach se, Ngon xỉu, Đáng đồng tiền",befood_comment,55e34550b2b3876a,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,"Ngon xỉu, Sạch sẽ, Đóng gói tốt",befood_comment,e9755f91986ef394,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,Đóng gói tốt,befood_comment,4f0631c325e3a62f,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,"mua phí tiền, gà dai nhách, không có mùi vị, cảm giác là gà cũ luộc lại nên nhạt thếch., Không hợp khẩu vị",befood_comment,0f5d5242217ff071,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,gửi gà luộc,befood_comment,00369b5b97124a5f,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,,4.7,gà khá ngon nhưng nước chấm không hợp khẩu vị cho lắm,befood_comment,b4bb4249c04727ef,mieso-food-ga-ran-ga-u-muoi-cho-kham-thien,{},neutral,0.0
+31750,31750,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Đặng Văn Ngữ,,4.8,"Ngon xỉu, Đáng đồng tiền, Đóng gói tốt",befood_comment,b791ebba290e5a2a,bep-be-beu-com-banh-mi-nuong-trung-hoa-dang-van-ngu,{},neutral,0.0
+31750,31750,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Đặng Văn Ngữ,,4.8,Ngon xỉu,befood_comment,9832c06088b3514a,bep-be-beu-com-banh-mi-nuong-trung-hoa-dang-van-ngu,{},neutral,0.0
+31750,31750,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Đặng Văn Ngữ,,4.8,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,c1a3bab0b5bda8e0,bep-be-beu-com-banh-mi-nuong-trung-hoa-dang-van-ngu,{},neutral,0.0
+31750,31750,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Đặng Văn Ngữ,,4.8,"Vị ngon nhưng sốt thực sự rất mặn, ăn hộp cơm uống kèm 2 cốc nước, canh cũng hơi mặn nữa",befood_comment,6be6aee6781aca25,bep-be-beu-com-banh-mi-nuong-trung-hoa-dang-van-ngu,{},neutral,0.0
+109048,109048,"Bếp Chử - Gỏi Cuốn, Bún Trộn & Nem Nướng Nha Trang - Nguyễn An Ninh",,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ, Đóng gói tốt",befood_comment,df2b3864900df3e2,bep-chu-goi-cuon-bun-tron-nem-nuong-nha-trang-nguyen-an-ninh,{},neutral,0.0
+109048,109048,"Bếp Chử - Gỏi Cuốn, Bún Trộn & Nem Nướng Nha Trang - Nguyễn An Ninh",,4.7,Đáng đồng tiền,befood_comment,d1c6b66f0b21b970,bep-chu-goi-cuon-bun-tron-nem-nuong-nha-trang-nguyen-an-ninh,{},neutral,0.0
+109048,109048,"Bếp Chử - Gỏi Cuốn, Bún Trộn & Nem Nướng Nha Trang - Nguyễn An Ninh",,4.7,"Ngon xỉu, Đáng đồng tiền, Sạch sẽ",befood_comment,2bb55f110c5def5e,bep-chu-goi-cuon-bun-tron-nem-nuong-nha-trang-nguyen-an-ninh,{},neutral,0.0
+109048,109048,"Bếp Chử - Gỏi Cuốn, Bún Trộn & Nem Nướng Nha Trang - Nguyễn An Ninh",,4.7,Không hợp khẩu vị,befood_comment,048d7e9f11d27735,bep-chu-goi-cuon-bun-tron-nem-nuong-nha-trang-nguyen-an-ninh,{},neutral,0.0
+109048,109048,"Bếp Chử - Gỏi Cuốn, Bún Trộn & Nem Nướng Nha Trang - Nguyễn An Ninh",,4.7,"gỏi ngon nem nướng cắt mỏng quá, k có ram",befood_comment,c3a998a2694d839a,bep-chu-goi-cuon-bun-tron-nem-nuong-nha-trang-nguyen-an-ninh,{},neutral,0.0
+109048,109048,"Bếp Chử - Gỏi Cuốn, Bún Trộn & Nem Nướng Nha Trang - Nguyễn An Ninh",,4.7,k cho bánh tráng cuốn ăn kiểu gì?,befood_comment,bbeff784b721fd99,bep-chu-goi-cuon-bun-tron-nem-nuong-nha-trang-nguyen-an-ninh,{},neutral,0.0
+1255,1255,Cơm Rang Dế Mèn,,4.6,"suất cơm rang dưa bò , dưa thì đắng ngắt ra , thịt bò thì như thịt vụt ko hiểu quán làm kiểu gì , quán làm ko thử trc khi giao cho khách ạ, Không hợp khẩu vị",befood_comment,fdb5a9bc6ba9a70f,com-rang-de-men,{},neutral,0.0
+1255,1255,Cơm Rang Dế Mèn,,4.6,Đáng đồng tiền,befood_comment,bb83ec4f10655666,com-rang-de-men,{},neutral,0.0
+1255,1255,Cơm Rang Dế Mèn,,4.6,Khá ngon,befood_comment,d5e507f9d0412e9a,com-rang-de-men,{},neutral,0.0
+1255,1255,Cơm Rang Dế Mèn,,4.6,"Không đảm bảo vệ sinh, Không hợp khẩu vị",befood_comment,787ae5965f2454d7,com-rang-de-men,{},neutral,0.0
+53514,53514,Cơm 1985 - Phố Chợ Khâm Thiên,,5.0,ngon mỗi tội quán đóng gói canh ko cẩn thận bị đổ hết,befood_comment,b70ab850d2c3b385,com-1985-pho-cho-kham-thien,{},neutral,0.0

@@ -1,0 +1,3 @@
+required:
+  - restaurant_id
+  - item_name

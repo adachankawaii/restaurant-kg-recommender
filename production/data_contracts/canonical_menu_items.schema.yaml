@@ -1,0 +1,5 @@
+required:
+  - item_id
+  - restaurant_id
+  - name
+  - normalized_name

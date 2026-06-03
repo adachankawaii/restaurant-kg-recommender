@@ -1,0 +1,25 @@
+mode: offline
+
+sources:
+  befood_restaurants: ../Utils/befood_bachkhoa_restaurants.csv
+  befood_menu_items: ../Utils/befood_bachkhoa_menu_items.csv
+  foody_places: ../Utils/foody_hust_places_from_store_csv.csv
+  rgcn_nodes: ../rgcn_pipeline/data/graphrag_nodes.csv
+  rgcn_edges: ../rgcn_pipeline/data/graphrag_edges.csv
+  store_metadata: ../rgcn_pipeline/data/store_metadata.csv
+  user_scenarios_v1: ../rgcn_pipeline/user_scenarios_70_befood_bachkhoa.csv
+  user_scenarios_v2: ../rgcn_pipeline/data/user_scenarios_phase2_top5.csv
+
+storage:
+  use_minio: false
+  data_lake_root: ./data_lake
+
+neo4j:
+  required: false
+  fallback_to_local_snapshot: true
+
+kafka:
+  enabled: false
+
+spark:
+  enabled: false

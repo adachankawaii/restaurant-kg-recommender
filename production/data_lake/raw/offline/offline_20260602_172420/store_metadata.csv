@@ -1,0 +1,201 @@
+﻿store_node_id,store_id,store_name,latitude,longitude,median_price,price_min,price_max,rating,review_count,district,city,area_id
+store:25639,25639,Quán Mùa - Cơm Gà & Bún Miến Trộn - Tây Sơn,21.00948906,105.8276825,45000.0,15000.0,490009.0,4.6,562,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:97742,97742,"NaBi Bún Chả Quạt, Cơm Tấm & Cơm Văn Phòng - Tây Sơn",21.01016045,105.8263779,66000.0,58000.0,95000.0,4.3,11,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:130307,130307,"Phở Bò Nội - Bún Chả, Cháo & Cơm - Trần Hưng Đạo",21.02345085,105.8435669,50000.0,50000.0,60000.0,4.8,10,,Ha Noi,
+store:22758,22758,PhuongKitchen - Cơm & Đồ Ăn Vặt - Ngõ Chùa Liên Phái Bạch Mai,21.00464058,105.8488998,52000.0,11000.0,65000.0,4.7,7,Quan Hai Ba Trung,Hà Nội,Hà Nội:Quan Hai Ba Trung
+store:11471,11471,Thiên Trường - Phở Cồ & Cơm Gà Xối Mắm - Giải Phóng,21.00283051,105.8419876,59000.0,10000.0,80000.0,4.5,39,Quan Hai Ba Trung,Hà Nội,Hà Nội:Quan Hai Ba Trung
+store:11326,11326,Huỳnh Duyên - Cơm Văn Phòng & Nước Ép - Giải Phóng,21.00079918,105.8419266,40000.0,15000.0,55000.0,4.8,88,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:8314,8314,Phở Bò Cơm Rang Duy Nhất - Giải Phóng,21.00073051,105.8418808,60000.0,35000.0,70000.0,4.6,1787,,Ha Noi,
+store:126147,126147,"Nhà Hàng Bin Bo - Bún Riêu Cua, Cơm Rang & Phở Xào - Phương Mai",21.00564957,105.8391571,70000.0,1000.0,180000.0,4.3,4,,Ha Noi,
+store:127398,127398,"Vũ Gia - Phở Gà, Bún Thang & Cơm Gà Xối Mỡ - Phố Huế",21.00971985,105.8514175,71500.0,6500.0,910000.0,0.0,0,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:124125,124125,Gà Rán BigBites - Cơm Gà & Bánh Gà - Đại La,20.9979496,105.8443298,55000.0,9000.0,160000.0,5.0,1,,Ha Noi,
+store:59967,59967,Quán Hà Nội Xưa - Bún Chả - Trường Chinh,21.00046921,105.8375168,45000.0,45000.0,60000.0,3.9,18,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:135569,135569,Cơm Bò Ngon - Trường Chinh,20.9967308,105.8421097,78500.0,13000.0,150000.0,0.0,0,,Ha Noi,
+store:128724,128724,Phở - Cơm Hằng - Nguyễn Đình Chiểu,21.01683044,105.8477783,60000.0,10000.0,70000.0,4.9,10,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:94161,94161,Bánh Cuốn Nóng & Gà Ác Tần - Minh Khai,20.99523926,105.8544998,47500.0,10000.0,100000.0,4.7,31,,Ha Noi,
+store:28837,28837,Gà Tần Huyền Anh - Phở Xào & Cơm Rang - Quỳnh Mai,21.00131989,105.8601379,62000.0,20000.0,185000.0,4.7,173,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:117760,117760,OK Cơm Gà - Trương Định,20.99132919,105.8506393,40000.0,10000.0,340000.0,4.7,7,,Ha Noi,
+store:33188,33188,Hải Dung - Cơm Rang & Phở Xào - Quỳnh Mai,21.00110054,105.8611984,55000.0,17000.0,220000.0,4.5,61,,Ha Noi,
+store:33749,33749,Phở Bò 288 - Phở Bò & Cơm Rang - Minh Khai,20.99505997,105.8600922,50000.0,6000.0,350000.0,4.6,27,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:22455,22455,Phở Cuốn Hoa Lan - Trần Hưng Đạo,21.01988983,105.8566208,80000.0,35000.0,140000.0,4.8,272,Quan Hoan Kiem,Ha Noi,Ha Noi:Quan Hoan Kiem
+store:14976,14976,Cơm Sườn Cay HiMC - Hà Kế Tấn,20.9874897,105.8368607,70000.0,10000.0,420000.0,4.9,1123,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:118507,118507,"Bánh Cuốn, Bún Trộn Đức Anh - Trần Hữu Tước",21.01745033,105.8294678,50000.0,40000.0,55000.0,4.7,7,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:128321,128321,"Cơm, Phở Xào & Miến Xào - Cù Chính Lan",21.00102997,105.824173,57000.0,20000.0,80000.0,5.0,4,,Ha Noi,
+store:116156,116156,Phở Vịt Quay & Bánh Cuốn Cao Bằng - Định Công,20.98513985,105.837738,55000.0,6000.0,340000.0,4.0,10,,Ha Noi,
+store:41570,41570,Bánh Cuốn Nóng Hương Thơm - Tràng Tiền,21.0241909,105.8558273,40000.0,20000.0,75000.0,4.2,54,Quan Hoan Kiem,Ha Noi,Ha Noi:Quan Hoan Kiem
+store:20226,20226,Phở Lưu - Phở Bò & Cơm Rang - Tam Trinh,20.99151039,105.8632278,50000.0,8000.0,65000.0,4.5,443,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:21224,21224,Phở Cồ Gia Truyền - Phở Bò & Cơm Rang,21.00001907,105.8231201,55000.0,20000.0,55000.0,4.7,174,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:7240,7240,"Cơm Gà, Mì Cay & Mì Trộn Bếp Nhà Cám - Tôn Đức Thắng",21.02137947,105.8302307,40000.0,9900.0,77000.0,4.7,294,,Ha Noi,
+store:20472,20472,"Bánh Cuốn, Bún Chả & Gà Tần - Đền Lừ 2",20.98712921,105.8587036,45000.0,35000.0,95000.0,4.7,63,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:21413,21413,Phở Bò Hải Phòng - Phở Bò & Cơm Rang - Hoàng Mai,20.98838997,105.8628235,53000.0,8000.0,68000.0,4.6,393,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:86219,86219,Phở Bò Thiên Trường - Bún Bò & Cơm Rang - Trương Định,20.98171043,105.8457031,50000.0,15000.0,70000.0,4.8,63,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:36034,36034,Bảo An Quán - Bánh Cuốn Phủ Lý - Trương Định,20.98130989,105.845253,50000.0,15000.0,60000.0,4.6,98,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:20129,20129,Dũng Thủy - Phở & Cơm Rang - Tân Mai,20.98154068,105.8510818,37500.0,6000.0,94000.0,4.4,80,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:16422,16422,Phương Dung - Cơm Đảo Gà Rang & Chim Quay - Tống Duy Tân,21.02922058,105.843399,110000.0,55000.0,195000.0,4.9,378,Quan Hoan Kiem,Ha Noi,Ha Noi:Quan Hoan Kiem
+store:60874,60874,Hoàng Văn - Cơm Rang & Phở Bò - Định Công,20.98259926,105.834137,49500.0,7000.0,88000.0,4.7,850,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:13942,13942,Phở Bò & Cơm Rang - Nguyễn Trãi,21.00209045,105.8171768,45000.0,45000.0,60000.0,4.3,315,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:29659,29659,Bánh Cuốn Phủ Lý - Dương Văn Bé,20.99671936,105.8742294,48000.0,48000.0,96000.0,4.5,98,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:35452,35452,Út Béo - Bún Đậu Mẹt & Cơm - Ngõ Thái Thịnh 1,21.00877953,105.8156586,45000.0,35000.0,70000.0,4.1,21,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:81993,81993,Thành Tâm Quán - Phở & Cơm Rang - Định Công Hạ,20.98220062,105.8275528,48000.0,45000.0,58000.0,4.7,6,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:21980,21980,H&A Quán - Bún Đậu & Nem Nướng - Vĩnh Tuy,21.00074959,105.877037,45000.0,4000.0,80000.0,4.8,1673,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:114833,114833,Cơm Ngon Xuân Trường - Giáp Nhị,20.97496033,105.84552,49000.0,18000.0,109000.0,4.6,93,,Ha Noi,
+store:87272,87272,"Thành Tâm Quán - Cơm Rang, Phở Bò & Bún Bò Huế - Định Công Thượng",20.98349953,105.8216782,70000.0,40000.0,85000.0,4.4,25,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:115272,115272,"He Na Quán - Bánh Cuốn, Bún Chả & Gà Tần - Núi Trúc",21.0304203,105.8249588,47000.0,16000.0,74000.0,5.0,2,,Ha Noi,
+store:130463,130463,Thanh Hà Food - Phở Cuốn & Bún Trộn - Đại Từ,20.97360039,105.8397598,67000.0,15000.0,129000.0,4.9,9,,Ha Noi,
+store:68548,68548,Bánh Cuốn Nóng - Bún Chả & Mỳ Gà Tần - Chính Kinh,20.99983025,105.8112106,60500.0,13000.0,119000.0,4.7,370,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:135607,135607,Bánh Cuốn & Bún Chả - Bếp Cô Hằng - Vĩnh Hưng,20.99044037,105.8782806,42500.0,30000.0,45000.0,0.0,0,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:80920,80920,Cồ Cử Phở Bò - Cơm Rang - Kim Giang,20.97739983,105.8241501,50000.0,10000.0,55000.0,4.6,130,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:123914,123914,Ling Ling Foody - Gà Rán & Mỳ Cay - Vĩnh Hưng,20.98578072,105.8758316,39000.0,1000.0,79000.0,4.8,26,,Ha Noi,
+store:81712,81712,Nhà Hàng Văn Đô - Cơm Văn Phòng - Ngọc Khánh,21.02796936,105.8176498,55000.0,5000.0,69000.0,4.8,1260,Quan Ba Dinh,Ha Noi,Ha Noi:Quan Ba Dinh
+store:119113,119113,Phở Cuốn Ngũ Xã Hải Yến - Vũ Tông Phan,20.9846096,105.8152237,65000.0,12000.0,105000.0,4.7,11,,Ha Noi,
+store:123573,123573,"Minh Huy - Bánh Cuốn, Bún Chả & Bún Miến Ngan - Vũ Tông Phan",20.98118019,105.8182068,50000.0,20000.0,250000.0,3.3,7,,Ha Noi,
+store:8200,8200,Phở bò - Cơm rang Duy Nhất - Huỳnh Thúc Kháng,21.01929092,105.8109894,65000.0,35000.0,80000.0,4.7,2429,Quan Ba Dinh,Ha Noi,Ha Noi:Quan Ba Dinh
+store:78300,78300,Bánh Cuốn Nóng & Bún Chả - Ngọc Hà,21.03771019,105.8307724,43000.0,1000.0,65000.0,4.9,76,Quan Ba Dinh,Ha Noi,Ha Noi:Quan Ba Dinh
+store:20601,20601,"Bánh Cuốn Nóng, Bún Chả & Gà Tần - 156 Kim Giang",20.98073959,105.8178024,62500.0,12000.0,95000.0,4.6,137,,Ha Noi,
+store:9568,9568,"Bún Chả, Bánh Cuốn Nóng, Gà Tần - Ba Duy - Kim Giang",20.98501968,105.8139801,49000.0,18000.0,81000.0,4.8,1058,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:12952,12952,KCC - Phở - Cơm Rang - Nguyên Hồng,21.02290916,105.8119202,60000.0,10000.0,70000.0,4.5,437,Quan Ba Dinh,Ha Noi,Ha Noi:Quan Ba Dinh
+store:69613,69613,Bánh Cuốn Nóng Gia Truyền - Đội Cấn,21.03511047,105.8231964,44000.0,35000.0,90000.0,4.5,77,Quan Ba Dinh,Ha Noi,Ha Noi:Quan Ba Dinh
+store:14120,14120,KCC - Phở & Cơm Gà Xối Mắm - Đội Cấn,21.03507996,105.8226395,50000.0,40000.0,80000.0,4.7,149,Quan Ba Dinh,Ha Noi,Ha Noi:Quan Ba Dinh
+store:2282,2282,Phở Bò Cơm Rang Nhân Hòa - Nguyễn Huy Tưởng,20.99875069,105.8062973,45000.0,12000.0,70000.0,4.7,720,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:76776,76776,Bánh Cuốn Nóng & Bún Chả - Nguyễn Ngọc Vũ,21.01100922,105.8060913,42000.0,16000.0,97000.0,4.7,207,Quan Cau Giay,Ha Noi,Ha Noi:Quan Cau Giay
+store:102812,102812,Bánh Cuốn Bà Hy - Khu Đô Thị Bắc Linh Đàm,20.97001076,105.8274994,47000.0,13000.0,67000.0,5.0,21,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:130643,130643,Guu Chicken - Cơm Gà & Gà Rán - Ngõ Tự Do,20.9981308,105.8469086,70000.0,12000.0,342000.0,5.0,17,,Ha Noi,
+store:8432,8432,Quán Cơm 78 - Ngõ Tự Do,20.99736977,105.8463364,41000.0,6000.0,53000.0,4.7,2640,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:106675,106675,Cơm Đảo Làng Mai - Chợ Khương Thượng,21.0056591,105.8313217,54000.0,54000.0,54000.0,0.0,0,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:102294,102294,Bếp Cô Thảo - Cơm Văn Phòng Tự Chọn - Lò Đúc,21.01309013,105.8574905,45000.0,35000.0,110000.0,4.6,117,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:15897,15897,Vịt 29 - 29 Food - Cơm Phở -Nguyễn Thượng Hiền,21.01884079,105.8422318,195000.0,8000.0,948000.0,4.9,48,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:130509,130509,Guu Chicken - Cơm Gà & Gà Rán - Tam Khương,21.00415993,105.8300323,57000.0,12000.0,342000.0,5.0,9,,Ha Noi,
+store:135845,135845,"Gỏi Nhà Kem - Gỏi Cuốn, Cơm Trộn & Bún Trộn - Thổ Quan",21.01634979,105.8344421,57000.0,15000.0,155000.0,0.0,0,,Ha Noi,
+store:39262,39262,Cơm Gà B&B - Chùa Bộc,21.00488091,105.8275299,40000.0,40000.0,45000.0,0.0,0,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:17700,17700,Bún Chả Xưa - Lĩnh Nam,20.99094963,105.8643875,37500.0,5000.0,45000.0,4.2,2333,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:98870,98870,Tứ Quý - Phở Bò & Cơm Rang - Trịnh Đình Cửu,20.9841404,105.8342438,50000.0,3000.0,70000.0,4.8,337,,Ha Noi,
+store:55835,55835,Tiệm Cơm Gà - Trung Liệt,21.01144028,105.8205185,62500.0,12000.0,63000.0,4.2,28,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:88436,88436,Bún Chả Phúc Tha - Hoàng Mai,20.98658943,105.8624573,48000.0,8000.0,370000.0,5.0,9,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:69293,69293,Cơm & Phở Hương Lan - Nguyễn Thái Học,21.03038979,105.8357086,55000.0,55000.0,65000.0,4.0,12,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:10307,10307,Cơm Gà Xối Mắm Còn - Dương Văn Bé,20.99644089,105.8738098,55000.0,2000.0,76000.0,4.7,236,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:49400,49400,Tùng Linh Quán - Bún Chả & Bánh Cuốn Nóng - Bùi Xương Trạch,20.98514938,105.8194122,40000.0,10000.0,40000.0,5.0,1,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:88782,88782,Guu Chicken - Cơm Gà & Gà Rán - Khương Hạ,20.98731041,105.8167267,50000.0,12000.0,315000.0,4.7,441,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:61570,61570,Bún Chả Quý Anh - Vĩnh Hưng,20.99916077,105.8798218,13500.0,1000.0,60000.0,4.9,135,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:123151,123151,"FoodHub - Mỳ Quảng, Cơm Gà Roti - Hoàng Ngọc Phách",21.01497078,105.8123779,66000.0,3000.0,125000.0,4.7,23,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:89400,89400,"Bún Chả Linh Anh - Bún Ngan Mọc, Bánh Giò Nóng & Trứng Vịt Lộn - Khương Đình",20.99241066,105.8131638,55000.0,7000.0,90000.0,4.7,68,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:89681,89681,Phở Cuốn Diệu Minh - La Thành,21.02437019,105.8166733,73000.0,9000.0,128000.0,4.4,16,Quan Ba Dinh,Ha Noi,Ha Noi:Quan Ba Dinh
+store:25452,25452,"Bánh Cuốn Nóng, Bún Đậu Mẹt & Bún Chả - Vĩnh Hưng",20.99073029,105.878952,52500.0,12000.0,65000.0,4.4,674,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:2267,2267,Gỏi Cuốn - Nem Nướng Hương Béo - Bùi Xương Trạch,20.98192024,105.8181915,60000.0,12000.0,65000.0,4.6,298,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:67492,67492,Quán Huyền Béo - Bún Trộn & Cơm Gà Chiên Mắm - Ngõ Trại Cá,20.99344063,105.8483429,,40000.0,160000.0,0.0,0,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:126555,126555,"Quán 92 - Cơm Rang, Phở & Mỳ Chua Cay - Trần Quốc Toản",21.01984024,105.8486404,80000.0,60000.0,80000.0,0.0,0,,Ha Noi,
+store:18796,18796,Phở Dung - Bún Chả - Tân Mai,20.98362923,105.8551025,50000.0,2000.0,60000.0,5.0,1,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:134250,134250,Bếp Mẹ Bơ - Mỳ Cay Koreno 7 Cấp Độ & Phở Cuốn - Trung Liệt,21.01143074,105.8204727,60000.0,17000.0,75000.0,0.0,0,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:134680,134680,Mì Indomie & Phở Cuốn - Lĩnh Nam,20.9877491,105.8716812,30000.0,10000.0,45000.0,0.0,0,,Ha Noi,
+store:36147,36147,Phở Vịt Quay Tứ Xuyên - Láng Hạ,21.01733017,105.8161697,40000.0,15000.0,150000.0,4.3,3,Quan Ba Dinh,Ha Noi,Ha Noi:Quan Ba Dinh
+store:40014,40014,Bún Chả - Bánh Cuốn Chả Nướng - Bùi Xương Trạch,20.98866081,105.8180008,,,,0.0,0,,Ha Noi,
+store:54641,54641,Bún Đậu Chị Hai - Nem Nướng Nha Trang & Phở Cuốn - Nguyễn Ngọc Vũ,21.01055908,105.8086014,52500.0,15000.0,160000.0,2.4,371,,Ha Noi,
+store:37364,37364,Quán Ngon - Gà Tần & Bánh Cuốn Nóng - Tạ Quang Bửu,21.00509071,105.8468018,35000.0,5000.0,45000.0,0.0,0,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:6930,6930,Kombo cơm niêu Singapore - 46 Trần Đại Nghĩa,21.00205994,105.8447266,59400.0,10800.0,106920.0,4.7,538,Quan Hai Ba Trung,HÃ  Ná»™i,HÃ  Ná»™i:Quan Hai Ba Trung
+store:42458,42458,Cơm Gà Xối Mỡ Mai Phương - Lê Thanh Nghị,21.00358009,105.8485565,50000.0,50000.0,70000.0,4.6,226,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:56543,56543,Gà Rán KFC - Lê Thanh Nghị,21.00193024,105.844223,56000.0,13000.0,389000.0,4.7,288,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:62951,62951,Bún Cá Măng Cay & Bún Hải Sản Cát Bà - Lê Thanh Nghị,21.00189972,105.843483,65000.0,55000.0,68000.0,4.4,461,,Ha Noi,
+store:31215,31215,Cơm Rang Hải Sơn - Giải Phóng,21.00285912,105.8422928,46000.0,12000.0,68000.0,4.0,429,Quan Hai Ba Trung,Hà Nội,Hà Nội:Quan Hai Ba Trung
+store:67574,67574,Bánh Tráng Mập - Lê Thanh Nghị,21.00349045,105.8493423,41000.0,17000.0,92000.0,4.9,205,,Ha Noi,
+store:7160,7160,Bún Chả Mẹ Nga - Vân Hồ 3,21.00921059,105.8462524,64000.0,2000.0,64000.0,4.3,2598,Quan Hai Ba Trung,Hà Nội,Hà Nội:Quan Hai Ba Trung
+store:117526,117526,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Lê Thanh Nghị,21.00338936,105.8497772,65000.0,8000.0,73000.0,5.0,13,Quan Hai Ba Trung,Hà Nội,Hà Nội:Quan Hai Ba Trung
+store:8919,8919,Cơm Sạch Mẹ Shin - Tô Hoàng,21.00667,105.8498917,65000.0,10000.0,149000.0,4.5,849,Quan Hai Ba Trung,Hà Nội,Hà Nội:Quan Hai Ba Trung
+store:123211,123211,Phạm Gia Food - Cơm Tấm & Lẩu Ly - Trần Đại Nghĩa,21.00016975,105.8453979,73000.0,35000.0,78000.0,4.8,17,,Ha Noi,
+store:50258,50258,Tiến Lan - Bún Chả - Đình Đại,21.00443077,105.8508682,50000.0,45000.0,55000.0,5.0,1,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:111026,111026,Cơm Ngon Hà Nội - Bà Triệu,21.00888062,105.8490982,75000.0,15000.0,115000.0,4.4,17,Quan Hai Ba Trung,Hà Nội,Hà Nội:Quan Hai Ba Trung
+store:27416,27416,Bún Chả Minh Béo - Vân Hồ,21.01018906,105.8460007,40000.0,10000.0,60000.0,4.3,4,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:136086,136086,Cơm Gà Rán Đài Loan - OMEGA - Tạ Quang Bửu,21.00106049,105.8490677,54000.0,1000.0,74000.0,5.0,1,,Ha Noi,
+store:117708,117708,Cơm Gà Cô Tấm - Tạ Quang Bửu,21.00081062,105.8489227,65000.0,65000.0,65000.0,5.0,10,,Ha Noi,
+store:118277,118277,Phở Gà Đặc Biệt A Ỉn - Giải Phóng,21.00127983,105.8414536,,48000.0,59000.0,5.0,1,,Ha Noi,
+store:73491,73491,U Lìu - Bún Bò Nam Bộ & Các Món Cuốn - Vân Hồ 2,21.01061058,105.8464127,55000.0,40000.0,145000.0,4.8,51,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:8805,8805,Gà Rán Texas Chicken - Bạch Mai,21.00197983,105.8508224,79000.0,3000.0,479000.0,4.8,2851,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:81353,81353,Cơm Tấm Xưa - Phong Vị Sài Thành - Lê Đại Hành,21.00931931,105.8503418,70000.0,7000.0,189000.0,4.6,507,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:77167,77167,Mỳ Gà Tần & Bún Chả - Khu Tập Thể Kinh Tế Quốc Dân,20.99908066,105.8476563,45000.0,10000.0,69000.0,4.2,160,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:32462,32462,Phở Liên - Phở Gà & Phở Trộn - Bạch Mai,21.00217056,105.8517532,55000.0,3000.0,65000.0,4.9,150,,Ha Noi,
+store:77657,77657,BBQ Chicken - Gà Rán Hàn Quốc - Bà Triệu,21.01087952,105.8490067,137000.0,22000.0,415000.0,4.9,141,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:23407,23407,Phở Bò 33 - Lê Đại Hành,21.01115036,105.8485489,60000.0,55000.0,85000.0,4.2,63,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:15964,15964,Quán Rôm - Bánh Tráng Cuốn Thịt Heo - Thái Phiên,21.01046944,105.8498383,55000.0,11000.0,75000.0,4.5,30,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:13998,13998,Quán Thiên Đức - Tự Do,20.99867058,105.8474731,32000.0,32000.0,32000.0,4.2,60,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:133949,133949,Cơm Rang Khói - Võ Thị Sáu,21.00498009,105.8531189,60000.0,45000.0,80000.0,5.0,1,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:9606,9606,Cơm Ngon Quang Thắng,20.99814034,105.8468933,53950.0,10000.0,69000.0,4.8,5306,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:7635,7635,Happy Food Cơm Gà Ba Vì,20.99850082,105.842659,65000.0,12000.0,87000.0,4.8,4000,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:14318,14318,Thuỷ Hùng Cơm Gà Ba Vì - Phố Vọng,20.99850082,105.842659,65000.0,12000.0,87000.0,4.8,1618,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:111742,111742,Fami Cháo - Cháo Dinh Dưỡng Cao Cấp - 404 Bạch Mai,20.99931908,105.8503113,51000.0,13000.0,66000.0,5.0,26,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:22847,22847,Cơm Ngon 67 - Bạch Mai,21.0018692,105.8527069,50000.0,4000.0,60000.0,4.4,264,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:80180,80180,"Quyên Phở Gà - Phở, Mì & Miến Trộn - Phố Vọng",20.99840927,105.8421631,55000.0,15000.0,60000.0,4.8,563,Quan Dong Da,Hà Nội,Hà Nội:Quan Dong Da
+store:15387,15387,BBQ Cơm Sườn Phố Cổ - Trần Đại Nghĩa,20.99757957,105.8460693,70000.0,5000.0,75000.0,4.8,156,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:128678,128678,Quán Cô Ba - Cơm Tấm - Phố Vọng,20.99815941,105.8423309,133000.0,26000.0,160000.0,2.0,2,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:7207,7207,Cơm Tấm Anh Ba Sài Gòn - Ngõ Tự Do,20.99739075,105.8463516,68000.0,9000.0,86000.0,4.8,1523,,Ha Noi,
+store:32487,32487,Phở Gà Ngon 69 - Ngõ Tự Do,20.99739075,105.8463516,40000.0,40000.0,60000.0,4.6,90,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:11305,11305,Quán Cơm 76,20.9973793,105.8463516,45000.0,8500.0,100000.0,4.9,5360,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:133169,133169,Gà Rán Dakgalbi - Trần Đại Nghĩa,20.9971199,105.8460922,170000.0,15000.0,320000.0,4.8,5,,Ha Noi,
+store:13003,13003,Lotteria - Bạch Mai,20.99827003,105.8503571,48000.0,5000.0,280000.0,4.8,1149,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:31548,31548,Han Chicken - Gà Rán Hàn Quốc - Bùi Ngọc Dương,21.00123024,105.8533936,99000.0,1000.0,350000.0,4.9,1103,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:111500,111500,Tiệm Gà A Bệu - Trần Khát Chân,21.00845909,105.8537521,55000.0,45000.0,70000.0,5.0,4,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:29781,29781,Chú Tiểu - Bánh Mì Nướng Sốt & Muối Ớt - Ngõ Tự Do,20.99679947,105.845932,38900.0,4900.0,68900.0,4.8,509,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:76300,76300,Phở Gà & Thịt Xiên - Bùi Ngọc Dương,21.00065994,105.8531799,67500.0,8000.0,180000.0,4.4,131,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:119112,119112,Cơm Rang A Lú - Lương Định Của,21.00650978,105.836731,60000.0,2000.0,65000.0,5.0,21,,Ha Noi,
+store:114792,114792,Bún Chả - Nem Rán Long Vũ - Bạch Mai,20.99784088,105.8500977,58000.0,10000.0,126000.0,4.8,226,,Ha Noi,
+store:17056,17056,Chảnh Quán - Gỏi Cuốn Mắm Nêm - Phố Vọng,20.99692917,105.8428726,46500.0,7000.0,240000.0,4.6,82,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:105958,105958,Bánh Cuốn Nóng 101 Bà Triệu - Triệu Việt Vương,21.0123806,105.8505173,45000.0,7000.0,65000.0,4.9,53,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:132613,132613,Phở Dũng - Ô Đồng Lầm,21.01161003,105.8394623,42000.0,42000.0,50000.0,0.0,0,,Ha Noi,
+store:34875,34875,Cherry Hồng - Phở Gà & Bún Riêu Ốc - Trần Khát Chân,21.00882912,105.8539734,55500.0,5000.0,66000.0,5.0,1,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:14305,14305,Phở Bò Long Bích - Võ Thị Sáu,21.00349998,105.8548203,61000.0,46000.0,121000.0,4.5,452,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:91853,91853,Bánh Tráng Cuốn Thịt Heo Bốn Ba - Đại La,20.99633026,105.846077,54000.0,7000.0,90000.0,4.7,78,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:11493,11493,Tun Tun - Bún Hải Sản Hoa Quả - Bùi Ngọc Dương,21.00175095,105.8544769,70000.0,3000.0,100000.0,4.9,1821,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:22815,22815,Bánh Cuốn Cao Bằng - Thể Giao,21.01400948,105.847641,30000.0,7000.0,350000.0,4.8,314,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:93168,93168,Minh Sơn - Bún Trộn & Phở Chiên Phồng - Bạch Mai,20.99758911,105.8510818,60000.0,13000.0,120000.0,4.8,118,Quan Hai Ba Trung,Hà Nội,Hà Nội:Quan Hai Ba Trung
+store:1108,1108,Cô Tám - Cơm Rang & Cơm Tấm - 126 Hồng Mai,20.9987793,105.8526306,61000.0,6000.0,195000.0,4.8,1319,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:40980,40980,Cơm Thố Bách Khoa - Lương Định Của,21.00451088,105.8357773,72500.0,15000.0,95000.0,4.8,310,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:95450,95450,Hương Hội An - Cơm Gà Hội An - Thanh Nhàn,21.00276947,105.8551102,80000.0,70000.0,155000.0,4.0,23,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:134203,134203,Cơm Lệ - Ấm Vị Gia Đình - 135 Triệu Việt Vương,21.01305962,105.8505478,144000.0,16000.0,552000.0,5.0,1,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:4486,4486,"Bento Delichi (by Cooky) - Cơm Gà Mắm Tỏi, Xối Mỡ - Xã Đàn",21.01066017,105.8376999,56000.0,8000.0,147000.0,4.7,2748,,Ha Noi,
+store:31187,31187,Đáng Vũ - Bánh Cuốn Nóng Gia Truyền - Lương Định Của,21.00382042,105.8358002,65000.0,18000.0,95000.0,4.8,133,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:8785,8785,Korean Chicken - Gà Rán Truyền Thống Hàn Quốc - Bạch Mai,20.99749947,105.8513718,170000.0,5000.0,330000.0,4.9,1026,,Ha Noi,
+store:65884,65884,Kaoya Hotpot - Mì Vịt Quay & Cơm Xá Xíu - Lương Định Của,21.00495911,105.8355408,70000.0,15000.0,395000.0,4.7,635,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:40716,40716,Cơm Tấm Sài gòn - Hồng Mai,20.99847031,105.8531876,29000.0,5000.0,80000.0,0.0,0,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:58523,58523,Tiệm Bánh Cô Bống - Trường Chinh,20.99600983,105.8417892,85000.0,20000.0,260000.0,4.8,56,,Ha Noi,
+store:62280,62280,Bếp Mẹ Bơ 15A - Bánh Xèo Cốt Dừa - Hồng Mai,21.00016022,105.8546677,39000.0,13000.0,140000.0,4.8,180,,Ha Noi,
+store:1279,1279,Gạch Quán - Bánh Tráng Cuốn Thịt Heo,21.00968933,105.8362579,42000.0,10000.0,85000.0,4.8,1923,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:32416,32416,Ngọc Lợi - Miến & Bánh Đa Cua Trộn - Kim Liên,21.00330925,105.8351974,52500.0,7000.0,155000.0,4.8,144,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:39068,39068,"Cơm Sườn Cooky - Cơm Tấm, Cơm Sườn Xốt - Trần Đại Nghĩa",20.99517059,105.845459,56000.0,10000.0,139000.0,4.2,1299,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:84292,84292,Bánh Cuốn Nóng Cô Sợi Gia Truyền Nam Định - Tập Thể Kim Liên,21.0034008,105.835083,30000.0,30000.0,45000.0,0.0,0,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:32283,32283,Hương Phệ - Bún Chả Ngon - Hồng Mai,20.99861908,105.8536911,45000.0,45000.0,45000.0,4.9,35,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:4397,4397,Mokchang - Đồ Ăn Hàn Quốc & Gà Rán - Xã Đàn,21.01195908,105.8376694,85000.0,5000.0,364000.0,4.8,5937,,Ha Noi,
+store:7920,7920,Cơm Gà Q35 - Hồng Mai,20.99887085,105.8540802,45000.0,1.0,57000.0,4.8,2207,,Ha Noi,
+store:61209,61209,Bánh Tráng Cô Chin - Bánh Tráng Cuốn Phomai - Lương Định Của,21.00721931,105.834938,35000.0,10000.0,40000.0,2.0,1,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:76124,76124,Cơm Osechi - Cơm Gà & Cơm Thịt Heo - Phương Liệt,20.9968605,105.8390732,72500.0,18000.0,85000.0,4.8,79,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:10227,10227,Bánh Cuốn Đức Hạnh - Phạm Ngọc Thạch,21.00922012,105.8355179,30000.0,10000.0,50000.0,4.6,153,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:2443,2443,Bánh Giò Nóng Xuân Thủy - Lương Định Của,21.00736046,105.8348083,72500.0,13000.0,130000.0,4.0,37,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:116044,116044,Cơm Bình Dân - Lạc Nghiệp,21.00834084,105.8562164,50000.0,45000.0,50000.0,4.0,11,,Ha Noi,
+store:41433,41433,Phở Lộc - Phạm Ngọc Thạch,21.00839043,105.8349686,40000.0,40000.0,45000.0,0.0,0,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:16270,16270,"Bún Chả, Bún Thịt Nướng & Thịt Xiên Cây Dâu - Nguyễn Công Trứ",21.01353073,105.8522797,28000.0,11000.0,58000.0,5.0,42,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:96492,96492,Bánh Cuốn Dẻo Gia Truyền Bà Minh - Lương Đình Của,21.00753021,105.8346481,37500.0,5000.0,245000.0,0.0,0,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:99617,99617,Cơm Đốt Thố Thái Lan - Xã Đàn,21.01178932,105.8367462,76500.0,17000.0,287000.0,5.0,5,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:128372,128372,Cơm BomPi - Gà & Xá Xíu - Trường Chinh,20.99718094,105.837677,60000.0,38250.0,60000.0,4.3,8,,Ha Noi,
+store:10856,10856,Hồng Hạnh - Bánh Cuốn Tôm Thịt,21.00914955,105.8346329,30000.0,15000.0,50000.0,4.7,205,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:134353,134353,Bún Chả Trâm Anh - Trương Định,20.99481964,105.8497696,50000.0,10000.0,69000.0,0.0,0,,Ha Noi,
+store:32784,32784,Nhà Hàng Đức Mai - Các Món Nhậu - Giải Phóng,20.99481964,105.8414078,35000.0,10000.0,280000.0,4.1,11,Quan Thanh Xuan,Ha Noi,Ha Noi:Quan Thanh Xuan
+store:95249,95249,Cơm Tấm Sườn Đông Dương - Trương Định,20.99474907,105.8497162,78000.0,10000.0,93000.0,4.8,312,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:116631,116631,Bà Tuyết - Bún Thái Hải Sản & Mì Chua Cay - Lương Định Của,21.00732994,105.8339233,87000.0,20000.0,98000.0,4.8,167,,Ha Noi,
+store:122272,122272,Phở Bò Thu - Hồng Mai,20.99889946,105.8554916,45000.0,40000.0,45000.0,5.0,1,,Ha Noi,
+store:26075,26075,Chi Nấm - Cơm Văn Phòng,21.01133919,105.835083,48000.0,7000.0,57000.0,4.6,293,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:119585,119585,Cơm Tấm Nàng Bơ - Phạm Ngọc Thạch,21.00775909,105.8333282,70000.0,60000.0,85000.0,4.6,11,,Ha Noi,
+store:20058,20058,TIỆM GÀ RÁN SỐ 19,21.01629066,105.8497772,200000.0,13000.0,530000.0,4.6,88,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:20000,20000,Bánh Cuốn Nóng - Nguyễn Bỉnh Khiêm,21.01664925,105.8485718,32500.0,25000.0,40000.0,4.5,25,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:76892,76892,GONGFU CHICKEN - Trương Định,20.99386024,105.8497086,54000.0,14000.0,384000.0,4.7,485,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:68175,68175,Cơm Quê Ngõ Nhỏ - Đồng Nhân,21.01306915,105.8552017,65000.0,8000.0,250000.0,4.6,202,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:8868,8868,Cơm Rang 10 Cẩm - Ngõ Trại Cá,20.99341011,105.8485184,42000.0,1000.0,85000.0,4.6,1617,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:130788,130788,Vinh Anh - Chuyên Cơm Rang - Hà Kế Tấn,20.9962101,105.8366394,55000.0,15000.0,60000.0,0.0,0,,Ha Noi,
+store:130031,130031,"Quán Cô Tín - Bún Đậu, Bánh Khoai & Bánh Chuối - Chùa Quỳnh",21.00064087,105.8578186,39000.0,5000.0,59000.0,5.0,1,,Ha Noi,
+store:24720,24720,Gà Rán Tok Tok - Khâm Thiên,21.01596069,105.8393478,70000.0,15000.0,350000.0,4.9,104,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:57665,57665,Phở Bò Gà & Bún Miến Ngan 343 - Phố Vọng,20.99327087,105.8420029,66000.0,66000.0,71000.0,4.8,187,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:11020,11020,Bún Chả Cô An - Hanoi Grilled Pork Noodles - Khâm Thiên,21.01643944,105.8400269,65000.0,45000.0,350000.0,4.6,40,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:103124,103124,Habon Chicken - Tiệm Gà Rán Hàn Quốc - Ngõ Trại Cá,20.9930706,105.8492432,137000.0,12000.0,198000.0,4.7,29,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:126401,126401,"Happy Food - Đồ Ăn Hàn, Gà Rán Sốt & Cơm Bò HQ - Phùng Khắc Khoan",21.01605034,105.8523178,75000.0,1000.0,250000.0,4.2,40,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:36157,36157,Bánh Cuốn Nóng Linh Béo - Ngõ Tân Lập,21.00094032,105.8583374,20000.0,10000.0,40000.0,0.0,0,Quan Hai Ba Trung,Ha Noi,Ha Noi:Quan Hai Ba Trung
+store:9929,9929,Gà Rán và Mỳ Ý Jollibee - Vincom Phạm Ngọc Thạch,21.00624084,105.8320313,61500.0,1000.0,322000.0,4.8,4519,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:73467,73467,Mieso Food - Gà Rán & Gà Ủ Muối - Chợ Khâm Thiên,21.01643944,105.8381119,92000.0,6000.0,189000.0,4.7,666,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:31750,31750,Bếp Bé Bếu - Cơm & Bánh Mì Nướng Trung Hoa - Đặng Văn Ngữ,21.00999069,105.8321762,65000.0,8000.0,100000.0,4.8,974,,Ha Noi,
+store:109048,109048,"Bếp Chử - Gỏi Cuốn, Bún Trộn & Nem Nướng Nha Trang - Nguyễn An Ninh",20.99164009,105.8448792,59999.0,6666.0,125000.0,4.7,43,Quan Hoang Mai,Ha Noi,Ha Noi:Quan Hoang Mai
+store:1255,1255,Cơm Rang Dế Mèn,21.00871086,105.8316269,55000.0,12000.0,105000.0,4.6,644,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
+store:53514,53514,Cơm 1985 - Phố Chợ Khâm Thiên,21.0156002,105.83638,79000.0,12000.0,100000.0,5.0,96,Quan Dong Da,Ha Noi,Ha Noi:Quan Dong Da
