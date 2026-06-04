@@ -47,8 +47,12 @@ def recommend(req: RecommendRequest):
         final_rules["distance_tolerance_m"] = req.distance_tolerance_m or 1500.0
 
     graph_results = get_graphrag_service().recommend(req.query, final_rules, top_k=req.top_k)
-    rgcn_results = get_rgcn_service().recommend(normalized_query, final_rules, top_k=req.top_k)
-    weights = settings.config["ranking"]["weights"]
+    graphrag_mode = next((row.get("graphrag_mode") for row in graph_results if row.get("graphrag_mode")), "unknown")
+    rgcn_service = get_rgcn_service()
+    rgcn_results = rgcn_service.recommend(normalized_query, final_rules, top_k=req.top_k)
+    weights = dict(settings.config["ranking"]["weights"])
+    if not rgcn_results:
+        weights["rgcn"] = 0.0
     fused = fuse_results(graph_results, rgcn_results, req.algorithm, weights)[: req.top_k]
 
     logger.log_event(
@@ -67,7 +71,10 @@ def recommend(req: RecommendRequest):
             "rule_source": "mixed" if req.manual_rules else "nl_parser",
             "parse_confidence": inferred_rules.get("confidence", 0.0),
             "algorithm_requested": req.algorithm,
-            "algorithm_used": req.algorithm if req.algorithm != "rgcn" or rgcn_results else "graphrag",
+            "algorithm_used": req.algorithm,
+            "graphrag_mode": graphrag_mode,
+            "rgcn_model_loaded": bool(getattr(rgcn_service, "ranker", None)),
+            "ranking_weights_json": weights,
             "results_shown_json": [row["restaurant_id"] for row in fused],
             "clicked_restaurant_id": None,
             "feedback_value": None,
@@ -95,7 +102,10 @@ def recommend(req: RecommendRequest):
         "query": req.query,
         "inferred_rules": _public_rules(inferred_rules),
         "final_rules": _public_rules(final_rules),
-        "algorithm_used": req.algorithm if req.algorithm != "rgcn" or rgcn_results else "graphrag",
+        "algorithm_used": req.algorithm,
+        "graphrag_mode": graphrag_mode,
+        "rgcn_model_loaded": bool(getattr(rgcn_service, "ranker", None)),
+        "ranking_weights": weights,
         "results": fused,
         "latency_ms": latency_ms,
     })

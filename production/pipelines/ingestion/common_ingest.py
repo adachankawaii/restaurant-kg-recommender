@@ -62,12 +62,24 @@ def process_restaurant_sources(
     canonical_menu_items = build_canonical_menu_items(raw_menu)
 
     cache_root = settings.root.parent / "cache" / ".cache" / "graphrag"
-    feedback = enrich_feedback_with_cached_aspects(prepared.feedback, cache_root)
-    menu_with_cached_family = apply_cached_dish_families(prepared.menu_items, cache_root)
+    if mode == "offline":
+        feedback = enrich_feedback_with_cached_aspects(prepared.feedback, cache_root)
+        menu_with_cached_family = apply_cached_dish_families(prepared.menu_items, cache_root)
+    else:
+        feedback = prepared.feedback.copy()
+        feedback["aspect_scores"] = [{} for _ in range(len(feedback))]
+        feedback["sentiment"] = "neutral"
+        feedback["confidence"] = 0.0
+        menu_with_cached_family = prepared.menu_items.copy()
+        menu_with_cached_family["dish_family"] = None
     name_map = {str(row["restaurant_id"]): row["name"] for _, row in canonical_restaurants.iterrows()}
     text_units = build_text_units_with_chunking(feedback, name_map)
-    extracted_entities, extracted_relations = extract_entities_from_checkpoint(text_units, cache_root)
-    community_reports = community_reports_to_df(cache_root)
+    if mode == "offline":
+        extracted_entities, extracted_relations = extract_entities_from_checkpoint(text_units, cache_root)
+        community_reports = community_reports_to_df(cache_root)
+    else:
+        extracted_entities, extracted_relations = pd.DataFrame(), pd.DataFrame()
+        community_reports = pd.DataFrame()
 
     canonical_restaurants_path = processed_dir / "canonical_restaurants.csv"
     canonical_menu_path = processed_dir / "canonical_menu_items.csv"

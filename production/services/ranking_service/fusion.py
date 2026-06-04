@@ -15,10 +15,40 @@ def _is_missing(value) -> bool:
     return value is None or value == "" or value == "N/A"
 
 
+def _graph_only_rows(graphrag_results: list[dict], weights: dict | None = None) -> list[dict]:
+    graph_scores = _normalize([row.get("graphrag_score", 0.0) for row in graphrag_results])
+    rule_scores = _normalize([row.get("rule_score", 0.0) for row in graphrag_results])
+    popularity_scores = _normalize([row.get("popularity_score", 0.0) for row in graphrag_results])
+    graph_weight = float((weights or {}).get("graphrag", 1.0))
+    rule_weight = float((weights or {}).get("rule", 0.0))
+    popularity_weight = float((weights or {}).get("popularity", 0.0))
+    rows = []
+    for index, row in enumerate(graphrag_results):
+        final_score = (
+            graph_weight * graph_scores[index]
+            + rule_weight * rule_scores[index]
+            + popularity_weight * popularity_scores[index]
+        )
+        rows.append(
+            {
+                **row,
+                "scores": {
+                    "final": round(final_score, 6),
+                    "graphrag": round(graph_scores[index], 6),
+                    "rgcn": 0.0,
+                    "rule": round(rule_scores[index], 6),
+                    "popularity": round(popularity_scores[index], 6),
+                },
+            }
+        )
+    rows.sort(key=lambda item: item["scores"]["final"], reverse=True)
+    return rows
+
+
 def fuse_results(graphrag_results: list[dict], rgcn_results: list[dict], algorithm: str, weights: dict) -> list[dict]:
     if algorithm == "rgcn":
         if not rgcn_results:
-            algorithm = "graphrag"
+            return _graph_only_rows(graphrag_results, {**weights, "rgcn": 0.0})
         else:
             return [
                 {
@@ -34,16 +64,12 @@ def fuse_results(graphrag_results: list[dict], rgcn_results: list[dict], algorit
                 for row in rgcn_results
             ]
 
-    if algorithm == "graphrag" or not rgcn_results:
-        for row in graphrag_results:
-            row["scores"] = {
-                "final": row.get("graphrag_score", 0.0),
-                "graphrag": row.get("graphrag_score", 0.0),
-                "rgcn": 0.0,
-                "rule": row.get("rule_score", 0.0),
-                "popularity": row.get("popularity_score", 0.0),
-            }
-        return graphrag_results
+    if algorithm == "graphrag":
+        return _graph_only_rows(graphrag_results, {"graphrag": 1.0, "rule": 0.0, "popularity": 0.0})
+
+    effective_weights = dict(weights)
+    if not rgcn_results:
+        effective_weights["rgcn"] = 0.0
 
     union: dict[str, dict] = {row["restaurant_id"]: dict(row) for row in graphrag_results}
     for row in rgcn_results:
@@ -65,10 +91,10 @@ def fuse_results(graphrag_results: list[dict], rgcn_results: list[dict], algorit
     fused = []
     for index, row in enumerate(merged_rows):
         final_score = (
-            weights["graphrag"] * graph_scores[index]
-            + weights["rgcn"] * rgcn_scores[index]
-            + weights["rule"] * rule_scores[index]
-            + weights["popularity"] * popularity_scores[index]
+            effective_weights["graphrag"] * graph_scores[index]
+            + effective_weights["rgcn"] * rgcn_scores[index]
+            + effective_weights["rule"] * rule_scores[index]
+            + effective_weights["popularity"] * popularity_scores[index]
         )
         fused.append(
             {

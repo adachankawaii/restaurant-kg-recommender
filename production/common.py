@@ -36,6 +36,20 @@ def load_json(path: Path, default: Any = None) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
+def latest_complete_dir(root: Path, required_files: list[str], description: str) -> Path:
+    candidates = []
+    if root.exists():
+        candidates = [
+            path
+            for path in root.iterdir()
+            if path.is_dir() and all((path / required_file).exists() for required_file in required_files)
+        ]
+    if not candidates:
+        required = ", ".join(required_files)
+        raise FileNotFoundError(f"No complete {description} found under {root}. Required files: {required}")
+    return sorted(candidates)[-1]
+
+
 def dump_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
     ensure_dir(path.parent)
     with path.open("w", encoding="utf-8") as file:
@@ -85,4 +99,3 @@ class RuntimePaths:
     user_events_root: Path
     rgcn_root: Path
     models_root: Path
-

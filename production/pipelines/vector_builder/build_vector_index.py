@@ -4,8 +4,17 @@ from pathlib import Path
 
 import pandas as pd
 
-from common import dump_json, load_json, utc_now_iso
+from common import dump_json, latest_complete_dir, load_json, utc_now_iso
 from settings import Settings
+
+
+def _read_optional_csv(path):
+    if not path.exists():
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(path).fillna("")
+    except pd.errors.EmptyDataError:
+        return pd.DataFrame()
 
 
 def _active_graph_version(settings: Settings) -> str:
@@ -14,13 +23,14 @@ def _active_graph_version(settings: Settings) -> str:
 
 def build_local_vector_index(settings: Settings) -> dict[str, object]:
     graph_version = _active_graph_version(settings)
-    processed_dirs = [path for path in settings.paths.processed_root.iterdir() if path.is_dir()]
-    if not processed_dirs:
-        raise FileNotFoundError("No processed directories found for vector build.")
-    processed_dir = sorted(processed_dirs)[-1]
+    processed_dir = latest_complete_dir(
+        settings.paths.processed_root,
+        ["canonical_restaurants.csv", "canonical_menu_items.csv"],
+        "processed ingestion output",
+    )
     restaurants = pd.read_csv(processed_dir / "canonical_restaurants.csv")
-    text_units = pd.read_csv(processed_dir / "text_units.csv").fillna("") if (processed_dir / "text_units.csv").exists() else pd.DataFrame()
-    community_reports = pd.read_csv(processed_dir / "community_reports.csv").fillna("") if (processed_dir / "community_reports.csv").exists() else pd.DataFrame()
+    text_units = _read_optional_csv(processed_dir / "text_units.csv")
+    community_reports = _read_optional_csv(processed_dir / "community_reports.csv")
 
     records = []
     for _, row in restaurants.iterrows():

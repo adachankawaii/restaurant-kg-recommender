@@ -5,17 +5,27 @@ from pathlib import Path
 
 import pandas as pd
 
-from common import dump_json, make_run_id, utc_now_iso
+from common import dump_json, latest_complete_dir, make_run_id, utc_now_iso
 from pipelines.kg_builder.export_snapshot import write_snapshot_csv
 from pipelines.kg_builder.neo4j_writer import Neo4jWriter
 from settings import Settings
 
 
+def _read_optional_csv(path: Path) -> pd.DataFrame:
+    if not path.exists():
+        return pd.DataFrame()
+    try:
+        return pd.read_csv(path).fillna("")
+    except pd.errors.EmptyDataError:
+        return pd.DataFrame()
+
+
 def _latest_processed_dir(processed_root: Path) -> Path:
-    candidates = [path for path in processed_root.iterdir() if path.is_dir()]
-    if not candidates:
-        raise FileNotFoundError("No processed ingestion outputs found. Run offline ingest first.")
-    return sorted(candidates)[-1]
+    return latest_complete_dir(
+        processed_root,
+        ["canonical_restaurants.csv", "canonical_menu_items.csv"],
+        "processed ingestion output",
+    )
 
 
 def build_kg_snapshot(settings: Settings) -> dict[str, object]:
@@ -24,9 +34,9 @@ def build_kg_snapshot(settings: Settings) -> dict[str, object]:
     menu_items = pd.read_csv(processed_dir / "canonical_menu_items.csv")
     feedback = pd.read_csv(processed_dir / "feedback.csv").fillna("")
     text_units = pd.read_csv(processed_dir / "text_units.csv").fillna("")
-    extracted_entities = pd.read_csv(processed_dir / "extracted_entities.csv").fillna("") if (processed_dir / "extracted_entities.csv").exists() else pd.DataFrame()
-    extracted_relations = pd.read_csv(processed_dir / "extracted_relations.csv").fillna("") if (processed_dir / "extracted_relations.csv").exists() else pd.DataFrame()
-    community_reports = pd.read_csv(processed_dir / "community_reports.csv").fillna("") if (processed_dir / "community_reports.csv").exists() else pd.DataFrame()
+    extracted_entities = _read_optional_csv(processed_dir / "extracted_entities.csv")
+    extracted_relations = _read_optional_csv(processed_dir / "extracted_relations.csv")
+    community_reports = _read_optional_csv(processed_dir / "community_reports.csv")
 
     graph_version = make_run_id("kg")
     snapshot_dir = settings.paths.kg_root / graph_version
@@ -183,7 +193,13 @@ def build_kg_snapshot(settings: Settings) -> dict[str, object]:
             user=os.getenv("NEO4J_USER", os.getenv("NEO4J_USERNAME", "neo4j")),
             password=os.getenv("NEO4J_PASSWORD", "password"),
             database=os.getenv("NEO4J_DATABASE", "neo4j"),
-        ).write_snapshot(graph_version, nodes, edges)
+        ).write_graphrag_snapshot(
+            graph_version=graph_version,
+            processed_dir=processed_dir,
+            cache_root=settings.root.parent / "cache" / ".cache" / "graphrag",
+            exported_nodes_path=settings.root.parent / "rgcn_pipeline" / "data" / "graphrag_nodes.csv",
+            exported_edges_path=settings.root.parent / "rgcn_pipeline" / "data" / "graphrag_edges.csv",
+        )
         if neo4j_result.get("status") == "failed" and settings.config.get("neo4j", {}).get("required", False):
             raise RuntimeError(f"Neo4j write failed: {neo4j_result.get('reason')}")
 

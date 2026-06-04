@@ -10,6 +10,8 @@ $productionRoot = Resolve-Path (Join-Path $scriptDir "..")
 $repoRoot = Resolve-Path (Join-Path $productionRoot "..")
 $venvPython = Join-Path $repoRoot ".venv\Scripts\python.exe"
 $pythonExe = if (Test-Path $venvPython) { $venvPython } else { "python" }
+$env:PYTHONUTF8 = "1"
+$env:PYTHONIOENCODING = "utf-8"
 
 function Invoke-Checked {
     param(
@@ -147,10 +149,10 @@ try {
 
     if ($RebuildOffline) {
         Write-Host "Rebuilding offline data artifacts..."
-        & $pythonExe scripts/run_offline_ingest.py --config configs/offline.yaml
-        & $pythonExe scripts/build_kg.py --mode offline
-        & $pythonExe scripts/build_indexes.py --mode offline
-        & $pythonExe scripts/export_rgcn_snapshot.py --mode offline
+        Invoke-Checked "offline ingest" { & $pythonExe scripts/run_offline_ingest.py --config configs/offline.yaml }
+        Invoke-Checked "KG build" { & $pythonExe scripts/build_kg.py --mode offline }
+        Invoke-Checked "vector index build" { & $pythonExe scripts/build_indexes.py --mode offline }
+        Invoke-Checked "R-GCN snapshot export" { & $pythonExe scripts/export_rgcn_snapshot.py --mode offline }
     }
 
     Write-Host "Starting API on port $ApiPort..."

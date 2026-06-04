@@ -15,7 +15,14 @@ def main():
     parser.add_argument("--mode", default="offline")
     args = parser.parse_args()
     settings = load_settings(mode=args.mode)
-    print(build_local_vector_index(settings))
+    result = build_local_vector_index(settings)
+    print(
+        {
+            "graph_version": result.get("graph_version"),
+            "record_count": len(result.get("records", [])),
+            "created_at": result.get("created_at"),
+        }
+    )
 
 
 if __name__ == "__main__":
