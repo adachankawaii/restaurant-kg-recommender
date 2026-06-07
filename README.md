@@ -20,20 +20,32 @@ restaurant-kg-recommender/
 ├── README_graph_rag_restaurant_refined.md
 ├── requirements.txt
 ├── .env.example
-├── config.py
-├── ingest.py
-├── aspect_sentiment.py
-├── cache.py
-├── llm_graph_extraction.py
-├── graph_store.py
-├── vector_store.py
-├── retriever.py
-├── ranker.py
-├── cross_encoder.py
-├── evaluation.py
-├── observability.py
-├── llm.py
-├── api.py
+├── src/
+│   ├── api.py
+│   ├── aspect_sentiment.py
+│   ├── cache.py
+│   ├── common.py
+│   ├── config.py
+│   ├── cross_encoder.py
+│   ├── evaluation.py
+│   ├── graph_store.py
+│   ├── hust_foody.py
+│   ├── ingest.py
+│   ├── llm.py
+│   ├── llm_graph_extraction.py
+│   ├── observability.py
+│   ├── ranker.py
+│   ├── retriever.py
+│   ├── settings.py
+│   ├── topk-be.py
+│   ├── vector_store.py
+│   ├── apps/
+│   ├── dags/
+│   ├── pipelines/
+│   ├── scripts/
+│   ├── services/
+│   ├── training/
+│   └── rgcn_pipeline/
 ├── Utils/
 │   ├── befood_bachkhoa_restaurants.csv
 │   ├── befood_bachkhoa_menu_items.csv

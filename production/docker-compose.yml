@@ -2,7 +2,7 @@ services:
   neo4j:
     image: neo4j:5
     environment:
-      NEO4J_AUTH: neo4j/password
+      NEO4J_AUTH: neo4j/${NEO4J_PASSWORD:-password}
     volumes:
       - neo4j_data:/data
     ports:
@@ -59,9 +59,11 @@ services:
     ports:
       - "8080:8080"
     command: >
-      bash -c "airflow db init &&
-               airflow users create --username airflow --password airflow --firstname Air --lastname Flow --role Admin --email airflow@example.com || true &&
-               airflow webserver & airflow scheduler"
+      bash -c "airflow db migrate &&
+               airflow connections create-default-connections &&
+               (airflow users create --username airflow --password airflow --firstname Air --lastname Flow --role Admin --email airflow@example.com || true);
+               airflow webserver &
+               exec airflow scheduler"
 
 volumes:
   neo4j_data:
