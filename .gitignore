@@ -1,0 +1,19 @@
+# Python/runtime
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# IDE/local machine state
+.idea/
+
+# Generated production artifacts. Keep configs, contracts, scripts, and cache inputs separately.
+production/data_lake/
+
+# Generated R-GCN/GraphRAG exports
+rgcn_pipeline/data/cachebuilt_*.csv
+rgcn_pipeline/data/graphrag_50_geo_rgcn_scenarios.csv
+
+# Local env files
+.env
+production/.env

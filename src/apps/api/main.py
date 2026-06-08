@@ -695,13 +695,22 @@ def user_ui():
               const res = await fetch(`/restaurants/${restaurantId}?${params.toString()}`);
               if (!res.ok) throw new Error('Detail request failed: ' + res.status);
               const item = await res.json();
-              const matched = (resultItem.matched_items || []).slice(0, 8).map(mi => {
-                const price = mi.price ? ' · ' + formatPrice(mi.price) : '';
+              const matchedItems = item.menu_items && item.menu_items.length ? item.menu_items : (resultItem.matched_items || []);
+              const matched = matchedItems.slice(0, 20).map(mi => {
+                const price = mi.price ? ' - ' + formatPrice(mi.price) : '';
                 return `<span class="badge">${escapeHtml(mi.name)}${price}</span>`;
               }).join('');
-              const reviewTerms = (resultItem.extracted_entities || []).slice(0, 8).map(entity => {
-                const type = entity.type ? ` · ${escapeHtml(entity.type)}` : '';
+              const extractedEntities = item.extracted_entities && item.extracted_entities.length ? item.extracted_entities : (resultItem.extracted_entities || []);
+              const reviewTerms = extractedEntities.slice(0, 20).map(entity => {
+                const type = entity.type ? ` - ${escapeHtml(entity.type)}` : '';
                 return `<span class="badge">${escapeHtml(entity.name)}${type}</span>`;
+              }).join('');
+              const comments = (item.comments || []).slice(0, 5).map(comment => {
+                return `<div class="detail-text">"${escapeHtml(comment)}"</div>`;
+              }).join('');
+              const reviewEvidence = (item.review_evidence || []).slice(0, 5).map(review => {
+                const text = review.feedback || review.chunk_text || '';
+                return `<div class="detail-text">"${escapeHtml(text)}"</div>`;
               }).join('');
 
               detail.innerHTML = `
@@ -712,12 +721,16 @@ def user_ui():
                     <div class="detail-text">Reviews: ${escapeHtml(item.review_count || 'N/A')} · Giờ mở cửa: ${escapeHtml(item.opening_hours || 'N/A')}</div>
                   </div>
                   <div class="inline-detail-section">
-                    <p class="inline-detail-title">Menu / món ăn liên quan</p>
-                    <div class="menu-list">${matched || '<span class="meta">Chưa có món ăn phù hợp trong kết quả.</span>'}</div>
+                    <p class="inline-detail-title">Menu từ nguồn</p>
+                    <div class="menu-list">${matched || '<span class="meta">Nguồn dữ liệu chưa có menu cho quán này.</span>'}</div>
                   </div>
                   <div class="inline-detail-section">
                     <p class="inline-detail-title">Từ khóa review chính</p>
-                    <div class="menu-list">${reviewTerms || '<span class="meta">Chưa có từ khóa review.</span>'}</div>
+                    <div class="menu-list">${reviewTerms || '<span class="meta">Nguồn dữ liệu chưa có từ khóa review cho quán này.</span>'}</div>
+                  </div>
+                  <div class="inline-detail-section">
+                    <p class="inline-detail-title">Review gốc</p>
+                    <div>${comments || reviewEvidence || '<span class="meta">Nguồn dữ liệu chưa có nội dung review cho quán này.</span>'}</div>
                   </div>
                 </div>
               `;

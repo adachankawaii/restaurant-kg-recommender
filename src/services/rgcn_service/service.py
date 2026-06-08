@@ -1,24 +1,24 @@
 from __future__ import annotations
 
-import math
 import os
 import sys
 from pathlib import Path
 
 os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
 
+import numpy as np
 import pandas as pd
 import torch
 
 from services.rgcn_service.model_loader import load_active_model
 from services.query_parser.parser import normalize_query
-from services.distance import as_float, distance_km, distance_meters
+from services.distance import as_float, distance_km
 from settings import Settings
 
 REPO_ROOT = Path(__file__).resolve().parents[3]
 RGCN_ROOT = REPO_ROOT / "src" / "rgcn_pipeline"
 if str(RGCN_ROOT) not in sys.path:
-    sys.path.append(str(RGCN_ROOT))
+    sys.path.insert(0, str(RGCN_ROOT))
 
 from phase2_finetune import (  # type: ignore  # noqa: E402
     InteractionScoringHead,
@@ -111,6 +111,8 @@ class RGCNRuntimeRanker:
         self.store_idx_by_id = {store_id: idx for idx, store_id in self.store_id_by_idx.items()}
         self.store_meta = self._load_store_metadata()
         self.store_payloads = self._load_store_payloads()
+        self.geo_store_indices, self.geo_lats, self.geo_lngs = self._build_geo_arrays()
+        self._distance_cache: dict[tuple[float, float], dict[int, float]] = {}
 
         rel_count = len(self.idx_to_rel)
         message_rel_count = rel_count * (2 if self.add_reverse_edges else 1)
@@ -259,6 +261,49 @@ class RGCNRuntimeRanker:
                 }
         return payloads
 
+    def _build_geo_arrays(self) -> tuple[np.ndarray, np.ndarray, np.ndarray]:
+        indices = []
+        lats = []
+        lngs = []
+        for store_idx in self.store_indices:
+            meta = self.store_meta.get(store_idx, {})
+            lat = as_float(meta.get("lat"))
+            lng = as_float(meta.get("lng"))
+            if lat is None or lng is None:
+                continue
+            indices.append(store_idx)
+            lats.append(lat)
+            lngs.append(lng)
+        return (
+            np.asarray(indices, dtype=np.int64),
+            np.asarray(lats, dtype=np.float64),
+            np.asarray(lngs, dtype=np.float64),
+        )
+
+    def _distance_by_store(self, q: QueryExample) -> dict[int, float]:
+        if q.query_lat is None or q.query_lng is None or self.geo_store_indices.size == 0:
+            return {}
+        key = (round(float(q.query_lat), 6), round(float(q.query_lng), 6))
+        cached = self._distance_cache.get(key)
+        if cached is not None:
+            return cached
+
+        radius_m = 6371000.0
+        p1 = np.radians(float(q.query_lat))
+        p2 = np.radians(self.geo_lats)
+        dphi = np.radians(self.geo_lats - float(q.query_lat))
+        dlambda = np.radians(self.geo_lngs - float(q.query_lng))
+        a = np.sin(dphi / 2.0) ** 2 + np.cos(p1) * np.cos(p2) * np.sin(dlambda / 2.0) ** 2
+        distances = radius_m * 2.0 * np.arctan2(np.sqrt(a), np.sqrt(1.0 - a))
+        distance_map = {
+            int(store_idx): float(distance)
+            for store_idx, distance in zip(self.geo_store_indices.tolist(), distances.tolist())
+        }
+        if len(self._distance_cache) >= 64:
+            self._distance_cache.pop(next(iter(self._distance_cache)))
+        self._distance_cache[key] = distance_map
+        return distance_map
+
     def _query_example(self, query: str, rules: dict) -> QueryExample:
         food_values = _as_list(rules.get("terms") or rules.get("food") or rules.get("dish_name") or query)
         term_tokens = split_tokens("|".join(str(value) for value in food_values if str(value).strip()))
@@ -331,42 +376,49 @@ class RGCNRuntimeRanker:
                     return True
         return False
 
-    def _within_query_radius(self, q: QueryExample, store_idx: int) -> bool:
+    def _within_query_radius(self, q: QueryExample, store_idx: int, distance_by_store: dict[int, float]) -> bool:
         if q.query_lat is None or q.query_lng is None:
             return True
-        meta = self.store_meta.get(store_idx, {})
-        distance_m = distance_meters(q.query_lat, q.query_lng, meta.get("lat"), meta.get("lng"))
+        distance_m = distance_by_store.get(store_idx)
         return distance_m is not None and distance_m <= q.distance_tolerance_m
 
-    def _hard_feature_boost(self, q: QueryExample, store_idx: int) -> float:
+    def _hard_feature_boost(self, q: QueryExample, store_idx: int, distance_by_store: dict[int, float]) -> float:
         payload = self.store_payloads.get(self.store_id_by_idx.get(store_idx, ""), {})
         store_name = slugify(str(payload.get("name") or ""))
         boost = 0.0
         for token in q.term_tokens:
             if token and token in store_name:
                 boost += 2.0 if "_" in token else 0.8
-        meta = self.store_meta.get(store_idx, {})
-        distance_m = distance_meters(q.query_lat, q.query_lng, meta.get("lat"), meta.get("lng"))
+        distance_m = distance_by_store.get(store_idx)
         if distance_m is not None and distance_m <= min(q.distance_tolerance_m, 1000.0):
             boost += 0.25
         return boost
 
     def recommend(self, query: str, rules: dict, top_k: int) -> list[dict]:
         q = self._query_example(query, rules)
+        distance_by_store = self._distance_by_store(q)
         candidate_indices = [idx for idx in self.store_indices if self._term_matches_store(q.term_tokens, idx)]
         if not candidate_indices:
             candidate_indices = list(self.store_indices)
-        radius_candidates = [idx for idx in candidate_indices if self._within_query_radius(q, idx)]
+        radius_candidates = [idx for idx in candidate_indices if self._within_query_radius(q, idx, distance_by_store)]
         if radius_candidates:
             candidate_indices = radius_candidates
         if not candidate_indices:
             return []
+        if distance_by_store:
+            q.pos_row_by_store.update(
+                {
+                    idx: {"distance_m": str(distance_by_store[idx])}
+                    for idx in candidate_indices
+                    if idx in distance_by_store
+                }
+            )
         with torch.no_grad():
             q_emb = self._query_embedding(q)
             candidate_tensor = torch.tensor(candidate_indices, dtype=torch.long, device=self.device)
             features = build_pair_features(q, candidate_indices, self.store_meta, self.store_categories).to(self.device)
             scores = score_pairs(q_emb, self.node_embeddings[candidate_tensor], features, self.scoring_head)
-            boosts = torch.tensor([self._hard_feature_boost(q, idx) for idx in candidate_indices], dtype=torch.float32, device=self.device)
+            boosts = torch.tensor([self._hard_feature_boost(q, idx, distance_by_store) for idx in candidate_indices], dtype=torch.float32, device=self.device)
             scores = scores + boosts
             k = min(max(top_k, 1), len(candidate_indices))
             top_scores, top_positions = torch.topk(scores, k=k)
@@ -375,7 +427,7 @@ class RGCNRuntimeRanker:
             store_idx = candidate_indices[position]
             restaurant_id = self.store_id_by_idx.get(store_idx, "")
             payload = dict(self.store_payloads.get(restaurant_id, {"restaurant_id": restaurant_id, "name": restaurant_id}))
-            distance_m = distance_meters(q.query_lat, q.query_lng, payload.get("latitude"), payload.get("longitude"))
+            distance_m = distance_by_store.get(store_idx)
             payload.update(
                 {
                     "restaurant_id": restaurant_id,

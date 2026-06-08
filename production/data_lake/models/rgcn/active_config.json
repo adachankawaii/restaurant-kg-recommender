@@ -1,8 +1,0 @@
-{
-  "artifact_path": "D:\\restaurant-kg-recommender\\production\\data_lake\\models\\rgcn\\rgcn_train_20260602_184519\\query_ranker.pt",
-  "metrics": {
-    "trained": 1.0,
-    "registered_at_epoch_budget": 5.0
-  },
-  "registered_at": "2026-06-02T11:46:11+00:00"
-}
