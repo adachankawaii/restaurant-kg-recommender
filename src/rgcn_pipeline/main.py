@@ -83,7 +83,6 @@ else:
 PIPELINE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = PIPELINE_DIR.parent
 
-
 def print_kg_summary(nodes_path: Path, edges_path: Path) -> None:
     summary = summarize_graph_csvs(nodes_path, edges_path)
     print(
@@ -150,6 +149,15 @@ def parse_args() -> argparse.Namespace:
         help="Optional store metadata CSV with store_id/store_node_id, latitude, longitude and price columns.",
     )
     parser.add_argument("--skip-query-finetune", action="store_true")
+    parser.add_argument(
+        "--query-mode",
+        choices=("ranker", "phase2-representation", "score-based"),
+        default="ranker",
+        help=(
+            "Query evaluation mode: train the phase-2 ranker, train phase-2 "
+            "representations only, or use a fixed score-based heuristic."
+        ),
+    )
     parser.add_argument("--query-epochs", type=int, default=50)
     parser.add_argument("--query-lr", type=float, default=0.005)
     parser.add_argument("--query-weight-decay", type=float, default=1e-4)
@@ -218,16 +226,18 @@ def ranking_metrics(
     store_indices: list[int],
     store_meta: dict[int, dict[str, float]],
     store_categories: dict[int, set[str]],
-    scorer: nn.Module,
+    scorer: nn.Module | None,
     topk: int,
+    score_mode: str = "ranker",
 ) -> dict[str, float]:
     model.eval()
-    scorer.eval()
+    if scorer is not None:
+        scorer.eval()
     with torch.no_grad():
         z = model(edge_index, edge_type)
 
     device = z.device
-    recalls: list[float] = []
+    hrs: list[float] = []
     mrrs: list[float] = []
     ndcgs: list[float] = []
 
@@ -238,8 +248,32 @@ def ranking_metrics(
 
         candidate_indices = build_candidate_store_indices(query, store_indices, store_meta, store_categories)
         candidate_tensor = torch.tensor(candidate_indices, dtype=torch.long, device=device)
-        features = build_pair_features(query, candidate_indices, store_meta, store_categories).to(device)
-        scores = score_pairs(z[query.query_idx], z[candidate_tensor], features, scorer)
+        if score_mode == "phase2-representation":
+            query_z = z[query.query_idx].unsqueeze(0)
+            scores = F.cosine_similarity(query_z, z[candidate_tensor], dim=1)
+        elif score_mode == "score-based":
+            features = build_pair_features(query, candidate_indices, store_meta, store_categories).to(device)
+            distance_norm = features[:, 0]
+            price_diff = features[:, 1]
+            open_flag = features[:, 2]
+            category_match = features[:, 3]
+            aspect_sentiment = features[:, 4]
+            review_confidence = features[:, 5]
+            radius_ok = features[:, 6]
+            scores = (
+                -1.25 * distance_norm
+                - 0.75 * price_diff
+                + 0.75 * open_flag
+                + 0.80 * category_match
+                + 0.50 * aspect_sentiment
+                + 0.35 * review_confidence
+                + 0.60 * radius_ok
+            )
+        else:
+            if scorer is None:
+                raise ValueError("ranking_metrics needs a scorer when score_mode='ranker'.")
+            features = build_pair_features(query, candidate_indices, store_meta, store_categories).to(device)
+            scores = score_pairs(z[query.query_idx], z[candidate_tensor], features, scorer)
         k = min(topk, scores.numel())
         _, top_idx = torch.topk(scores, k=k)
         ranked = [candidate_indices[i] for i in top_idx.tolist()]
@@ -249,7 +283,7 @@ def ranking_metrics(
             for idx, store_idx in enumerate(query.pos_store_indices)
         }
         hits = [1.0 if store_idx in positives else 0.0 for store_idx in ranked]
-        recalls.append(sum(hits) / max(len(positives), 1))
+        hrs.append(1.0 if any(hit > 0 for hit in hits) else 0.0)
 
         first_hit = next((idx + 1 for idx, hit in enumerate(hits) if hit > 0), None)
         mrrs.append(0.0 if first_hit is None else 1.0 / first_hit)
@@ -259,10 +293,10 @@ def ranking_metrics(
         idcg = sum(gain / math.log2(rank + 2) for rank, gain in enumerate(ideal_gains))
         ndcgs.append(dcg / idcg if idcg > 0 else 0.0)
 
-    if not recalls:
-        return {"recall@k": 0.0, "mrr@k": 0.0, "ndcg@k": 0.0}
+    if not hrs:
+        return {"hr@k": 0.0, "mrr@k": 0.0, "ndcg@k": 0.0}
     return {
-        "recall@k": float(sum(recalls) / len(recalls)),
+        "hr@k": float(sum(hrs) / len(hrs)),
         "mrr@k": float(sum(mrrs) / len(mrrs)),
         "ndcg@k": float(sum(ndcgs) / len(ndcgs)),
     }
@@ -434,12 +468,12 @@ def train_query_ranker(
                     f"PosOrder: {pos_order_loss_sum / max(total_items, 1):.4f} "
                     f"HardNeg: {hard_negative_count}/{max(total_negative_count, 1)} "
                     f"PosOrderEligible: {pos_order_eligible}/{len(train_queries)} "
-                    f"Recall@{config.topk}: {metrics['recall@k']:.4f} "
+                    f"nDCG@{config.topk}: {metrics['ndcg@k']:.4f} "
                     f"MRR@{config.topk}: {metrics['mrr@k']:.4f} "
-                    f"nDCG@{config.topk}: {metrics['ndcg@k']:.4f}"
+                    f"HR@{config.topk}: {metrics['hr@k']:.4f}"
                 ),
             )
-            metric_key = (metrics["ndcg@k"], metrics["recall@k"], metrics["mrr@k"])
+            metric_key = (metrics["ndcg@k"], metrics["mrr@k"], metrics["hr@k"])
             if metric_key > best_key:
                 best_key = metric_key
                 best_epoch = epoch
@@ -467,6 +501,111 @@ def train_query_ranker(
             config.topk,
         )
     return model, scoring_head, kg_rel_emb, final_metrics
+
+
+def train_phase2_representation_only(
+    *,
+    model: nn.Module,
+    edge_index: torch.Tensor,
+    edge_type: torch.Tensor,
+    repr_edges: torch.Tensor,
+    eval_queries: list[QueryExample],
+    store_indices: list[int],
+    store_meta: dict[int, dict[str, float]],
+    store_categories: dict[int, set[str]],
+    num_nodes: int,
+    full_num_rels: int,
+    config: Phase2Config,
+    log_path: Path,
+) -> tuple[nn.Module, nn.Embedding, dict[str, float]]:
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    model = model.to(device)
+    edge_index = edge_index.to(device=device, dtype=torch.long)
+    edge_type = edge_type.to(device=device, dtype=torch.long)
+    repr_edges = repr_edges.to(device=device, dtype=torch.long)
+
+    rel_emb = nn.Embedding(max(full_num_rels, 1), config.emb_dim).to(device)
+    nn.init.xavier_uniform_(rel_emb.weight)
+    optimizer = torch.optim.Adam(
+        list(model.parameters()) + list(rel_emb.parameters()),
+        lr=config.lr,
+        weight_decay=config.weight_decay,
+    )
+
+    best_epoch = 0
+    best_key = (-1.0, -1.0, -1.0)
+    best_metrics: dict[str, float] | None = None
+    best_model_state: dict[str, torch.Tensor] | None = None
+    best_rel_state: dict[str, torch.Tensor] | None = None
+
+    for epoch in range(1, config.epochs + 1):
+        rng = random.Random(config.seed + epoch)
+        model.train()
+        rel_emb.train()
+        optimizer.zero_grad(set_to_none=True)
+
+        z = model(edge_index, edge_type)
+        loss = kg_auxiliary_loss(
+            z,
+            rel_emb,
+            repr_edges,
+            num_nodes=num_nodes,
+            batch_size=config.kg_aux_batch_size,
+            rng=rng,
+        )
+        loss.backward()
+        torch.nn.utils.clip_grad_norm_(list(model.parameters()) + list(rel_emb.parameters()), 1.0)
+        optimizer.step()
+
+        if epoch == 1 or epoch == config.epochs or epoch % max(config.eval_every, 1) == 0:
+            metrics = ranking_metrics(
+                model,
+                edge_index,
+                edge_type,
+                eval_queries,
+                store_indices,
+                store_meta,
+                store_categories,
+                None,
+                config.topk,
+                score_mode="phase2-representation",
+            )
+            write_log(
+                log_path,
+                (
+                    f"Phase2Repr Epoch {epoch} Loss: {loss.item():.4f} "
+                    f"nDCG@{config.topk}: {metrics['ndcg@k']:.4f} "
+                    f"MRR@{config.topk}: {metrics['mrr@k']:.4f} "
+                    f"HR@{config.topk}: {metrics['hr@k']:.4f}"
+                ),
+            )
+            metric_key = (metrics["ndcg@k"], metrics["mrr@k"], metrics["hr@k"])
+            if metric_key > best_key:
+                best_key = metric_key
+                best_epoch = epoch
+                best_metrics = metrics
+                best_model_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
+                best_rel_state = {k: v.detach().cpu().clone() for k, v in rel_emb.state_dict().items()}
+
+    if best_model_state is not None and best_rel_state is not None and best_metrics is not None:
+        model.load_state_dict({k: v.to(device) for k, v in best_model_state.items()})
+        rel_emb.load_state_dict({k: v.to(device) for k, v in best_rel_state.items()})
+        write_log(log_path, f"Phase2Repr Best epoch: {best_epoch}")
+        return model, rel_emb, best_metrics
+
+    final_metrics = ranking_metrics(
+        model,
+        edge_index,
+        edge_type,
+        eval_queries,
+        store_indices,
+        store_meta,
+        store_categories,
+        None,
+        config.topk,
+        score_mode="phase2-representation",
+    )
+    return model, rel_emb, final_metrics
 
 
 def _relation_text(name: str) -> str:
@@ -661,8 +800,10 @@ def run_supervised_query_pipeline(args: argparse.Namespace, data: dict[str, obje
         query_edge_index, query_edge_type = build_edge_index(query_triples, base_num_rels, full_num_rels, True)
         edge_index = torch.cat([base_edge_index, query_edge_index], dim=1)
         edge_type = torch.cat([base_edge_type, query_edge_type], dim=0)
+        repr_edges = torch.cat([base_triples, query_triples], dim=0)
     else:
         edge_index, edge_type = base_edge_index, base_edge_type
+        repr_edges = base_triples
 
     store_categories = build_store_category_map(base_triples, idx_to_node_id, rel_to_idx)
     store_indices = [idx for idx, node_type in enumerate(node_types) if node_type == "Store"]
@@ -730,6 +871,81 @@ def run_supervised_query_pipeline(args: argparse.Namespace, data: dict[str, obje
             f"kg_aux_beta={phase2_config.kg_aux_beta}"
         ),
     )
+    if args.query_mode == "phase2-representation":
+        repr_model, repr_rel_emb, eval_metrics = train_phase2_representation_only(
+            model=model,
+            edge_index=edge_index,
+            edge_type=edge_type,
+            repr_edges=repr_edges,
+            eval_queries=eval_queries,
+            store_indices=store_indices,
+            store_meta=store_meta,
+            store_categories=store_categories,
+            num_nodes=full_num_nodes,
+            full_num_rels=full_num_rels,
+            config=phase2_config,
+            log_path=log_path,
+        )
+        write_log(
+            log_path,
+            (
+                f"Stage2 Representation Final nDCG@{args.topk}: {eval_metrics['ndcg@k']:.4f}, "
+                f"MRR@{args.topk}: {eval_metrics['mrr@k']:.4f}, "
+                f"HR@{args.topk}: {eval_metrics['hr@k']:.4f}"
+            ),
+        )
+        torch.save(
+            {
+                "mode": args.query_mode,
+                "model_state": repr_model.state_dict(),
+                "rel_emb_state": repr_rel_emb.state_dict(),
+                "metrics": eval_metrics,
+                "node_id_to_idx": node_id_to_idx,
+                "idx_to_node_id": idx_to_node_id,
+                "node_types": node_types,
+                "rel_to_idx": rel_to_idx,
+                "idx_to_rel": idx_to_rel,
+            },
+            output_dir / "phase2_representation_eval.pt",
+        )
+        return
+
+    if args.query_mode == "score-based":
+        eval_metrics = ranking_metrics(
+            model,
+            edge_index.to(device=device, dtype=torch.long),
+            edge_type.to(device=device, dtype=torch.long),
+            eval_queries,
+            store_indices,
+            store_meta,
+            store_categories,
+            None,
+            args.topk,
+            score_mode=args.query_mode,
+        )
+        write_log(
+            log_path,
+            (
+                f"Stage2 Eval Mode: {args.query_mode}; no learned ranker. "
+                f"nDCG@{args.topk}: {eval_metrics['ndcg@k']:.4f}, "
+                f"MRR@{args.topk}: {eval_metrics['mrr@k']:.4f}, "
+                f"HR@{args.topk}: {eval_metrics['hr@k']:.4f}"
+            ),
+        )
+        torch.save(
+            {
+                "mode": args.query_mode,
+                "metrics": eval_metrics,
+                "node_id_to_idx": node_id_to_idx,
+                "idx_to_node_id": idx_to_node_id,
+                "node_types": node_types,
+                "rel_to_idx": rel_to_idx,
+                "idx_to_rel": idx_to_rel,
+            },
+            output_dir / f"{args.query_mode}_eval.pt",
+        )
+        return
+
     model, scoring_head, kg_rel_emb, eval_metrics = train_query_ranker(
         model=model,
         edge_index=edge_index,
@@ -749,9 +965,9 @@ def run_supervised_query_pipeline(args: argparse.Namespace, data: dict[str, obje
     write_log(
         log_path,
         (
-            f"Stage2 Final Recall@{args.topk}: {eval_metrics['recall@k']:.4f}, "
+            f"Stage2 Final nDCG@{args.topk}: {eval_metrics['ndcg@k']:.4f}, "
             f"MRR@{args.topk}: {eval_metrics['mrr@k']:.4f}, "
-            f"nDCG@{args.topk}: {eval_metrics['ndcg@k']:.4f}"
+            f"HR@{args.topk}: {eval_metrics['hr@k']:.4f}"
         ),
     )
 
@@ -791,9 +1007,9 @@ def run_supervised_query_pipeline(args: argparse.Namespace, data: dict[str, obje
     write_log(
         log_path,
         (
-            f"Online Before Recall@{args.topk}: {before_online['recall@k']:.4f}, "
+            f"Online Before nDCG@{args.topk}: {before_online['ndcg@k']:.4f}, "
             f"MRR@{args.topk}: {before_online['mrr@k']:.4f}, "
-            f"nDCG@{args.topk}: {before_online['ndcg@k']:.4f}"
+            f"HR@{args.topk}: {before_online['hr@k']:.4f}"
         ),
     )
 
@@ -823,9 +1039,9 @@ def run_supervised_query_pipeline(args: argparse.Namespace, data: dict[str, obje
     write_log(
         log_path,
         (
-            f"Online After Recall@{args.topk}: {after_online['recall@k']:.4f}, "
+            f"Online After nDCG@{args.topk}: {after_online['ndcg@k']:.4f}, "
             f"MRR@{args.topk}: {after_online['mrr@k']:.4f}, "
-            f"nDCG@{args.topk}: {after_online['ndcg@k']:.4f}"
+            f"HR@{args.topk}: {after_online['hr@k']:.4f}"
         ),
     )
     torch.save(

@@ -11,6 +11,7 @@ __pycache__/
 production/data_lake/
 
 # Generated R-GCN/GraphRAG exports
+artifacts/
 rgcn_pipeline/data/cachebuilt_*.csv
 rgcn_pipeline/data/graphrag_50_geo_rgcn_scenarios.csv
 
